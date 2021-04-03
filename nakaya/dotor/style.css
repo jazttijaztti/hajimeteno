@@ -1,0 +1,484 @@
+#wrapper{
+width:100%;
+    }
+header{
+height:180px;
+    }
+#header__top{
+height:100px;
+display:flex;
+justify-content:space-between;
+max-width:1020px;
+margin:auto;
+    }
+.header__top__left{
+width:30%;
+    }
+.header__top__right{
+width:70%;
+    }
+.header__top__right__top{
+height:40px;
+    }
+.header__top__right__top ul{
+display:flex;
+justify-content:flex-end;
+    }
+.header__top__right__top ul li{
+padding:10px;
+    }
+.header__top__right__bottom{
+height:50px;
+    }
+.header__top__right__bottom ul{
+height:100%;
+display:flex;
+justify-content:space-around;
+align-items:center;
+    }
+.header__top__right__bottom ul li{
+border-right:1px solid #eee;
+display:flex;
+align-items:center;
+padding-right:5px;
+height:100%;
+    }
+
+#header__bottom{
+  height:60px;
+  background-color:#3E2900;
+  margin-top:5px;
+}
+#header__bottom ul{
+height:100%;
+display:flex;
+justify-content:center;
+align-items: center;
+}
+#header__bottom ul li{
+color:#fff;
+text-align:center;
+padding:10px;
+}
+.hbt{
+font-size:14px;
+padding:5px;
+    }
+.htb{
+font-size:10px;
+color:#ad8c47;
+padding:5px;
+    }
+main{
+width:100%;
+    }
+main .main__screen__top{
+width:100%;
+height:30%;
+background-image:url("img_quality.jpg");
+background-size:cover;
+background-position:50% 50%;
+}
+main .main__text{
+width:100%;
+height:200px;
+line-height:2em;
+display:flex;
+justify-content:center;
+align-items:center;
+    }
+
+.main__screen__season{
+width:100%;
+height:650px;
+background-color:#F9DFC5;
+text-align:center;
+    }
+.main__screen__season h3{
+padding-top:3%;
+font-size:20px;
+font-weight:bold;
+    } 
+.main__screen__season p{
+ font-size:10px;
+ color:#aaa;
+    }
+.main__screen__season__menu {
+ width:100%;
+ height:70%;
+}    
+.main__screen__season__menu ul{
+width:90%;
+margin:auto;
+display:flex;
+justify-content:space-around;
+    }
+.main__screen__season__menu ul li{
+margin-top:2%;
+margin-left:2%;
+width:30%;
+height30%;
+    }
+
+.main__screen__season__menu ul li img{
+width:100%;
+height:100%;
+
+}
+
+.main__screen__bar{
+ margin:auto;
+ color:#fff;
+ margin-bottom:10%;
+ width:80%;
+ height:50px;
+ background-color:#9E5904;
+}
+
+.main__screen__bar h3{
+ padding:10px;
+ }
+.menu__list{
+width:100%;
+height:100%;
+display:flex;
+flex-direction:column;
+}    
+.menu__list__top{
+ text-align:center;
+    }
+.menu__list .menu__list__top{
+    }
+
+.menu__list .menu__list__top h3{
+margin-top:5%;
+font-size:20px;
+font-weight:bold;
+}
+
+.menu__list .menu__list__top p{
+font-size:15px;
+color:#9E5904;
+margin-bottom:5%;
+}    
+.menu__list__top ul{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+width:80%;
+margin:auto;i
+}
+
+.menu__list__top ul li{
+width:20%;
+height:20%;
+}
+
+.menu__list__top ul li img{
+width:80%;
+height:80%;
+}
+.menu__list__bar{
+ width:400px;
+ height:70px;
+ border:10px solid #eee;
+ text-align:center;
+ margin:auto;
+ margin-top:10%;
+    }
+
+.menu__list__bar h3{
+padding-top:15px;
+}
+#news__page{
+width:70%;
+height:100vh;
+margin:auto;
+display:flex;
+flex-direction:column;
+}
+
+#news__page .news__lists{
+text-align:center;
+padding-top:20%;
+}
+#news__page .news__lists h1{
+font-size:20px;
+font-weight:bold;
+}
+#news__page .news__lists p{
+font-size:15px;
+color:#aaa;
+margin-bottom:5%;
+}
+#news__page .news__text{
+width:100%;
+height:15%;
+border-bottom:1px dotted #000;
+}
+
+#news__page .news__text__day h3{
+font-weight:bold;
+font-size:15px;
+color:#000;
+margin:2% 0%;
+}
+
+#news__page .news__text p{
+color:#9E5904;
+padding-bottom:3%;
+}
+.service__page{
+width:80%;
+height:100%;
+margin:auto;
+text-align:center;
+}
+
+.service__page h1{
+padding-top:20%;
+font-size:20px;
+font-weight:bold;
+}
+
+.service__page p{
+color:#9E5904;
+font-size:15px;
+margin-bottom:3%;
+letter-spacing:1px;
+}
+.service__page .service__contents{
+height:80%;
+}
+
+.service__contents ul{
+display:flex;
+justify-content:flex-start;
+flex-wrap:wrap;
+    }
+.service__contents ul li{
+width:20%;
+height:10%;
+margin:10% 5% 5% 0%;
+}
+
+  .service__contents ul li img{
+   width:80%;
+   height:80%;
+  }
+  
+  .service__contents ul li p{
+  margin-bottom:20%;
+  }
+#movie__page{
+width:100%;
+margin:auto;
+height:100vh;
+background-color:#F7F0E8;
+    }
+#movie__page .movie__title{
+text-align:center;
+    }
+#movie__page h3{
+padding-top:2%;
+font-size:20px;
+font-weight:bold;
+    }
+#movie__page p{
+font-size:15px;
+margin-bottom:3%;
+    }
+.movie__screen{
+margin-top:2%;
+margin:auto;
+width:80%;
+height:100%;
+display:flex;
+flex-wrap:wrap;
+    }
+.movie__screen .movie__screen__top{
+background-image:url("img_movie.jpg");
+background-size:cover;
+background-position:center center;
+width:40%;
+height:35%;
+    }
+.movie__screen .movie__text__top{
+width:45%;
+height:30%;
+line-height:2em;
+margin-left:2%;
+    }
+.movie__screen .movie__screen__under{
+background-image:url("img_quality.jpg");
+background-size:cover;
+background-position:center center;
+width:40%;
+height:35%;
+    }
+.movie__screen .movie__text__under{
+width:45%;
+height:30%;
+line-height:2em;
+margin-left:2%;
+    }
+
+  #shop__info{
+  width:80%;
+  height:110vh;
+  margin:auto;
+  }
+  #shop__info .shop__info__title{
+  text-align:center;
+  padding-top:10%;
+  }
+  #shop__info .shop__info__title h1{
+  margin-top:5%;
+  font-size:20px;
+  font-weight:bold;
+  }
+
+  #shop__info .shop__info__title p{
+  font-size:15px;
+  color:#724903;
+  }
+
+
+  .shop__info__top{
+  margin-top:5%;
+  display:flex;
+  justify-content:center;
+  width:100%;
+  height:100%;
+    }
+  .shop__info__top .left__info{
+  width:50%;
+  height:160px;
+  background-color:#724903;
+    }
+  .shop__info__top .left__info h3{
+  color:#fff;
+  font-size:20px;
+  padding:10% 20%;
+  }
+  .shop__info__top .left__info__image{
+  width:50%;
+  height:160px;
+  background-image:url("bnr_recruit.jpg");
+  background-size:cover;
+  background-position:center center;
+  }
+  .shop__info__under{
+  margin-top:5%;
+  display:flex;
+  justify-content:center;
+  width:100%;
+  height:80%;
+  margin-bottom:10%;
+    }
+
+  .shop__info__under .right__info{
+  width:50%;
+  height:160px;
+  background-color:#724903;
+    }
+  .shop__info__under .right__info h3{
+  color:#fff;
+  font-size:20px;
+  padding:10% 20%;
+  }
+  .shop__info__under .right__info__image{
+  width:50%;
+  height:160px;
+  background-image:url("bnr_franchise.jpg");
+  background-size:cover;
+  background-position:center center;
+  }
+
+  .shop__info__acount{
+  width:60%;
+  height:10%;
+  margin:auto;
+     }
+  
+  .shop__info__acount ul{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   }
+   
+  .shop__info__acount ul li{
+  font-size:20px;
+  font-weight:bold;
+  color:#724903;
+  margin-right:5%;
+  }
+
+  .shop__info__acount ul img{
+  width:40px;
+  height:40px;
+   }
+
+  footer{
+  width:100%;
+  height:30vh;
+  }
+  #footer__contents{
+  width:100%;
+  height:100%;
+      }
+ 
+  #footer__contents .footer__bar{
+   width:100%;
+   height:85px;
+   background-color:#FFF5E5;
+   margin-bottom:5%;
+  }
+
+  .footer__bar ul{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  }
+  
+  .footer__bar ul li{
+  padding-top:2%;
+  margin-right:2%;
+  font-size:15px;
+  color:#6B4102;
+  }
+  .footer__logo{
+   height:30vh;
+   display:flex;
+   margin-top:3%;
+   align-items:center;
+   flex-direction:column;
+   line-height:10em;
+      }
+   .footer__logo img{
+    width:25%;
+    height:40px;
+    }
+    .footer__logo p{
+    font-size:15px;
+    color:#bbb;
+	}
+
+  /**レスポンシブ**/
+
+ @media only screen and(max-width:960px){
+ #wrapper{
+ width:100%;
+     } 
+
+ .header__top__right__top ul li{
+ display:none;
+   }
+
+  #header__bottom{
+  display:none;
+      }
+  }
+
+
+
