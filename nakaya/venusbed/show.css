@@ -1,5 +1,6 @@
   #wrapper{
   width:100%;
+  display:inline-block
     }
   
   header{
@@ -107,11 +108,33 @@
   justify-content:center;
   }
   
-  #second__page .second__image__contents .second__image1{
-  width:20vw;
-  height:10vw;
+  #second__page .second__image__contents .second__image__one{
+  width:350px;
+  height:370px;
   background-image:url("kv01.jpg");
   background-size:cover;
   background-position:center center;
  }
 
+  #second__page .second__image__contents .second__image__two{
+  width:350px;
+  height:370px;
+  background-image:url("kv02.jpg");
+  background-size:cover;
+  background-position:center center;
+  }    
+  #second__page .second__image__contents .second__image__three{
+ width:350px;
+ height:370px;
+ background-image:url("kv03.jpg");
+ background-size:cover;
+ background-position:center center;
+ }
+  #second__page .second__image__contents .second__image__four{
+ width:350px;
+  height:370px;
+  background-image:url("kv02.jpg");
+  background-size:cover;
+  background-position:center center;
+
+  }
