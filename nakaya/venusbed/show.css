@@ -1,0 +1,117 @@
+  #wrapper{
+  width:100%;
+    }
+  
+  header{
+  width:100%;
+  height:28vw;
+      }
+  #header__top{
+  width:100%;
+  height:100%;
+      }
+ .header__logo{
+ height:15vw;
+ padding:20px 0px;
+ text-align:center;
+ border-bottom:1px solid #eee;
+     }
+ .heder__logo img{
+ display:inline-block;
+ 
+     }
+ .header__bar{
+ width:100%;
+ height:70px;
+ border-bottom:1px solid #eee;
+     }
+ .header__bar ul{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+     }
+ 
+ .header__bar ul li{
+ font-size:16px;
+ margin:25px 0px 20px 20px;
+ padding-bottom:20px;
+ letter-spacing:1px;
+ }
+
+  #first__page{
+  width:100%;
+  text-align:center;
+  }
+  #first__page .first__title{
+  width:100%;
+  font-size:40px;
+  font-family:serif;
+  margin-bottom:5vw;
+      }
+
+  #first__page .first__text  h3{
+   font-size:20px;
+   font-weight:bold;
+   margin-bottom:20px;
+  }
+  #first__page .first__text .eng__text{
+  line-height:2em;
+  margin-bottom:20px;
+  font-family:serif;
+  font-size:16px;
+      }
+   
+  #first__page .first__text .ja__text{
+  line-height:2em;
+  font-size:16px;
+  }
+
+  #first__page .first__image{
+  width:90%;
+  height:25vw;
+  margin:40px auto;
+  background-image:url("sec01_img01.jpg");
+  background-size:cover;
+  background-position:center center;
+  }
+
+  #second__page{
+  width:100%;
+  text-align:center;
+      }    
+  
+  #second__page h3{
+  width:100%;
+  font-size:25px;
+  font-family:serif;
+  margin:5vw 0px;
+      }
+
+  #second__page .second__text  h3{
+   font-size:25px;
+   font-weight:bold;
+   margin-bottom:2vw;
+  }
+  #second__page .second__text p{
+  line-height:2em;
+  margin-bottom:20px;
+  font-family:serif;
+  font-size:16px;
+  }
+
+  #second__page .second__image__contents{
+  width:90%;
+  height:25vw;
+  margin:40px auto;
+  display:flex;
+  justify-content:center;
+  }
+  
+  #second__page .second__image__contents .second__image1{
+  width:20vw;
+  height:10vw;
+  background-image:url("kv01.jpg");
+  background-size:cover;
+  background-position:center center;
+ }
+
