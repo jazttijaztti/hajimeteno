@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+     $(function(){
+         $('#test5').css('backgroundColor','rgba(255,0,0,0.6)');
+         $('#test13').css('backgroundColor','rgba(255,0,0,0.6)');
+
+         $("h1").css('fontSize',"5em");
+         $("h1").css('textAling',"center");
+         
+         $('#test1').on('click',function(){  
+           $('#test2').css('backgroundColor','rgba(0,0,0,0.6)');
+           $('#test10').css('backgroundColor','rgba(0,0,0,0.6)');
+           $('#test17').css('backgroundColor','rgba(0,0,0,0.6)');
+         });         
+
+         $("#test20").on('click',function(){
+             $("#main div").css("width","100%");
+         });
+         $("#test10").on('click',function(){
+             $("#main div").css("width","50px");    
+         });
+         $("#test3").on('click',function(){
+             $("#test3").css("width","300px");    
+             $("#test9").css("width","300px");    
+             $("#test15").css("width","300px");    
+             $("#test3").css("backgroundColor","#000");    
+             $("#test9").css("backgroundColor","#000");    
+             $("#test15").css("backgroundColor","#000");    
+         });
+     });
+  </script>
+
+</head>
+<body>
+  <div id="contenar">
+     <h1>JS勉強</h1>
+     <div id="main">
+        <div id="test1">test1</div>
+        <div id="test2">test2</div>
+        <div id="test3">test3</div>
+        <div id="test4">test4</div>
+        <div id="test5">test5</div>
+        <div id="test6">test6</div>
+        <div id="test7">test7</div>
+        <div id="test8">test8</div>
+        <div id="test9">test9</div>
+        <div id="test10">test10</div>
+        <div id="test11">test11</div>
+        <div id="test12">test12</div>
+        <div id="test13">test13</div>
+        <div id="test14">test14</div>
+        <div id="test15">test15</div>
+        <div id="test16">test16</div>
+        <div id="test17">test17</div>
+        <div id="test18">test18</div>
+        <div id="test19">test19</div>
+        <div id="test20">test20</div>
+     </div>
+  </div>
+</body>
+</html>
