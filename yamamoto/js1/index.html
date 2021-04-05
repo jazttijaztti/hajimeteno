@@ -4,6 +4,38 @@
   <meta charset="UTF-8">
   <title></title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+     $(function(){
+         $('#test5').css('backgroundColor','rgba(255,0,0,0.6)');
+         $('#test13').css('backgroundColor','rgba(255,0,0,0.6)');
+
+         $("h1").css('fontSize',"5em");
+         $("h1").css('textAling',"center");
+         
+         $('#test1').on('click',function(){  
+           $('#test2').css('backgroundColor','rgba(0,0,0,0.6)');
+           $('#test10').css('backgroundColor','rgba(0,0,0,0.6)');
+           $('#test17').css('backgroundColor','rgba(0,0,0,0.6)');
+         });         
+
+         $("#test20").on('click',function(){
+             $("#main div").css("width","100%");
+         });
+         $("#test10").on('click',function(){
+             $("#main div").css("width","50px");    
+         });
+         $("#test3").on('click',function(){
+             $("#test3").css("width","300px");    
+             $("#test9").css("width","300px");    
+             $("#test15").css("width","300px");    
+             $("#test3").css("backgroundColor","#000");    
+             $("#test9").css("backgroundColor","#000");    
+             $("#test15").css("backgroundColor","#000");    
+         });
+     });
+  </script>
+
 </head>
 <body>
   <div id="contenar">
