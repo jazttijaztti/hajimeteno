@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+ $(function(){
+  $("btn").on("click",function(){
+    $("#list1").draggable();
+    $("#list2").css("backgroundColor","red");
+   $("list5").fadeToggle();
+      });
+
+
+    $("#list2").draggable();
+
+    });
+
+
+ </script>
+
+</head>
+<body>
+ <header>
+
+
+ </header>
+ <div id="wpapper">
+  <main>
+   <div id="main__screen">
+    <div class="main__title">
+      <h1>My Week Schedule</h1>
+      <h3>スケジュール作成</h3>
+    </div>
+   <div class="main__input">
+    <div class="btn">submit!</div>
+    <div class="list__tag">
+      <div id="list1">jQuery学習</div>
+      <div id="list2">HTML学習</div>
+      <div id="list3">CSS学習</div>
+      <div id="list4">SCSS学習</div>
+      <div id="list5">WEb作成学習</div>
+      <div id="list6">Ruby学習</div>
+      <div id="list7">Rails学習</div>
+      <div id="list8">PHP学習</div>
+    </div>
+   </div>
+
+    <div class="day__lists">
+      <ul>
+       <li>月曜日</li>
+       <li>火曜日</li>
+       <li>水曜日</li>
+       <li>木曜日</li>
+       <li>金曜日</li>
+       <li>土曜日</li>
+       <li>日曜日</li>
+      </ul>
+    </div>
+
+   </div>
+
+  </main>
+ </div>
+</body>
+</html>
