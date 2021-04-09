@@ -18,6 +18,21 @@
     $("#list2").draggable();
     $("#list5").css("backgroundColor","#000");
 
+ $(document).on("scroll",function(){
+  $("#list1").css("backgroundColor","#ed66f4");
+  $("#list4").fadeToggle("delay","1000s");
+  $("#list3").css("width","100%");
+     });
+
+ $(window).on("load",function(){
+   $("#wrapper").css("backgroundColor","#fcae11");
+
+  });
+
+
+ $(document).on("cilck",function(){
+  $("#wrapper").css("backgroundColor","#eee");
+ });
  $("#screen__width").on("mousemove",function(eventObject){
 $(this).text("clientX: "+ evevntObject.clientX + " clientY: " + evevntObject.clientY);
   if(eventObject.clientX < 200){
@@ -36,7 +51,7 @@ $(this).text("clientX: "+ evevntObject.clientX + " clientY: " + evevntObject.cli
 
 
  </header>
- <div id="wpapper">
+ <div id="wrapper">
   <main>
    <div id="main__screen">
    <div id="screen__width">
