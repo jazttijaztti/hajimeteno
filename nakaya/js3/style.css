@@ -14,23 +14,31 @@
   border:1px solid #000;
 }
 
+#main__screen #screen__width{
+width:600px;
+height:200px;
+background-color:#f9be70;
+margin:20px auto;
+}
+
+
 #main__screen .main__title{
   text-align:center;
 }
 
 
-#main__screen .list__tag {
+#main__screen #list__tag {
 width:80%;
 height:30vw;
 margin:auto;
 }
-#main__screen .list__tag{ 
+#main__screen #list__tag{ 
   list-style:none;
   display:flex;
   flex-wrap:wrap;
 }
 
-#main__screen #div{
+#main__screen #list__tag .list{
   width:150px;
   height:30px;
   font-size:16px;
@@ -38,11 +46,11 @@ margin:auto;
   border:1px solid #000;
   padding:20px;
 }
-#main__screen .main__input{
+#main__screen #main__input{
  width:100%;
  height:30vh;
 }
-.btn{
+#btn__push{
     width:100px;
     height:30px;
     background-color:rgba(0,60,255,0.6);
