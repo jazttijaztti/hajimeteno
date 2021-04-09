@@ -1,0 +1,77 @@
+#wrapper{
+  width:100%;
+  height:100vh;
+  background-image:url("js3__imag.jpg");
+  background-size:cover;
+  background-position:center center;
+    }
+
+#main__screen{
+  width:90%;
+  height:90vw;
+  margin:auto;
+  background-color:#fff;
+  border:1px solid #000;
+}
+
+#main__screen #screen__width{
+width:600px;
+height:200px;
+background-color:#f9be70;
+margin:20px auto;
+}
+
+
+#main__screen .main__title{
+  text-align:center;
+}
+
+
+#main__screen #list__tag {
+width:80%;
+height:30vw;
+margin:auto;
+}
+#main__screen #list__tag{ 
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#main__screen #list__tag .list{
+  width:150px;
+  height:30px;
+  font-size:16px;
+  margin:20px;
+  border:1px solid #000;
+  padding:20px;
+}
+#main__screen #main__input{
+ width:100%;
+ height:30vh;
+}
+#btn__push{
+    width:100px;
+    height:30px;
+    background-color:rgba(0,60,255,0.6);
+    text-align:center;
+    margin:auto;
+    }
+
+
+#main__screen .day__lists{
+ width:100%;
+ height:40vh;
+ margin-top:150px;
+}
+#main__screen .day__lists ul{
+  list-style:none;
+  display:flex;
+  justify-content:space-around;
+}
+
+#main__screen .day__lists ul li{
+  border-bottom:1px solid #000;
+  padding:20px 60px 10px 0px;
+  }
+

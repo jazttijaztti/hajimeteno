@@ -32,11 +32,3 @@ background-color:gold;
 #test20{
     background-color:rgba(0,0,255,0.8);
 }
-
-/*** 基本構文　
- $(document).ready(function(){
-　　何を？　　　　　　　　　どうする？
- $("セレクター").メソッド("パラメーター[引数]")
- });
-***/
-
