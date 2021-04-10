@@ -1,0 +1,469 @@
+#wrapper{
+  width:100%;
+  height:100%;
+  margin-top:-20px;
+  background-color:#f7f5f2;
+}
+
+header{
+  width:100%;
+  position:relative;
+}
+
+header #header__content{
+  width:100%;
+  height:100%;
+}
+
+
+#header__content .header__top{
+  width:100%;
+  height:10vw;
+  display:flex;
+  z-index:2;
+}
+#header__content .header__top .header__top__left{
+  width:50%;
+  height:50vw;
+  background-image:url("back.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+ #header__content .header__top .header__top__left h1{
+  font-size:40px;
+  padding:30px;
+}
+
+#header__content .header__top__right{
+  width:50%;
+}
+#header__content .header__top__right ul{
+  display:flex;
+  justify-content:space-around;
+}
+#header__content .header__top__right ul li{
+  font-size:18px;
+  padding-top:30px;
+}
+
+#header__content .header__bottom{
+  width:100%;
+  height:40vw;
+  display:flex;
+  position:relative;
+  overflow:hidden;
+}
+
+#header__content .header__bottom .header__bottom__right{
+  width:100%;
+  height:40vw;
+}
+
+.header__bottom .header__bottom__right .header__image{
+  width:157vh;
+  height:35vw;
+  margin-left:200px;
+  background-image:url("image_top1.jpg");
+  background-size:cover;
+  background-position:center center;
+  z-index:1;
+}
+
+.header__bottom .header__bottom__left{
+  width:120vh;
+  height:40vw;
+  padding-left:15px;
+  position:absolute;
+  top:100px;
+  left:30px;
+}
+
+.header__bottom .header__bottom__left p{
+  font-size:40px;
+  color:#fff;
+}
+main{
+  width:100%;
+  height:100%;
+}
+main #about__page{
+  display:flex;
+  justify-content:center;
+}
+
+main #about__page .about__title{
+  width:40%;
+  height:30vw;
+  margin:50px 0px 0px 60px;
+}
+
+main #about__page .about__title h3{
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+main #about__page .about__title h2{
+  font-size:30px;
+}
+
+main #about__page .about__text{
+  width:60%;
+  height:30vw;
+  margin-top:100px;
+}
+
+main #about__page .about__text h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+main #about__page .about__text p{
+  font-size:16px;
+  line-height:2em;
+}
+
+main #about__page .about__text .about__btn{
+  width:200px;
+  height:50px;
+  background-color:#000;
+  color:#fff;
+  padding:10px;
+  margin:40px 0px 50px 400px;
+}
+
+#menu__page{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+}
+#menu__page .menu__images{
+  display:flex;
+  width:100%;
+  height:40vw;
+  position:relative;
+}
+
+#menu__page .menu__images .menu__image__left{
+  width:50%;
+  height:30vw;
+  background-image:url("susi2.jpg");
+  background-size:cover;
+  background-position:center center;
+  opacity:0;
+  transform:translateX(50px);
+  transition:all 2s;
+}
+
+#menu__page .menu__images .menu__image__left.active{
+  opacity:1;
+  transform:translateX(0);
+}
+
+#menu__page .menu__images .menu__image__right{
+  width:50%;
+  height:30vw;
+  background-image:url("back.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+
+#menu__page .menu__images .menu__image__right .image__right__content{
+  background-image:url("susi5.jpg");
+  background-size:cover;
+  background-position:center center;
+  width:50%;
+  height:30vw;
+  position:absolute;
+  top:100px;
+  left:600px;
+}
+
+#menu__page .menu__text{
+  display:flex;
+  justify-content:center;
+}
+
+#menu__page .menu__text .menu__text__left{
+  width:40%;
+  height:30vw;
+  margin:20px 0px 0px 60px;
+}
+
+#menu__page .menu__text .menu__text__left h3{
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+#menu__page .menu__text .menu__text__left h2{
+  font-size:30px;
+}
+
+#menu__page .menu__text .menu__text__right{
+  width:60%;
+  height:30vw;
+  margin-top:50px;
+}
+
+#menu__page .menu__text .menu__text__right h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+#menu__page .menu__text .menu__text__right p{
+  font-size:16px;
+  line-height:2em; 
+}
+
+
+#menu__page .menu__text .menu__text__right .about__btn{
+  width:200px;
+  height:50px;
+  background-color:#000;
+  color:#fff;
+  padding:10px;
+  margin:100px 0px 50px 400px;
+
+}
+
+#contact__page{
+  width:100%;
+  height:100vw;
+  display:flex;
+  flex-direction:column;
+}
+#contact__page .contact__images{
+  display:flex;
+  width:100%;
+  height:40vw;
+  position:relative;
+}
+
+#contact__page .contact__images .contact__image__left{
+  width:50%;
+  height:30vw;
+  background-image:url("back.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+
+#contact__page .contact__images .contact__image__content{
+  width:50%;
+  height:30vw;
+  background-image:url("susi6.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:100px;
+  left:100px;
+}
+
+#contact__page .contact__images .contact__image__right{
+  background-image:url("susi4.jpg");
+  background-size:cover;
+  background-position:center center;
+  width:50%;
+  height:30vw;
+  opacity:0;
+  transform:translateX(-50px);
+  transition:all 2s;
+}
+
+#contact__page .contact__images .contact__image__right.over_st{
+  opacity:1;
+  transform:translateX(0);
+}
+
+#contact__page .contact__box{
+  width:100%;
+  height:45vw;
+  display:flex;
+  flex-direction:column;
+  
+}
+
+#contact__page .contact__box .contact__text{
+  margin:150px 0px 0px 60px;
+}
+
+#contact__page .contact__box .contact__text
+h3{
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+#contact__page .contact__box .contact__text
+h2{
+  font-size:30px;
+}
+
+#contact__page .contact__lists{
+  display:flex;
+  margin-top:50px;
+}
+
+#contact__page .contact__lists .contact__adress{
+margin:0px 30px 50px 30px;
+}
+
+#contact__page .contact__lists .contact__adress h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+#contact__page .contact__lists .contact__content {
+  width:100%;
+  height:5vw;
+}
+
+#contact__page .contact__lists .contact__content p{
+  font-size:20px;
+  line-height:1em;
+}
+
+#contact__page .contact__phone{
+  display:flex;
+  justify-content:flex-start;
+  margin:50px 80px 50px 70px;
+}
+
+#contact__page .contact__phone .contact__tel h3{
+  font-size:20px;
+  margin-right:50px;
+}
+
+#contact__page .contact__phone .contact__number p{
+  font-size:20px;
+}
+
+
+#contact__page .contact__phone .info__box{
+  width:200px;
+  height:50px;
+  background-color:#000;
+  color:#fff;
+  padding:10px;
+  margin:100px 0px 50px 700px;
+}
+
+#creation__page{
+  width:100%;
+  height:40vw;
+  display:flex;
+  position:relative;
+}
+#creation__page .creation__image{
+  width:50%;
+  height:30vw;
+  background-image:url("susi8.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:20px;
+  left:50px;
+  opacity:0;
+  transform:translateY("-100px");
+  transition:all 2s;
+}
+
+#creation__page .creation__image.show{
+  opacity:1;
+  transform:translateY("0");
+}
+#creation__page .creation__text{
+  width:50%;
+  height:30vw;
+  margin-left:50vw;
+  background-image:url("back.jpg");
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#creation__page .creation__text .creation__text__box h3{
+  font-size:30px;
+  margin-bottom:30px;
+}
+#creation__page .creation__text .creation__text__box p{
+  font-size:16px;
+  line-height:2em;
+  margin-bottom:50px;
+}
+.creation__btn{
+  width:200px;
+  height:50px;
+  background-color:#000;
+  color:#fff;
+  font-size:16px;
+  padding:10px;
+  margin:100px 0px 50px 170px;
+}
+
+footer{
+  width:100%;
+  height:35vw;
+  margin-top:10vw;
+    }
+#footer__content{
+  position:relative;
+}
+#footer__content .footer__top{
+  width:100%;
+  height:10vw;
+  background-color:#ce9f58;
+}
+#footer__content .footer__bottom{
+  width:100%;
+  height:35vw;
+  background-color:#422801;
+}
+
+#footer__content .footer__bottom p{
+  font-size:30px;
+  color:#fff;
+  letter-spacing:2px;
+  line-height:2em;
+  padding:50px 20px 200px 150px;
+  font-family:serif;
+}
+#footer__content .footer__image{
+  width:40vw;
+  height:30vw;
+  background-image:url("image_top1.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:60px;
+  left:800px;
+  z-index:1;
+}
+.footer__bottom .footer__lists{
+  width:60%;
+}
+
+.footer__bottom .footer__lists ul{
+  display:flex;
+  justify-content:space-around;
+}
+
+.footer__bottom .footer__lists li{
+  color:#fff;
+  letter-spacing:2px;
+ }
+
+ /**　レスポンシブ　**/
+
+ @media screen and(max-width:970px){
+#wrapper{
+  width:100%;
+  height:100%;
+}
+header #header__content .header__top .header__top__right ul{
+  display:none;
+}
+.header__top .header_top__left h1{ font-size:20px;
+
+    }
+
+
+    }

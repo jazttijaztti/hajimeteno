@@ -1,0 +1,222 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset ="utf-8">
+<title>Susiichi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+　 <link rel="stylesheet" href="style.css" media="all">
+   <link rel="stylesheet" href="reset.css" media="all">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+
+ $(function(){
+  $(window).on("scroll",function(){
+      $(".menu__image__left").each(function(index, el){
+ if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+ $(el).addClass("active");
+    }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+ $(el).removeClass("active");
+}
+	  });
+      });
+    });
+ 
+
+ $(function(){
+  $(window).on("scroll",function(){
+      $(".contact__image__right").each(function(index, el){
+ if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+ $(el).addClass("over_st");
+    }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+ $(el).removeClass("over_st");
+}
+	  });
+      });
+    });
+ 
+ $(function(){
+  $(window).on("scroll",function(){
+      $(".creation__image").each(function(index, el){
+ if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+ $(el).addClass("show");
+    }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+ $(el).removeClass("show");
+}
+	  });
+      });
+    });
+
+
+
+</script>
+
+
+</head>
+
+ <body>
+ <div id="wrapper">
+ <header>
+ <div id="header__content">
+  <div class="header__top">
+   <div class="header__top__left">
+    <h1>鮨いち</h1>
+   </div>
+   <div class="header__top__right">
+     <ul>
+      <li style="margin-left:-150px;">トップ</li>
+      <li>創作</li>
+      <li>お品書き</li>
+      <li>アクセス</li>
+      <li>お問い合わせ</li>
+     </ul>
+   </div>
+  </div>
+  
+ <div class="header__bottom">
+  <div class="header__bottom__left">
+   <p>「魚それぞれの魅力を活かしきる方法」<br>
+   を追求し続けております。<br>
+   握りたてを味わう至福の一時を</p>
+  </div>
+ <div class="header__bottom__right">
+   <div class="header__image"></div>
+  </div>
+
+ </div>
+</div> 
+</header>
+
+<main>
+  <div id="about__page">
+   <div class="about__title">
+     <h3>ABOUT</h3>
+     <h2>握りたてを味わう至福の一時を</h2>
+   </div>
+  
+  <div class="about__text">
+　　<h3>寿司の美味しさを一番に感じられるのは、握りたてであると考えております。</h3>
+
+    <p>カウンター越しに一貫ずつご提供する寿司を堪能する贅沢さを、臨場感とともにお楽しみください。<br>
+    魚についての小話などをしながら、ゆったりと過ごしていただけましたら幸いです。<br>
+    落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別なひと時を。</p>
+
+   <div class="about__btn">
+     <p>ABOUT US</p>
+    </div>
+  </div>
+
+ </div>
+  
+<div id="menu__page">
+ <div class="menu__images">
+   <div class="menu__image__left">
+   </div>
+   
+   <div class="menu__image__right">
+    <div class="image__right__content"></div>
+   </div>
+ </div>
+
+  <div class="menu__text">
+   <div class="menu__text__left">
+     <h3>MENU</h3>
+     <h2>素材の可能性を広げる<h3>
+   </div>
+   <div class="menu__text__right">
+    　<h3>寿司の美味しさを一番に感じられるのは、握りたてであると考えております。</h3>
+
+    <p>カウンター越しに一貫ずつご提供する寿司を堪能する贅沢さを、臨場感とともにお楽しみください。<br>
+    魚についての小話などをしながら、ゆったりと過ごしていただけましたら幸いです。<br>
+    落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別なひと時を。</p>  
+   <div class="about__btn">
+    <p>ABOUT US</p>
+   </div>
+  </div>
+ </div>
+   
+ <div id="contact__page">
+  <div class="contact__images">
+   <div class="contact__image__left">
+    <div class="contact__image__content"></div>
+    </div>
+   <div class="contact__image__right">
+   </div>
+  </div>
+
+<div class="contact__box">
+  <div class="contact__box__content">
+   <div class="contact__text">
+     <h3>CONTACT</h3>
+ 　  <h2>鮨いち</h2>
+    </div>
+
+  <div class="contact__lists">
+   <div class="contact__adress">
+     <h3>ADRESS</h3>
+   </div>
+　 <div class="contact__content">
+    <p>〒164-0003</p>
+    <p>東京都中野区３丁目9-9</p>
+   </div>
+  </div>
+
+ <div class="contact__phone">
+   <div class="contact__tel">
+    <h3>TEL</h3>
+   </div>
+   <div class="contact__number">
+    <p>03-3364-4801</p>
+   </div>
+
+   <div class="info__box">
+    <h3>MORE INFO</h3>
+   </div>
+  </div>
+ </div>
+</div>
+
+  <div id="creation__page">
+    <div class="creation__image">
+    </div>
+    <div class="creation__text">
+     <div class="creation__text__box">
+       <h3>創作寿司</h3>
+       <p>食材一つひとつに合わせて、変化させる仕込み。素材を感じる。</p>
+
+     <div class="creation__btn">
+      <p>MENU</p>
+     </div>
+
+    </div>
+   </div>
+  </div>
+ </main>
+<footer>
+ <div id="footer__content">
+  <div class="footer__image"></div>
+  <div class="footer__top">
+  </div>
+   <div class="footer__bottom">
+    <p>「魚それぞれの魅力を活かしきる方法」<br>
+   を追求し続けております。<br>
+   握りたてを味わう至福の一時を</p>
+    <div class="footer__lists">
+   　 <ul>
+       <li style="font-size:35px;, paddding:10px;">鮨いち</li>
+       <li>トップ</li>
+       <li>お品書き</li>
+       <li>お酒</li>
+       <li>店舗情報</li>
+      </ul>
+    </div>
+   </div>
+   </div>
+  </div>
+ </footer>
+
+</div>　　
+
+
+</body>
+</html>
