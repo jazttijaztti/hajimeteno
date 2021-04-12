@@ -31,7 +31,7 @@ header{
  #header__content .header__top .header__top__left h1{
   font-size:3vw;
   font-weight:bold;
-  padding:3vw;
+  padding:1.5vw 0vw 0vw 3vw;
 }
 
 #header__content .header__top__right{
@@ -82,6 +82,7 @@ header{
   font-size:3vw;
   color:#fff;
   margin-bottom:2vw;
+  text-shadow:1px 1px 1px #eee;
 }
 
 .header__bottom .header__bottom__left b{
@@ -102,17 +103,17 @@ main #about__page{
 main #about__page .about__title{
   width:40%;
   height:30vw;
-  margin:1vw 0 0 4vw;
+  margin:1vw 0 0 3vw;
 }
 
 main #about__page .about__title h3{
-  font-size:1.8vw;
-  font-weight:bold;
+  font-size:1.5vw;;
   margin-bottom:5vw;
 }
 
 main #about__page .about__title h2{
   font-size:2vw;
+  font-weight:bold;
 }
 
 main #about__page .about__text{
@@ -122,24 +123,22 @@ main #about__page .about__text{
 }
 
 main #about__page .about__text h3{
-  font-size:1.5vw;
+  font-size:1.6vw;
   font-weight:bold;
-  margin-bottom:1vw;
-
 }
 main #about__page .about__text p{
   font-size:1.5vw;
-  padding-top:2vw;
-  line-height:2em;
+  padding-top:1vw;
+  line-height:1.5em;
 }
 
 main #about__page .about__text .about__btn{
-  width:18vw;
-  height:5vw;
-  font-size:1.8vw;
+  width:12vw;
+  height:4vw;
+  font-size:1.5vw;
   background-color:#000;
   color:#fff;
-  padding:1.5vw 0 0 4vw;
+  padding:1.2vw 0 0 2vw;
   margin:6vw 0 2vw 30vw;
 }
 
@@ -159,7 +158,7 @@ main #about__page .about__text .about__btn{
 #menu__page .menu__images .menu__image__left{
   width:50%;
   height:30vw;
-  background-image:url("susichi3.jpg");
+  background-image:url("susi13.jpg");
   background-size:cover;
   background-position:center center;
   opacity:0;
@@ -206,39 +205,38 @@ main #about__page .about__text .about__btn{
 
 #menu__page .menu__text .menu__text__left h3{
   font-size:1.5vw;
-  font-weight:bold;
   margin-bottom:4vw;
 }
 
 #menu__page .menu__text .menu__text__left h2{
   font-size:2vw;
+  font-weight:bold;
 }
 
 #menu__page .menu__text .menu__text__right{
   width:60%;
   height:30vw;
-  margin-top:2vw;
+  margin-top:1vw;
 }
 
 #menu__page .menu__text .menu__text__right h3{
   font-size:1.5vw;
   font-weight:bold;
-  margin-bottom:3vw;
+  margin-bottom:1vw;
 }
 #menu__page .menu__text .menu__text__right p{
   font-size:1.5vw;
-  line-height:2em;
-  letter-spacing:2px;
+  line-height:1.5em;
 }
 
 
 #menu__page .menu__text .menu__text__right .about__btn{
-  width:18vw;
-  height:5vw;
-  font-size:2vw;
+  width:12vw;
+  height:4vw;
+  font-size:1.5vw;
   background-color:#000;
   color:#fff;
-  padding:1.5vw 0 0 4vw ;
+  padding:1.2vw 0 0 2vw ;
   margin:8vw 0 2vw 30vw; 
 }
 
@@ -276,7 +274,7 @@ main #about__page .about__text .about__btn{
 }
 
 #contact__page .contact__images .contact__image__right{
-  background-image:url("susichi4.jpg");
+  background-image:url("susi17.jpg");
   background-size:cover;
   background-position:center center;
   width:50%;
@@ -296,7 +294,6 @@ main #about__page .about__text .about__btn{
   height:45vw;
   display:flex;
   flex-direction:column;
-  padding-left:2vw;
 }
 
 #contact__page .contact__box .contact__text{
@@ -305,8 +302,7 @@ main #about__page .about__text .about__btn{
 
 #contact__page .contact__box .contact__text
 h3{
-  font-size:2vw;
-  font-weight:bold;
+  font-size:1.5vw;
   margin-bottom:1vw;
 }
 
@@ -322,11 +318,11 @@ h2{
 }
 
 #contact__page .contact__lists .contact__adress{
-margin:0px 2vw 3vw 2.5vw;
+margin:0px 2vw 3vw 3vw;
 }
 
-#contact__page .contact__lists .contact__adress h3{
-  font-size:2vw;
+#contact__page .contact__lists .contact__adress p{
+  font-size:1.8vw;
   margin-bottom:10px;
 }
 
@@ -347,8 +343,8 @@ margin:0px 2vw 3vw 2.5vw;
   margin:4vw 4vw 3vw 3.5vw;
 }
 
-#contact__page .contact__phone .contact__tel h3{
-  font-size:2vw;
+#contact__page .contact__phone .contact__tel p{
+  font-size:1.8vw;
   margin-right:2vw;
 }
 
@@ -358,13 +354,12 @@ margin:0px 2vw 3vw 2.5vw;
 
 
 #contact__page .contact__phone .info__box{
-  width:18vw;
-  height:5vw;
-  font-size:1.8vw;
-  padding:1vw;
+  width:14vw;
+  height:4vw;
+  font-size:1.5vw;
   background-color:#000;
   color:#fff;
-  padding:1.5vw 0 0 4vw;
+  padding:1.2vw 0 0 3vw;
   margin:2vw 0 2vw 50vw; 
 }
 
@@ -377,7 +372,7 @@ margin:0px 2vw 3vw 2.5vw;
 #creation__page .creation__image{
   width:50%;
   height:30vw;
-  background-image:url("susichi6.jpg");
+  background-image:url("susi10.jpg");
   background-size:cover;
   background-position:center center;
   position:absolute;
@@ -400,20 +395,22 @@ margin:0px 2vw 3vw 2.5vw;
 
 #creation__page .creation__text .creation__text__box h3{
   font-size:2vw;
+  font-weight:bold;
   margin:2vw;
 }
 #creation__page .creation__text .creation__text__box p{
   font-size:1.8vw;
   margin-bottom:1vw;
-  padding-top:2vw;
+  font-weight:bold;
+  text-shadow:1px 1px 1px #f2efea;
 }
 .creation__btn{
-  width:15vw;
-  height:5vw;
+  width:12vw;
+  height:4vw;
   background-color:#000;
   color:#fff;
-  font-size:1.8vw;
-  padding:1.5vw 0 0 4.5vw;
+  font-size:1.5vw;
+  padding:1.2vw 0 0 3.5vw;
   margin:6vw 0 2vw 20vw; 
 }
 
@@ -428,20 +425,30 @@ footer{
 #footer__content .footer__top{
   width:100%;
   height:5vw;
-  background-color:#ce9f58;
+  background-color:#593200;
 }
 #footer__content .footer__bottom{
   width:100%;
   height:38vw;
-  background-color:#422801;
+  background-color:#000;
 }
 
-#footer__content .footer__bottom p{
-  font-size:2vw;
+#footer__content .footer__bottom .footer__kuuhaku{
+  width:100%;
+  height:30vw;
+}
+#footer__content .footer__bottom .footer__bottom__text {
+  z-index:2;
+  position:absolute;
+  top:16vw;
+  left:20vw;
+}
+#footer__content .footer__bottom .footer__bottom__text p{
+  font-size:2.5vw;
   color:#fff;
+  text-shadow:1px 1px 1px #fff;
   letter-spacing:2px;
   line-height:2em;
-  padding:10vw 0vw 15vw 10vw;
 }
 #footer__content .footer__image{
   width:35vw;
@@ -451,7 +458,7 @@ footer{
   background-position:center center;
   position:absolute;
   top:8vw;
-  left:61vw;
+  left:53vw;
   z-index:0;
 }
 .footer__bottom .footer__lists{
@@ -486,4 +493,7 @@ footer{
   height:38vw;
 }
 
+.info__box b{
+  font-size:1.2vw;
+}
 }
