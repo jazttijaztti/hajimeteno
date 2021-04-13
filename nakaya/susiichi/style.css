@@ -429,7 +429,7 @@ footer{
 }
 #footer__content .footer__bottom{
   width:100%;
-  height:38vw;
+  height:40vw;
   background-color:#000;
 }
 
@@ -451,14 +451,14 @@ footer{
   line-height:2em;
 }
 #footer__content .footer__image{
-  width:35vw;
-  height:26vw;
+  width:40vw;
+  height:25vw;
   background-image:url("susichi7.jpg");
   background-size:cover;
   background-position:center center;
   position:absolute;
   top:8vw;
-  left:53vw;
+  left:60vw;
   z-index:0;
 }
 .footer__bottom .footer__lists{

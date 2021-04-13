@@ -1,11 +1,33 @@
 <!doctype html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-sc    alable=no">
-<link rel="stylesheet" href="reset.css" media="all">
-<link rel="stylesheet" href="sousaku.css" media="all">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXiky    nS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-sc    alable=no">
+ <link rel="stylesheet" href="reset.css" media="all">
+ <link rel="stylesheet" href="sousaku.css" media="all">
+ <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+ <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>                  
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yE    xlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+ <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+<script>
+$(function(){
+  $(".main__image").slick({
+    autoplay:true,
+    autoplaySpeed:2000,
+    dots:true,
+    arrows:true,
+   });
+
+});
+
+
+
+</script>
+
+
+
+
 
 <head>
  <body>
@@ -15,13 +37,13 @@
    <div id="header__image">
     <div class="header__bar">
      <div class="header__bar__left">
-      <h1>鮨いち</h1>
+      <h1><a href="index.html">鮨いち</a></h1>
      </div>
      <div class="header__bar__right">
        <ul>
         <li><a href="index.html">トップ</a></li>
-        <li><a href="#">創作</a></li>
-        <li><a href="#">お品書き</a></li>
+        <li><a href="sousaku.html">創作</a></li>
+        <li><a href="sousaku.html">お品書き</a></li>
         <li><a href="form.html">アクセス</a></li>
         <li><a href="form.html">お問い合わせ</a></li>
       </ul>
@@ -49,7 +71,9 @@
  </header>
  <main>
   <div id="main__screen">
-   <div class="main__image"></div>
+
+   <div class="main__image"><img src="susi12.jpg"><img src="susi16.jpg"><img src="susi6.jpg"><img src="susichi1.jpg"><img src="susichi3.jpg"></div>
+
    <div class="main__content">
     <ul>
      <li><span><img src="sou2.jpg"></span><p class="name">やんごとなきうに</p>
@@ -74,16 +98,16 @@
    <div class="footer__bottom">
     <div class="footer__kuuhaku"></div>
      <div class="footer__text">
-      <p>「魚それぞれの魅力を活かしきる方法」<br>を追求し続けております。<br>
+      <p>「魚それぞれの魅力を活かしきる方法」を追求し続けております。<br>
       握りたてを味わう至福の一時を。</p>
      </div>
    <div id="footer__bar">
     <ul>
-     <li class="store__name">鮨いち</li>
+     <li class="store__name"><a href="index.html">鮨いち</li>
      <li><a href="index.html">トップ</a></li>
-     <li>お品書き</li>
+     <li><a href="sousaku.html">お品書き</li>
      <li>お酒</li>
-     <li>店舗情報</li>
+     <li><a href="form.html">店舗情報</a></li>
     </ul>
    </div>
   </div>
