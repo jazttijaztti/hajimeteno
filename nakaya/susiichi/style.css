@@ -43,7 +43,7 @@ header{
 }
 #header__content .header__top__right ul li{
   font-size:1vw;
-  padding-top:2.5vw;
+  padding-top:2vw;
 }
 
 #header__content .header__bottom{
@@ -158,7 +158,7 @@ main #about__page .about__text .about__btn{
 #menu__page .menu__images .menu__image__left{
   width:50%;
   height:30vw;
-  background-image:url("susi13.jpg");
+  background-image:url("susichi3.jpg");
   background-size:cover;
   background-position:center center;
   opacity:0;
@@ -274,7 +274,7 @@ main #about__page .about__text .about__btn{
 }
 
 #contact__page .contact__images .contact__image__right{
-  background-image:url("susi17.jpg");
+  background-image:url("susichi4.jpg");
   background-size:cover;
   background-position:center center;
   width:50%;

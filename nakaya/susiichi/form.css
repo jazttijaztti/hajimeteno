@@ -34,7 +34,7 @@ p{
 }
 
 #header__screen .header__bar .header__bar__left h1{
-  padding:2vw;
+  padding:2vw 0vw 0vw 3vw;
   font-size:3vw;
   color:#fff;
 }
@@ -65,15 +65,17 @@ main #main__info{
 }
 main #main__info .main__info__left{
   width:30%;
-  padding:5vw 2vw 0vw 6vw;
+  padding:5vw 2vw 0vw 4vw;
 }
 
 main #main__info .main__info__left h3{
-  font-size:3vw;
+  font-size:2vw;
+  font-weight:normal;
   margin-bottom:2vw;
 }
 main #main__info .main__info__left h2{
   font-size:3vw;
+  font-weight:bold;
 }
 
 
@@ -90,7 +92,7 @@ main #main__info .main__info__right b{
 main #main__info .main__info__right p{
   font-size:1.8vw;
   margin-top:2vw;
-  line-height:2em;
+  line-height:1.5em;
 }
 
 #main__access{
@@ -106,16 +108,18 @@ main #main__info .main__info__right p{
 #main__access .main__access__info .main__access__left{
   width:40%;
   height:40vw;
-  padding:2vw 4vw 0vw 7vw;
+  padding:2vw 2vw 0vw 4vw;
  } 
 #main__access .main__access__info{
 }
 #main__access .main__access__info .main__access__left h3{
-  font-size:3vw;
+  font-size:2vw;
+  font-weight:normal;
   margin-bottom:2vw;
 }
 #main__access .main__access__info .main__access__left h2{
   font-size:3vw;
+  font-weight:bold;
   width:10vw;
   margin-bottom:2vw;
   padding-bottom:10vw;
@@ -133,11 +137,12 @@ main #main__info .main__info__right p{
 }
 
 #main__access .main__access__right .access__table__info{
-  font-size:2.5vw;
+  font-size:1.8vw;
   letter-spacing:1px;
 }
 
 #main__access .main__access__right .access__table__info th{
+  font-weight:normal;
   padding:1vw 1vw 1vw 5vw;
 }
 
@@ -161,8 +166,8 @@ main #main__info .main__info__right p{
 #access__map .access__map__btn{
   position:absolute;
   top:30vw;
-  left:50vw;
-  padding:1vw;
+  left:55vw;
+  padding:1.2vw 0vw 0vw 1.8vw;
   width:20vw;
   height:4vw;
   background-color:#000;
@@ -171,7 +176,7 @@ main #main__info .main__info__right p{
 
 footer{
   width:100%;
-  height:45vw;
+  height:35vw;
 }
 footer #footer__fild{
   width:100%;
@@ -186,26 +191,32 @@ footer #footer__fild .footer__image{
   background-position:center center;
   position:absolute;
   top:8vw;
-  left:70vw;
+  left:60vw;
 }
 footer #footer__fild .footer__top{
   width:100%;
   height:5vw;
-  background-color:#845002;
+  background-color:#6b4102;
 }
 footer #footer__fild .footer__bottom{
    width:100%;
-   height:40vw;
-   background-color:#2d1b00;
+   height:30vw;
+   background-color:#000;
+}
+footer #footer__fild .footer__bottom .footer__kuuhaku{
+  width:100%;
+  height:12vw;
 }
 footer #footer__fild .footer__bottom .footer__text{
-   width:100%;
-   text-align:center;
+   width:50vw;
+   height:20vw;
+   position:absolute;
+   top:10vw;
+   left:25vw;
 }
 footer #footer__fild .footer__bottom .footer__text p{
-   font-size:2vw;
+   font-size:2.5vw;
    color:#fff;
-   padding-top:5vw;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 footer #footer__fild .footer__bottom #footer__bar {
