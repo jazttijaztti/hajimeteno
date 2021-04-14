@@ -246,9 +246,35 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-right:2vw;
 }
 
-@media screen and(max-width:960px){
+@media only screen and (max-width:400px){
 
+.header__bar__left{
+  width:20% !important;
+}
+.header__bar__right{
+  width:80% !important;
+}
 
+.main__access__info{
+  height:50vw !important;
+}
 
+.main__access__left h2{
+  width:20vw !important;
+}
+
+.access__map__btn{
+   top:25vw !important;
+   width:29vw !important;
+   height:9vw !important;
+}
+
+.footer__bottom{
+  height:35vw !important;
+}
+#footer__bar{
+  width:100% !important;
+  margin-top:18vw !important;
+}
 
 }

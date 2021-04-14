@@ -41,6 +41,10 @@ header{
   display:flex;
   justify-content:space-around;
 }
+
+#header__content .header__top__right ul .top__name{
+  margin-left:-12vw;
+}
 #header__content .header__top__right ul li{
   font-size:1vw;
   padding-top:2vw;
@@ -129,7 +133,6 @@ main #about__page .about__text h3{
 main #about__page .about__text p{
   font-size:1.5vw;
   padding-top:1vw;
-  line-height:1.5em;
 }
 
 main #about__page .about__text .about__btn{
@@ -138,7 +141,9 @@ main #about__page .about__text .about__btn{
   font-size:1.5vw;
   background-color:#000;
   color:#fff;
-  padding:1.2vw 0 0 2vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin:6vw 0 2vw 30vw;
 }
 
@@ -226,7 +231,6 @@ main #about__page .about__text .about__btn{
 }
 #menu__page .menu__text .menu__text__right p{
   font-size:1.5vw;
-  line-height:1.5em;
 }
 
 
@@ -236,7 +240,9 @@ main #about__page .about__text .about__btn{
   font-size:1.5vw;
   background-color:#000;
   color:#fff;
-  padding:1.2vw 0 0 2vw ;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin:8vw 0 2vw 30vw; 
 }
 
@@ -410,7 +416,9 @@ margin:0px 2vw 3vw 3vw;
   background-color:#000;
   color:#fff;
   font-size:1.5vw;
-  padding:1.2vw 0 0 3.5vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin:6vw 0 2vw 20vw; 
 }
 
@@ -477,23 +485,93 @@ footer{
   font-size:1vw;
  }
 
- /**　レスポンシブ　**/
 
- @media screen and(max-width:970px){
-
-#about__page .about__text{
-  height:50vw;
+ @media only screen and (max-width:500px) {
+#wrapper{
+  width:100%;	
+}
+header{
+  width:100%;
+}
+header #header__content{
+ width:100%;
 }
 
+#header__content .header__top .header__top__left {
+  width:50%;
+}
+#header__content .header__top .header__top__rigth {
+  width:50%;
+}
+ul .top__name {
+  margin-left:-26vw !important;
+}
+
+.about__btn{
+  width:22vw !important;
+  height:6vw !important;
+  padding:1vw 0 0 2.3vw !important;
+}
+
+.info__box{
+  width:32vw !important;
+  height:6vw !important;
+}
+
+#contact__page .contact__number p{
+  width:16vw;
+}
+.creation__btn{
+  width:16vw !important;
+  height:6vw !important;
+    }
+
+}
+
+@media only screen and (max-width:300px){
+#wrapper{
+  width:100%;
+}   
+main #about__page{
+  height:60vw !important;
+}
 #menu__page .menu__text{
-  height:50vw;
+  height:53vw;
+}
+#contact__page{
+  height:100% !important;
 }
 
-#contact__page .contact__text{
-  height:38vw;
+#contact__page .contact__box{
+  height:65vw;
+}
+#contact__page .contact__lists .contact__content p{
+  margin-bottom:0vw;
+}
+#contact__page .contact__number p{
+  width:21vw;
+}
+#contact__page .contact__phone{
+  margin-top:6vw;
+}
+#contact__page .contact__phone .info__box{
+ margin:2vw 0 2vw 30vw;
+}
+#creation__page{
+ height:35vw;
+}
+footer{
+  margin-top:5vw;
+}
+footer #footer__content .footer__bottom{
+  height:45vw;
 }
 
-.info__box b{
-  font-size:1.2vw;
+footer #footer__content .footer__bottom .footer__bottom__text {
+  left:12vw;
+}
+footer #footer__content .footer__bottom
+.footer__lists{
+  width:100%;
 }
 }

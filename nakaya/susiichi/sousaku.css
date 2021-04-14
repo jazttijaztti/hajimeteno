@@ -49,6 +49,10 @@ h2 h3 p{
   justify-content:space-around;
   padding-top:2vw;
 }
+
+#header__screen .header__bar .header__bar__right ul .top__name{
+  margin-left:-2vw;
+}
 #header__screen .header__bar .header__bar__right ul li{
   font-size:1.2vw;
   color:#fff;
@@ -214,3 +218,66 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   font-size:2vw;
   margin-right:3vw;
 }
+
+@media only screen and (max-width:365px) {
+#wrapper{
+  width:100%;
+}
+
+
+.header__bar .header__bar__left{
+  width:20% !important;
+}
+
+.header__bar .header__bar__right{
+  width: 80% !important;
+
+}
+#header__text{
+  height:65vw;
+}
+#main__screen .main__content{
+  height:100vw;
+}
+
+#main__screen .main__content ul li{
+  height:45vw;
+}
+
+footer .footer__bottom{
+  height:40vw;
+ }
+.footer__bottom #footer__bar{
+ width:100% !important;
+}
+}
+
+
+@media only screen and (max-width:500px) {
+.header__bar .header__bar__left{
+  width:20% !important;
+}
+
+.header__bar .header__bar__right{
+  width: 80% !important;
+
+}
+#header__text{
+  height:45vw;
+}
+#main__screen .main__content{
+  height:80vw;
+}
+
+#main__screen .main__content ul li{
+  height:35vw;
+}
+
+footer .footer__bottom{
+  height:40vw;
+ }
+.footer__bottom #footer__bar{
+ width:100% !important;
+}
+
+}    
