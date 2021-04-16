@@ -1,54 +1,80 @@
 <!Doctype html>
 <html>
-<head>
- <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-<meta charset ="utf-8">
-   <link rel="stylesheet" href="reset.css" media="all">
-　 <link rel="stylesheet" href="style.css" media="all">
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<title>Susiichi</title>
-<script>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta charset ="utf-8">
+  <link rel="stylesheet" href="reset.css" media="all">
+  <link rel="stylesheet" href="style.css" media="all">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <title>Susiichi</title>
+ <script>
 
  $(function(){
-  $(window).on("scroll",function(){
-      $(".menu__image__left").each(function(index, el){
- if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
- $(el).addClass("active");
-    }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
- $(el).removeClass("active");
+  $(".menu__icon").on("click",function(){
+     $("#menu__content__list").addClass("active");
+     $("#main").css("opacity","0.3");
+      });
+  $("#close__btn").on("click",function(){
+   $("#menu__content__list").removeClass("active");
+  $("#main").css("opacity","1");
+      });
+
+
+
+     });
+
+ $(function(){
+ $(window).on("scroll",function(){
+ $(".menu__image__left").each(function(index, el){
+   if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+      $(el).addClass("active");
+      }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+      $(el).removeClass("active");
 }
-	  });
+	});
       });
     });
  
 
  $(function(){
-  $(window).on("scroll",function(){
-      $(".contact__image__right").each(function(index, el){
- if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
- $(el).addClass("over_st");
+ $(window).on("scroll",function(){
+ $(".contact__image__right").each(function(index, el){
+    if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+    $(el).addClass("over_st");
     }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
- $(el).removeClass("over_st");
+    $(el).removeClass("over_st");
 }
-	  });
+	});
       });
     });
 
-</script>
-
-
+ </script>
 </head>
 
  <body>
- <div id="wrapper">
- <header>
- <div id="header__content">
-  <div class="header__top">
-   <div class="header__top__left">
-    <h1><a href="index.html">鮨いち</a></h1>
-   </div>
-   <div class="header__top__right">
+  <div id="wrapper">
+   <header>
+    <div id="header__content">
+      <div class="header__top">
+      <div class="header__top__left">
+       <h1><a href="index.html">鮨いち</a></h1>
+       <div class="menu__content">
+        <h3 class="menu__icon">メニュー</h3>
+	  <ul id="menu__content__list">
+      <li><a href="index.html">トップ</li>
+      <li><a href="sousaku.html">創作</a></li>
+      <li><a href="sousaku.html">お品書き</a></li>
+      <li><a href="form.html">アクセス</a></li>
+      <li><a href="form.html">お問い合わせ</a></li>
+        <div id="close__btn">
+	 <p>X 閉じる</p>
+	</div>
+
+     </ul>
+              </div>
+    </div>
+    <div class="header__top__right">
      <ul>
       <li class="top__name"><a href="index.html">トップ</li>
       <li><a href="sousaku.html">創作</a></li>
@@ -56,8 +82,8 @@
       <li><a href="form.html">アクセス</a></li>
       <li><a href="form.html">お問い合わせ</a></li>
      </ul>
+    </div>
    </div>
-  </div>
   
  <div class="header__bottom">
   <div class="header__bottom__left">
@@ -73,7 +99,7 @@
 </div> 
 </header>
 
-<main>
+<div id="main">
   <div id="about__page">
    <div class="about__title">
      <h3>ABOUT</h3>
@@ -160,7 +186,7 @@
   </div>
  </div>
 </div>
-
+</div>
   <div id="creation__page">
     <div class="creation__image">
     </div>
@@ -178,6 +204,7 @@
    </div>
   </div>
  </main>
+
 <footer>
  <div id="footer__content">
   <div class="footer__image"></div>
