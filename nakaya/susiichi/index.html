@@ -9,7 +9,6 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <title>Susiichi</title>
     <script>
-
       $(function(){
           $(".menu__icon").on("click",function(){
               $("#menu__content__list").addClass("active");
@@ -19,36 +18,32 @@
               $("#menu__content__list").removeClass("active");
               $("#main").css("opacity","1");
               });
-
-
-
           });
 
-$(function(){
-    $(window).on("scroll",function(){
-        $(".menu__image__left").each(function(index, el){
-            if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
-            $(el).addClass("active");
-            }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
-            $(el).removeClass("active");
-            }
+       $(function(){
+         $(window).on("scroll",function(){
+            $(".menu__image__left").each(function(index, el){
+              if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+                $(el).addClass("active");
+              }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+                $(el).removeClass("active");
+              }
             });
-        });
-    });
+         });
+       });
 
 
-$(function(){
-    $(window).on("scroll",function(){
-        $(".contact__image__right").each(function(index, el){
+      $(function(){
+        $(window).on("scroll",function(){
+          $(".contact__image__right").each(function(index, el){
             if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
-            $(el).addClass("over_st");
+              $(el).addClass("over_st");
             }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
-            $(el).removeClass("over_st");
+              $(el).removeClass("over_st");
             }
-            });
+          });
         });
-    });
-
+      });
   </script>
 </head>
 
