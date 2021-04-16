@@ -1,58 +1,58 @@
 <!Doctype html>
 <html>
- <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-  <meta charset ="utf-8">
-  <link rel="stylesheet" href="reset.css" media="all">
-  <link rel="stylesheet" href="style.css" media="all">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
- <title>Susiichi</title>
- <script>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta charset ="utf-8">
+    <link rel="stylesheet" href="reset.css" media="all">
+    <link rel="stylesheet" href="style.css" media="all">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Susiichi</title>
+    <script>
 
- $(function(){
-  $(".menu__icon").on("click",function(){
-     $("#menu__content__list").addClass("active");
-     $("#main").css("opacity","0.3");
-      });
-  $("#close__btn").on("click",function(){
-   $("#menu__content__list").removeClass("active");
-  $("#main").css("opacity","1");
-      });
+      $(function(){
+          $(".menu__icon").on("click",function(){
+              $("#menu__content__list").addClass("active");
+              $("#main").css("opacity","0.3");
+              });
+          $("#close__btn").on("click",function(){
+              $("#menu__content__list").removeClass("active");
+              $("#main").css("opacity","1");
+              });
 
 
 
-     });
+          });
 
- $(function(){
- $(window).on("scroll",function(){
- $(".menu__image__left").each(function(index, el){
-   if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
-      $(el).addClass("active");
-      }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
-      $(el).removeClass("active");
-}
-	});
-      });
-    });
- 
-
- $(function(){
- $(window).on("scroll",function(){
- $(".contact__image__right").each(function(index, el){
-    if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
-    $(el).addClass("over_st");
-    }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
-    $(el).removeClass("over_st");
-}
-	});
-      });
+$(function(){
+    $(window).on("scroll",function(){
+        $(".menu__image__left").each(function(index, el){
+            if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+            $(el).addClass("active");
+            }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+            $(el).removeClass("active");
+            }
+            });
+        });
     });
 
- </script>
+
+$(function(){
+    $(window).on("scroll",function(){
+        $(".contact__image__right").each(function(index, el){
+            if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+            $(el).addClass("over_st");
+            }else if($(window).scrollTop()< ($(el).offset().top - $(window).height() / 2 ) ){
+            $(el).removeClass("over_st");
+            }
+            });
+        });
+    });
+
+  </script>
 </head>
 
- <body>
+<body>
   <div id="wrapper">
     <header>
       <div id="header__content">
@@ -143,92 +143,88 @@
           </div>
         </div>
       </div><!-- #menu__page -->
-            <div id="contact__page">
-              <div class="contact__images">
-                <div class="contact__image__left">
-                  <div class="contact__image__content"></div>
-                </div>
-                <div class="contact__image__right">
-                </div>
+      <div id="contact__page">
+        <div class="contact__images">
+          <div class="contact__image__left">
+            <div class="contact__image__content"></div>
+          </div>
+          <div class="contact__image__right">
+          </div>
+        </div>
+
+        <div class="contact__box">
+          <div class="contact__box__content">
+            <div class="contact__text">
+              <h3>CONTACT</h3>
+              　  <h2>鮨いち</h2>
+            </div>
+
+            <div class="contact__lists">
+              <div class="contact__adress">
+                <p>ADRESS</p>
               </div>
-
-              <div class="contact__box">
-                <div class="contact__box__content">
-                  <div class="contact__text">
-                    <h3>CONTACT</h3>
-                    　  <h2>鮨いち</h2>
-                  </div>
-
-                  <div class="contact__lists">
-                    <div class="contact__adress">
-                      <p>ADRESS</p>
-                    </div>
-                    　 <div class="contact__content">
-                      <p>〒164-0003</p>
-                      <p>東京都中野区３丁目9-9</p>
-                    </div>
-                  </div>
-
-                  <div class="contact__phone">
-                    <div class="contact__tel">
-                      <p>TEL</p>
-                    </div>
-                    <div class="contact__number">
-                      <p>03-3364-4801</p>
-                    </div>
-
-                    <div class="info__box">
-                      <b><a href="form.html">MORE INFO</a></b>
-                    </div>
-                  </div>
-                </div>
+              　 <div class="contact__content">
+                <p>〒164-0003</p>
+                <p>東京都中野区３丁目9-9</p>
               </div>
             </div>
-            <div id="creation__page">
-              <div class="creation__image">
+
+            <div class="contact__phone">
+              <div class="contact__tel">
+                <p>TEL</p>
               </div>
-              <div class="creation__text">
-                <div class="creation__text__box">
-                  <h3>創作寿司</h3>
-                  <p>食材一つひとつに合わせて、変化させる仕込み。</p>
-                  <p> 素材を感じる。</p>
+              <div class="contact__number">
+                <p>03-3364-4801</p>
+              </div>
 
-                  <div class="creation__btn">
-                    <b><a href="sousaku.html">MENU</a></b>
-                  </div>
-
-                </div>
+              <div class="info__box">
+                <b><a href="form.html">MORE INFO</a></b>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div id="creation__page">
+        <div class="creation__image">
+        </div>
+        <div class="creation__text">
+          <div class="creation__text__box">
+            <h3>創作寿司</h3>
+            <p>食材一つひとつに合わせて、変化させる仕込み。</p>
+            <p> 素材を感じる。</p>
 
-<footer>
- <div id="footer__content">
-  <div class="footer__image"></div>
-  <div class="footer__top">
-  </div>
-   <div class="footer__bottom">
-    <div class="footer__kuuhaku">
+            <div class="creation__btn">
+              <b><a href="sousaku.html">MENU</a></b>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="footer__bottom__text">
-    <p>東中野に根差し地域と人に愛される鮨屋へ</p>
-    </div>
-    <div class="footer__lists">
-   　 <ul>
-       <li style="font-size:3vw;, paddding:1vw;">鮨いち</li>
-       <li><a href="#wrapper">トップ</a></li>
-       <li><a href="sousaku.heml">お品書き</a></li>
-       <li><a href="#">お酒</a></li>
-       <li><a href="form.html">店舗情報</a></li>
-      </ul>
-    </div>
-   </div>
-   </div>
-  </div>
- </footer>
 
-</div>　　
-
-
+    <footer>
+      <div id="footer__content">
+        <div class="footer__image"></div>
+        <div class="footer__top">
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__kuuhaku">
+          </div>
+          <div class="footer__bottom__text">
+            <p>東中野に根差し地域と人に愛される鮨屋へ</p>
+          </div>
+          <div class="footer__lists">
+            　 <ul>
+              <li style="font-size:3vw;, paddding:1vw;">鮨いち</li>
+              <li><a href="#wrapper">トップ</a></li>
+              <li><a href="sousaku.heml">お品書き</a></li>
+              <li><a href="#">お酒</a></li>
+              <li><a href="form.html">店舗情報</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>　　
 </body>
 </html>
