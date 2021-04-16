@@ -532,8 +532,9 @@ header #header__content{
   font-size:3.5vw;
   line-height:2.5em;
   padding-top:5vw;
-  width:60vh;
-  height:30vh;
+  width:56.5vh;
+  height:51vh;
+  padding-top:6vw;
   position:absolute;
   top:-3vw;
   left:-80vw;
@@ -687,13 +688,13 @@ header #header__content{
   left:0vw !important;
 }
 #contact__page .contact__box .contact__text{
-  margin:20vw 0vw 0vw 3vw;
+  margin:30vw 0vw 0vw 3vw;
 }
 .info__box{
   width:32vw !important;
   height:6vw !important;
   position:absolute;
-  top:100vw;
+  top:120vw;
   left:10vw;
 }
 
@@ -712,6 +713,7 @@ header #header__content{
   width:100%;
   height:50vh;
   margin-left:0vw;
+  margin-top:10vw;
 }
 
 #creation__page .creation__text .creation__text__box{
@@ -752,10 +754,11 @@ header{
 
 
 .header__top__left .menu__content #menu__content__list{
-  height:22vh;
-  top:1vw;
-  left:-22vw;
-  padding-top:2vw;
+  width:43vh;
+  height:50vh;
+  top:-1vw;
+  left:-80vw;
+  padding-top:6vw;
 }
 #about__page{
   margin-bottom:10vw !important;
@@ -765,11 +768,16 @@ header{
   margin-top:30vw;
 }
 #contact__page{
-  height:50vh; !important;
+  height:50vh !important;
+  
 }
 
 #contact__page .contact__box{
   height:65vw;
+}
+
+#contact__page .contact__box .contact__box__content{
+  margin-top:-8vw;
 }
 #contact__page .contact__lists .contact__content p{
   margin-bottom:0vw;
@@ -781,7 +789,7 @@ header{
   margin-top:6vw;
 }
 #contact__page .contact__phone .info__box{
- margin:20vw 0 2vw 50vw;
+ margin:15vw 0 2vw 50vw;
 
 }
 #creation__page{
