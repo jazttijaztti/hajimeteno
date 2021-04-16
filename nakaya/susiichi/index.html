@@ -13,11 +13,10 @@
           $(".menu__icon").on("click",function(){
               $("#menu__content__list").addClass("active");
               $("#main").css("opacity","0.3");
-              });
+          });
           $("#close__btn").on("click",function(){
               $("#menu__content__list").removeClass("active");
               $("#main").css("opacity","1");
-              });
           });
 
          $(window).on("scroll",function(){
