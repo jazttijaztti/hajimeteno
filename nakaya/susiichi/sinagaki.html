@@ -1,17 +1,42 @@
 <!doctype html>
 <html>
   <head>
-  <meta chareset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maxim    um-scale=1,user-sc    alable=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" href="reset.css" media="all">
   <link rel="stylesheet" href="sinagaki.css" media="all">
   <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
   <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>                  
- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yE        xlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 
+<script>
+  $(function(){
+    $("#menu__name").on("click",function(){
+    $("#menu__lists").addClass("active");
+    $("#main").css("opacity","0.3");
+   });
+     $("#close__btn").on("click",function(){
+     $("#menu__lists").removeClass("active");
+     $("#main").css("opacity","1");       
+    });
+});
+
+$(function(){                                                                            
+ $(".main__menu__image").slick({
+     autoplay:true,
+     autoplaySpeed:2000,
+     dots:true,
+     arrows:true,
+   });
+  
+  });
+
+
+
+</script>
  </head>
 
  <body>
@@ -32,11 +57,23 @@
         <li><a href="form.html">お問合せ</a></li>
        </ul>
       </div>
-    </div>
+        <div class="hidden__menu">
+	 <h2 id="menu__name">メニュー</h2>
+	 　<ul id="menu__lists">
+	    <li><a href="index.html">トップ</a></li>
+	    <li><a href="sousaku.html">創作</a></li>
+	    <li><a href="sinagaki.html">お品書き</a></li>
+	    <li><a href="form.html">お問い合わせ</a></li>
+	    <li><a href="form.html">アクセス</a></li>
+	    <div id="close__btn">
+              <p>X 閉じる</p>
+             </div>
+	   </ul>
+	 </div>
+      </div>
     <div class="header__title">
      <h1>お品書き</h1>
     </div>
-
     </div>
    </div>
   </header>
@@ -60,14 +97,13 @@
 
  <div id="main__menu">
   <div class="main__menu__top">
-  <div class="main__menu__image"><img src="susi12.jpg"></div>
+  <div class="main__menu__image"><img src="susi12.jpg"><img src="sina.jpg"><img src="susi6.jpg"><img src="susi18.jpg"></div>
     </div>
     <div class="main__menu__text">
       <div class="main__menu__left">
-        <h2>MAIN MENU</h2>
-	<h3>コースメニュー・ご予約賜ります。</h3>
-	<h3>ご予算の範囲で対応します。<br>
-	<h3>お気軽にご相談下さい</h3>
+        <h2>GRAND MENU</h2>
+	<h3>季節に合わせた逸品を</h3>
+	<h3>握りたてを味わう至福の一時</h3>
       </div>
        
      <div class="main__menu__right">
@@ -116,6 +152,7 @@
 	  <li><span><img src="sina2.jpg"></span><p>旬野菜の吸い物</p></li>
 	  <li><span><img src="sina4.jpg"></span><p>高野豆腐の吸い物</p></li>
 	</ul>
+              
       </div>
      </div>
 
