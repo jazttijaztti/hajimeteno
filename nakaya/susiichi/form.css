@@ -1,6 +1,7 @@
-#wrapper{
+body{
   width:100%;
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMin    cho", serif;                  
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMin    cho", serif;
+  background-color:#F7F6F4;
 }
 
 h1 h2 h3{
@@ -43,6 +44,10 @@ p{
 #header__screen .header__bar .header__bar__right{
   width:70%;
 }
+.hidden__menu{
+  display:none;
+  visibility:hidden;
+}
 #header__screen .header__bar ul{
   display:flex;
   justify-content:space-around;
@@ -53,43 +58,43 @@ p{
   font-size:1.2vw;
 }
 
-main{
+#main{
   width:100%;
   background-image:url("wasi2.jpg");
 }
-main #main__info{
+#main #main__info{
   width:100%;
   height:40vw;
   display:flex;
   justify-content:space-around;
 }
-main #main__info .main__info__left{
+#main #main__info .main__info__left{
   width:30%;
   padding:5vw 2vw 0vw 4vw;
 }
 
-main #main__info .main__info__left h3{
+#main #main__info .main__info__left h3{
   font-size:2vw;
   font-weight:normal;
   margin-bottom:2vw;
 }
-main #main__info .main__info__left h2{
+#main #main__info .main__info__left h2{
   font-size:3vw;
   font-weight:bold;
 }
 
 
-main #main__info .main__info__right{
+#main #main__info .main__info__right{
    width:70%;
    padding-top:6vw;
 }
-main #main__info .main__info__right b{
+#main #main__info .main__info__right b{
   font-size:3vw;
   font-weight:bold;
   margin-bottom:1vw;
 }
 
-main #main__info .main__info__right p{
+#main #main__info .main__info__right p{
   font-size:1.8vw;
   margin-top:2vw;
 }
@@ -140,6 +145,9 @@ main #main__info .main__info__right p{
   letter-spacing:1px;
 }
 
+#main__access .main__access__right .table__title{
+   display:none;
+}
 #main__access .main__access__right .access__table__info th{
   font-weight:normal;
   padding:1vw 1vw 1vw 5vw;
@@ -246,35 +254,154 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-right:2vw;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
 
-.header__bar__left{
-  width:20% !important;
-}
-.header__bar__right{
-  width:80% !important;
+body{
+  width:100%;
 }
 
-.main__access__info{
-  height:50vw !important;
+header{
+  height:60vh;
+}
+#header__screen{
+  height:60vh !important;
+  position:relative;
+}
+#header__screen #header__image{
+  height:60vh;
+}
+.header__bar__right ul{
+  opacity:0;
+  visibility:hidden;
+}
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin:2vw 1vw 2vw 1vw;
+}
+.hidden__menu  #menu__lists{
+  opacity:0;
+  visibility:hidden;
+  position:absolute;
+  top:0vw;
+  left:0vw;
+  font-size:3vw;
+  line-height:4em;
+  display:flex;
+  flex-direction:column;
+  justify-content:center !important;                                                   
+  align-items:center;
+  background-color:#000;
+  color:#fff;
+  width:100vw;
+  height:100%;
 }
 
-.main__access__left h2{
-  width:20vw !important;
+.hidden__menu  #menu__lists #close__btn{
+  color:#fff;
+  font-size:1.5vw;
+  position:absolute;
+  top:0vw;
+  left:80vw;
+}
+.hidden__menu #menu__lists.active{
+  opacity:1;
+  visibility:visible;
+  animation:listAnimation 0.5s
+}
+@keyframes listAnimation{
+   0%{
+        opacity:1;
+        transform:translateY(-50px);
+       }
+}
+#main #main__info{
+  height:50vh;
+  text-align:center;
+  flex-direction:column;
+  justify-content:center;
 }
 
-.access__map__btn{
-   top:25vw !important;
-   width:29vw !important;
-   height:9vw !important;
+#main #main__info .main__info__left{
+  width:100%;
 }
 
-.footer__bottom{
-  height:35vw !important;
+#main #main__info .main__info__right{
+  width:100%;
+}
+
+#main__access{
+  height:55vh;
+}
+
+#main__access .main__access__info{
+    flex-direction:column;
+}
+
+#main__access .main__access__info .main__access__left{
+  width:100%;
+  text-align:center;
+}
+
+#main__access .main__access__left{
+  display:none;
+}
+#main__access .main__access__info .main__access__right{
+  width:100% !important;
+  height:52vh;
+  background-image:url("wasi2.jpg");
+  text-align:center;
+  line-height:1.5em;
+  margin-top:-5vw;
+}
+
+#main__access .main__access__right .table__title{
+  display:block;
+}
+#main__access .main__access__right .table__title h3{
+  padding-top:2vw;
+  font-size:1.5vw;
+}
+#main__access .main__access__right .table__title h2{
+  font-size:3vw;
+  font-weight:bold;
+}
+#main__access .main__access__info .main__access__right .access__table__info{
+  width:78%;
+}
+
+#main__access #access__map{
+  width:100%;
+  height:60vw;
+  margin-top:55vw;
+}
+
+#access__map .access__map__btn{
+  width:45vw;
+  height:7vw;
+  left:50vw;
+}
+footer{
+  margin-top:20vw;
+}
+footer .footer__bottom{
+  height:38vw !important;
 }
 #footer__bar{
   width:100% !important;
-  margin-top:18vw !important;
+  margin-top:20vw !important;
 }
 
+}
+
+@media only screen and (max-width:300px){
+
+#main__access #access__map{
+  width:100%;
+  height:60vw;
+  margin-top:120vw;
+}
 }

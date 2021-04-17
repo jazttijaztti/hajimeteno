@@ -12,6 +12,21 @@
  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 <script>
+
+ $(function(){
+      $("#menu__name").on("click",function(){
+      $("#menu__lists").addClass("active");
+      $("#main").css("opacity","0.3");    
+ });
+      $("#close__btn").on("click",function(){
+      $("#menu__lists").removeClass("active");
+      $("#main").css("opacity","1");       
+   });
+ });
+
+
+
+
 $(function(){
   $(".main__image").slick({
     autoplay:true,
@@ -22,13 +37,7 @@ $(function(){
 
 });
 
-
-
 </script>
-
-
-
-
 
 <head>
  <body>
@@ -44,11 +53,25 @@ $(function(){
        <ul>
         <li class="top__name"><a href="index.html">トップ</a></li>
         <li><a href="sousaku.html">創作</a></li>
-        <li><a href="sousaku.html">お品書き</a></li>
+        <li><a href="sinagaki.html">お品書き</a></li>
         <li><a href="form.html">アクセス</a></li>
         <li><a href="form.html">お問い合わせ</a></li>
       </ul>
      </div>
+     <div class="hidden__menu">
+      <h2 id="menu__name">メニュー</h2>
+        　<ul id="menu__lists">
+           <li><a href="index.html">トップ</a></li>
+           <li><a href="sousaku.html">創作</a></li>
+           <li><a href="sinagaki.html">お品書き</a></li>
+           <li><a href="form.html">お問い合わせ</a></li>
+           <li><a href="form.html">アクセス</a></li>
+          <div id="close__btn">
+            <p>X 閉じる</p>
+          </div>
+         </ul>
+      </div>
+
     </div>
     <div class="header__title">
      <h1>創作<h1>
@@ -58,8 +81,7 @@ $(function(){
   
   <div id="header__text">
     <div class="header__text__left">
-     <h3>「魚それぞれの魅力を活かしきる方法」<br>
-          を追求しています。 </h3>
+     <h3>「魚それぞれの魅力を活かしきる方法」を追求しています。 </h3>
 　　　<p>カウンター越しに一貫ずつご提供する寿司を堪能する贅沢さを、臨場感とともにお楽しみください。<br>
 魚についての小話などしながら、ゆったりと過ごしていただけましたら幸いです。<br>
 落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別なひと時を。</p>
@@ -106,8 +128,8 @@ $(function(){
     <ul>
      <li class="store__name"><a href="index.html">鮨いち</li>
      <li><a href="index.html">トップ</a></li>
-     <li><a href="sousaku.html">お品書き</li>
-     <li>お酒</li>
+     <li><a href="sinagaki.html">お品書き</a></li>
+     <li><a href="sousaku.html">お酒</a></li>
      <li><a href="form.html">店舗情報</a></li>
     </ul>
    </div>
@@ -116,28 +138,8 @@ $(function(){
  </footer>
 </div>
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- </div>
-
-
-
-
- </body>
-
+</body>
 
 </html>

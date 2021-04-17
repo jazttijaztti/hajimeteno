@@ -1,4 +1,4 @@
-#wrapper{
+body{
   width:100%;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   background-color:#F7F6F4;
@@ -49,7 +49,10 @@ h2 h3 p{
   justify-content:space-around;
   padding-top:2vw;
 }
-
+.hidden__menu{                             
+  display:none;
+  visibility:hidden;
+}
 #header__screen .header__bar .header__bar__right ul .top__name{
   margin-left:-2vw;
 }
@@ -219,65 +222,98 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-right:3vw;
 }
 
-@media only screen and (max-width:365px) {
-#wrapper{
-  width:100%;
-}
-
-
-.header__bar .header__bar__left{
-  width:20% !important;
-}
-
-.header__bar .header__bar__right{
-  width: 80% !important;
-
-}
-#header__text{
-  height:65vw;
-}
-#main__screen .main__content{
-  height:100vw;
-}
-
-#main__screen .main__content ul li{
-  height:45vw;
-}
-
-footer .footer__bottom{
-  height:40vw;
- }
-.footer__bottom #footer__bar{
- width:100% !important;
-}
-}
-
 
 @media only screen and (max-width:500px) {
-.header__bar .header__bar__left{
-  width:20% !important;
+body{
+  width:100%;
 }
-
-.header__bar .header__bar__right{
-  width: 80% !important;
-
+header{
+  height:100vh;
+}
+#header__screen{
+  height:55vh !important;
+  position:relative;
+}
+.header__bar__right ul{
+  opacity:0;
+  visibility:hidden;
+}
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:2vw;
+  width:20vw;
+  margin:2vw 1vw 2vw 1vw;
+}
+.hidden__menu  #menu__lists{
+  opacity:0;
+  visibility:hidden;
+  position:absolute;
+  top:0vw;
+  left:0vw;
+  font-size:3vw;
+  line-height:4em;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#000;
+  color:#fff;
+  width:100vw;
+  height:100%;
+}
+ 
+.hidden__menu  #menu__lists #close__btn{
+  color:#fff;
+  font-size:1.5vw;
+  position:absolute;
+  top:0vw;
+  left:80vw;
+}
+.hidden__menu #menu__lists.active{
+  opacity:1;
+  visibility:visible;
+  animation:listAnimation 0.5s
+}
+@keyframes listAnimation{
+   0%{
+       opacity:1;
+       transform:translateY(-50px);
+   }
 }
 #header__text{
-  height:45vw;
+  flex-direction:column;
+  height:40vh;
 }
-#main__screen .main__content{
-  height:80vw;
-}
-
-#main__screen .main__content ul li{
-  height:35vw;
+#header__text .header__text__left{
+  width:100%;
+  margin-left:0vw;
 }
 
-footer .footer__bottom{
-  height:40vw;
- }
+#header__text .header__text__left p{
+  line-height:4em;
+}
+
+#header__text .header__text__right{
+  display:none;
+}
 .footer__bottom #footer__bar{
  width:100% !important;
 }
+#main__screen{
+  width:100%;
+  height:100vh;
+}
+#main__screen .main__image img{
+  height:40vh;
+}
+#main__screen .main__content{
+  height:60vh;
+ 
+}
 
+#main__screen .main__content ul li{
+ height:60vw;
+ margin-bottom:0vw;
 }    
