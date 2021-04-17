@@ -641,7 +641,7 @@ header #header__content{
   position:relative;
 }
 #menu__page .menu__images .menu__image__left{
-  display:none;
+  display:none !important;
 }
 
 #menu__page .menu__images{
