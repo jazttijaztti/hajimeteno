@@ -103,6 +103,7 @@ header{
   height:100%;
 }
 #main #about__page{
+  text-align:center;
   display:flex;
   justify-content:center;
 }
@@ -110,7 +111,6 @@ header{
 #main #about__page .about__title{
   width:40%;
   height:30vw;
-  margin:1vw 0 0 3vw;
 }
 
 #main #about__page .about__title h3{
@@ -153,6 +153,7 @@ header{
 #menu__page{
   width:100%;
   height:100%;
+  text-align:center;
   display:flex;
   flex-direction:column;
 }
@@ -208,7 +209,6 @@ header{
 #menu__page .menu__text .menu__text__left{
   width:40%;
   height:30vw;
-  margin:1vw 0 0 3vw;
 }
 
 #menu__page .menu__text .menu__text__left h3{
@@ -299,8 +299,9 @@ header{
 }
 
 #contact__page .contact__box{
-  width:100%;
+  width:90%;
   height:45vw;
+  margin-left:7vw;
   display:flex;
   flex-direction:column;
 }
@@ -368,7 +369,9 @@ margin:0px 2vw 3vw 3vw;
   font-size:1.5vw;
   background-color:#000;
   color:#fff;
-  padding:1.2vw 0 0 3vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin:2vw 0 2vw 50vw; 
 }
 
@@ -379,14 +382,14 @@ margin:0px 2vw 3vw 3vw;
   position:relative;
 }
 #creation__page .creation__image{
-  width:50%;
+  width:60%;
   height:30vw;
   background-image:url("susi10.jpg");
   background-size:cover;
   background-position:center center;
   position:absolute;
   top:1vw;
-  left:2vw;
+  left:-3vw;
 }
 
 #creation__page .creation__text{
@@ -510,11 +513,17 @@ header #header__content{
   width:100%;
   height:100%;
   position:relative;
+  background-color:#000;
+  background-image:none !important;
+  color:#fff;
 }
 
 #header__content .header__top .header__top__left  h1{
-  font-size:5vw;
-  padding:7vw 0vw 0vw 2vw;
+  font-size:4vw;
+  padding:9vw 0vw 0vw 5vw
+}
+.menu__icon{
+  padding:1vw 0vw 0vw 5vw;
 }
 .header__top__left .menu__content{
   display:block;
@@ -522,7 +531,7 @@ header #header__content{
   font-size:3vw;
   position:absolute;
   top:8vw;
-  left:80vw;
+  left:77vw;
 }
 
 .header__top__left .menu__content #menu__content__list{
@@ -530,19 +539,23 @@ header #header__content{
   visibility:hidden;
   text-align:center;
   font-size:3.5vw;
-  line-height:2.5em;
-  padding-top:5vw;
-  width:56.5vh;
+  width:100vw;
   height:51vh;
-  padding-top:6vw;
+  line-height:4em;
   position:absolute;
   top:-3vw;
-  left:-80vw;
+  left:-77vw;
   background-color:#000;
   color:#fff;
   z-index:3;
 }
 
+.header__top__left .menu__content #menu__content__list{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}    
 .header__top__left .menu__content #menu__content__list.active{
   opacity:1;
   visibility:visible;
@@ -558,7 +571,7 @@ header #header__content{
 .header__top__left .menu__content #menu__content__list #close__btn{
   position:absolute;
   top:1vw;
-  left:1vw;
+  left:85vw;
   font-size:1vw;
 }
 #header__content .header__top .header__top__right {
@@ -573,7 +586,7 @@ header #header__content{
 }
 
 .header__bottom .header__bottom__left{
-  width:100%;
+  width:90%;
   height:10vh;
   background-size:cover;
   background-position:center center;
@@ -595,7 +608,7 @@ header #header__content{
  }
 #main #about__page{
   width:100%;
-  height:40vh !important;
+  height:50vh !important;
   text-align:center;
   flex-direction:column;
   position:relative;
@@ -609,7 +622,7 @@ header #header__content{
 
 #main #about__page .about__text{
   width:100%;
-  height:40vw;
+  height:50vw;
 }
 
 #main #about__page .about__text p{
@@ -618,14 +631,13 @@ header #header__content{
 #main #about__page .about__text .about__btn{
   width:22vw !important;
   height:6vw !important;
-  padding:1vw 0 0 2.3vw !important;
   margin-left:10vw;
   position:absolute;
-  top:80vw;
+  top:70vw;
   left:60vw;
 }
 #menu__page{
-  height:50vw !important;
+  height:70vh !important;
   text-align:center;
   position:relative;
 }
@@ -633,17 +645,22 @@ header #header__content{
   display:none;
 }
 
+#menu__page .menu__images{
+  width:100%;
+  height:40vh;
 
+}
 #menu__page .menu__images .menu__image__right .image__right__content{
   width:100%;
-  height:50vw;
+  height:35vh;
+  z-index:0 !important;
   top:0vw;
   left:0vw;
 }
 
 #menu__page .menu__text{
   height:50vh !important;
-  margin-top:40vw;
+  margin-top:50vw;
   flex-direction:column;
 }
 
@@ -653,7 +670,7 @@ header #header__content{
 }
 
 #menu__page .menu__text .menu__text__right{
-  height:50vw;
+  height:50vh;
   width:100%;
 }
 
@@ -667,13 +684,13 @@ header #header__content{
   width:22vw;
   height:6vw;
   position:absolute;
-  top:115vw;
+  top:125vw;
   left:40vw;
 }
 
 #contact__page{
   height:50vh !important;
-  margin-top:10vw;
+  margin-top:30vw;
   position:relative;
 }
 
@@ -682,28 +699,37 @@ header #header__content{
 }
 #contact__page .contact__image__content{
   width:100% !important;
-  height:50vw !important;
+  height:35vh !important;
   background-image:url("susi10.jpg") !important;
   top:0vw !important;
   left:0vw !important;
+  z-index:0 !important;
 }
 #contact__page .contact__box .contact__text{
-  margin:30vw 0vw 0vw 3vw;
+  text-align:center;
+  margin:40vw 0vw 0vw 3vw;
+}
+
+#contact__page .contact__lists{
+  margin-top:10vw;
 }
 .info__box{
-  width:32vw !important;
+  width:30vw !important;
   height:6vw !important;
   position:absolute;
-  top:120vw;
+  top:145vw;
   left:10vw;
 }
 
 #contact__page .contact__number p{
   width:16vw;
+  margin-left:5vw;
 }
-
+#contact__page .contact__phone{
+  margin-top:10vw;
+}
 #creation__page{
-  margin-top:40vw;
+  margin-top:70vw;
   flex-direction:column;
 }
 #creation__page .creation__image{
@@ -712,19 +738,19 @@ header #header__content{
 #creation__page .creation__text{
   width:100%;
   height:50vh;
+  text-align:center;
   margin-left:0vw;
   margin-top:10vw;
 }
 
 #creation__page .creation__text .creation__text__box{
   width:100%;
-  height:40vh;
+  height:62vw;
 }
 
 #creation__page .creation__text .creation__text__box h3{
   padding:5vw 0vw 5vw 0vw;
   font-size:4vw;
-
 }
 
 #creation__page .creation__text .creation__text__box p{
@@ -734,12 +760,14 @@ header #header__content{
 .creation__btn{
   width:16vw !important;
   height:6vw !important;
-  margin:20vw 0vw 0vw 75vw;
+  margin:10vw 0vw 0vw 75vw;
     }
 footer{
-  margin-top:50vw !important;
+  margin-top:27vw !important;
 }
 }
+
+
 
 @media only screen and (max-width:300px){
 #wrapper{
@@ -751,10 +779,16 @@ header{
 #header__content{
   height:8vh !important;
 }
-
+.menu__icon{
+  padding-top:2vw;
+}
+.header__top__left a{
+  display:inline-block;
+  margin-top:1vw;
+}
 
 .header__top__left .menu__content #menu__content__list{
-  width:43vh;
+  width:100vw;
   height:50vh;
   top:-1vw;
   left:-80vw;
@@ -763,13 +797,21 @@ header{
 #about__page{
   margin-bottom:10vw !important;
 }
+
+
+#main #about__page .about__text .about__btn{
+  top:100vw;
+}
 #menu__page .menu__text{
   height:53vw;
-  margin-top:30vw;
+  margin-top:70vw;
+}
+
+#menu__page .menu__text .menu__text__right .about__btn{
+  top:160vw;
 }
 #contact__page{
   height:50vh !important;
-  
 }
 
 #contact__page .contact__box{
@@ -777,7 +819,7 @@ header{
 }
 
 #contact__page .contact__box .contact__box__content{
-  margin-top:-8vw;
+  margin-top:20vw;
 }
 #contact__page .contact__lists .contact__content p{
   margin-bottom:0vw;
@@ -789,20 +831,25 @@ header{
   margin-top:6vw;
 }
 #contact__page .contact__phone .info__box{
- margin:15vw 0 2vw 50vw;
+ margin:30vw 0 2vw 50vw;
 
 }
 #creation__page{
- margin-top:40vw;
+ margin-top:70vw;
  display:flex;
  flex-direction:column;
 }
 
 #creation__page .creation__text{
- height:30vh;
+ height:27vh;
 }
-footer{
+
+#creation__page .creation__text .creation__btn{
   margin-top:10vw;
+}
+
+footer{
+  margin-top:0vw;
 }
 footer #footer__content .footer__bottom{
   height:45vw;
