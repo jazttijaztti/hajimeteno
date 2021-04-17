@@ -620,12 +620,9 @@ header #header__content{
   margin-top:5vw;
 }    
 #main #about__page .about__text .about__btn{
-  width:22vw !important;
-  height:6vw !important;
-  margin-left:10vw;
-  position:absolute;
-  bottom:10ox;
-  left:60vw;
+  padding: 20px 40px;
+  margin-left: 40%;
+  margin-top: 60px;
 }
 #menu__page{
   text-align:center;
@@ -668,15 +665,16 @@ header #header__content{
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
-  width:22vw;
-  height:6vw;
-  position:absolute;
-  bottom:10px;
-  left:40vw;
+  width: 22vw;
+    /* height: 6vw; */
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* left: 40vw; */
+    padding: 20px;
+    margin-left: 39%;
 }
 
 #contact__page{
-  margin-top:30vw;
   position:relative;
 }
 
@@ -693,7 +691,6 @@ header #header__content{
 }
 #contact__page .contact__box .contact__text{
   text-align:center;
-  margin:40vw 0vw 0vw 3vw;
 }
 
 #contact__page .contact__lists{
@@ -715,8 +712,8 @@ header #header__content{
   margin-top:10vw;
 }
 #creation__page{
-  margin-top:70vw;
   flex-direction:column;
+  margin:0px;
 }
 #creation__page .creation__image{
   display:none;

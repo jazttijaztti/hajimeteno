@@ -19,11 +19,21 @@
               $("#menu__content__list").removeClass("active");
               $("#main").css("opacity","1");
               });
-
+          var flag = true;
           $(window).on("scroll",function(){
               $(".menu__image__left").each(function(index, el){
-                 if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
+              if($(window).scrollTop()> $('#about__page').offset().top *0.5 && flag == true ){
+              flag = false;
+              console.log($(window).width());
+                   if ($(window).width() < 500) {
+                   $(".menu__image__left").css("z-index","100");
+                   $(".menu__image__left").css("position","absolute");
+                   $(".menu__image__left").fadeIn(500);
+                   $(".menu__image__left").animate({"bottom":"-65px","left":"80px","width":"83%"});
                    $(el).addClass("active");
+                   } else {
+                   $(el).addClass("active");
+                   }
                  }
               });
           });
