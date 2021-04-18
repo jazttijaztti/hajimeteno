@@ -389,11 +389,16 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-right:3vw;
  }
 
-@media only screen and (max-width:500px){
-  
+@media only screen and (max-width:960px){
+html{
+  font-size:2.5rem;
+}  
 body{
   width:100%;
   height:100%;
+}
+body p{
+  font-size:3vw;
 }
 
 header{
@@ -407,6 +412,13 @@ header{
   opacity:0;
   visibility:hidden;
 }
+.header__bar .header__bar__left h1{
+  font-size:5vw;
+}
+
+.header__title h1{
+  font-size:5vw !important;
+ }
 .hidden__menu{
   display:block;
   visibility:visible;
@@ -435,7 +447,7 @@ header{
 
 .hidden__menu  #menu__lists #close__btn{
   color:#fff;
-  font-size:1.5vw;
+  font-size:2vw;
   position:absolute;
   top:0vw;
   left:80vw;
@@ -453,7 +465,7 @@ header{
 }
 
 #about__menu{
-  height:50vh !important;
+  height:80vh !important;
   flex-direction:column;
   text-align:center;
   margin-bottom:5vw;
@@ -464,6 +476,12 @@ header{
   width:100% !important; 
 }
 
+#about__menu .about__menu__left h2{
+  font-size:4vw;
+}
+#about__menu .about__menu__left h3{
+  font-size:5vw !important;
+}
 #about__menu .about__menu__left p{
   width:10vw !important;
   margin:10vw 0vw 0vw 45vw !important;
@@ -474,19 +492,17 @@ header{
 }
 
 #about__menu .about__menu__right h3{
-  margin-bottom:15vw;
-}
-#about__menu .about__menu__right p{
-  line-height:2.5em !important;
-  
+  margin-bottom:10vw;
+  font-size:3.5vw !important;
 }
 #about__menu .about__btn{
   width:20vw !important;
   height:7vw !important;
-  margin:17vw 0vw 0vw 65vw !important;
+  font-size:2.5vw !important;
+  margin:20vw 0vw 0vw 65vw !important;
 }
 #main__menu{
-  height:50vh !important;
+  height:80vh !important;
   margin-top:25vw;
 }
 #main__menu .main__menu__image img{
@@ -494,7 +510,7 @@ header{
 }
 
 #main__menu .main__menu__text{
-  margin-top:30vw !important;
+  margin-top:40vw !important;
   flex-direction:column;
 }
 
@@ -503,15 +519,21 @@ header{
 }
 
 #main__menu .main__menu__text .main__menu__left h2{
-  margin-top:10vw;
+  font-size:4vw;
 }
+#main__menu .main__menu__text .main__menu__left h3{
+  font-size:4.5vw;
+}
+
 #main__menu .main__menu__text .main__menu__right{
   width:100%;
   margin-top:5vw;
 }
+#main__menu .main__menu__text .main__menu__right h3{
+ font-size:4vw;
+}
 #main__menu .main__menu__text .main__menu__right p{
   margin-top:10vw;
-  line-height:2.5em;
 }
 #main__menu .main__menu__text .main__menu__right .about__btn{
   width:25vw;
@@ -522,6 +544,10 @@ header{
   margin-top:90vw;
   height:100vw;
 }
+
+#susi__menu h1{
+  font-size:5vw;
+}
 #susi__menu .main__susi__menu{
   height:80vw;
   margin-top:5vw;
@@ -530,14 +556,42 @@ header{
 #susi__menu .main__susi__menu ul li{
   margin:8vw 1vw 2vw 1vw;
 } 
+#main__sousaku__menu h1{
+  font-size:5vw;  
+}
+.main__sopu__menu h1{
+  font-size:5vw;
+}
 
+.footer__bottom .footer__text p {
+  font-size:3vw !important;
+}
 #footer__bar{
   width:100% !important;
 }
 
 #footer__bar ul li{
-  font-size:1vw;
+  font-size:3vw !important;
 }
 }
 
+@media only screen and (max-width:500px){
 
+#main #about__menu .about__menu__right{
+    margin-top:0vw;
+}
+    
+.about__menu__right p{
+  font-size:4vw;
+  line-height:2em !important;
+}
+#main #about__menu .about__menu__left{
+  height:50%;
+}
+#main__menu .main__menu__text .main__menu__right p {
+  font-size:4vw;
+  line-height:2em;
+}
+
+
+}

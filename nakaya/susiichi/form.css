@@ -254,7 +254,7 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-right:2vw;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:960px){
 
 body{
   width:100%;
@@ -273,6 +273,9 @@ header{
 .header__bar__right ul{
   opacity:0;
   visibility:hidden;
+}
+#header__screen .header__bar .header__bar__left h1{
+  font-size:5vw;
 }
 .hidden__menu{
   display:block;
@@ -328,11 +331,22 @@ header{
 #main #main__info .main__info__left{
   width:100%;
 }
-
+#main #main__info .main__info__left h3{
+  font-size:3vw;
+}
+#main #main__info .main__info__left h2{
+  font-size:5vw;
+}
 #main #main__info .main__info__right{
   width:100%;
 }
 
+#main #main__info .main__info__right b{
+  font-size:4vw;
+}  
+#main #main__info .main__info__right p{
+  font-size:4vw;
+}
 #main__access{
   height:55vh;
 }
@@ -348,10 +362,11 @@ header{
 
 #main__access .main__access__left{
   display:none;
+  visibility:hidden;
 }
 #main__access .main__access__info .main__access__right{
   width:100% !important;
-  height:52vh;
+  height:70vh;
   background-image:url("wasi2.jpg");
   text-align:center;
   line-height:1.5em;
@@ -362,27 +377,38 @@ header{
   display:block;
 }
 #main__access .main__access__right .table__title h3{
-  padding-top:2vw;
-  font-size:1.5vw;
+  padding-top:20vw;
+  font-size:3vw;
 }
 #main__access .main__access__right .table__title h2{
-  font-size:3vw;
+  font-size:5vw;
   font-weight:bold;
+  margin-top:3vw;
 }
 #main__access .main__access__info .main__access__right .access__table__info{
   width:78%;
+  height:60vh;
+}
+th{
+  font-size:3vw;
+}
+td{
+  font-size:4vw;
 }
 
-#main__access #access__map{
+#access__map .access__map__image{
   width:100%;
   height:60vw;
-  margin-top:55vw;
+  margin-top:50vw;
 }
 
 #access__map .access__map__btn{
   width:45vw;
   height:7vw;
   left:50vw;
+}
+#access__map .access__map__btn p{
+  font-size:3vw;
 }
 footer{
   margin-top:20vw;
@@ -394,9 +420,14 @@ footer .footer__bottom{
   width:100% !important;
   margin-top:20vw !important;
 }
-
+.footer__text p{
+  font-size:3.5vw !important;
 }
-
+#footer__bar ul li{
+  font-size:3vw !important;
+}
+}
+    
 @media only screen and (max-width:300px){
 
 #main__access #access__map{

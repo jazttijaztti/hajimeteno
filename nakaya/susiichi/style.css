@@ -492,10 +492,11 @@ footer{
  }
 
 
- @media only screen and (max-width:500px) {
+ @media only screen and (max-width:960px) {
 #wrapper{
   width:100%;	
 }
+ 
 header{
   width:100%;
   height:60vh;
@@ -519,10 +520,15 @@ header #header__content{
 }
 
 #header__content .header__top .header__top__left  h1{
-  padding:9vw 0vw 0vw 5vw
+  padding:5vw 0vw 0vw 5vw
 }
 .menu__icon{
-  padding:1vw 0vw 0vw 5vw;
+  width:20vw;
+  height:5vw;
+  font-size:3vw;
+  position:absolute;
+  top:-3vw;
+  left:5vw;
 }
 .header__top__left .menu__content{
   display:block;
@@ -571,7 +577,7 @@ header #header__content{
   position:absolute;
   top:1vw;
   left:85vw;
-  font-size:1vw;
+  font-size:2vw;
 }
 #header__content .header__top .header__top__right {
   width:100% !important;
@@ -593,6 +599,7 @@ header #header__content{
  
 .header__bottom .header__bottom__left p{
   letter-spacing:1px;
+  font-size:4vw;
 }
 
 
@@ -619,20 +626,32 @@ header #header__content{
   height:15vw;
 }    
 
+#main #about__page .about__title h3{
+  font-size:3vw;
+}
+
+#main #about__page .about__title h2{
+  font-size:5vw;
+}
 #main #about__page .about__text{
   width:100%;
   height:50vw;
 }
 
+#main #about__page .about__text h3{
+  font-size:3.5vw;
+}
 #main #about__page .about__text p{
   margin-top:5vw;
+  font-size:3vw;
 }    
 #main #about__page .about__text .about__btn{
   width:22vw !important;
   height:6vw !important;
+  font-size:2.5vw;
   margin-left:10vw;
   position:absolute;
-  top:70vw;
+  top:55vw;
   left:60vw;
 }
 #menu__page{
@@ -659,10 +678,16 @@ header #header__content{
 
 #menu__page .menu__text{
   height:50vh !important;
-  margin-top:50vw;
-  flex-direction:column;
+  margin-top:30vw;
+  flex-direction:column !important;
 }
 
+#menu__page .menu__text__left h3{
+  font-size:3vw !important; 
+}
+#menu__page .menu__text__left h2{
+  font-size:5vw !important;
+}
 #menu__page .menu__text .menu__text__left{
   height:10vw;
   width:100%;
@@ -673,17 +698,23 @@ header #header__content{
   width:100%;
 }
 
+#menu__page .menu__text .menu__text__right h3{
+  font-size:4vw;
+  margin-top:5vw;
+}
 #menu__page .menu__text .menu__text__right p{
   width:100%;
   letter-spacing:2px;
   margin-top:5vw;
+  font-size:3vw;
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
   width:22vw;
   height:6vw;
+  font-size:2.5vw;
   position:absolute;
-  top:125vw;
+  top:105vw;
   left:40vw;
 }
 
@@ -709,25 +740,46 @@ header #header__content{
   margin:40vw 0vw 0vw 3vw;
 }
 
+#contact__page .contact__box .contact__text h3{
+  font-size:3vw;
+}
+#contact__page .contact__box .contact__text h2{
+  font-size:5vw;
+}
+
 #contact__page .contact__lists{
   margin-top:10vw;
+}
+
+#contact__page .contact__content p{
+  font-size:4vw !important;
+  line-height:1.2em;
+}
+#contact__page .contact__lists .contact__adress p{
+  font-size:2.5vw;
 }
 .info__box{
   width:30vw !important;
   height:6vw !important;
   position:absolute;
-  top:145vw;
+  font-size:2.5vw !important;
+  top:130vw;
   left:10vw;
 }
 
 #contact__page .contact__number p{
-  width:16vw;
+  width:50vw;
   margin-left:5vw;
+  font-size:4vw !important;
 }
 #contact__page .contact__phone{
   margin-top:10vw;
 }
+ .contact__tel p{
+  font-size:2.5vw !important;
+}
 #creation__page{
+  width:100vw;
   margin-top:70vw;
   flex-direction:column;
 }
@@ -749,22 +801,82 @@ header #header__content{
 
 #creation__page .creation__text .creation__text__box h3{
   padding:5vw 0vw 5vw 0vw;
+  font-size:5vw;
 }
 
 #creation__page .creation__text .creation__text__box p{
   line-height:3em;
+  font-size:4vw;
 }
 .creation__btn{
   width:16vw !important;
   height:6vw !important;
+  font-size:2.5vw;
   margin:10vw 0vw 0vw 75vw;
     }
 footer{
   margin-top:27vw !important;
 }
+.footer__bottom .footer__bottom__text p{
+  font-size:3.5vw !important;
+}
+.footer__bottom .footer__lists{
+  width:100%;
+}
+
+.footer__bottom .footer__lists ul li{
+  font-size:3vw;
+}    
 }
 
 
+@media only screen and (max-width:500px){
+
+#header__content .header__top .header__top__left  h1{
+  padding:9vw 0vw 0vw 5vw
+}
+.menu__icon{
+  width:20vw;
+  height:5vw;
+  font-size:3vw;
+  position:absolute;
+  top:1vw;
+  left:5vw;
+}
+#main #about__page .about__text .about__btn{
+  width:22vw !important;
+  height:6vw !important;
+  font-size:2.5vw;
+  margin-left:10vw;
+  position:absolute;
+  top:70vw;
+  left:60vw;
+}
+#menu__page .menu__text{
+  height:50vh !important;
+  margin-top:50vw;
+  flex-direction:column !important;
+}
+#menu__page .menu__text .menu__text__right .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  position:absolute;
+  top:125vw;
+  left:40vw;
+}
+
+.info__box{
+  width:30vw !important;
+  height:6vw !important;
+  position:absolute;
+  font-size:2.5vw !important;
+  top:145vw;
+  left:10vw;
+}
+
+
+}    
 
 @media only screen and (max-width:300px){
 #wrapper{

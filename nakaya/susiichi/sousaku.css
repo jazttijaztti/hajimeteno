@@ -223,7 +223,7 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:960px) {
 body{
   width:100%;
 }
@@ -238,13 +238,16 @@ header{
   opacity:0;
   visibility:hidden;
 }
+.header__bar__left h1{
+  font-size:4vw !important;
+}
 .hidden__menu{
   display:block;
   visibility:visible;
   color:#fff;
-  font-size:2vw;
+  font-size:3vw;
   width:20vw;
-  margin:2vw 1vw 2vw 1vw;
+  margin:3vw 1vw 2vw 1vw;
 }
 .hidden__menu  #menu__lists{
   opacity:0;
@@ -282,6 +285,9 @@ header{
        transform:translateY(-50px);
    }
 }
+.header__title h1{
+  font-size:5vw !important;
+ }
 #header__text{
   flex-direction:column;
   height:40vh;
@@ -291,8 +297,11 @@ header{
   margin-left:0vw;
 }
 
+#header__text .header__text__left h3{
+  font-size: 3.5vw;
+}
 #header__text .header__text__left p{
-  line-height:4em;
+  font-size:3vw;
 }
 
 #header__text .header__text__right{
@@ -309,11 +318,55 @@ header{
   height:40vh;
 }
 #main__screen .main__content{
-  height:60vh;
- 
+  height:70vh; 
 }
 
 #main__screen .main__content ul li{
- height:60vw;
+ height:50vw;
  margin-bottom:0vw;
-}    
+}
+#main__screen .main__content ul li p{
+  font-size:2.5vw;
+}
+#main__screen .main__content ul li .name{
+ font-size:3vw;
+}
+
+footer{
+  margin-top:30vw;
+}
+.footer__bottom .footer__text p{
+  font-size:2.5vw !important;
+}
+#footer__bar ul li{
+  font-size:3vw !important;
+}
+}
+
+@media only screen and (max-width:500px){
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin:3vw 1vw 2vw 1vw;
+}
+.header__bar__left h1{
+  font-size:4vw !important;
+}
+
+ #main__screen .main__image img{
+  height:40vh;
+}
+#main__screen .main__content{
+  height:60vh; 
+} 
+
+footer{
+  margin-top:10vw;
+}
+
+
+}
+
