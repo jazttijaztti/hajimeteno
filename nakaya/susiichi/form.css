@@ -291,11 +291,9 @@ header{
   position:absolute;
   top:0vw;
   left:0vw;
-  font-size:3vw;
-  line-height:4em;
   display:flex;
-  flex-direction:column;
-  justify-content:center !important;                                                   
+  flex-direction:column; 
+  justify-content:center !important;
   align-items:center;
   background-color:#000;
   color:#fff;
@@ -303,12 +301,20 @@ header{
   height:100%;
 }
 
+.header__bar ul li{
+  font-size:4vw !important;
+  margin-bottom:6vw;
+}    
 .hidden__menu  #menu__lists #close__btn{
   color:#fff;
-  font-size:1.5vw;
   position:absolute;
   top:0vw;
   left:80vw;
+}
+
+.hidden__menu  #menu__lists #close__btn p{
+  font-size:3vw;
+  margin-top:3vw;
 }
 .hidden__menu #menu__lists.active{
   opacity:1;

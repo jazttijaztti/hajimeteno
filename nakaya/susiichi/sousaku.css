@@ -355,7 +355,9 @@ footer{
 .header__bar__left h1{
   font-size:4vw !important;
 }
-
+#header__text .header__text__left h3{
+  font-size:4vw;
+}
  #main__screen .main__image img{
   height:40vh;
 }
@@ -363,8 +365,19 @@ footer{
   height:60vh; 
 } 
 
+#main__screen .main__content ul li{
+ height:60vw;
+ margin-bottom:0vw;
+}
+#main__screen .main__content ul li p{
+  font-size:2.5vw;
+}
+#main__screen .main__content ul li .name{
+ font-size:3vw;
+}
+
 footer{
-  margin-top:10vw;
+  margin-top:15vw;
 }
 
 
