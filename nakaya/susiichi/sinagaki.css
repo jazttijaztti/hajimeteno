@@ -22,7 +22,7 @@ header{
 }
 header #header__screen{
   width:100%;
-  height:65vw;
+  height:80vw;
 }
 header #header__screen #header__image{
   width:100%;
@@ -454,7 +454,7 @@ header{
   height:60vh;
 }
 #header__screen{
-  height:55vh !important;
+  height:55vh;
   position:relative;
 }
 .header__bar{
@@ -469,7 +469,7 @@ header{
 }
 
 .header__title h1{
-  font-size:5vw !important;
+  font-size:5vw;
  }
 .hidden__menu{
   display:block;
@@ -523,53 +523,53 @@ header{
     }
 }
 
-#about__menu{
-  height:80vh !important;
+#main #about__menu{
+  height:80vh;
   flex-direction:column;
   text-align:center;
   margin-bottom:5vw;
 
 }
 
-#about__menu .about__menu__left{
-  width:100% !important; 
+#main #about__menu .about__menu__left{
+  width:100%; 
 }
 
-#about__menu .about__menu__left h2{
+#main #about__menu .about__menu__left h2{
   font-size:4vw;
 }
-#about__menu .about__menu__left h3{
-  font-size:5vw !important;
+#main #about__menu .about__menu__left h3{
+  font-size:5vw;
 }
-#about__menu .about__menu__left p{
-  width:10vw !important;
-  margin:10vw 0vw 0vw 45vw !important;
+#main #about__menu .about__menu__left p{
+  width:10vw;
+  margin:10vw 0vw 0vw 45vw;
 }
-#about__menu .about__menu__right{
-  width:100% !important; 
+#main #about__menu .about__menu__right{
+  width:100%; 
   margin-bottom:5vw;
 }
 
-#about__menu .about__menu__right h3{
+#main #about__menu .about__menu__right h3{
   margin-bottom:10vw;
-  font-size:3.5vw !important;
+  font-size:3.5vw;
 }
-#about__menu .about__btn{
-  width:20vw !important;
-  height:7vw !important;
-  font-size:2.5vw !important;
-  margin:20vw 0vw 0vw 65vw !important;
+#main #about__menu .about__menu__right .about__btn{
+  width:20vw;
+  height:7vw;
+  font-size:2.5vw;
+  margin:20vw 0vw 0vw 65vw;
 }
 #main__menu{
-  height:80vh !important;
+  height:80vh;
   margin-top:25vw;
 }
 #main__menu .main__menu__image img{
-  height:60vw !important;
+  height:60vw;
 }
 
 #main__menu .main__menu__text{
-  margin-top:40vw !important;
+  margin-top:40vw;
   flex-direction:column;
 }
 
@@ -584,7 +584,7 @@ header{
   font-size:4.5vw;
 }
 .main__menu__text .main__menu__left p{
-  width:10vw !important;
+  width:10vw;
   border-bottom:2px solid #bbb;
   margin:10vw 0vw 0vw 45vw;
 }
@@ -599,10 +599,10 @@ header{
 #main__menu .main__menu__text .main__menu__right p{
   margin-top:10vw;
 }
-#main__menu .main__menu__text .main__menu__right .about__btn{
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
   width:25vw;
   height:7vw;
-  margin:15vw 0vw 0vw 60vw !important;
+  margin:15vw 0vw 0vw 60vw;
 }
 #susi__menu{
   margin-top:90vw;
@@ -650,7 +650,7 @@ footer{
   width:100%;
 }
 #footer__bar{
-  width:100% !important;
+  width:100%;
   background-color:#000;
 }
 #footer__bar ul{
@@ -658,7 +658,7 @@ footer{
   align-items:center;
 }
 #footer__bar ul li{
-  font-size:3vw !important;
+  font-size:3vw;
   margin-top:4.5vw;
 }
 .store__name{
@@ -698,7 +698,7 @@ footer{
     
 .about__menu__right p{
   font-size:4vw;
-  line-height:2em !important;
+  line-height:2em;
 }
 #main #about__menu .about__menu__left{
   height:50%;

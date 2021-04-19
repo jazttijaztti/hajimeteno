@@ -509,13 +509,12 @@ header #header__content{
  flex-direction:column;
  height:100%;
 }
-
 #header__content .header__top .header__top__left {
   width:100%;
   height:100%;
   position:relative;
   background-color:#000;
-  background-image:none !important;
+  background-image:none;
   color:#fff;
 }
 
@@ -589,11 +588,11 @@ header #header__content{
   font-size:2vw;
 }
 #header__content .header__top .header__top__right {
-  width:100% !important;
+  width:100%;
 }
 
 #header__content .header__top .header__top__right  ul {
- display:none !important;
+ display:none;
 }
 #header__content .header__top .header__top__right  ul .top__name{
   margin-left:0;
@@ -612,8 +611,8 @@ header #header__content{
 }
 
 
- .header__bottom .header__bottom__right{
-  height:45vh !important;
+#header__content .header__bottom .header__bottom__right{
+  height:45vh;
  }
 
  .header__bottom .header__bottom__right .header__image{
@@ -623,7 +622,7 @@ header #header__content{
  }
 #main #about__page{
   width:100%;
-  height:50vh !important;
+  height:50vh;
   text-align:center;
   flex-direction:column;
   position:relative;
@@ -655,8 +654,8 @@ header #header__content{
   font-size:3vw;
 }    
 #main #about__page .about__text .about__btn{
-  width:22vw !important;
-  height:6vw !important;
+  width:22vw;
+  height:6vw;
   font-size:2.5vw;
   margin-left:10vw;
   position:absolute;
@@ -664,12 +663,12 @@ header #header__content{
   left:60vw;
 }
 #menu__page{
-  height:70vh !important;
+  height:70vh;
   text-align:center;
   position:relative;
 }
-#menu__page .menu__images .menu__image__left{
-  display:none !important;
+#menu__page .menu__images .menu__image__left.active{
+  display:none;
 }
 
 #menu__page .menu__images{
@@ -680,22 +679,22 @@ header #header__content{
 #menu__page .menu__images .menu__image__right .image__right__content{
   width:100%;
   height:35vh;
-  z-index:0 !important;
+  z-index:0;
   top:0vw;
   left:0vw;
 }
 
 #menu__page .menu__text{
-  height:50vh !important;
+  height:50vh;
   margin-top:30vw;
-  flex-direction:column !important;
+  flex-direction:column;
 }
 
 #menu__page .menu__text__left h3{
-  font-size:3vw !important; 
+  font-size:3vw; 
 }
 #menu__page .menu__text__left h2{
-  font-size:5vw !important;
+  font-size:5vw;
 }
 #menu__page .menu__text .menu__text__left{
   height:10vw;
@@ -728,7 +727,7 @@ header #header__content{
 }
 
 #contact__page{
-  height:50vh !important;
+  height:50vh;
   margin-top:30vw;
   position:relative;
 }
@@ -736,13 +735,13 @@ header #header__content{
 #contact__page .contact__image__right{
   display:none;
 }
-#contact__page .contact__image__content{
-  width:100% !important;
-  height:35vh !important;
-  background-image:url("susi10.jpg") !important;
-  top:0vw !important;
-  left:0vw !important;
-  z-index:0 !important;
+#contact__page .contact__images .contact__image__content{
+  width:100%;
+  height:35vh;
+  background-image:url("susi10.jpg");
+  top:0vw;
+  left:0vw;
+  z-index:0;
 }
 #contact__page .contact__box .contact__text{
   text-align:center;
@@ -761,32 +760,32 @@ header #header__content{
   margin-top:10vw;
 }
 
-#contact__page .contact__content p{
-  font-size:4vw !important;
+#contact__page .contact__lists .contact__content p{
+  font-size:4vw;
   line-height:1.2em;
 }
 #contact__page .contact__lists .contact__adress p{
   font-size:2.5vw;
 }
-.info__box{
-  width:30vw !important;
-  height:6vw !important;
+#contact__page .contact__phone .info__box{
+  width:30vw;
+  height:6vw;
   position:absolute;
-  font-size:2.5vw !important;
+  font-size:2.5vw;
   top:130vw;
   left:10vw;
 }
 
-#contact__page .contact__number p{
+#contact__page .contact__phone .contact__number p{
   width:50vw;
   margin-left:5vw;
-  font-size:4vw !important;
+  font-size:4vw;
 }
 #contact__page .contact__phone{
   margin-top:10vw;
 }
- .contact__tel p{
-  font-size:2.5vw !important;
+#contact__page .contact__phone .contact__tel p{
+  font-size:2.5vw;
 }
 #creation__page{
   width:100vw;
@@ -818,14 +817,14 @@ header #header__content{
   line-height:3em;
   font-size:4vw;
 }
-.creation__btn{
-  width:16vw !important;
-  height:6vw !important;
+#creation__page .creation__text .creation__btn{
+  width:16vw;
+  height:6vw;
   font-size:2.5vw;
   margin:10vw 0vw 0vw 75vw;
     }
 footer{
-  margin-top:27vw !important;
+  margin-top:27vw;
   background-color:#000;
 }
 #footer__content{
@@ -853,8 +852,8 @@ footer{
   padding-top:0vw;
 }
 
-.store__name{
-  font-weight:bold !important;
+.footer__bottom .footer__lists ul .store__name{
+  font-weight:bold;
 }
 }
 
@@ -882,8 +881,8 @@ footer{
 }    
 
 #main #about__page .about__text .about__btn{
-  width:22vw !important;
-  height:6vw !important;
+  width:22vw;
+  height:6vw;
   font-size:2.5vw;
   margin-left:10vw;
   position:absolute;
@@ -891,9 +890,9 @@ footer{
   left:60vw;
 }
 #menu__page .menu__text{
-  height:50vh !important;
+  height:50vh;
   margin-top:50vw;
-  flex-direction:column !important;
+  flex-direction:column;
 }
 #menu__page .menu__text .menu__text__right .about__btn{
   width:22vw;
@@ -904,11 +903,11 @@ footer{
   left:40vw;
 }
 
-.info__box{
-  width:30vw !important;
-  height:6vw !important;
+#contact__page .contact__phone .info__box{
+  width:30vw;
+  height:6vw;
   position:absolute;
-  font-size:2.5vw !important;
+  font-size:2.5vw;
   top:145vw;
   left:10vw;
 }
@@ -938,10 +937,10 @@ footer{
 header{
   height:48vh;
 }
-#header__content{
-  height:8vh !important;
+header #header__content{
+  height:8vw;
 }
-.menu__icon{
+header #haader__content .menu__icon{
   padding-top:1vw;
 }
 .header__top__left a{
@@ -957,7 +956,7 @@ header{
   padding-top:6vw;
 }
 #about__page{
-  margin-bottom:10vw !important;
+  margin-bottom:10vw;
 }
 
 
@@ -973,7 +972,7 @@ header{
   top:160vw;
 }
 #contact__page{
-  height:50vh !important;
+  height:50vh;
 }
 
 #contact__page .contact__box{
@@ -1011,7 +1010,7 @@ header{
 }
 
 footer{
-  margin-top:0vw;
+  margin-top:27vw;
 }
 footer #footer__content .footer__bottom{
   height:45vw;
@@ -1021,7 +1020,7 @@ footer #footer__content .footer__bottom .footer__bottom__text {
   left:12vw;
 }
 .footer__lists{
-  width:100% !important;
+  width:100%;
 }
 
 }
