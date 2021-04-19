@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+ $(function(){
+  $("#test5").css("bckgroundColor","rgba(255,0,0,0.6)");
+
+
+
+     });
+
+
+ </script>
+</head>
+<body>
+ <header>
+ </header>
+  <div id="content">
+  <h1>勉強会</h1>
+  <div id="main">
+   <div id="test1"></div>
+   <div id="test2"></div>
+   <div id="test3"></div>
+   <div id="test4"></div>
+   <div id="test5"></div>
+   <div id="test6"></div>
+   <div id="test7"></div>
+   <div id="test8"></div>
+   <div id="test9"></div>
+   <div id="test10"></div>
+   <div id="test11"></div>
+   <div id="test12"></div>
+   <div id="test13"></div>
+   <div id="test14"></div>
+   <div id="test15"></div>
+   <div id="test16"></div>
+   <div id="test17"></div>
+   <div id="test18"></div>
+   <div id="test19"></div>
+   <div id="test20"></div>
+   </div>
+  </div>
+
+</body>
+</html>

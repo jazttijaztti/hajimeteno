@@ -1,0 +1,41 @@
+#content{
+width:100%;
+height:100%;
+background-color:#fff;
+    }
+
+#main{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+#main div{
+width:500px;
+height:500px;
+background-color:#eee;
+}
+
+#main .test3 {
+ background-color:gold
+}
+#test5{
+background-color:gold;
+}
+#test15{
+background-color:gold;
+}
+#test18{
+    background-color:rgba(0,0,255,0.8);
+}
+#test20{
+    background-color:rgba(0,0,255,0.8);
+}
+
+/*** 基本構文　
+ $(document).ready(function(){
+　　何を？　　　　　　　　　どうする？
+ $("セレクター").メソッド("パラメーター[引数]")
+ });
+***/
+
