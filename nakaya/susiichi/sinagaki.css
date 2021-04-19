@@ -300,6 +300,7 @@ header #header__screen #header__image{
 .main__sopu__menu h1{
   font-size:3vw;
   font-weight:bold;
+  margin-top:5vw;
   margin-bottom:2vw;
 }
 .main__sopu__menu .sopu__menu{
@@ -338,6 +339,7 @@ header #header__screen #header__image{
 }
 #main__alco__menu h1{
   font-size:3vw;
+  padding-top:5vw;
   font-weight:bold;
   margin-bottom:2vw;
 }
@@ -473,9 +475,15 @@ header{
   display:block;
   visibility:visible;
   color:#fff;
-  font-size:3vw;
-  width:20vw;
-  margin:3vw 1vw 2vw 1vw;
+  width:5vw;
+  margin-top:3.5vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
 }
 .hidden__menu  #menu__lists{
   opacity:0;
@@ -498,8 +506,9 @@ header{
 .hidden__menu  #menu__lists #close__btn{
   color:#fff;
   font-size:2vw;
+  width:20vw;
   position:absolute;
-  top:0vw;
+  top:-2vw;
   left:80vw;
 }
 .hidden__menu #menu__lists.active{
@@ -593,7 +602,7 @@ header{
 #main__menu .main__menu__text .main__menu__right .about__btn{
   width:25vw;
   height:7vw;
-  margin:20vw 0vw 0vw 60vw !important;
+  margin:15vw 0vw 0vw 60vw !important;
 }
 #susi__menu{
   margin-top:90vw;
@@ -659,9 +668,32 @@ footer{
 }
 
 @media only screen and (max-width:500px){
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin-top:3vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}
+.hidden__menu  #menu__lists #close__btn{
+  color:#fff;
+  font-size:2vw;
+  width:20vw;
+  position:absolute;
+  top:-2vw;
+  left:75vw;
+}
 
 #main #about__menu .about__menu__right{
-    margin-top:0vw;
+  margin-top:0vw;
 }
     
 .about__menu__right p{
@@ -682,6 +714,23 @@ footer{
 }
 
 @media only screen and (max-width:300px){
+
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin-top:1.5vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}
+
 #main #about__menu .about__menu__left{
   height:40%;
 }

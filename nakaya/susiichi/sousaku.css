@@ -245,11 +245,17 @@ header{
 .hidden__menu{
   display:block;
   visibility:visible;
-  color:#fff;
-  font-size:3vw;
-  width:20vw;
-  margin:3vw 1vw 2vw 1vw;
+  width:5vw;
+  margin-top:3.5vw; 
 }
+
+.hidden__menu #menu__name div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}    
 .hidden__menu  #menu__lists{
   opacity:0;
   visibility:hidden;
@@ -384,10 +390,26 @@ footer{
 }
 .header__bar__left h1{
   font-size:4vw !important;
+  padding-top:3vw !important;
 }
 #header__text .header__text__left h3{
   font-size:4vw;
 }
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  width:5vw;
+  margin-top:3.5vw; 
+}
+
+.hidden__menu #menu__name div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}    
+
  #main__screen .main__image img{
   height:40vh;
 }
@@ -412,4 +434,22 @@ footer{
 
 
 }
+@media only screen and (max-width:300px){
 
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  width:5vw;
+  margin-top:2.5vw; 
+}
+
+.hidden__menu #menu__name div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}    
+
+
+    }

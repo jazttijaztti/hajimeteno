@@ -520,16 +520,25 @@ header #header__content{
 }
 
 #header__content .header__top .header__top__left  h1{
-  padding:5vw 0vw 0vw 5vw
+  padding:4vw 0vw 0vw 5vw;
+  font-size:5vw;
 }
 .menu__icon{
-  width:20vw;
+  width:5vw;
   height:5vw;
   font-size:3vw;
   position:absolute;
   top:-3vw;
-  left:5vw;
+  left:0vw;
 }
+
+.menu__icon div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:12vw;
+}    
 .header__top__left .menu__content{
   display:block;
   visibility:visible;
@@ -545,10 +554,10 @@ header #header__content{
   text-align:center;
   font-size:3vw;
   width:100vw;
-  height:51vh;
+  height:52vh;
   line-height:4em;
   position:absolute;
-  top:-3vw;
+  top:-4vw;
   left:-77vw;
   background-color:#000;
   color:#fff;
@@ -853,16 +862,25 @@ footer{
 @media only screen and (max-width:500px){
 
 #header__content .header__top .header__top__left  h1{
-  padding:9vw 0vw 0vw 5vw
+  padding:8vw 0vw 0vw 5vw
 }
 .menu__icon{
-  width:20vw;
+  width:5vw;
   height:5vw;
   font-size:3vw;
   position:absolute;
-  top:1vw;
-  left:5vw;
+  top:0vw;
+  left:2vw;
 }
+
+.menu__icon div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}    
+
 #main #about__page .about__text .about__btn{
   width:22vw !important;
   height:6vw !important;
@@ -905,6 +923,9 @@ footer{
 .footer__bottom__text{
   display:none;
 }
+.footer__lists {
+  background-color:#000;
+}
 .footer__lists ul{
   flex-direction:column;
 }
@@ -921,7 +942,7 @@ header{
   height:8vh !important;
 }
 .menu__icon{
-  padding-top:2vw;
+  padding-top:1vw;
 }
 .header__top__left a{
   display:inline-block;
