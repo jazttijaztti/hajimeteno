@@ -26,7 +26,6 @@ p{
 #header__screen .header__bar{
   width:100%;
   height:10vw;
-  background-color:#000;
   display:flex;
   justify-content:space-between;
 } 
@@ -272,6 +271,10 @@ header{
 #header__screen #header__image{
   height:60vh;
 }
+
+.header__bar{
+  background-color:#000;
+}    
 .header__bar__right ul{
   opacity:0;
   visibility:hidden;
