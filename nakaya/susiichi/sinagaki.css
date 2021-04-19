@@ -321,6 +321,46 @@ header #header__screen #header__image{
   width:20vw;
   height:20vw;
 }
+
+#main__alco__menu{
+  width:90%;
+  height:30vw;
+  margin:auto;
+  margin-top:10vw;
+  text-align:center;
+}
+#main__alco__menu h1{
+  font-size:3vw;
+  font-weight:bold;
+  margin-bottom:2vw;
+}
+#main__alco__menu .alco__menu{
+  width:100%;
+  height:30vw;
+  background-image:url("back.jpg");
+}
+
+.alco__menu ul{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.alco__menu ul li{
+  width:20vw;
+  height:25vw;
+  margin-bottom:2vw;
+  margin:2vw 1vw 2vw 1vw;
+}
+
+.alco__menu ul li p{
+  margin-top:2vw;
+}
+.alco__menu ul li img{
+  width:20vw;
+  height:20vw;
+}
+
 footer{
   width:100%;
   height:35vw;
@@ -562,17 +602,42 @@ header{
 .main__sopu__menu h1{
   font-size:5vw;
 }
-
-.footer__bottom .footer__text p {
-  font-size:3vw !important;
-}
-#footer__bar{
-  width:100% !important;
+#main__alco__menu h1{
+  font-size:5vw;
 }
 
+footer{
+  margin-top:30vw;
+  background-color:#000;
+}
+.footer__bottom .footer__text {
+  display:none;
+}
+.footer__kuuhaku{
+  display:none;
+  visibility:hidden;
+}
+footer{
+  height:25vh;
+}
+.footer__bottom{
+  margin-top:-15vw;
+  height:23vh;
+  width:100%;
+}
+#footer__bar ul{
+  flex-direction:column;
+  align-items:center;
+  margin-left:30vw;
+}
 #footer__bar ul li{
   font-size:3vw !important;
+  margin-top:4.5vw;
 }
+.store__name{
+  margin-left:3vw;
+}
+
 }
 
 @media only screen and (max-width:500px){

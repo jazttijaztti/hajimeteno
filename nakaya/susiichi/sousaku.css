@@ -264,7 +264,7 @@ header{
   background-color:#000;
   color:#fff;
   width:100vw;
-  height:100%;
+  height:60vh;
 }
  
 .hidden__menu  #menu__lists #close__btn{
@@ -292,6 +292,9 @@ header{
   flex-direction:column;
   height:40vh;
 }
+#header__screen #header__image {
+  height:60vh;
+}
 #header__text .header__text__left{
   width:100%;
   margin-left:0vw;
@@ -307,8 +310,9 @@ header{
 #header__text .header__text__right{
   display:none;
 }
-.footer__bottom #footer__bar{
- width:100% !important;
+
+#close__btn p{
+  font-size:3vw;
 }
 #main__screen{
   width:100%;
@@ -334,13 +338,35 @@ header{
 
 footer{
   margin-top:30vw;
+  height:50vw;
+  background-color:#000;
 }
-.footer__bottom .footer__text p{
-  font-size:2.5vw !important;
+.footer__bottom .footer__text {
+  display:none;
+}
+.footer__kuuhaku{
+  display:none;
+  visibility:hidden;
+}
+.footer__bottom{
+  margin-top:-15vw;
+  height:25vh;
+  width:100%;
+}
+#footer__bar ul{
+  flex-direction:column;
+  align-items:center;
+  margin-left:30vw;
 }
 #footer__bar ul li{
   font-size:3vw !important;
+  margin-top:4vw;
 }
+.store__name{
+  margin-left:3vw;
+}
+
+
 }
 
 @media only screen and (max-width:500px){
@@ -366,11 +392,11 @@ footer{
 } 
 
 #main__screen .main__content ul li{
- height:60vw;
+ height:58vw;
  margin-bottom:0vw;
 }
 #main__screen .main__content ul li p{
-  font-size:2.5vw;
+  font-size:3vw;
 }
 #main__screen .main__content ul li .name{
  font-size:3vw;

@@ -737,7 +737,8 @@ header #header__content{
 }
 #contact__page .contact__box .contact__text{
   text-align:center;
-  margin:40vw 0vw 0vw 3vw;
+  margin-top:40vw;
+  margin-left:-4vw;
 }
 
 #contact__page .contact__box .contact__text h3{
@@ -816,6 +817,7 @@ header #header__content{
     }
 footer{
   margin-top:27vw !important;
+  background-color:#000;
 }
 .footer__bottom .footer__bottom__text p{
   font-size:3.5vw !important;
@@ -823,10 +825,18 @@ footer{
 .footer__bottom .footer__lists{
   width:100%;
 }
-
+#footer__content{
+  background-color:#000;
+}
 .footer__bottom .footer__lists ul li{
   font-size:3vw;
-}    
+  margin-bottom:4vw;
+  padding-top:0vw;
+}
+
+.store__name{
+  font-weight:bold !important;
+}
 }
 
 
@@ -876,7 +886,19 @@ footer{
 }
 
 
-}    
+#footer__content{
+  height:23vh;
+}
+.footer__kuuhaku{
+  display:none;
+}
+.footer__bottom__text{
+  display:none;
+}
+.footer__lists ul{
+  flex-direction:column;
+}
+
 
 @media only screen and (max-width:300px){
 #wrapper{
