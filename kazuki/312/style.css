@@ -1,0 +1,43 @@
+.wrapper {
+  width:80%;
+  margin:auto;
+}
+h1 {
+  font-size:32px; 
+  color:white; 
+  background-color:red
+}
+.box {
+  background-color:gold;
+  margin:auto; 
+  border:1px solid gray;
+  width:50%; 
+  margin-bottom:20px;
+}
+.box h2 {
+  border-bottom:1px solid black;
+  width:50%;
+}
+.blue {
+  color:blue;
+}
+.yellow {
+  color:yellow;
+}
+.green {
+  color:green;
+}
+img {
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
