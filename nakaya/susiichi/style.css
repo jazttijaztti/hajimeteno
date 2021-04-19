@@ -690,10 +690,10 @@ header #header__content{
   flex-direction:column;
 }
 
-#menu__page .menu__text__left h3{
+#menu__page .menu__text .menu__text__left h3{
   font-size:3vw; 
 }
-#menu__page .menu__text__left h2{
+#menu__page .menu__text .menu__text__left h2{
   font-size:5vw;
 }
 #menu__page .menu__text .menu__text__left{
@@ -938,17 +938,21 @@ header{
   height:48vh;
 }
 header #header__content{
-  height:8vw;
+  height:8vh;
 }
-header #haader__content .menu__icon{
+header #header__content .menu__icon{
   padding-top:1vw;
 }
-.header__top__left a{
+header #header__content .header__bottom .header__top__left a{
   display:inline-block;
   margin-top:1vw;
 }
 
-.header__top__left .menu__content #menu__content__list{
+header #header__content .header__top .header__top__left h1{
+  margin-top:1vw;
+}  
+
+header #header__content .header__top .header__top__left .menu__content #menu__content__list{
   width:103vw;
   height:50vh;
   top:-1vw;

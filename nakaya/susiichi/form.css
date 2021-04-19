@@ -484,6 +484,34 @@ footer #footer__fild .footer__bottom  #footer__bar ul li {
   padding-bottom:1vw;
   margin-left:-3vw;
 }
+footer #footer__fild .footer__bottom{
+  margin-top:-15vw;
+  height:100%;
+  width:100%;
+  background-color:#000;
+}
+footer{
+  height:23vh;
+}
+footer #footer__fild .footer__image{
+  left:50vw;
+}
+footer #footer__fild #footer__bar ul{
+  height:100%;
+  width:100%;
+  margin-left:10vw;
+  flex-direction:column;
+  align-items:center;
+  background-color:#000; 
+}
+footer #footer__fild #footer__bar ul .store__name{
+  font-size:3vw;
+  margin-left:3vw;
+}
+footer #footer__fild .footer__bottom  #footer__bar ul li {
+　font-size:3vw;
+  margin-top:4vw;
+}
 
 }    
 @media only screen and (max-width:300px){
@@ -507,4 +535,12 @@ footer #footer__fild .footer__bottom  #footer__bar ul li {
   height:60vw;
   margin-top:120vw;
 }
+footer{
+  height:22vh;
+}
+footer #footer__fild .footer__bottom  #footer__bar ul li {
+　font-size:3vw;
+  margin-top:4vw;
+}
+
 }
