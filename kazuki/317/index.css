@@ -1,0 +1,42 @@
+.wrapper {
+  background-color:rgba(0,0,255,0.5);
+}
+
+.menu {
+  background-color:rgba(255,10,45,0.7);
+}
+
+ul {
+  background-color:rgba(0,0,0,0.4);
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+li {
+  list-style:none;
+  border:1px solid #aaa;
+  width:200px;
+}
+
+.block {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+img {
+  width:50px;
+}
+
+.block__inside {
+  width:200px;
+  height:200px;
+  margin:5px;
+  border:1px solid rgba(0,0,143,0.7);
+  background-color:rgba(124,21,13,0.6);
+  color:#FFF;
+  display:flex;
+  flex-wrap:nowrap;
+}
+

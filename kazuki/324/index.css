@@ -1,0 +1,187 @@
+#wrapper {
+  width:100%;
+  font-family: "Noto Sans JP";  
+}
+
+
+header {
+  height:100vh;
+  width:100%;
+  background-image:url(top.jpg);
+  background-size:cover;
+  background-position:center center;
+  display:flex;
+  justify-content:center;
+}
+
+#header_content {
+  width:350px;
+  height:490px;
+  border:10px solid #FFF;
+  margin-top:100px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  text-align:center;
+  color:#FFF;
+}
+
+#header_content_inside {
+
+}
+
+#header_content_inside img {
+
+}
+
+h1 {
+  font-size:68px;
+}
+.p12 {
+  font-size:12px;
+}
+.p14 {
+  font-size:14px;
+}
+.p10 {
+  font-size:10px;
+  font-weight:bold;
+}
+
+#logos {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  height:160px;
+  align-items:center;
+  border-bottom:1px solid #eee;
+}
+
+nav {
+  height:60px;
+}
+nav ul {
+  height:100%;
+  width:900px;
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+  align-items:center;
+  font-size:12px;
+}
+nav ul li {
+  letter-spacing:2px;
+}
+
+nav ul li:hover {
+  border-bottom:2px solid #eee;
+  font-size:2em;
+}
+
+main {
+  height:100vh;
+  background-color:#000;
+  display:flex;
+  justify-content:center;
+}
+
+#main_left {
+  width:50%;
+  text-align:center;
+  color:#FFF;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  line-height:4em;
+}
+#main_left_content h2{
+  font-size:60px;
+  margin:20px;
+}
+#main_left_content .f1{
+  font-size:20px;
+}
+#main_left_content .f2{
+  font-size:20px;
+}
+#main_right {
+  width:50%;
+  background-image:url(main-top.jpg);
+  background-position:50% 50%;
+  background-size:cover; 
+}
+
+#sp_menu {
+  display:none;
+  position:fixed;
+  top:20px;
+  right:20px;
+  width:150px;
+  background-color:#000;
+  color:#FFF;
+}
+#sp_menu ul li {
+  padding:10px;
+  height:100%;
+}
+
+/*レスポンシブ*/
+@media only screen and (max-width: 960px) {
+
+
+nav {
+  display:none;
+}
+#sp_menu ul li:hover {
+  border-bottom:2px solid #eee;
+  font-size:2em;
+}
+#sp_menu {
+  display:block;
+}
+main {
+  flex-direction:column;
+}
+#main_left {
+  width:100%;
+  padding:40px;
+}
+#main_right {
+  height:500px;
+  width:100%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
