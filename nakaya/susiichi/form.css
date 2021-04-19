@@ -1,7 +1,6 @@
 body{
   width:100%;
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMin    cho", serif;
-  background-color:#F7F6F4;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMin    cho", serif;                  
 }
 
 h1 h2 h3{
@@ -145,9 +144,6 @@ p{
   letter-spacing:1px;
 }
 
-#main__access .main__access__right .table__title{
-   display:none;
-}
 #main__access .main__access__right .access__table__info th{
   font-weight:normal;
   padding:1vw 1vw 1vw 5vw;
@@ -288,7 +284,7 @@ header{
   position:absolute;
   top:0vw;
   left:0vw;
-  font-size:3vw;
+  font-size:4vw;
   line-height:4em;
   display:flex;
   flex-direction:column;
@@ -319,7 +315,7 @@ header{
        }
 }
 #main #main__info{
-  height:50vh;
+  height:35vh;
   text-align:center;
   flex-direction:column;
   justify-content:center;
@@ -334,7 +330,7 @@ header{
 }
 
 #main__access{
-  height:55vh;
+  height:75vh;
 }
 
 #main__access .main__access__info{
@@ -346,29 +342,22 @@ header{
   text-align:center;
 }
 
-#main__access .main__access__left{
-  display:none;
+#main__access .main__access__info .main__access__left h2{
+  width:100vw;
+  margin-left:-3vw;
+  border:none;
+  margin-bottom:0vw;
+  padding-bottom:0vw;
 }
 #main__access .main__access__info .main__access__right{
   width:100% !important;
-  height:52vh;
-  background-image:url("wasi2.jpg");
+  height:45vh;
   text-align:center;
-  line-height:1.5em;
-  margin-top:-5vw;
+  line-height:2em;
+  margin-top:3vw;
+  background-image:url("");
 }
 
-#main__access .main__access__right .table__title{
-  display:block;
-}
-#main__access .main__access__right .table__title h3{
-  padding-top:2vw;
-  font-size:1.5vw;
-}
-#main__access .main__access__right .table__title h2{
-  font-size:3vw;
-  font-weight:bold;
-}
 #main__access .main__access__info .main__access__right .access__table__info{
   width:78%;
 }
@@ -376,7 +365,7 @@ header{
 #main__access #access__map{
   width:100%;
   height:60vw;
-  margin-top:55vw;
+  margin-top:75vw;
 }
 
 #access__map .access__map__btn{
@@ -384,12 +373,10 @@ header{
   height:7vw;
   left:50vw;
 }
-footer{
-  margin-top:20vw;
-}
+
 footer .footer__bottom{
   height:38vw !important;
-}
+    }
 #footer__bar{
   width:100% !important;
   margin-top:20vw !important;
@@ -404,4 +391,6 @@ footer .footer__bottom{
   height:60vw;
   margin-top:120vw;
 }
-}
+
+
+    }

@@ -223,7 +223,7 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:960px) {
 body{
   width:100%;
 }
@@ -242,7 +242,7 @@ header{
   display:block;
   visibility:visible;
   color:#fff;
-  font-size:2vw;
+  font-size:3vw;
   width:20vw;
   margin:2vw 1vw 2vw 1vw;
 }
@@ -266,7 +266,7 @@ header{
  
 .hidden__menu  #menu__lists #close__btn{
   color:#fff;
-  font-size:1.5vw;
+  font-size:2vw;
   position:absolute;
   top:0vw;
   left:80vw;
