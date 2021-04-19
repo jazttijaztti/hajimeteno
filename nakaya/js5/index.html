@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+ <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+ <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+<script>
+ $(function(){
+  $("#main").animation({backgrondColor:"bule"},3000);
+  var ok ="ここまでは動いてる";
+  var naka="ok";
+
+ $("body").fadeIn(2000);
+  $("#test5").css("backgroundColor","rgba(255,0,0,0.6)");
+  $("#test13").css("backgroundColor","rgba(255,0,0,0.6)");
+  $("h1").css("fontSize","5em");
+  $("h1").css("textAlign","center");
+  var name ="nakaya";
+   
+  $("#test1").on("click",function(){
+   var id_name= $(this).attr("id");
+   console.log(id_name);
+  if(id_name == "test1" ){
+    console.log("読まれた");
+      }
+ $("#test2").on("click",function(){
+   var time = 3000
+
+
+     }) 
+  var tp = $("#test3").offset().top;
+  console.log("test3のスクロールトップの値は" + tp);
+
+   $("#test2").fadeToggle();
+   console.log(name);
+   $("#test3").addClass("kusaka");
+   $("#test6").addClass("nakaya");
+   $("main div").css("width","100%");
+   $(this).addClass("nakaya");
+   $(this).draggable();
+   console.log(ok);
+   $("#test2").slideToggle("200",function(){
+   console.log(naka);
+       });
+  $("#test2").css("backgroundColor","rgba(0,255,0,0.6)")
+  $("#test10").css("backgroundColor","rgba(0,255,0,0.6)")
+  $("#test17").css("backgroundColor","rgba(0,255,0,0.6)")
+      });
+   console.log(ok);
+ $("#test15").on("click",function(){
+ $("#main div").css("width","100%");
+     });
+
+ $("#test10").on("click",function(){
+ $("#main div").css("width", "500px");
+  });
+
+   $("#test3").on("click",function(){
+   $("#test3").css("width","300px");
+   $("#test9").css("width","300px");
+   $("#test15").css("width","300px");
+   $("#test3").css("backgroundColor","#000");
+   $("#test9").css("backgroundColor","#000");
+   $("#test2").text("書き込み");
+   $("#test2").fadeToggle();
+     });
+  $("#main div").draggable();
+  $("#test20").raindrops();
+
+ var test_3_sp = $("#test3").offset().top;
+  $(window).scroll(function(){
+      var st = $(this).scrollTop();
+      if (st > test_3_sp){
+   $("#main").css("backgroundColor","blue");
+	      
+      if (st > test_3_sp + 30){
+	  $("#main").css("backgroundColor","red");
+      }
+      if (st > test_3_sp + 60){
+	  $("#main").css("backgroundColor","yellow");
+ $("#test10").css("fontSize",st -200);
+ $("#test16").css("marginLeft",st -200);
+      }
+
+	  };
+      console.log(st);
+  });
+  
+ var tp = $("#test3").offset().top;
+  console.log("test3のスクロールトップの値は" + tp);
+
+
+     });
+
+
+ </script>
+ <style>
+  .kusaka{
+	  background-color:#000;
+	  width:300px;
+	  height:300px;
+      }
+  .nakaya{
+      background-color:#aaa;
+      }
+ </style>
+
+</head>
+<body>
+ <header>
+ </header>
+  <div id="content">
+  <h1>勉強会</h1>
+  <div id="main">
+   <div id="test1">1秒</div>
+   <div id="test2">２秒</div>
+   <div id="test3">３秒</div>
+   <div id="test4"></div>
+   <div id="test5"></div>
+   <div id="test6"></div>
+   <div id="test7"></div>
+   <div id="test8"></div>
+   <div id="test9"></div>
+   <div id="test10">test</div>
+   <div id="test11"></div>
+   <div id="test12"></div>
+   <div id="test13"></div>
+   <div id="test14"></div>
+   <div id="test15"></div>
+   <div id="test16"></div>
+   <div id="test17"></div>
+   <div id="test18"></div>
+   <div id="test19"></div>
+   <div id="test20"></div>
+   </div>
+  </div>
+ </div>
+
+</body>
+</html>
