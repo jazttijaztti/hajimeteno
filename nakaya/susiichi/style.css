@@ -819,9 +819,19 @@ footer{
   margin-top:27vw !important;
   background-color:#000;
 }
-.footer__bottom .footer__bottom__text p{
-  font-size:3.5vw !important;
+#footer__content{
+  height:23vh;
 }
+.footer__kuuhaku{
+  display:none;
+}
+.footer__bottom__text{
+  display:none;
+}
+.footer__lists ul{
+  flex-direction:column;
+}
+
 .footer__bottom .footer__lists{
   width:100%;
 }
