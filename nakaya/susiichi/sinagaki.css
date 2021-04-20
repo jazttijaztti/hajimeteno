@@ -7,6 +7,7 @@ body{
 #wrapper{
   width:100%;
   height:100%;
+  overflow:hidden;
 }
 
 h2 h3{
@@ -454,7 +455,7 @@ header{
   height:60vh;
 }
 header #header__screen{
-  height:55vh;
+  height:60vh;
   position:relative;
 }
 .header__bar{
@@ -491,7 +492,7 @@ header #header__screen{
   position:absolute;
   top:0vw;
   left:0vw;
-  font-size:3vw;
+  font-size:4vw;
   line-height:4em;
   display:flex;
   flex-direction:column;
@@ -503,9 +504,8 @@ header #header__screen{
   height:100%;
 }
 
-.hidden__menu  #menu__lists #close__btn{
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn{
   color:#fff;
-  font-size:2vw;
   width:20vw;
   position:absolute;
   top:-2vw;
@@ -527,7 +527,7 @@ header #header__screen{
   height:80vh;
   flex-direction:column;
   text-align:center;
-  margin-bottom:5vw;
+  margin:8vw 0vw 5vw 0vw;
 
 }
 
@@ -540,6 +540,7 @@ header #header__screen{
 }
 #main #about__menu .about__menu__left h3{
   font-size:5vw;
+  margin-top:3vw;
 }
 #main #about__menu .about__menu__left p{
   width:10vw;

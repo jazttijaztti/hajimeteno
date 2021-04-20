@@ -11,7 +11,9 @@ p{
   letter-spacing:1px;
   font-size:1.2vw;
 }
-
+#wrapper{
+  overflow:hidden;
+}
 #header__screen{
   width:100%;
   height:60vw;

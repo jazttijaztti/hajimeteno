@@ -530,7 +530,9 @@ header #header__content{
   top:-3vw;
   left:0vw;
 }
-
+header #header__content .menu__content #menu___content__list #colse__btn{
+  font-size:4vw;	
+}
 .menu__icon div{
   border-top:3px solid #fff;
   width:5vw;
@@ -551,9 +553,9 @@ header #header__content{
   opacity:0;
   visibility:hidden;
   text-align:center;
-  font-size:3vw;
+  font-size:4vw;
   width:100vw;
-  height:52vh;
+  height:67vh;
   line-height:4em;
   position:absolute;
   top:-4vw;
@@ -904,8 +906,11 @@ footer{
 }
 #menu__page .menu__text{
   height:50vh;
-  margin-top:47vw;
+  margin-top:55vw;
   flex-direction:column;
+}
+#menu__page .menu__text .menu__text__left{
+  margin-top:-5vw;  
 }
 #menu__page .menu__text .menu__text__right h3{
   margin-top:8vw;
