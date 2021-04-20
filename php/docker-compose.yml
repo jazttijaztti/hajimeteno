@@ -7,7 +7,7 @@ services:
       dockerfile: dockerfile
     volumes:
       - ./php7.2/php.ini:/usr/local/etc/php/php.ini
-      - ./html/sushiichi:/var/www/html
+      - ./html/first:/var/www/html
     ports:
       - 8000:80
     links:

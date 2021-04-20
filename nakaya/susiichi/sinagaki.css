@@ -566,10 +566,11 @@ header #header__screen{
 }
 #main__menu{
   height:80vh;
-  margin-top:25vw;
+  margin-top:10vw;
 }
 #main__menu .main__menu__top .main__menu__image img{
-  height:60vw;
+  margin-top:15vw;
+  height:40vh;
 }
 
 #main__menu .main__menu__text{
@@ -696,7 +697,9 @@ footer{
   top:-2vw;
   left:75vw;
 }
-
+#main #about__menu{
+  margin-bottom:0vw;
+}
 #main #about__menu .about__menu__right{
   margin-top:0vw;
 }
@@ -708,9 +711,21 @@ footer{
 #main #about__menu .about__menu__left{
   height:50%;
 }
+#main__menu{
+  margin-top:0vw;
+}
 #main__menu .main__menu__text .main__menu__right p {
   font-size:4vw;
   line-height:2em;
+}
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:30vw;  
+}
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
+  margin: 20vw 0vw 0vw 60vw;  
+}
+#susi__menu{
+ margin-top:130vw;
 }
 #footer__bar{
   background-color:#000;
@@ -735,15 +750,22 @@ footer{
   padding-bottom:1vw;
   margin-left:8vw;
 }
-
+#main #about__menu{
+  height:70vh;  
+}
+#main__menu .main__menu__top .main__menu__image img{
+  margin-top:0vw;
+}
 #main #about__menu .about__menu__left{
   height:40%;
 }
 #main__menu{
   margin-top:0vw;  
 }
-
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:35vw;  
+}
 #susi__menu{
-  margin-top:60vw;      
+  margin-top:95vw;      
 }
 }
