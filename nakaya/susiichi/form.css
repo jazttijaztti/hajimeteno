@@ -314,6 +314,10 @@ header{
   height:100%;
 }
 
+#header__screen .header__bar .hidden__menu  #menu__lists li{
+  font-size:4vw;
+  margin-bottom:10vw;
+}
 #header__screen .header__bar ul li{
   font-size:3vw;
   margin-bottom:8vw;
@@ -326,7 +330,7 @@ header{
 }
 
 .hidden__menu  #menu__lists #close__btn p{
-  font-size:3vw;
+  font-size:3.5vw;
   margin-top:3vw;
 }
 #header__screen .header__bar .hidden__menu #menu__lists.active{

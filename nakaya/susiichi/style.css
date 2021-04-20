@@ -587,7 +587,10 @@ header #header__content .menu__content #menu___content__list #colse__btn{
   position:absolute;
   top:1vw;
   left:85vw;
-  font-size:2vw;
+}
+
+header #header__content .header__top .menu__content #menu__content__list #close__btn p{
+  font-size:3.5vw;
 }
 #header__content .header__top .header__top__right {
   width:100%;
