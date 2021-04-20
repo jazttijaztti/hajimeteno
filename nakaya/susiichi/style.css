@@ -499,7 +499,7 @@ footer{
  
 header{
   width:100%;
-  height:60vh;
+  height:70vh;
 }
 header #header__content{
  width:100%;
@@ -530,7 +530,9 @@ header #header__content{
   top:-3vw;
   left:0vw;
 }
-
+header #header__content .menu__content #menu___content__list #colse__btn{
+  font-size:4vw;	
+}
 .menu__icon div{
   border-top:3px solid #fff;
   width:5vw;
@@ -551,9 +553,9 @@ header #header__content{
   opacity:0;
   visibility:hidden;
   text-align:center;
-  font-size:3vw;
+  font-size:4vw;
   width:100vw;
-  height:52vh;
+  height:67vh;
   line-height:4em;
   position:absolute;
   top:-4vw;
@@ -585,7 +587,10 @@ header #header__content{
   position:absolute;
   top:1vw;
   left:85vw;
-  font-size:2vw;
+}
+
+header #header__content .header__top .menu__content #menu__content__list #close__btn p{
+  font-size:3.5vw;
 }
 #header__content .header__top .header__top__right {
   width:100%;
@@ -618,9 +623,10 @@ header #header__content{
  .header__bottom .header__bottom__right .header__image{
   margin-left:0vw;
   width:100%;
-  height:100%;
+  height:60vh;
  }
 #main #about__page{
+ margin-top:10vw;
   width:100%;
   height:50vh;
   text-align:center;
@@ -648,6 +654,7 @@ header #header__content{
 
 #main #about__page .about__text h3{
   font-size:3.5vw;
+  margin-top:8vw;
 }
 #main #about__page .about__text p{
   margin-top:5vw;
@@ -743,14 +750,16 @@ header #header__content{
   left:0vw;
   z-index:0;
 }
+
 #contact__page .contact__box .contact__text{
   text-align:center;
-  margin-top:40vw;
+  margin-top:30vw;
   margin-left:-4vw;
 }
 
 #contact__page .contact__box .contact__text h3{
   font-size:3vw;
+  margin-bottom:0vw;
 }
 #contact__page .contact__box .contact__text h2{
   font-size:5vw;
@@ -878,8 +887,14 @@ footer{
   height:1vw;
   padding-bottom:1vw;
   margin-left:8vw;
-}    
-
+}
+#main #about__page{
+  margin-top:0vw;
+  height:45vh;
+}
+#main #about__page .about__text h3{
+  margin-top:3vw;  
+}
 #main #about__page .about__text .about__btn{
   width:22vw;
   height:6vw;
@@ -889,26 +904,37 @@ footer{
   top:70vw;
   left:60vw;
 }
+#menu__page{
+  height:75vh;
+}
 #menu__page .menu__text{
   height:50vh;
-  margin-top:50vw;
+  margin-top:55vw;
   flex-direction:column;
+}
+#menu__page .menu__text .menu__text__left{
+  margin-top:-5vw;  
+}
+#menu__page .menu__text .menu__text__right h3{
+  margin-top:8vw;
 }
 #menu__page .menu__text .menu__text__right .about__btn{
   width:22vw;
   height:6vw;
   font-size:2.5vw;
   position:absolute;
-  top:125vw;
+  top:145vw;
   left:40vw;
 }
-
+#contact__page .contact__box .contact__box__content{
+  margin-top:10vw;
+}
 #contact__page .contact__phone .info__box{
   width:30vw;
   height:6vw;
   position:absolute;
   font-size:2.5vw;
-  top:145vw;
+  top:155vw;
   left:10vw;
 }
 
@@ -943,6 +969,9 @@ header #header__content{
 header #header__content .menu__icon{
   padding-top:1vw;
 }
+.header__bottom .header__bottom__right .header__image{
+  height:50vh;
+}
 header #header__content .header__bottom .header__top__left a{
   display:inline-block;
   margin-top:1vw;
@@ -959,13 +988,21 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
   left:-80vw;
   padding-top:6vw;
 }
-#about__page{
+#main #about__page{
+  height:55vh;
   margin-bottom:10vw;
 }
-
-
+#about__page .about__title h3{
+  margin-top:5vw;
+}
+#menu__page{
+  height:70vh;
+}
 #main #about__page .about__text .about__btn{
-  top:100vw;
+  top:110vw;
+}
+#menu__page .menu__text .menu__text__left h3{
+  margin-top:-10vw;
 }
 #menu__page .menu__text{
   height:53vw;
@@ -973,7 +1010,7 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
-  top:160vw;
+  top:165vw;
 }
 #contact__page{
   height:50vh;
@@ -982,9 +1019,12 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
 #contact__page .contact__box{
   height:65vw;
 }
+#contact__page .contact__images .contact__image__left{
+ margin-top:3vw
+}
 
 #contact__page .contact__box .contact__box__content{
-  margin-top:20vw;
+  margin-top:30vw;
 }
 #contact__page .contact__lists .contact__content p{
   margin-bottom:0vw;
@@ -996,7 +1036,7 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
   margin-top:6vw;
 }
 #contact__page .contact__phone .info__box{
- margin:30vw 0 2vw 50vw;
+ margin:20vw 0 2vw 50vw;
 
 }
 #creation__page{
@@ -1010,7 +1050,7 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
 }
 
 #creation__page .creation__text .creation__btn{
-  margin-top:10vw;
+  margin-top:5vw;
 }
 
 footer{

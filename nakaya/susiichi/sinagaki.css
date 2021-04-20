@@ -7,6 +7,7 @@ body{
 #wrapper{
   width:100%;
   height:100%;
+  overflow:hidden;
 }
 
 h2 h3{
@@ -446,15 +447,12 @@ body{
   width:100%;
   height:100%;
 }
-body p{
-  font-size:3vw;
-}
 
 header{
   height:60vh;
 }
 header #header__screen{
-  height:55vh;
+  height:60vh;
   position:relative;
 }
 .header__bar{
@@ -491,7 +489,7 @@ header #header__screen{
   position:absolute;
   top:0vw;
   left:0vw;
-  font-size:3vw;
+  font-size:4vw;
   line-height:4em;
   display:flex;
   flex-direction:column;
@@ -503,14 +501,17 @@ header #header__screen{
   height:100%;
 }
 
-.hidden__menu  #menu__lists #close__btn{
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn {
   color:#fff;
-  font-size:2vw;
   width:20vw;
   position:absolute;
   top:-2vw;
-  left:80vw;
+  left:75vw;
 }
+
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
+  font-size:3.5vw;
+}    
 .hidden__menu #menu__lists.active{
   opacity:1;
   visibility:visible;
@@ -527,7 +528,7 @@ header #header__screen{
   height:80vh;
   flex-direction:column;
   text-align:center;
-  margin-bottom:5vw;
+  margin:8vw 0vw 5vw 0vw;
 
 }
 
@@ -540,6 +541,7 @@ header #header__screen{
 }
 #main #about__menu .about__menu__left h3{
   font-size:5vw;
+  margin-top:3vw;
 }
 #main #about__menu .about__menu__left p{
   width:10vw;
@@ -566,10 +568,11 @@ header #header__screen{
 }
 #main__menu{
   height:80vh;
-  margin-top:25vw;
+  margin-top:10vw;
 }
 #main__menu .main__menu__top .main__menu__image img{
-  height:60vw;
+  margin-top:15vw;
+  height:40vh;
 }
 
 #main__menu .main__menu__text{
@@ -696,7 +699,9 @@ footer{
   top:-2vw;
   left:75vw;
 }
-
+#main #about__menu{
+  margin-bottom:0vw;
+}
 #main #about__menu .about__menu__right{
   margin-top:0vw;
 }
@@ -708,9 +713,21 @@ footer{
 #main #about__menu .about__menu__left{
   height:50%;
 }
+#main__menu{
+  margin-top:0vw;
+}
 #main__menu .main__menu__text .main__menu__right p {
   font-size:4vw;
   line-height:2em;
+}
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:30vw;  
+}
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
+  margin: 20vw 0vw 0vw 60vw;  
+}
+#susi__menu{
+ margin-top:130vw;
 }
 #footer__bar{
   background-color:#000;
@@ -735,15 +752,22 @@ footer{
   padding-bottom:1vw;
   margin-left:8vw;
 }
-
+#main #about__menu{
+  height:70vh;  
+}
+#main__menu .main__menu__top .main__menu__image img{
+  margin-top:0vw;
+}
 #main #about__menu .about__menu__left{
   height:40%;
 }
 #main__menu{
   margin-top:0vw;  
 }
-
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:35vw;  
+}
 #susi__menu{
-  margin-top:60vw;      
+  margin-top:95vw;      
 }
 }
