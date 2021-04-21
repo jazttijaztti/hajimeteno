@@ -1,127 +1,131 @@
 <!Doctype html>                          
 <html>
 <head>
- <meta charset ="utf-8">
+
+  <meta charset ="utf-8">
   <title>Susiichi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
- <link rel="stylesheet" href="reset.css" media="all">
- <link rel="stylesheet" href="form.css" media="all">
- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="reset.css" media="all">
+  <link rel="stylesheet" href="form.css" media="all">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
  <script>
-   $(function(){
-    $("#menu__name").on("click",function(){
-    $("#menu__lists").addClass("active");
-    $("#main").css("opacity","0.3");
+ $(function(){
+     $("#menu__name").on("click",function(){
+     $("#menu__lists").addClass("active");
+     $("#main").css("opacity","0.3");
  });
      $("#close__btn").on("click",function(){
      $("#menu__lists").removeClass("active");
      $("#main").css("opacity","1");       
   });
- });
-
+});
 </script>
 </head>
 
 <body>
  <div id="wrapper">
- <header>
-  <div id="header__screen">
-   <div id="header__image">
-   <div class="header__bar">
+   <header>
+    <div id="header__screen">
+     <div id="header__image">
+      <div class="header__bar">
 
-    <div class="header__bar__left">
-     <h1><a href="index.html">鮨いち</a></h1>
-    </div>
+       <div class="header__bar__left">
+         <h1><a href="index.html">鮨いち</a></h1>
+       </div>
 
-    <div class="header__bar__right">
-     <ul>
-      <li><a href="index.html">トップ</a></li>
-      <li><a href="sousaku.html">創作</a></li>
-      <li><a href="sinagaki.html">お品書き</a></li>
-      <li><a href="#main__access">アクセス</a></li>
-      <li><a href="#main__info">お問い合わせ</a></li>
-     </ul>
-    </div>
+       <div class="header__bar__right">
+        <ul>
+         <li><a href="index.html">トップ</a></li>
+         <li><a href="sousaku.html">創作</a></li>
+         <li><a href="sinagaki.html">お品書き</a></li>
+         <li><a href="#main__access">アクセス</a></li>
+         <li><a href="#main__info">お問い合わせ</a></li>
+        </ul>
+       </div>
 
-    <div class="hidden__menu">
-       <h2 id="menu__name"><div></div><div></div><div></div></h2>
-        <ul id="menu__lists">
+       <div class="hidden__menu">
+         <h2 id="menu__name"><div></div><div></div><div></div></h2>
+          <ul id="menu__lists">
            <li><a href="index.html">トップ</a></li>
            <li><a href="sousaku.html">創作</a></li>
 	   <li><a href="sinagaki.html">お品書き</a></li>
            <li><a href="form.html">お問い合わせ</a></li>
            <li><a href="form.html">アクセス</a></li>
-          <div id="close__btn">
+            <div id="close__btn">
              <p>閉じる</p>
-           </div>
-         </ul>     
-     </div>
+            </div>
+           </ul>     
+        </div>
 
-   </div>
-  </div>
+      </div>
+     </div>
+    </div>
   </header>
 
   <div id="main">
 
-　 <div id="main__info">
-    <div class="main__info__left">
-      <h3>CONTACT</h3>
-      <h2>鮨いち</h2>
-    </div>
+　  <div id="main__info">
+      <div class="main__info__left">
+        <h3>CONTACT</h3>
+        <h2>鮨いち</h2>
+      </div>
 
-   <div class="main__info__right">
-     <b>03-3364-4801</b>
-     <p>営業時間 平日 17:00~24:00  水曜定休</p>
-     <p>落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別な一時を。<br>
-      皆様のご来店を心よりお待ちしています。</p>
-   </div>
-  </div>
+      <div class="main__info__right">
+        <b>03-3364-4801</b>
+        <p>営業時間 平日 17:00~24:00  水曜定休</p>
+        <p>落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別な一時を。<br>
+           皆様のご来店を心よりお待ちしています。</p>
+      </div>
+    </div>
  
- <div id="main__access">
-  <div class="main__access__info">
+   <div id="main__access">
+    <div class="main__access__info">
 
-    <div class="main__access__left">
-      <h3>INFORMATION</h3>
-      <h2>鮨いち</h2>
-    </div>
+      <div class="main__access__left">
+        <h3>INFORMATION</h3>
+        <h2>鮨いち</h2>
+      </div>
 
-    <div class="main__access__right">
-      <table class="access__table__info">
+      <div class="main__access__right">
+        <table class="access__table__info">
+
          <div class="table__title">
           <h3>INFORMATION</h3>
-	    <h2>鮨いち<h2>
-	  </div>
-        <tr>
-         <th>ADRESS</th> <td>〒164-0003</td>
-        </tr>
+	  <h2>鮨いち<h2>
+	 </div>
 
-        <tr>
-         <th></th> <td>東京都中野区東中野3丁目9-9</td>
-        </tr>
+         <tr>
+          <th>ADRESS</th> <td>〒164-0003</td>
+         </tr>
 
-        <tr>
-         <th>TEL</th> <td>03-3364-4801</td>
-        </tr>
+         <tr>
+          <th></th> <td>東京都中野区東中野3丁目9-9</td>
+         </tr>
 
-        <tr>
-         <th>TRAIN</th> <td>〜駅より徒歩10分</td>
-        </tr>
+         <tr>
+          <th>TEL</th> <td>03-3364-4801</td>
+         </tr>
 
-        <tr>
-　　　　 <th>LUNCH</th> <td>土曜・日曜 11:30~15:00</td>
-        </tr>
+         <tr>
+          <th>TRAIN</th> <td>〜駅より徒歩10分</td>
+         </tr>
 
-        <tr>
+         <tr>
+　　　　  <th>LUNCH</th> <td>土曜・日曜 11:30~15:00</td>
+         </tr>
+
+         <tr>
           <th>DINER</th> <td>平日 17:00~24:00</td>
          </tr>
 
-        <tr>
-         <th>CLOSE</th><td>水曜定休日</td>
-        </tr>
+         <tr>
+          <th>CLOSE</th><td>水曜定休日</td>
+         </tr>
 
-       </table>
-     </div>
+        </table>
+      </div>
 
     </div>
    </div>
@@ -138,17 +142,18 @@
    </div>
   </div>
 
-  <footer>
-   <div id="footer__fild">
-     <div class="footer__image"></div>
+   <footer>
+    <div id="footer__fild">
+      <div class="footer__image"></div>
       <div class="footer__top"></div>
   
-    <div class="footer__bottom">
+     <div class="footer__bottom">
       <div class="footer__kuuhaku"></div>
-       <div class="footer__text">
+       
+      <div class="footer__text">
         <p>「魚それぞれの魅力を活かしきる方法」を追求し続けております。<br>
             握りたてを味わう至福の一時を。</p>
-       </div>
+      </div>
 
       <div id="footer__bar">
        <ul>
@@ -159,10 +164,11 @@
         <li><a href="form.html">店舗情報</a></li>
        </ul>
       </div>
-   </div>
 
+     </div>
+
+    </div>
+   </footer>
   </div>
- </footer>
-</div>
-</body>
+ </body>
 </html>
