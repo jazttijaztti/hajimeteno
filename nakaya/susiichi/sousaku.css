@@ -268,7 +268,7 @@ header #header__screen .header__bar .hidden__menu  #menu__lists{
   top:0vw;
   left:0vw;
   font-size:4vw;
-  line-height:4em;
+  line-height:3em;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -302,9 +302,10 @@ header #header__screen .header__title h1{
 header #header__screen .header__bar{
   background-color:#000;
 }
-header #header__screen #header__text{
+header #header__text{
   flex-direction:column;
-  height:40vh;
+  height:30vh;
+  margin-top:13.5vw;
 }
 #header__screen #header__image {
   height:60vh;
@@ -399,6 +400,10 @@ header #header__screen #header__image .header__bar .header__bar__left h1{
   font-size:4vw;
   padding-top:3vw;
 }
+
+header #header__text{
+  margin-top:18.5vw;
+}
 #header__text .header__text__left h3{
   font-size:4vw;
 }
@@ -457,9 +462,15 @@ footer{
   height:1vw;
   padding-bottom:1vw;
   margin-left:-3vw;
-}    
+}
+
+header #header__text{
+  margin-top:23.5vw;
+}
 main #main__screen{
   height:80vh;
 }
-
+main #main__screen .menu__content{
+  height:55vh;
+}
     }

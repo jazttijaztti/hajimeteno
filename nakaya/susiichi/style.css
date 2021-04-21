@@ -502,12 +502,12 @@ header{
   height:70vh;
 }
 header #header__content{
- width:100%;
- height:10vh;
+  width:100%;
+  height:10vh;
 }
 #header__content .header__top{
- flex-direction:column;
- height:100%;
+  flex-direction:column;
+  height:100%;
 }
 #header__content .header__top .header__top__left {
   width:100%;
@@ -556,7 +556,7 @@ header #header__content .menu__content #menu___content__list #colse__btn{
   font-size:4vw;
   width:100vw;
   height:67vh;
-  line-height:4em;
+  line-height:3em;
   position:absolute;
   top:-4vw;
   left:-77vw;
