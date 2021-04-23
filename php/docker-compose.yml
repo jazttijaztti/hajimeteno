@@ -7,7 +7,7 @@ services:
       dockerfile: dockerfile
     volumes:
       - ./php7.2/php.ini:/usr/local/etc/php/php.ini
-      - ./html/first:/var/www/html
+      - ./html/yamamoto/php:/var/www/html
     ports:
       - 8080:80
     links:
