@@ -1,15 +1,16 @@
 body{
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  width:100%;
+ width:100%;
   height:100%;
-  margin-top:-20px;
   background-color:#f7f5f2;
 }
 
 h1 h2 h3 p{
   font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Osaka, Tahoma, Verdana, Arial, Verdana, sans-serif;
 }
-
+#wrapper{
+  overflow:hidden;  
+}
 header{
   width:100%;
   position:relative;
@@ -19,7 +20,6 @@ header{
   width:100%;
   height:10vw;
   display:flex;
-  z-index:2;
 }
 #header__content .header__top .header__top__left{
   width:50%;
@@ -31,7 +31,8 @@ header{
  #header__content .header__top .header__top__left h1{
   font-size:3vw;
   font-weight:bold;
-  padding:4vw 0vw 0vw 3vw;
+  width:50%;
+  padding:2vw;
 }
 .header__top__left .menu__content{
    display:none;
@@ -50,7 +51,7 @@ header{
 }
 #header__content .header__top__right ul li{
   font-size:1vw;
-  padding-top:4vw;
+  padding-top:3vw;
 }
 
 #header__content .header__bottom{
@@ -443,7 +444,7 @@ footer{
 }
 #footer__content .footer__bottom{
   width:100%;
-  height:40vw;
+  height:35vw;
   background-color:#000;
 }
 
@@ -485,14 +486,23 @@ footer{
   align-items:center;
 }
 
-.footer__bottom .footer__lists li{
+
+.footer__bottom .footer__lists ul .store__name{
+  font-size:3vw;
+}
+.footer__bottom .footer__lists ul li{
   color:#fff;
   letter-spacing:2px;
   font-size:1vw;
+  margin-top:1vw;
  }
 
 
  @media only screen and (max-width:960px) {
+body{
+  width:100%;
+  height:100%;
+}
 #wrapper{
   width:100%;	
 }
@@ -502,32 +512,33 @@ header{
   height:70vh;
 }
 header #header__content{
- width:100%;
- height:10vh;
+  width:100%;
+  height:100%;
 }
 #header__content .header__top{
- flex-direction:column;
- height:100%;
+  flex-direction:column;
+  height:10vh;
 }
 #header__content .header__top .header__top__left {
   width:100%;
-  height:100%;
+  height:10vh;
   position:relative;
   background-color:#000;
   background-image:none;
   color:#fff;
+  z-index:2;
 }
 
 #header__content .header__top .header__top__left  h1{
-  padding:4vw 0vw 0vw 5vw;
   font-size:5vw;
+  padding:2vw;
 }
 .menu__icon{
   width:5vw;
   height:5vw;
   font-size:3vw;
   position:absolute;
-  top:-3vw;
+  top:-4vw;
   left:0vw;
 }
 header #header__content .menu__content #menu___content__list #colse__btn{
@@ -555,10 +566,10 @@ header #header__content .menu__content #menu___content__list #colse__btn{
   text-align:center;
   font-size:4vw;
   width:100vw;
-  height:67vh;
-  line-height:4em;
+  height:68vh;
+  line-height:3em;
   position:absolute;
-  top:-4vw;
+  top:-6vw;
   left:-77vw;
   background-color:#000;
   color:#fff;
@@ -870,14 +881,14 @@ footer{
 @media only screen and (max-width:500px){
 
 #header__content .header__top .header__top__left  h1{
-  padding:8vw 0vw 0vw 5vw
+  padding:5vw 0vw 0vw 5vw
 }
 .menu__icon{
   width:5vw;
   height:5vw;
   font-size:3vw;
   position:absolute;
-  top:0vw;
+  top:-1vw;
   left:2vw;
 }
 
@@ -983,8 +994,8 @@ header #header__content .header__top .header__top__left h1{
 
 header #header__content .header__top .header__top__left .menu__content #menu__content__list{
   width:103vw;
-  height:50vh;
-  top:-1vw;
+  height:57vh;
+  top:-2vw;
   left:-80vw;
   padding-top:6vw;
 }
@@ -1058,6 +1069,7 @@ footer{
 }
 footer #footer__content .footer__bottom{
   height:45vw;
+  padding-top:3vw;
 }
 
 footer #footer__content .footer__bottom .footer__bottom__text {
