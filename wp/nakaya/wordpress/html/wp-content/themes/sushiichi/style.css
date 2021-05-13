@@ -1,0 +1,1082 @@
+body{
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+ width:100%;
+  height:100%;
+  background-color:#f7f5f2;
+}
+
+h1 h2 h3 p{
+  font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Osaka, Tahoma, Verdana, Arial, Verdana, sans-serif;
+}
+#wrapper{
+  overflow:hidden;  
+}
+header{
+  width:100%;
+  position:relative;
+}
+
+#header__content .header__top{
+  width:100%;
+  height:10vw;
+  display:flex;
+}
+#header__content .header__top .header__top__left{
+  width:50%;
+  height:40vw;
+  background-image:url("image/susichi_back.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+ #header__content .header__top .header__top__left h1{
+  font-size:3vw;
+  font-weight:bold;
+  width:50%;
+  padding:2vw;
+}
+.header__top__left .menu__content{
+   display:none;
+   visibility:hidden;
+ }
+#header__content .header__top__right{
+  width:50%;
+}
+#header__content .header__top__right ul{
+  display:flex;
+  justify-content:space-around;
+}
+
+#header__content .header__top__right ul .top__name{
+  margin-left:-12vw;
+}
+#header__content .header__top__right ul li{
+  font-size:1vw;
+  padding-top:3vw;
+}
+
+#header__content .header__bottom{
+  width:100%;
+  height:40vw;
+  display:flex;
+  position:relative;
+}
+
+#header__content .header__bottom .header__bottom__right{
+  width:100%;
+  height:40vw;
+}
+
+.header__bottom .header__bottom__right .header__image{
+  width:60vw;
+  height:38vw;
+  margin-left:40vw;
+  margin-top:-3vw;
+  background-image:url("image/sushii_master.jpg");
+  background-size:cover;
+  background-position:center center;
+  z-index:1;
+}
+
+.header__bottom .header__bottom__left{
+  width:100vw;
+  height:40vw;
+  padding-left:15px;
+  position:absolute;
+  top:5vw;
+  left:3vw;
+}
+
+.header__bottom .header__bottom__left p{
+  font-size:3vw;
+  color:#fff;
+  margin-bottom:2vw;
+  text-shadow:1px 1px 1px #eee;
+}
+
+.header__bottom .header__bottom__left b{
+  color:#494642;
+  font-size:3vw;
+  font-weight:bold;
+  font-family:"Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+#main{
+  width:100%;
+  height:100%;
+}
+#main #about__page{
+  text-align:center;
+  display:flex;
+  justify-content:center;
+}
+
+#main #about__page .about__title{
+  width:40%;
+  height:30vw;
+}
+
+#main #about__page .about__title h3{
+  font-size:1.5vw;;
+  margin-bottom:5vw;
+}
+
+#main #about__page .about__title h2{
+  font-size:2vw;
+  font-weight:bold;
+}
+
+#main #about__page .about__text{
+  width:60%;
+  height:43vw;
+  margin-top:2vw;
+}
+
+#main #about__page .about__text h3{
+  font-size:1.6vw;
+  font-weight:bold;
+}
+#main #about__page .about__text p{
+  font-size:1.5vw;
+  padding-top:1vw;
+}
+
+#main #about__page .about__text .about__btn{
+  width:12vw;
+  height:4vw;
+  font-size:1.5vw;
+  background-color:#000;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:6vw 0 2vw 30vw;
+}
+
+#menu__page{
+  width:100%;
+  height:100%;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+}
+#menu__page .menu__images{
+  display:flex;
+  width:100%;
+  height:40vw;
+  position:relative;
+}
+
+#menu__page .menu__images .menu__image__left{
+  width:50%;
+  height:30vw;
+  background-image:url("image/susichi3.jpg");
+  background-size:cover;
+  background-position:center center;
+  opacity:0;
+  transform:translateX(50px);
+  transition:all 2s;
+}
+
+#menu__page .menu__images .menu__image__left.active{
+  opacity:1;
+  transform:translateX(0);
+}
+
+#menu__page .menu__images .menu__image__right{
+  width:50%;
+  height:30vw;
+  background-image:url("image/susichi_back.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+
+#menu__page .menu__images .menu__image__right .image__right__content{
+  background-image:url("image/susichi1.jpg");
+  background-size:cover;
+  background-position:center center;
+  width:50%;
+  height:30vw;
+  position:absolute;
+  top:5vw;
+  left:45vw;
+}
+
+#menu__page .menu__text{
+  width:100%;
+  height:45vw;
+  display:flex;
+  justify-content:center;
+}
+
+#menu__page .menu__text .menu__text__left{
+  width:40%;
+  height:30vw;
+}
+
+#menu__page .menu__text .menu__text__left h3{
+  font-size:1.5vw;
+  margin-bottom:4vw;
+}
+
+#menu__page .menu__text .menu__text__left h2{
+  font-size:2vw;
+  font-weight:bold;
+}
+
+#menu__page .menu__text .menu__text__right{
+  width:60%;
+  height:30vw;
+  margin-top:1vw;
+}
+
+#menu__page .menu__text .menu__text__right h3{
+  font-size:1.5vw;
+  font-weight:bold;
+  margin-bottom:1vw;
+}
+#menu__page .menu__text .menu__text__right p{
+  font-size:1.5vw;
+}
+
+
+#menu__page .menu__text .menu__text__right .about__btn{
+  width:12vw;
+  height:4vw;
+  font-size:1.5vw;
+  background-color:#000;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:8vw 0 2vw 30vw; 
+}
+
+#contact__page{
+  width:100%;
+  height:100vw;
+  display:flex;
+  flex-direction:column;
+}
+#contact__page .contact__images{
+  display:flex;
+  width:100%;
+  height:40vw;
+  position:relative;
+}
+
+#contact__page .contact__images .contact__image__left{
+  width:50%;
+  height:30vw;
+  background-image:url("image/susichi_back.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+
+#contact__page .contact__images .contact__image__content{
+  width:50%;
+  height:30vw;
+  background-image:url("image/susichi5.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:5vw;
+  left:6vw;
+  z-index:1;
+}
+
+#contact__page .contact__images .contact__image__right{
+  background-image:url("image/susichi4.jpg");
+  background-size:cover;
+  background-position:center center;
+  width:50%;
+  height:30vw;
+  opacity:0;
+  transform:translateX(-50px);
+  transition:all 2s;
+}
+
+#contact__page .contact__images .contact__image__right.over_st{
+  opacity:1;
+  transform:translateX(0);
+}
+
+#contact__page .contact__box{
+  width:90%;
+  height:45vw;
+  margin-left:7vw;
+  display:flex;
+  flex-direction:column;
+}
+
+#contact__page .contact__box .contact__text{
+  margin:10vw 0 0 3vw;
+}
+
+#contact__page .contact__box .contact__text
+h3{
+  font-size:1.5vw;
+  margin-bottom:1vw;
+}
+
+#contact__page .contact__box .contact__text
+h2{
+  font-size:2vw;
+  font-weight:bold;
+}
+
+#contact__page .contact__lists{
+  display:flex;
+  margin-top:2vw;
+}
+
+#contact__page .contact__lists .contact__adress{
+margin:0px 2vw 3vw 3vw;
+}
+
+#contact__page .contact__lists .contact__adress p{
+  font-size:1.8vw;
+  margin-bottom:10px;
+}
+
+#contact__page .contact__lists .contact__content {
+  width:100%;
+  height:5vw;
+  line-height:1.5em;
+}
+
+#contact__page .contact__lists .contact__content p{
+  font-size:2vw;
+  margin-bottom:0.5vw;
+}
+
+#contact__page .contact__phone{
+  display:flex;
+  justify-content:flex-start;
+  margin:4vw 4vw 3vw 3.5vw;
+}
+
+#contact__page .contact__phone .contact__tel p{
+  font-size:1.8vw;
+  margin-right:2vw;
+}
+
+#contact__page .contact__phone .contact__number p{
+  font-size:2vw;
+}
+
+
+#contact__page .contact__phone .info__box{
+  width:14vw;
+  height:4vw;
+  font-size:1.5vw;
+  background-color:#000;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:2vw 0 2vw 50vw; 
+}
+
+#creation__page{
+  width:100%;
+  height:45vw;
+  display:flex;
+  position:relative;
+}
+#creation__page .creation__image{
+  width:60%;
+  height:30vw;
+  background-image:url("image/susi10.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:1vw;
+  left:-3vw;
+}
+
+#creation__page .creation__text{
+  width:50%;
+  height:30vw;
+  margin-left:50vw;
+  background-image:url("image/susichi_back.jpg");
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  z-index:2;
+}
+
+#creation__page .creation__text .creation__text__box h3{
+  font-size:2vw;
+  font-weight:bold;
+  margin:2vw;
+}
+#creation__page .creation__text .creation__text__box p{
+  font-size:1.8vw;
+  margin-bottom:1vw;
+  font-weight:bold;
+  text-shadow:1px 1px 1px #f2efea;
+}
+.creation__btn{
+  width:12vw;
+  height:4vw;
+  background-color:#000;
+  color:#fff;
+  font-size:1.5vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:6vw 0 2vw 20vw; 
+}
+
+footer{
+  width:100%;
+  height:38vw;
+  margin-top:10vw;
+    }
+#footer__content{
+  position:relative;
+}
+#footer__content .footer__top{
+  width:100%;
+  height:5vw;
+  background-color:#593200;
+}
+#footer__content .footer__bottom{
+  width:100%;
+  height:35vw;
+  background-color:#000;
+}
+
+#footer__content .footer__bottom .footer__kuuhaku{
+  width:100%;
+  height:30vw;
+}
+#footer__content .footer__bottom .footer__bottom__text {
+  z-index:2;
+  position:absolute;
+  top:16vw;
+  left:20vw;
+}
+#footer__content .footer__bottom .footer__bottom__text p{
+  font-size:2.5vw;
+  color:#fff;
+  text-shadow:1px 1px 1px #fff;
+  letter-spacing:2px;
+  line-height:2em;
+}
+#footer__content .footer__image{
+  width:40vw;
+  height:25vw;
+  background-image:url("image/susichi7.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:8vw;
+  left:60vw;
+  z-index:0;
+}
+.footer__bottom .footer__lists{
+  width:65%;
+}
+
+.footer__bottom .footer__lists ul{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+
+.footer__bottom .footer__lists ul .store__name{
+  font-size:3vw;
+}
+.footer__bottom .footer__lists ul li{
+  color:#fff;
+  letter-spacing:2px;
+  font-size:1vw;
+  margin-top:1vw;
+ }
+
+
+ @media only screen and (max-width:960px) {
+body{
+  width:100%;
+  height:100%;
+}
+#wrapper{
+  width:100%;	
+}
+ 
+header{
+  width:100%;
+  height:70vh;
+}
+header #header__content{
+  width:100%;
+  height:100%;
+}
+#header__content .header__top{
+  flex-direction:column;
+  height:10vh;
+}
+#header__content .header__top .header__top__left {
+  width:100%;
+  height:10vh;
+  position:relative;
+  background-color:#000;
+  background-image:none;
+  color:#fff;
+  z-index:2;
+}
+
+#header__content .header__top .header__top__left  h1{
+  font-size:5vw;
+  padding:2vw;
+}
+.menu__icon{
+  width:5vw;
+  height:5vw;
+  font-size:3vw;
+  position:absolute;
+  top:-4vw;
+  left:0vw;
+}
+header #header__content .menu__content #menu___content__list #colse__btn{
+  font-size:4vw;	
+}
+.menu__icon div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:12vw;
+}    
+.header__top__left .menu__content{
+  display:block;
+  visibility:visible;
+  font-size:2vw;
+  position:absolute;
+  top:8vw;
+  left:77vw;
+}
+
+.header__top__left .menu__content #menu__content__list{
+  opacity:0;
+  visibility:hidden;
+  text-align:center;
+  font-size:4vw;
+  width:100vw;
+  height:68vh;
+  line-height:3em;
+  position:absolute;
+  top:-6vw;
+  left:-77vw;
+  background-color:#000;
+  color:#fff;
+  z-index:3;
+}
+
+.header__top__left .menu__content #menu__content__list{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}    
+.header__top__left .menu__content #menu__content__list.active{
+  opacity:1;
+  visibility:visible;
+  animation:listAnimation 0.7s;
+}
+@keyframes listAnimation{
+  0%{
+	opacity:1;
+	transform:translateY(-50px);
+      }
+    }
+
+.header__top__left .menu__content #menu__content__list #close__btn{
+  position:absolute;
+  top:1vw;
+  left:85vw;
+}
+
+header #header__content .header__top .menu__content #menu__content__list #close__btn p{
+  font-size:3.5vw;
+}
+#header__content .header__top .header__top__right {
+  width:100%;
+}
+
+#header__content .header__top .header__top__right  ul {
+ display:none;
+}
+#header__content .header__top .header__top__right  ul .top__name{
+  margin-left:0;
+}
+
+.header__bottom .header__bottom__left{
+  width:90%;
+  height:10vh;
+  background-size:cover;
+  background-position:center center;
+ }
+ 
+.header__bottom .header__bottom__left p{
+  letter-spacing:1px;
+  font-size:4vw;
+}
+
+
+#header__content .header__bottom .header__bottom__right{
+  height:45vh;
+ }
+
+ .header__bottom .header__bottom__right .header__image{
+  margin-left:0vw;
+  width:100%;
+  height:60vh;
+ }
+#main #about__page{
+ margin-top:10vw;
+  width:100%;
+  height:50vh;
+  text-align:center;
+  flex-direction:column;
+  position:relative;
+  margin-bottom:5vw;
+}
+
+#main #about__page .about__title{
+  width:100%;
+  height:15vw;
+}    
+
+#main #about__page .about__title h3{
+  font-size:3vw;
+}
+
+#main #about__page .about__title h2{
+  font-size:5vw;
+}
+#main #about__page .about__text{
+  width:100%;
+  height:50vw;
+}
+
+#main #about__page .about__text h3{
+  font-size:3.5vw;
+  margin-top:8vw;
+}
+#main #about__page .about__text p{
+  margin-top:5vw;
+  font-size:3vw;
+}    
+#main #about__page .about__text .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  margin-left:10vw;
+  position:absolute;
+  top:55vw;
+  left:60vw;
+}
+#menu__page{
+  height:70vh;
+  text-align:center;
+  position:relative;
+}
+#menu__page .menu__images .menu__image__left.active{
+  display:none;
+}
+
+#menu__page .menu__images{
+  width:100%;
+  height:40vh;
+
+}
+#menu__page .menu__images .menu__image__right .image__right__content{
+  width:100%;
+  height:35vh;
+  z-index:0;
+  top:0vw;
+  left:0vw;
+}
+
+#menu__page .menu__text{
+  height:50vh;
+  margin-top:30vw;
+  flex-direction:column;
+}
+
+#menu__page .menu__text .menu__text__left h3{
+  font-size:3vw; 
+}
+#menu__page .menu__text .menu__text__left h2{
+  font-size:5vw;
+}
+#menu__page .menu__text .menu__text__left{
+  height:10vw;
+  width:100%;
+}
+
+#menu__page .menu__text .menu__text__right{
+  height:50vh;
+  width:100%;
+}
+
+#menu__page .menu__text .menu__text__right h3{
+  font-size:4vw;
+  margin-top:5vw;
+}
+#menu__page .menu__text .menu__text__right p{
+  width:100%;
+  letter-spacing:2px;
+  margin-top:5vw;
+  font-size:3vw;
+}
+
+#menu__page .menu__text .menu__text__right .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  position:absolute;
+  top:105vw;
+  left:40vw;
+}
+
+#contact__page{
+  height:50vh;
+  margin-top:30vw;
+  position:relative;
+}
+
+#contact__page .contact__image__right{
+  display:none;
+}
+#contact__page .contact__images .contact__image__content{
+  width:100%;
+  height:35vh;
+  background-image:url("image/susi10.jpg");
+  top:0vw;
+  left:0vw;
+  z-index:0;
+}
+
+#contact__page .contact__box .contact__text{
+  text-align:center;
+  margin-top:30vw;
+  margin-left:-4vw;
+}
+
+#contact__page .contact__box .contact__text h3{
+  font-size:3vw;
+  margin-bottom:0vw;
+}
+#contact__page .contact__box .contact__text h2{
+  font-size:5vw;
+}
+
+#contact__page .contact__lists{
+  margin-top:10vw;
+}
+
+#contact__page .contact__lists .contact__content p{
+  font-size:4vw;
+  line-height:1.2em;
+}
+#contact__page .contact__lists .contact__adress p{
+  font-size:2.5vw;
+}
+#contact__page .contact__phone .info__box{
+  width:30vw;
+  height:6vw;
+  position:absolute;
+  font-size:2.5vw;
+  top:130vw;
+  left:10vw;
+}
+
+#contact__page .contact__phone .contact__number p{
+  width:50vw;
+  margin-left:5vw;
+  font-size:4vw;
+}
+#contact__page .contact__phone{
+  margin-top:10vw;
+}
+#contact__page .contact__phone .contact__tel p{
+  font-size:2.5vw;
+}
+#creation__page{
+  width:100vw;
+  margin-top:70vw;
+  flex-direction:column;
+}
+#creation__page .creation__image{
+  display:none;
+}
+#creation__page .creation__text{
+  width:100%;
+  height:50vh;
+  text-align:center;
+  margin-left:0vw;
+  margin-top:10vw;
+}
+
+#creation__page .creation__text .creation__text__box{
+  width:100%;
+  height:62vw;
+}
+
+#creation__page .creation__text .creation__text__box h3{
+  padding:5vw 0vw 5vw 0vw;
+  font-size:5vw;
+}
+
+#creation__page .creation__text .creation__text__box p{
+  line-height:3em;
+  font-size:4vw;
+}
+#creation__page .creation__text .creation__btn{
+  width:16vw;
+  height:6vw;
+  font-size:2.5vw;
+  margin:10vw 0vw 0vw 75vw;
+    }
+footer{
+  margin-top:27vw;
+  background-color:#000;
+}
+#footer__content{
+  height:23vh;
+}
+.footer__kuuhaku{
+  display:none;
+}
+.footer__bottom__text{
+  display:none;
+}
+.footer__lists ul{
+  flex-direction:column;
+}
+
+.footer__bottom .footer__lists{
+  width:100%;
+}
+#footer__content{
+  background-color:#000;
+}
+.footer__bottom .footer__lists ul li{
+  font-size:3vw;
+  margin-bottom:4vw;
+  padding-top:0vw;
+}
+
+.footer__bottom .footer__lists ul .store__name{
+  font-weight:bold;
+}
+}
+
+
+@media only screen and (max-width:500px){
+
+#header__content .header__top .header__top__left  h1{
+  padding:5vw 0vw 0vw 5vw
+}
+.menu__icon{
+  width:5vw;
+  height:5vw;
+  font-size:3vw;
+  position:absolute;
+  top:-1vw;
+  left:2vw;
+}
+
+.menu__icon div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}
+#main #about__page{
+  margin-top:0vw;
+  height:45vh;
+}
+#main #about__page .about__text h3{
+  margin-top:3vw;  
+}
+#main #about__page .about__text .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  margin-left:10vw;
+  position:absolute;
+  top:70vw;
+  left:60vw;
+}
+#menu__page{
+  height:75vh;
+}
+#menu__page .menu__text{
+  height:50vh;
+  margin-top:55vw;
+  flex-direction:column;
+}
+#menu__page .menu__text .menu__text__left{
+  margin-top:-5vw;  
+}
+#menu__page .menu__text .menu__text__right h3{
+  margin-top:8vw;
+}
+#menu__page .menu__text .menu__text__right .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  position:absolute;
+  top:145vw;
+  left:40vw;
+}
+#contact__page .contact__box .contact__box__content{
+  margin-top:10vw;
+}
+#contact__page .contact__phone .info__box{
+  width:30vw;
+  height:6vw;
+  position:absolute;
+  font-size:2.5vw;
+  top:155vw;
+  left:10vw;
+}
+
+
+#footer__content{
+  height:23vh;
+}
+.footer__kuuhaku{
+  display:none;
+}
+.footer__bottom__text{
+  display:none;
+}
+.footer__lists {
+  background-color:#000;
+}
+.footer__lists ul{
+  flex-direction:column;
+}
+
+
+@media only screen and (max-width:300px){
+#wrapper{
+  width:100%;
+}
+header{
+  height:48vh;
+}
+header #header__content{
+  height:8vh;
+}
+header #header__content .menu__icon{
+  padding-top:1vw;
+}
+.header__bottom .header__bottom__right .header__image{
+  height:50vh;
+}
+header #header__content .header__bottom .header__top__left a{
+  display:inline-block;
+  margin-top:1vw;
+}
+
+header #header__content .header__top .header__top__left h1{
+  margin-top:1vw;
+}  
+
+header #header__content .header__top .header__top__left .menu__content #menu__content__list{
+  width:103vw;
+  height:57vh;
+  top:-2vw;
+  left:-80vw;
+  padding-top:6vw;
+}
+#main #about__page{
+  height:55vh;
+  margin-bottom:10vw;
+}
+#about__page .about__title h3{
+  margin-top:5vw;
+}
+#menu__page{
+  height:70vh;
+}
+#main #about__page .about__text .about__btn{
+  top:110vw;
+}
+#menu__page .menu__text .menu__text__left h3{
+  margin-top:-10vw;
+}
+#menu__page .menu__text{
+  height:53vw;
+  margin-top:70vw;
+}
+
+#menu__page .menu__text .menu__text__right .about__btn{
+  top:165vw;
+}
+#contact__page{
+  height:50vh;
+}
+
+#contact__page .contact__box{
+  height:65vw;
+}
+#contact__page .contact__images .contact__image__left{
+ margin-top:3vw
+}
+
+#contact__page .contact__box .contact__box__content{
+  margin-top:30vw;
+}
+#contact__page .contact__lists .contact__content p{
+  margin-bottom:0vw;
+}
+#contact__page .contact__number p{
+  width:21vw;
+}
+#contact__page .contact__phone{
+  margin-top:6vw;
+}
+#contact__page .contact__phone .info__box{
+ margin:20vw 0 2vw 50vw;
+
+}
+#creation__page{
+ margin-top:70vw;
+ display:flex;
+ flex-direction:column;
+}
+
+#creation__page .creation__text{
+ height:27vh;
+}
+
+#creation__page .creation__text .creation__btn{
+  margin-top:5vw;
+}
+
+footer{
+  margin-top:27vw;
+}
+footer #footer__content .footer__bottom{
+  height:45vw;
+  padding-top:3vw;
+}
+
+footer #footer__content .footer__bottom .footer__bottom__text {
+  left:12vw;
+}
+.footer__lists{
+  width:100%;
+}
+
+}

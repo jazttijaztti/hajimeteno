@@ -13,6 +13,9 @@ h2 h3 p{
    font-weight:bold;
     font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMin    cho", serif;
 }
+#wrapper{
+  overflow:hidden;
+}
 
 #header__screen{
   width:100%;
@@ -71,9 +74,10 @@ h2 h3 p{
   color:#e8e5e1;
 }
 
-#header__text{
+header #header__text{
   width:100%;
   height:50vw;
+  margin-top:10vw;
   display:flex;
   justify-content:center;
   background-image:url("back.jpg");
@@ -110,13 +114,14 @@ main{
   height:100%;
   margin:auto;
 }
-main .main__image img{
-  width:100%;
-  height:40vw;
-}
 #main__screen{
   width:100%;
   margin-bottom:15vw;
+}
+main #main__screen .main__image img{
+  width:90%;
+  height:40vw;
+  padding-bottom:5vw;
 }
 
 #main__screen .main__content{
@@ -205,11 +210,12 @@ footer #footer__fild .footer__bottom .footer__text p{
 
 footer #footer__fild .footer__bottom #footer__bar {
   width:60%;
-  margin-top:15vw;
+  margin-top:13vw;
 }
 footer #footer__fild .footer__bottom #footer__bar ul{
   display:flex;
   justify-content:space-around;
+  
 }
 footer #footer__fild .footer__bottom #footer__bar ul li{
   color:#fff;
@@ -222,6 +228,7 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-right:3vw;
 }
 
+<<<<<<< HEAD
 
 @media only screen and (max-width:960px) {
 body{
@@ -300,6 +307,224 @@ header{
 }
 .footer__bottom #footer__bar{
  width:100% !important;
+=======
+
+@media only screen and (max-width:960px) {
+body{
+  width:100%;
+}
+header{
+  height:100vh;
+}
+header #header__screen{
+  height:55vh;
+  position:relative;
+}
+header #header__image .header__bar .header__bar__right ul{
+  opacity:0;
+  visibility:hidden;
+}
+header #header__image .header__bar .header__bar__left h1{
+  font-size:4vw;
+}
+header #header__screen .header__bar .hidden__menu{
+  display:block;
+  visibility:visible;
+  width:5vw;
+  margin-top:3.5vw; 
+}
+
+header #header__screen .header__bar .hidden__menu #menu__name div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}    
+header #header__screen .header__bar .hidden__menu  #menu__lists{
+  opacity:0;
+  visibility:hidden;
+  position:absolute;
+  top:0vw;
+  left:0vw;
+  font-size:4vw;
+  line-height:3em;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#000;
+  color:#fff;
+  width:100vw;
+  height:60vh;
+}
+ 
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn{
+  color:#fff;
+  position:absolute;
+  top:0vw;
+  left:80vw;
+}
+header #header__screen .header__bar .hidden__menu #menu__lists.active{
+  opacity:1;
+  visibility:visible;
+  animation:listAnimation 0.5s
+}
+@keyframes listAnimation{
+   0%{
+       opacity:1;
+       transform:translateY(-50px);
+   }
+}
+header #header__screen .header__title h1{
+  font-size:5vw;
+ }
+header #header__screen .header__bar{
+  background-color:#000;
+}
+header #header__text{
+  flex-direction:column;
+  height:30vh;
+  margin-top:13.5vw;
+}
+#header__screen #header__image {
+  height:60vh;
+}
+#header__text .header__text__left{
+  width:100%;
+  margin-left:0vw;
+}
+
+#header__text .header__text__left h3{
+  font-size: 3.5vw;
+}
+#header__text .header__text__left p{
+  font-size:3vw;
+}
+
+#header__text .header__text__right{
+  display:none;
+}
+
+#close__btn p{
+  font-size:3.5vw;
+}
+#main__screen{
+  width:100%;
+  height:100vh;
+}
+#main__screen .main__image img{
+  height:30vh;
+}
+#main__screen .main__content{
+  height:70vh; 
+}
+
+#main__screen .main__content ul li{
+ height:50vw;
+ margin-bottom:0vw;
+}
+#main__screen .main__content ul li p{
+  font-size:2.5vw;
+}
+#main__screen .main__content ul li .name{
+ font-size:3vw;
+}
+
+footer{
+  margin-top:30vw;
+  height:50vw;
+  background-color:#000;
+}
+.footer__bottom .footer__text {
+  display:none;
+}
+.footer__kuuhaku{
+  display:none;
+  visibility:hidden;
+}
+.footer__bottom{
+  margin-top:-15vw;
+  height:25vh;
+  width:100%;
+}
+footer #footer__fild .footer__bottom #footer__bar ul{
+  flex-direction:column;
+  align-items:center;
+  margin-left:30vw;
+  margin-top:15vw;
+}
+footer #footer__fild .footer__bottom #footer__bar ul li{
+  font-size:3vw;
+  margin-top:5vw;
+}
+footer #footer__fild .footer__bottom #footer__bar ul .store__name{
+  margin-left:3vw;
+  font-weight:bold;
+  font-size:3vw;
+}
+
+
+}
+
+@media only screen and (max-width:500px){
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin:3vw 1vw 2vw 1vw;
+}
+header #header__screen #header__image .header__bar .header__bar__left h1{
+  font-size:4vw;
+  padding-top:3vw;
+}
+
+header #header__text{
+  margin-top:18.5vw;
+}
+#header__text .header__text__left h3{
+  font-size:4vw;
+}
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  width:5vw;
+  margin-top:3.5vw; 
+}
+
+.hidden__menu #menu__name div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}    
+main #main__screen{
+  height:85vh;
+}
+#main__screen .main__image img{
+  height:40vh;
+}
+#main__screen .main__content{
+  height:60vh; 
+} 
+
+#main__screen .main__content ul li{
+ height:58vw;
+ margin-bottom:0vw;
+}
+#main__screen .main__content ul li p{
+  font-size:3vw;
+}
+#main__screen .main__content ul li .name{
+ font-size:3vw;
+}
+
+footer{
+  margin-top:0vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 #main__screen{
   width:100%;
@@ -313,7 +538,38 @@ header{
  
 }
 
+<<<<<<< HEAD
 #main__screen .main__content ul li{
  height:60vw;
  margin-bottom:0vw;
 }    
+=======
+}
+@media only screen and (max-width:300px){
+
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  width:5vw;
+  margin-top:2.5vw; 
+}
+
+.hidden__menu #menu__name div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}
+
+header #header__text{
+  margin-top:23.5vw;
+}
+main #main__screen{
+  height:80vh;
+}
+main #main__screen .menu__content{
+  height:55vh;
+}
+    }
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13

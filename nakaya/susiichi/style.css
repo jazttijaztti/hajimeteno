@@ -1,15 +1,16 @@
 body{
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  width:100%;
+ width:100%;
   height:100%;
-  margin-top:-20px;
   background-color:#f7f5f2;
 }
 
 h1 h2 h3 p{
   font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Osaka, Tahoma, Verdana, Arial, Verdana, sans-serif;
 }
-
+#wrapper{
+  overflow:hidden;  
+}
 header{
   width:100%;
   position:relative;
@@ -19,7 +20,6 @@ header{
   width:100%;
   height:10vw;
   display:flex;
-  z-index:2;
 }
 #header__content .header__top .header__top__left{
   width:50%;
@@ -31,7 +31,8 @@ header{
  #header__content .header__top .header__top__left h1{
   font-size:3vw;
   font-weight:bold;
-  padding:4vw 0vw 0vw 3vw;
+  width:50%;
+  padding:2vw;
 }
 .header__top__left .menu__content{
    display:none;
@@ -50,7 +51,7 @@ header{
 }
 #header__content .header__top__right ul li{
   font-size:1vw;
-  padding-top:4vw;
+  padding-top:3vw;
 }
 
 #header__content .header__bottom{
@@ -443,7 +444,7 @@ footer{
 }
 #footer__content .footer__bottom{
   width:100%;
-  height:40vw;
+  height:35vw;
   background-color:#000;
 }
 
@@ -485,35 +486,45 @@ footer{
   align-items:center;
 }
 
-.footer__bottom .footer__lists li{
+
+.footer__bottom .footer__lists ul .store__name{
+  font-size:3vw;
+}
+.footer__bottom .footer__lists ul li{
   color:#fff;
   letter-spacing:2px;
   font-size:1vw;
+  margin-top:1vw;
  }
 
 
- @media only screen and (max-width:500px) {
+ @media only screen and (max-width:960px) {
+body{
+  width:100%;
+  height:100%;
+}
 #wrapper{
   width:100%;	
 }
+ 
 header{
   width:100%;
-  height:60vh;
+  height:70vh;
 }
 header #header__content{
- width:100%;
- height:10vh;
-}
-#header__content .header__top{
- flex-direction:column;
- height:100%;
-}
-
-#header__content .header__top .header__top__left {
   width:100%;
   height:100%;
+}
+#header__content .header__top{
+  flex-direction:column;
+  height:10vh;
+}
+#header__content .header__top .header__top__left {
+  width:100%;
+  height:10vh;
   position:relative;
   background-color:#000;
+<<<<<<< HEAD
   background-image:none !important;
   color:#fff;
 }
@@ -523,7 +534,35 @@ header #header__content{
 }
 .menu__icon{
   padding:1vw 0vw 0vw 5vw;
+=======
+  background-image:none;
+  color:#fff;
+  z-index:2;
 }
+
+#header__content .header__top .header__top__left  h1{
+  font-size:5vw;
+  padding:2vw;
+}
+.menu__icon{
+  width:5vw;
+  height:5vw;
+  font-size:3vw;
+  position:absolute;
+  top:-4vw;
+  left:0vw;
+}
+header #header__content .menu__content #menu___content__list #colse__btn{
+  font-size:4vw;	
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
+}
+.menu__icon div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:12vw;
+}    
 .header__top__left .menu__content{
   display:block;
   visibility:visible;
@@ -537,12 +576,21 @@ header #header__content{
   opacity:0;
   visibility:hidden;
   text-align:center;
+<<<<<<< HEAD
   font-size:3vw;
   width:100vw;
   height:51vh;
   line-height:4em;
   position:absolute;
   top:-3vw;
+=======
+  font-size:4vw;
+  width:100vw;
+  height:68vh;
+  line-height:3em;
+  position:absolute;
+  top:-6vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   left:-77vw;
   background-color:#000;
   color:#fff;
@@ -571,14 +619,21 @@ header #header__content{
   position:absolute;
   top:1vw;
   left:85vw;
+<<<<<<< HEAD
   font-size:1vw;
+=======
+}
+
+header #header__content .header__top .menu__content #menu__content__list #close__btn p{
+  font-size:3.5vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 #header__content .header__top .header__top__right {
-  width:100% !important;
+  width:100%;
 }
 
 #header__content .header__top .header__top__right  ul {
- display:none !important;
+ display:none;
 }
 #header__content .header__top .header__top__right  ul .top__name{
   margin-left:0;
@@ -593,21 +648,27 @@ header #header__content{
  
 .header__bottom .header__bottom__left p{
   letter-spacing:1px;
+  font-size:4vw;
 }
 
 
- .header__bottom .header__bottom__right{
-  height:45vh !important;
+#header__content .header__bottom .header__bottom__right{
+  height:45vh;
  }
 
  .header__bottom .header__bottom__right .header__image{
   margin-left:0vw;
   width:100%;
-  height:100%;
+  height:60vh;
  }
 #main #about__page{
+ margin-top:10vw;
   width:100%;
+<<<<<<< HEAD
   height:50vh !important;
+=======
+  height:50vh;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   text-align:center;
   flex-direction:column;
   position:relative;
@@ -619,15 +680,28 @@ header #header__content{
   height:15vw;
 }    
 
+#main #about__page .about__title h3{
+  font-size:3vw;
+}
+
+#main #about__page .about__title h2{
+  font-size:5vw;
+}
 #main #about__page .about__text{
   width:100%;
   height:50vw;
 }
 
+#main #about__page .about__text h3{
+  font-size:3.5vw;
+  margin-top:8vw;
+}
 #main #about__page .about__text p{
   margin-top:5vw;
+  font-size:3vw;
 }    
 #main #about__page .about__text .about__btn{
+<<<<<<< HEAD
   width:22vw !important;
   height:6vw !important;
   margin-left:10vw;
@@ -637,10 +711,22 @@ header #header__content{
 }
 #menu__page{
   height:70vh !important;
+=======
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  margin-left:10vw;
+  position:absolute;
+  top:55vw;
+  left:60vw;
+}
+#menu__page{
+  height:70vh;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   text-align:center;
   position:relative;
 }
-#menu__page .menu__images .menu__image__left{
+#menu__page .menu__images .menu__image__left.active{
   display:none;
 }
 
@@ -652,17 +738,32 @@ header #header__content{
 #menu__page .menu__images .menu__image__right .image__right__content{
   width:100%;
   height:35vh;
+<<<<<<< HEAD
   z-index:0 !important;
+=======
+  z-index:0;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   top:0vw;
   left:0vw;
 }
 
 #menu__page .menu__text{
+<<<<<<< HEAD
   height:50vh !important;
   margin-top:50vw;
+=======
+  height:50vh;
+  margin-top:30vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   flex-direction:column;
 }
 
+#menu__page .menu__text .menu__text__left h3{
+  font-size:3vw; 
+}
+#menu__page .menu__text .menu__text__left h2{
+  font-size:5vw;
+}
 #menu__page .menu__text .menu__text__left{
   height:10vw;
   width:100%;
@@ -673,22 +774,36 @@ header #header__content{
   width:100%;
 }
 
+#menu__page .menu__text .menu__text__right h3{
+  font-size:4vw;
+  margin-top:5vw;
+}
 #menu__page .menu__text .menu__text__right p{
   width:100%;
   letter-spacing:2px;
   margin-top:5vw;
+  font-size:3vw;
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
   width:22vw;
   height:6vw;
+  font-size:2.5vw;
   position:absolute;
+<<<<<<< HEAD
   top:125vw;
+=======
+  top:105vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   left:40vw;
 }
 
 #contact__page{
+<<<<<<< HEAD
   height:50vh !important;
+=======
+  height:50vh;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   margin-top:30vw;
   position:relative;
 }
@@ -696,6 +811,7 @@ header #header__content{
 #contact__page .contact__image__right{
   display:none;
 }
+<<<<<<< HEAD
 #contact__page .contact__image__content{
   width:100% !important;
   height:35vh !important;
@@ -703,9 +819,20 @@ header #header__content{
   top:0vw !important;
   left:0vw !important;
   z-index:0 !important;
+=======
+#contact__page .contact__images .contact__image__content{
+  width:100%;
+  height:35vh;
+  background-image:url("susi10.jpg");
+  top:0vw;
+  left:0vw;
+  z-index:0;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
+
 #contact__page .contact__box .contact__text{
   text-align:center;
+<<<<<<< HEAD
   margin:40vw 0vw 0vw 3vw;
 }
 
@@ -728,6 +855,53 @@ header #header__content{
   margin-top:10vw;
 }
 #creation__page{
+=======
+  margin-top:30vw;
+  margin-left:-4vw;
+}
+
+#contact__page .contact__box .contact__text h3{
+  font-size:3vw;
+  margin-bottom:0vw;
+}
+#contact__page .contact__box .contact__text h2{
+  font-size:5vw;
+}
+
+#contact__page .contact__lists{
+  margin-top:10vw;
+}
+
+#contact__page .contact__lists .contact__content p{
+  font-size:4vw;
+  line-height:1.2em;
+}
+#contact__page .contact__lists .contact__adress p{
+  font-size:2.5vw;
+}
+#contact__page .contact__phone .info__box{
+  width:30vw;
+  height:6vw;
+  position:absolute;
+  font-size:2.5vw;
+  top:130vw;
+  left:10vw;
+}
+
+#contact__page .contact__phone .contact__number p{
+  width:50vw;
+  margin-left:5vw;
+  font-size:4vw;
+}
+#contact__page .contact__phone{
+  margin-top:10vw;
+}
+#contact__page .contact__phone .contact__tel p{
+  font-size:2.5vw;
+}
+#creation__page{
+  width:100vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   margin-top:70vw;
   flex-direction:column;
 }
@@ -749,10 +923,15 @@ header #header__content{
 
 #creation__page .creation__text .creation__text__box h3{
   padding:5vw 0vw 5vw 0vw;
+<<<<<<< HEAD
+=======
+  font-size:5vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 
 #creation__page .creation__text .creation__text__box p{
   line-height:3em;
+<<<<<<< HEAD
 }
 .creation__btn{
   width:16vw !important;
@@ -761,9 +940,141 @@ header #header__content{
     }
 footer{
   margin-top:27vw !important;
+=======
+  font-size:4vw;
 }
+#creation__page .creation__text .creation__btn{
+  width:16vw;
+  height:6vw;
+  font-size:2.5vw;
+  margin:10vw 0vw 0vw 75vw;
+    }
+footer{
+  margin-top:27vw;
+  background-color:#000;
+}
+#footer__content{
+  height:23vh;
+}
+.footer__kuuhaku{
+  display:none;
+}
+.footer__bottom__text{
+  display:none;
+}
+.footer__lists ul{
+  flex-direction:column;
 }
 
+.footer__bottom .footer__lists{
+  width:100%;
+}
+#footer__content{
+  background-color:#000;
+}
+.footer__bottom .footer__lists ul li{
+  font-size:3vw;
+  margin-bottom:4vw;
+  padding-top:0vw;
+}
+
+.footer__bottom .footer__lists ul .store__name{
+  font-weight:bold;
+}
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
+}
+
+
+@media only screen and (max-width:500px){
+
+#header__content .header__top .header__top__left  h1{
+  padding:5vw 0vw 0vw 5vw
+}
+.menu__icon{
+  width:5vw;
+  height:5vw;
+  font-size:3vw;
+  position:absolute;
+  top:-1vw;
+  left:2vw;
+}
+
+<<<<<<< HEAD
+=======
+.menu__icon div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}
+#main #about__page{
+  margin-top:0vw;
+  height:45vh;
+}
+#main #about__page .about__text h3{
+  margin-top:3vw;  
+}
+#main #about__page .about__text .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  margin-left:10vw;
+  position:absolute;
+  top:70vw;
+  left:60vw;
+}
+#menu__page{
+  height:75vh;
+}
+#menu__page .menu__text{
+  height:50vh;
+  margin-top:55vw;
+  flex-direction:column;
+}
+#menu__page .menu__text .menu__text__left{
+  margin-top:-5vw;  
+}
+#menu__page .menu__text .menu__text__right h3{
+  margin-top:8vw;
+}
+#menu__page .menu__text .menu__text__right .about__btn{
+  width:22vw;
+  height:6vw;
+  font-size:2.5vw;
+  position:absolute;
+  top:145vw;
+  left:40vw;
+}
+#contact__page .contact__box .contact__box__content{
+  margin-top:10vw;
+}
+#contact__page .contact__phone .info__box{
+  width:30vw;
+  height:6vw;
+  position:absolute;
+  font-size:2.5vw;
+  top:155vw;
+  left:10vw;
+}
+
+
+#footer__content{
+  height:23vh;
+}
+.footer__kuuhaku{
+  display:none;
+}
+.footer__bottom__text{
+  display:none;
+}
+.footer__lists {
+  background-color:#000;
+}
+.footer__lists ul{
+  flex-direction:column;
+}
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 
 
 @media only screen and (max-width:300px){
@@ -773,9 +1084,20 @@ footer{
 header{
   height:48vh;
 }
-#header__content{
-  height:8vh !important;
+header #header__content{
+  height:8vh;
 }
+header #header__content .menu__icon{
+  padding-top:1vw;
+}
+.header__bottom .header__bottom__right .header__image{
+  height:50vh;
+}
+header #header__content .header__bottom .header__top__left a{
+  display:inline-block;
+  margin-top:1vw;
+}
+<<<<<<< HEAD
 .menu__icon{
   padding-top:2vw;
 }
@@ -788,11 +1110,35 @@ header{
   width:103vw;
   height:50vh;
   top:-1vw;
+=======
+
+header #header__content .header__top .header__top__left h1{
+  margin-top:1vw;
+}  
+
+header #header__content .header__top .header__top__left .menu__content #menu__content__list{
+  width:103vw;
+  height:57vh;
+  top:-2vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   left:-80vw;
   padding-top:6vw;
 }
-#about__page{
-  margin-bottom:10vw !important;
+#main #about__page{
+  height:55vh;
+  margin-bottom:10vw;
+}
+#about__page .about__title h3{
+  margin-top:5vw;
+}
+#menu__page{
+  height:70vh;
+}
+#main #about__page .about__text .about__btn{
+  top:110vw;
+}
+#menu__page .menu__text .menu__text__left h3{
+  margin-top:-10vw;
 }
 
 
@@ -805,18 +1151,32 @@ header{
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
+<<<<<<< HEAD
   top:160vw;
 }
 #contact__page{
   height:50vh !important;
+=======
+  top:165vw;
+}
+#contact__page{
+  height:50vh;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 
 #contact__page .contact__box{
   height:65vw;
 }
+#contact__page .contact__images .contact__image__left{
+ margin-top:3vw
+}
 
 #contact__page .contact__box .contact__box__content{
+<<<<<<< HEAD
   margin-top:20vw;
+=======
+  margin-top:30vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 #contact__page .contact__lists .contact__content p{
   margin-bottom:0vw;
@@ -828,7 +1188,11 @@ header{
   margin-top:6vw;
 }
 #contact__page .contact__phone .info__box{
+<<<<<<< HEAD
  margin:30vw 0 2vw 50vw;
+=======
+ margin:20vw 0 2vw 50vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 
 }
 #creation__page{
@@ -839,10 +1203,21 @@ header{
 
 #creation__page .creation__text{
  height:27vh;
+<<<<<<< HEAD
 }
 
 #creation__page .creation__text .creation__btn{
   margin-top:10vw;
+=======
+}
+
+#creation__page .creation__text .creation__btn{
+  margin-top:5vw;
+}
+
+footer{
+  margin-top:27vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 
 footer{
@@ -850,13 +1225,14 @@ footer{
 }
 footer #footer__content .footer__bottom{
   height:45vw;
+  padding-top:3vw;
 }
 
 footer #footer__content .footer__bottom .footer__bottom__text {
   left:12vw;
 }
 .footer__lists{
-  width:100% !important;
+  width:100%;
 }
 
 }

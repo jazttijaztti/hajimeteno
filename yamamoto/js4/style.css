@@ -1,0 +1,38 @@
+#contenar{
+  width:100%;
+  background-color:#eee;
+  height:100vh;
+}
+
+#main {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+#main div {
+  width:500px;
+  height:500px;
+  background-color:#aaa;
+}
+
+#test3{
+  background-color:gold;
+}
+#test9{
+  background-color:gold;
+
+}
+#test15{
+  background-color:gold;
+
+}
+#test18{
+  background-color:rgba(0,0,255,0.8);
+
+}
+#test20{
+  background-color:rgba(0,0,255,0.8);
+
+}
+

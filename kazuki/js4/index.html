@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+  <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
+  <script>
+    $(function(){
+        /*
+      $('#main').slick({
+        autoplay:true,
+        autoplaySpeed:500,
+        dots:false,
+          
+          
+      });
+  */
+  
+  
+      $('#main').animate({backgroundColor: 'blue'},3000,function(){
+        $('#test1').animate({marginLeft: '300px'},2000);
+        $('#test4').animate({marginRight: '300px'},2000);
+        $('#test8').animate({marginLeft: '300px'},2000);
+        $('#test11').animate({marginRight: '300px'},2000);
+        $('#test15').animate({marginLeft: '300px'},2000);
+        $('#test19').animate({marginBottom: '300px'},2000);
+   
+       });        
+      
+      var ok = "ここまでは動いている"  
+    $('body').fadeIn(2000);
+    $('#test5').css('backgroundColor','rgba(255,0,0,0.6)');
+    $('#test13').css('backgroundColor','rgba(255,0,0,0.6)');
+    $("h1").css('fontSize','5em');
+    $("h1").css('textAlign','center');
+    var name = "kazuki";
+    
+
+
+    $('#test1').on('click',function(){
+        var time= 1000;
+      var id_name = $(this).attr("id");
+        console.log(id_name);
+        
+        if(id_name == "test1") {
+          console.log("done");
+        }
+
+
+
+       $('#test2').on('click',function(){
+           var time=2000;
+           });
+        
+        
+       $('#test2').fadeToggle(1500,function(){     
+       $('#main div').css('width','50%');
+      
+       });  
+       $(this).addClass('kusaka');
+       $(this).draggable();
+       $('#test20').css('border','1px solid #eee')
+       $('#test20').raindrops(
+        {color:'#eee',rippleSpeed:0.2, canvasHeight:10}
+        );
+     });     
+
+
+
+    $('#test20').on('click',function(){
+      $('#main div').css('width','100%');
+      });
+    $('#test10').on('click',function(){
+      $('#main div').css('width','50px');    
+    });
+    $('#test3').on('click',function(){
+      var time=3000;  
+      $('#test3').css('width','300px');    
+      $('#test9').css('width','300px');    
+      $('#test15').css('width','300px');    
+      $('#test3').css('backgroundColor','#000');    
+      $('#test9').css('backgroundColor','#000');    
+      $('#test15').css('backgroundColor','#000');    
+    });
+
+    $('#test19').on('click',function(){
+       $("body").fadeOut(time);     
+       $("body").fadeIn(time);     
+        });
+
+
+   
+  
+    var test_3_sp = $('#test3').offset().top;
+    $(window).scroll(function(){
+        var st = $(this).scrollTop();   
+        if (st > test_3_sp) {
+          $("#main").css("backgroundColor","blue");
+        }
+        if (st > test_3_sp + 30) {
+          $("#main").css("backgroundColor","red");
+        }
+        if (st > test_3_sp + 60) {
+          $("#main").css("backgroundColor","yellow");
+          $("#test16").css("marginLeft",st -200 );
+          $("#test10").css("fontSize",st -200 );
+        }
+     
+      console.log(st);
+     });
+
+   });
+
+  
+ </script>
+ <style>
+
+#main div {
+  width:100px;
+  height:100px;
+}
+.kusaka {
+  background-color:#000;
+  color:#FFF;
+}
+body {
+  height:200vh;
+}
+img {
+ width:100%;
+
+}
+ </style>
+</head>
+<body>
+  <div id="contenar">
+    <h1>JS勉強</h1>
+    <div id="main">
+      <div id="test1"><img src="a.png"></div>
+      <div id="test2"><img src="b.png"></div>
+      <div id="test3">3秒</div>
+      <div id="test4">test4</div>
+      <div id="test5">test5</div>
+      <div id="test6">test6</div>
+      <div id="test7">test7</div>
+      <div id="test8">test8</div>
+      <div id="test9">test9</div>
+      <div id="test10">test10</div>
+      <div id="test11">test11</div>
+      <div id="test12">test12</div>
+      <div id="test13">test13</div>
+      <div id="test14">test14</div>
+      <div id="test15">test15</div>
+      <div id="test16">test16</div>
+      <div id="test17">test17</div>
+      <div id="test18">test18</div>
+      <div id="test19">test19</div>
+      <div id="test20">test20</div>
+    </div>
+  </div>
+</body>
+</html>

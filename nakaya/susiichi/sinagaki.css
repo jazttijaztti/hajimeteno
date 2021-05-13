@@ -7,6 +7,10 @@ body{
 #wrapper{
   width:100%;
   height:100%;
+<<<<<<< HEAD
+=======
+  overflow:hidden;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 
 h2 h3{
@@ -22,7 +26,11 @@ header{
 }
 header #header__screen{
   width:100%;
+<<<<<<< HEAD
   height:65vw;
+=======
+  height:80vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 header #header__screen #header__image{
   width:100%;
@@ -147,6 +155,10 @@ header #header__screen #header__image{
 #main__menu .main__menu__top .main__menu__image img{
   width:100%;
   height:40vw;
+<<<<<<< HEAD
+=======
+  padding-bottom:5vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 .main__menu__text{
   margin-top:5vw;
@@ -169,6 +181,15 @@ header #header__screen #header__image{
   font-size:2vw;
   margin-top:3vw;
 }
+<<<<<<< HEAD
+=======
+.main__menu__text .main__menu__left p{
+  width:5vw;
+  border-bottom:2px solid #bbb;
+  margin:10vw 0vw 0vw 22.5vw;
+}
+
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 .main__menu__text .main__menu__right{
   width:50%;
   height:100%;
@@ -293,6 +314,10 @@ header #header__screen #header__image{
 .main__sopu__menu h1{
   font-size:3vw;
   font-weight:bold;
+<<<<<<< HEAD
+=======
+  margin-top:5vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   margin-bottom:2vw;
 }
 .main__sopu__menu .sopu__menu{
@@ -321,6 +346,50 @@ header #header__screen #header__image{
   width:20vw;
   height:20vw;
 }
+<<<<<<< HEAD
+=======
+
+#main__alco__menu{
+  width:90%;
+  height:30vw;
+  margin:auto;
+  margin-top:10vw;
+  text-align:center;
+}
+#main__alco__menu h1{
+  font-size:3vw;
+  padding-top:5vw;
+  font-weight:bold;
+  margin-bottom:2vw;
+}
+#main__alco__menu .alco__menu{
+  width:100%;
+  height:30vw;
+  background-image:url("back.jpg");
+}
+
+.alco__menu ul{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.alco__menu ul li{
+  width:20vw;
+  height:25vw;
+  margin-bottom:2vw;
+  margin:2vw 1vw 2vw 1vw;
+}
+
+.alco__menu ul li p{
+  margin-top:2vw;
+}
+.alco__menu ul li img{
+  width:20vw;
+  height:20vw;
+}
+
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 footer{
   width:100%;
   height:35vw;
@@ -332,7 +401,11 @@ footer #footer__fild{
 }
 footer #footer__fild .footer__image{
   width:40vw;
+<<<<<<< HEAD
   height:25vw;
+=======
+  height:23vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   background-image:url("susichi7.jpg");
   background-size:cover;
   background-position:center center;
@@ -348,7 +421,11 @@ footer #footer__fild .footer__top{
 }
 footer #footer__fild .footer__bottom{
   width:100%;
+<<<<<<< HEAD
   height:33vw;
+=======
+  height:60vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   background-color:#000;
 }    
 footer #footer__fild .footer__bottom .footer__kuuhaku{
@@ -372,7 +449,11 @@ footer #footer__fild .footer__bottom .footer__text p{
  
 footer #footer__fild .footer__bottom #footer__bar {
   width:60%;
+<<<<<<< HEAD
   margin-top:15vw;
+=======
+  margin-top:13vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 footer #footer__fild .footer__bottom #footer__bar ul{
   display:flex;                                  
@@ -382,15 +463,29 @@ footer #footer__fild .footer__bottom #footer__bar ul li{
   color:#fff;
   font-size:1vw;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu M    incho", "MS PMin    cho", serif;
+<<<<<<< HEAD
+=======
+  margin-top:1vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   font-weight:bold;
   font-size:2vw;
+<<<<<<< HEAD
   margin-right:3vw;
  }
 
 @media only screen and (max-width:500px){
   
+=======
+  margin:0vw 3vw 0vw 0vw;
+ }
+
+@media only screen and (max-width:960px){
+html{
+  font-size:2.5rem;
+}  
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 body{
   width:100%;
   height:100%;
@@ -399,21 +494,53 @@ body{
 header{
   height:60vh;
 }
+<<<<<<< HEAD
 #header__screen{
   height:55vh !important;
   position:relative;
 }
+=======
+header #header__screen{
+  height:60vh;
+  position:relative;
+}
+.header__bar{
+  background-color:#000;
+}
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 .header__bar__right ul{
   opacity:0;
   visibility:hidden;
 }
+<<<<<<< HEAD
+=======
+.header__bar .header__bar__left h1{
+  font-size:5vw;
+}
+
+.header__title h1{
+  font-size:5vw;
+ }
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 .hidden__menu{
   display:block;
   visibility:visible;
   color:#fff;
+<<<<<<< HEAD
   font-size:3vw;
   width:20vw;
   margin:2vw 1vw 2vw 1vw;
+=======
+  width:5vw;
+  margin-top:3.5vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 }
 .hidden__menu  #menu__lists{
   opacity:0;
@@ -421,8 +548,13 @@ header{
   position:absolute;
   top:0vw;
   left:0vw;
+<<<<<<< HEAD
   font-size:3vw;
   line-height:4em;
+=======
+  font-size:4vw;
+  line-height:3em;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -433,6 +565,7 @@ header{
   height:100%;
 }
 
+<<<<<<< HEAD
 .hidden__menu  #menu__lists #close__btn{
   color:#fff;
   font-size:1.5vw;
@@ -440,6 +573,19 @@ header{
   top:0vw;
   left:80vw;
 }
+=======
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn {
+  color:#fff;
+  width:20vw;
+  position:absolute;
+  top:-2vw;
+  left:75vw;
+}
+
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
+  font-size:3.5vw;
+}    
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 .hidden__menu #menu__lists.active{
   opacity:1;
   visibility:visible;
@@ -452,6 +598,7 @@ header{
     }
 }
 
+<<<<<<< HEAD
 #about__menu{
   height:50vh !important;
   flex-direction:column;
@@ -495,6 +642,61 @@ header{
 
 #main__menu .main__menu__text{
   margin-top:30vw !important;
+=======
+#main #about__menu{
+  height:80vh;
+  flex-direction:column;
+  text-align:center;
+  margin:8vw 0vw 5vw 0vw;
+
+}
+
+#main #about__menu .about__menu__left{
+  width:100%; 
+}
+
+#main #about__menu .about__menu__left h2{
+  font-size:4vw;
+}
+#main #about__menu .about__menu__left h3{
+  font-size:5vw;
+  margin-top:3vw;
+}
+#main #about__menu .about__menu__left p{
+  width:10vw;
+  margin:10vw 0vw 0vw 45vw;
+}
+#main #about__menu .about__menu__right{
+  width:100%; 
+  margin-bottom:5vw;
+}
+
+#main #about__menu .about__menu__right p{
+  font-size:4vw;
+  line-height:2em;
+}
+#main #about__menu .about__menu__right h3{
+  margin-bottom:10vw;
+  font-size:3.5vw;
+}
+#main #about__menu .about__menu__right .about__btn{
+  width:20vw;
+  height:7vw;
+  font-size:2.5vw;
+  margin:20vw 0vw 0vw 65vw;
+}
+#main__menu{
+  height:80vh;
+  margin-top:10vw;
+}
+#main__menu .main__menu__top .main__menu__image img{
+  margin-top:15vw;
+  height:40vh;
+}
+
+#main__menu .main__menu__text{
+  margin-top:40vw;
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
   flex-direction:column;
 }
 
@@ -503,12 +705,27 @@ header{
 }
 
 #main__menu .main__menu__text .main__menu__left h2{
+<<<<<<< HEAD
   margin-top:10vw;
 }
+=======
+  font-size:4vw;
+}
+#main__menu .main__menu__text .main__menu__left h3{
+  font-size:4.5vw;
+}
+.main__menu__text .main__menu__left p{
+  width:10vw;
+  border-bottom:2px solid #bbb;
+  margin:10vw 0vw 0vw 45vw;
+}
+
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 #main__menu .main__menu__text .main__menu__right{
   width:100%;
   margin-top:5vw;
 }
+<<<<<<< HEAD
 #main__menu .main__menu__text .main__menu__right p{
   margin-top:10vw;
   line-height:2.5em;
@@ -522,6 +739,28 @@ header{
   margin-top:90vw;
   height:100vw;
 }
+=======
+#main__menu .main__menu__text .main__menu__right h3{
+ font-size:4vw;
+}
+#main__menu .main__menu__text .main__menu__right p{
+  margin-top:10vw;
+  font-size:4vw;
+}
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
+  width:25vw;
+  height:7vw;
+  margin:15vw 0vw 0vw 60vw;
+}
+#susi__menu{
+  margin-top:105vw;
+  height:100vw;
+}
+
+#susi__menu h1{
+  font-size:5vw;
+}
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13
 #susi__menu .main__susi__menu{
   height:80vw;
   margin-top:5vw;
@@ -530,6 +769,7 @@ header{
 #susi__menu .main__susi__menu ul li{
   margin:8vw 1vw 2vw 1vw;
 } 
+<<<<<<< HEAD
 
 #footer__bar{
   width:100% !important;
@@ -541,3 +781,158 @@ header{
 }
 
 
+=======
+#main__sousaku__menu h1{
+  font-size:5vw;  
+}
+.main__sopu__menu h1{
+  font-size:5vw;
+}
+#main__alco__menu h1{
+  font-size:5vw;
+}
+
+footer{
+  margin-top:30vw;
+  background-color:#000;
+}
+.footer__bottom .footer__text {
+  display:none;
+}
+.footer__kuuhaku{
+  display:none;
+  visibility:hidden;
+}
+footer{
+  height:35vh;
+}
+.footer__bottom{
+  margin-top:-8vw;
+  height:60vw;
+  width:100%;
+}
+#footer__bar{
+  width:100%;
+  background-color:#000;
+}
+#footer__bar ul{
+  flex-direction:column;
+  align-items:center;
+  margin-left:30vw;
+}
+footer #footer__fild .footer__bottom  #footer__bar ul li{
+  font-size:3vw;
+  margin-top:3.5vw;
+}
+footer #footer__fild .footer__bottom  #footer__bar ul .store__name{
+  margin-right:0vw;
+  font-size:3vw;
+}
+
+}
+
+@media only screen and (max-width:550px){
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin-top:3vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}
+.hidden__menu  #menu__lists #close__btn{
+  color:#fff;
+  font-size:2vw;
+  width:20vw;
+  position:absolute;
+  top:-2vw;
+  left:75vw;
+}
+#main #about__menu{
+  margin-bottom:0vw;
+}
+#main #about__menu .about__menu__right{
+  margin-top:0vw;
+}
+    
+.about__menu__right p{
+  font-size:4vw;
+  line-height:2em;
+}
+#main #about__menu .about__menu__left{
+  height:50%;
+}
+#main__menu{
+  margin-top:0vw;
+}
+#main__menu .main__menu__text .main__menu__right p {
+  font-size:4vw;
+  line-height:2em;
+}
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:30vw;  
+}
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
+  margin: 20vw 0vw 0vw 60vw;  
+}
+#susi__menu{
+ margin-top:123vw;
+}
+footer{
+  margin-top:30vw;
+  height:52vw;
+}
+footer #footer__fild .footer__bottom{
+  height:50vw;
+}
+footer #footer__bar{
+  background-color:#000;
+}
+
+
+}
+
+@media only screen and (max-width:300px){
+
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  font-size:3vw;
+  width:20vw;
+  margin-top:1.5vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:8vw;
+}
+#main #about__menu{
+  height:70vh;  
+}
+#main__menu .main__menu__top .main__menu__image img{
+  margin-top:0vw;
+}
+#main #about__menu .about__menu__left{
+  height:40%;
+}
+#main__menu{
+  margin-top:0vw;  
+}
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:35vw;  
+}
+#susi__menu{
+  margin-top:95vw;      
+}
+}
+>>>>>>> c31eeec1c79a1fd70b63b68b4b01f9dfcb6e4a13

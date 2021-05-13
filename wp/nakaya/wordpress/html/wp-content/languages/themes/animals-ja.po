@@ -1,0 +1,280 @@
+# Translation of Themes - Animals in Japanese
+# This file is distributed under the same license as the Themes - Animals package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-12 09:53:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Animals\n"
+
+#. Theme Name of the theme
+msgid "Animals"
+msgstr "Animals"
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "全幅"
+
+#: sidebar-page.php:21 sidebar.php:21
+msgid "Meta"
+msgstr "メタ"
+
+#: sidebar-page.php:15 sidebar.php:15
+msgid "Archives"
+msgstr "アーカイブ別"
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "検索..."
+
+#: search.php:15
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか？<a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "見つかりませんでした"
+
+#: inc/template-tags.php:137
+msgid "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">投稿日: %1$s</span> <span class=\"byline\">著者: %2$s</span>"
+
+#: inc/template-tags.php:46
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: inc/template-tags.php:39
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:23
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/customizer.php:212
+msgid "Add text for slide link button"
+msgstr "スライドリンクボタンのテキストを追加"
+
+#: inc/customizer.php:200
+msgid "Check this to hide slider"
+msgstr "スライダーを隠すにはここをチェック"
+
+#: inc/customizer.php:186
+msgid "Select page for slide three:"
+msgstr "スライド3のページを選択:"
+
+#: inc/customizer.php:174
+msgid "Select page for slide two:"
+msgstr "スライド2のページを選択:"
+
+#: inc/customizer.php:162
+msgid "Select page for slide one:"
+msgstr "スライド1のページを選択:"
+
+#: inc/customizer.php:155 inc/customizer.php:167 inc/customizer.php:179
+msgid "0"
+msgstr "0"
+
+#: inc/customizer.php:150
+msgid "Recommended image size (1420x567)"
+msgstr "推奨画像サイズ (1420x567)"
+
+#: inc/customizer.php:148
+msgid "Slider Settings"
+msgstr "スライダー設定"
+
+#: inc/customizer.php:140
+msgid "Check this to hide social icons"
+msgstr "ソーシャルアイコンを隠すにはここをチェック"
+
+#: inc/customizer.php:125
+msgid "Add youtube icon link here"
+msgstr "youtube アイコンリンクをここに追加"
+
+#: inc/customizer.php:113
+msgid "Add pinterest icon link here"
+msgstr "pinterest アイコンリンクをここに追加"
+
+#: inc/customizer.php:101
+msgid "Add linkedin icon link here"
+msgstr "linkedin アイコンリンクをここに追加"
+
+#: inc/customizer.php:89
+msgid "Add twitter icon link here"
+msgstr "twitter アイコンリンクをここに追加"
+
+#: inc/customizer.php:77
+msgid "Add facebook icon link here"
+msgstr "facebook アイコンリンクをここに追加"
+
+#: inc/customizer.php:67
+msgid "Add your social links here."
+msgstr "ソーシャルリンクをここに追加"
+
+#: inc/customizer.php:66
+msgid "Social Links"
+msgstr "ソーシャルリンク"
+
+#: inc/customizer.php:46
+msgid "Select color form here."
+msgstr "ここから色を選択。"
+
+#: inc/customizer.php:45
+msgid "Color Scheme"
+msgstr "配色 "
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "次へ <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> 前へ"
+
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+#: header.php:95 inc/customizer.php:205
+msgid "Read More"
+msgstr "続きを読む"
+
+#: header.php:45
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:158
+msgid "Animals theme by %1$s."
+msgstr "Animals theme by %1$s."
+
+#. Translators: If there are any character that are * not supported by Arimo,
+#. translate this to off, do not * translate into your own language.
+#: functions.php:85
+msgctxt "Tangerine font:on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are any character that are * not supported by Oswald,
+#. translate this to off, do not * translate into your own language.
+#: functions.php:79
+msgctxt "Oswald font:on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:61
+msgid "Appears on page sidebar"
+msgstr "固定ページのサイドバーに表示されます"
+
+#: functions.php:60
+msgid "Page Sidebar"
+msgstr "固定ページ用サイドバー"
+
+#: functions.php:51
+msgid "Appears on blog page sidebar"
+msgstr "ブログページのサイドバーに表示されます"
+
+#: functions.php:50
+msgid "Blog Sidebar"
+msgstr "ブログ用サイドバー"
+
+#: functions.php:37
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:14
+msgid "%1$s %2$s | All Rights Reserved. %3$s"
+msgstr "%1$s %2$s | All Rights Reserved. %3$s"
+
+#: content.php:68
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: content.php:68
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: content.php:68
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: content.php:62
+msgid "Tagged %1$s"
+msgstr "タグ:  %1$s"
+
+#: content.php:52
+msgid "Posted in %1$s"
+msgstr "カテゴリー: %1$s"
+
+#: content.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:30
+msgid "Read More &raquo;"
+msgstr "もっと読む &raquo;"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:15 content.php:48 content.php:58 content-single.php:17
+#: content-single.php:35
+msgid ", "
+msgstr "、"
+
+#: content.php:12 content-single.php:14
+msgid "By"
+msgstr " "
+
+#: content-page.php:23 content.php:71 image.php:33 image.php:65
+#: inc/template-tags.php:23 inc/template-tags.php:42 content-single.php:42
+msgid "Edit"
+msgstr "編集"
+
+#: content-page.php:18 content.php:37 image.php:59 content-single.php:30
+msgid "Pages:"
+msgstr "ページ: "
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: 404.php:17
+msgid "Looks like you have taken a wrong turn.....<br />Don't worry... it happens to the best of us."
+msgstr "間違えましたか ?"
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr "<strong>404</strong> Not Found"
+
+#. Author URI of the theme
+msgid "https://flythemes.net"
+msgstr "https://flythemes.net"
+
+#. Author of the theme
+msgid "Flythemes"
+msgstr "Flythemes"
+
+#. Theme URI of the theme
+msgid "https://flythemes.net/wordpress-themes/animals-free-wordpress-theme/"
+msgstr "https://flythemes.net/wordpress-themes/animals-free-wordpress-theme/"
