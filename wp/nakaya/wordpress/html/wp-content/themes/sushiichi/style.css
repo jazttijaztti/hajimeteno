@@ -614,7 +614,7 @@ header #header__content{
   height:5vw;
   font-size:3vw;
   position:absolute;
-  top:-4vw;
+  top:-6vw;
   left:0vw;
 }
 header #header__content .menu__content #menu___content__list #colse__btn{
@@ -695,7 +695,7 @@ header #header__content .header__top .menu__content #menu__content__list #close_
   height:10vh;
   background-size:cover;
   background-position:center center;
- }
+}
  
 .header__bottom .header__bottom__left p{
   letter-spacing:1px;
@@ -707,11 +707,11 @@ header #header__content .header__top .menu__content #menu__content__list #close_
   height:45vh;
  }
 
- .header__bottom .header__bottom__right .header__image{
+.header__bottom .header__bottom__right .header__image{
   margin-left:0vw;
   width:100%;
   height:60vh;
- }
+}
 #main #about__page{
  margin-top:10vw;
   width:100%;
@@ -976,10 +976,9 @@ footer{
   height:5vw;
   font-size:3vw;
   position:absolute;
-  top:-1vw;
+  top:0vw;
   left:2vw;
 }
-
 .menu__icon div{
   border-top:3px solid #fff;
   width:5vw;

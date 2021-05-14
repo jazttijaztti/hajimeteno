@@ -6,9 +6,15 @@
  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta charset ="utf-8">
+    <link rel ="stylesheet" href="<?php echo get_template_directory_uri();?>/static/css/reset.css" type="text/css">
     <link rel ="stylesheet" href="<?php echo get_stylesheet_uri(style.css);?>" type="text/css">
+    <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>                  
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
     <title>Susiichi</title>
 
     <script>
