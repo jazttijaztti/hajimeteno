@@ -5,60 +5,8 @@
 ?>
 <!Doctype html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-    <meta charset ="utf-8">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(style.css); ?>" media="all">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <title>Susiichi</title>
-    <script>
-
-      $(function(){
-          $(".menu__icon").on("click",function(){
-              $("#menu__content__list").addClass("active");
-              $("#main").css("opacity","0.3");
-              });
-          $("#close__btn").on("click",function(){
-              $("#menu__content__list").removeClass("active");
-              $("#main").css("opacity","1");
-              });
-          var flag = true;
-          $(window).on("scroll",function(){
-              $(".menu__image__left").each(function(index, el){
-              if($(window).scrollTop()> $('#about__page').offset().top *0.5 && flag == true ){
-              flag = false;
-              console.log($(window).width());
-                   if ($(window).width() < 500) {
-                   $(".menu__image__left").css("z-index","100");
-                   $(".menu__image__left").css("position","absolute");
-                   $(".menu__image__left").fadeIn(500);
-                   $(".menu__image__left").animate({"bottom":"-65px","left":"80px","width":"83%"});
-                   $(el).addClass("active");
-                   } else {
-                   $(el).addClass("active");
-                   }
-                 }
-              });
-          });
-
-          $(window).on("scroll",function(){
-              $(".contact__image__right").each(function(index, el){
-                if($(window).scrollTop()> ($(el).offset().top - $(window).height() / 2 ) ){
-                  $(el).addClass("over_st");
-                }
-              });
-         });
-    });
-
-</script>
-</head>
-
+ <?php get_header(); ?>
 <body>
-  <div id="wrapper">
-  <header>
-   <?php get_header(); ?>
-  </header>
     <div id="main">
       <div id="about__page">
         <div class="about__title">

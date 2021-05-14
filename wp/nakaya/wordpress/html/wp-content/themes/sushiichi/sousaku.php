@@ -9,11 +9,15 @@
 <head>
  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
  <meta charset ="utf-8">
- <link rel="stylesheet" href="<?php echo get_stylesheet_uri(sousaku.css); ?>" media="all">
+ <?php if(is_single()):?>
+ <link rel="stylesheet" href="<?php top('http://127.0.0.1:8080/?page_id=30');?>/css/style.css" type="text/css">
+ <?php else: ?>
+ <link rel"stylesheet" href="<?php sousaku('http://127.0.0.1:8080/?page_id=39');?>/css/sousaku.css" type="text/css">
+ <?php endif; ?>
  <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
  <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>                  
- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yE    xlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 
@@ -55,8 +59,8 @@ $(function(){
          </div>
          <div class="header__bar__right">
           <ul>
-            <li class="top__name"><a href="index.html">トップ</a></li>
-            <li><a href="sousaku.html">創作</a></li>
+            <li class="top__name"><a href="index.php?page_id=30">トップ</a></li>
+            <li><a href="sousaku.php?page_id=39">創作</a></li>
             <li><a href="sinagaki.html">お品書き</a></li>
             <li><a href="form.html">アクセス</a></li>
             <li><a href="form.html">お問い合わせ</a></li>
@@ -66,11 +70,11 @@ $(function(){
          <div class="hidden__menu">
           <h2 id="menu__name"><div></div><div></div><div></div></h2>
         　  <ul id="menu__lists">
-              <li><a href="index.html">トップ</a></li>
-              <li><a href="sousaku.html">創作</a></li>
-              <li><a href="sinagaki.html">お品書き</a></li>
-              <li><a href="form.html">お問い合わせ</a></li>
-              <li><a href="form.html">アクセス</a></li>
+              <li><a href="index.php?page_id=30">トップ</a></li>
+              <li><a href="sousaku.php?page_id=39">創作</a></li>
+              <li><a href="sinagaki.php">お品書き</a></li>
+              <li><a href="form.php">お問い合わせ</a></li>
+              <li><a href="form.php">アクセス</a></li>
              <div id="close__btn">
                <p>閉じる</p>
              </div>
