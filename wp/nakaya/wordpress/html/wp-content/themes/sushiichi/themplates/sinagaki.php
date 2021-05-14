@@ -49,27 +49,27 @@ $(function(){
     <div id="header__image">
      <div class="header__bar">
         <div class="header__bar__left">
-          <h1><a href="index.html">鮨いち</a></h1>
+          <h1><a href="/鮨いちのトップページ">鮨いち</a></h1>
         </div>
 
       <div class="header__bar__right">
        <ul>
-        <li class="top__name"><a href="index.html">トップ</a></li>
-        <li><a href="sousaku.html">創作</a></li>
-        <li><a href="sinagaki.html">お品書き</a></li>
-        <li><a href="form.html">アクセス</a></li>
-        <li><a href="form.html">お問合せ</a></li>
+        <li class="top__name"><a href="/鮨いちのトップページ">トップ</a></li>
+        <li><a href="/創作のページ">創作</a></li>
+        <li><a href="/品書きページ">お品書き</a></li>
+        <li><a href="/フォームのページ">アクセス</a></li>
+        <li><a href="/フォームのページ">お問合せ</a></li>
        </ul>
       </div>
 
         <div class="hidden__menu">
 	 <h2 id="menu__name"><div></div><div></div><div></div></h2>
 	 　<ul id="menu__lists">
-	    <li><a href="index.html">トップ</a></li>
-	    <li><a href="sousaku.html">創作</a></li>
-	    <li><a href="sinagaki.html">お品書き</a></li>
-	    <li><a href="form.html">お問い合わせ</a></li>
-	    <li><a href="form.html">アクセス</a></li>
+	    <li><a href="/鮨いちのトップページ">トップ</a></li>
+	    <li><a href="/創作のページ">創作</a></li>
+	    <li><a href="/品書きページ">お品書き</a></li>
+	    <li><a href="/フォームのページ">お問い合わせ</a></li>
+	    <li><a href="/フォームのページ">アクセス</a></li>
 	    <div id="close__btn">
               <p>閉じる</p>
             </div>
@@ -100,7 +100,7 @@ $(function(){
         <p>カウンター越しに一貫ずつご提供する寿司を堪能する贅沢さを、臨場感とともにお楽しみ下さい。<br>
         魚についての小話などをしながら、ゆったりとすごしていただけましたら幸いです。<br>
         落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別なひと時を。</p>
-	<div class="about__btn"><a href="#susi__menu">ABOUT US</a></div>
+	<div class="about__btn"><a href="/品書きページ">ABOUT US</a></div>
        </div>
     </div>
 
@@ -122,7 +122,7 @@ $(function(){
           <p>カウンター越しに一貫ずつご提供する寿司を堪能する贅沢さを、臨場感とともにお楽しみ下さい。<br>
            魚についての小話などをしながら、ゆったりとすごしていただけましたら幸いです。<br>
            落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別なひと時を。</p>	   
-          <div class="about__btn"><a href="form.html">CONTACT US</a></div>
+          <div class="about__btn"><a href="/フォームのページ">CONTACT US</a></div>
  　　   </div>
     </div>
   </div>
@@ -151,7 +151,7 @@ $(function(){
         <li><span><img src="<?=get_template_directory_uri();?>/static/images/sou8.jpg"></span><p>雲丹いくら盛り</p></li>
         <li><span><img src="<?=get_template_directory_uri();?>/static/images/sou9.jpg"></span><p>季節の逸品</p></li>
        </ul>
-     <div class="sousaku__btn"><a href="sousaku.html">創作</a></div>
+     <div class="sousaku__btn"><a href="/創作のページ">創作</a></div>
     </div>
   </div>
 
@@ -193,11 +193,11 @@ $(function(){
 
      <div id="footer__bar">
        <ul>
-         <li class="store__name"><a href="index.html">鮨いち</a></li>
-         <li><a href="index.html">トップ</a></li>
-         <li><a href="sinagaki.html">お品書き</a></li>
-	 <li><a href="sousaku.html">創作</a></li>
-         <li><a href="form.html">店舗情報</a></li>
+         <li class="store__name"><a href="/鮨いちのトップページ">鮨いち</a></li>
+         <li><a href="/鮨いちのトップページ">トップ</a></li>
+         <li><a href="/品書きページ">お品書き</a></li>
+	 <li><a href="/創作のページ">創作</a></li>
+         <li><a href="/フォームのページ">店舗情報</a></li>
        </ul>
      </div>
 

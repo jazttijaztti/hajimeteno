@@ -21,7 +21,7 @@
             落ち着きの空間で心を尽くしたおもてなしに身を委ねる、格別なひと時を。</p>
 
           <div class="about__btn">
-            <b><a href="sinagaki.php">ABOUT US</a></b>
+            <b><a href="/品書きページ">ABOUT US</a></b>
           </div>
         </div>
 
@@ -50,7 +50,7 @@
               素材の良さを活かした方法で調理致します。<br>
               素材そのものの美味しさを実感して下さい。</p>  
             <div class="about__btn">
-              <b><a href="sousaku.php">ABOUT US</a></b>
+              <b><a href="/創作のページ">ABOUT US</a></b>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
               </div>
 
               <div class="info__box">
-                <b><a href="form.php">MORE INFO</a></b>
+                <b><a href="/フォームのページ">MORE INFO</a></b>
               </div>
 
             </div>
@@ -112,7 +112,7 @@
             <p> 素材を感じる。</p>
 
             <div class="creation__btn">
-              <b><a href="sousaku.php">MENU</a></b>
+              <b><a href="/創作のページ">MENU</a></b>
             </div>
 
           </div>

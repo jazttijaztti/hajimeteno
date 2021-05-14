@@ -17,11 +17,11 @@
 
           <div class="footer__lists">
             <ul>
-              <li class="store__name"><a href="#wrapper">鮨いち</a></li>
-              <li><a href="#wrapper">トップ</a></li>
-              <li><a href="sinagaki.php">お品書き</a></li>
-              <li><a href="sousaku.php">創作</a></li>
-              <li><a href="form.php">店舗情報</a></li>
+              <li class="store__name"><a href="/鮨いちのトップページ">鮨いち</a></li>
+              <li><a href="/鮨いちのトップページ">トップ</a></li>
+              <li><a href="/品書きページ">お品書き</a></li>
+              <li><a href="/創作のページ">創作</a></li>
+              <li><a href="/フォームのページ">店舗情報</a></li>
             </ul>
           </div>
 

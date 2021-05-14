@@ -66,11 +66,11 @@
               <div class="menu__content">
                 <h3 class="menu__icon"><div></div><div></div><div></div></h3>
                  <ul id="menu__content__list">
-                  <li><a href="/index.php?page_id=30">トップ</a></li>
-                  <li><a href="/?page_id=39">創作</a></li>
-                  <li><a href="sinagaki.php">お品書き</a></li>
-                  <li><a href="form.php">アクセス</a></li>
-                  <li><a href="form.php">お問い合わせ</a></li>
+                  <li><a href="/鮨いちのトップページ">トップ</a></li>
+                  <li><a href="/創作のページ">創作</a></li>
+                  <li><a href="/品書きページ">お品書き</a></li>
+                  <li><a href="/フォームのページ">アクセス</a></li>
+                  <li><a href="/フォームのページ">お問い合わせ</a></li>
                  <div id="close__btn">
                   <p>閉じる</p>
                  </div>
@@ -81,10 +81,10 @@
           <div class="header__top__right">
             <ul>
               <li class="top__name"><a href="/index.php?page_id=30">トップ</a></li>
-              <li><a href="/?page_id=39">創作</a></li>
-              <li><a href="sinagaki.php">お品書き</a></li>
-              <li><a href="form.php">アクセス</a></li>
-              <li><a href="form.php">お問い合わせ</a></li>
+              <li><a href="/創作のページ">創作</a></li>
+              <li><a href="/品書きページ">お品書き</a></li>
+              <li><a href="/フォームのページ">アクセス</a></li>
+              <li><a href="/フォームのページ">お問い合わせ</a></li>
             </ul>
           </div>
         </div>

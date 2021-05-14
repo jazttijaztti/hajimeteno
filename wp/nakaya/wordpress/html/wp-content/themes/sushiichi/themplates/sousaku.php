@@ -53,26 +53,26 @@ $(function(){
         
       <div class="header__bar">
          <div class="header__bar__left">
-           <h1><a href="index.html">鮨いち</a></h1>
+           <h1><a href="/鮨いちのトップページ">鮨いち</a></h1>
          </div>
          <div class="header__bar__right">
           <ul>
-            <li class="top__name"><a href="index.php?page_id=30">トップ</a></li>
-            <li><a href="sousaku.php?page_id=39">創作</a></li>
-            <li><a href="sinagaki.php?page">お品書き</a></li>
-            <li><a href="form.html">アクセス</a></li>
-            <li><a href="form.html">お問い合わせ</a></li>
+            <li class="top__name"><a href="/鮨いちのトップページ">トップ</a></li>
+            <li><a href="/創作のページ">創作</a></li>
+            <li><a href="/品書きページ">お品書き</a></li>
+            <li><a href="/フォームのページ">アクセス</a></li>
+            <li><a href="/フォームのページ">お問い合わせ</a></li>
           </ul>
          </div>
 
          <div class="hidden__menu">
           <h2 id="menu__name"><div></div><div></div><div></div></h2>
         　  <ul id="menu__lists">
-              <li><a href="index.php?page_id=30">トップ</a></li>
-              <li><a href="sousaku.php?page_id=39">創作</a></li>
-              <li><a href="sinagaki.php">お品書き</a></li>
-              <li><a href="form.php">お問い合わせ</a></li>
-              <li><a href="form.php">アクセス</a></li>
+              <li><a href="/鮨いちのトップページ">トップ</a></li>
+              <li><a href="/創作のページ">創作</a></li>
+              <li><a href="/品書きページ">お品書き</a></li>
+              <li><a href="/フォームのページ">お問い合わせ</a></li>
+              <li><a href="/フォームのページ">アクセス</a></li>
              <div id="close__btn">
                <p>閉じる</p>
              </div>
@@ -137,11 +137,11 @@ $(function(){
 
     <div id="footer__bar">
       <ul>
-       <li class="store__name"><a href="index.html">鮨いち</a></li>
-       <li><a href="index.html">トップ</a></li>
-       <li><a href="sinagaki.html">お品書き</a></li>
-       <li><a href="sousaku.html">創作</a></li>
-       <li><a href="form.html">店舗情報</a></li>
+       <li class="store__name"><a href="/鮨いちのトップページ">鮨いち</a></li>
+       <li><a href="/鮨いちのトップページ">トップ</a></li>
+       <li><a href="/品書きページ">お品書き</a></li>
+       <li><a href="/創作のページ">創作</a></li>
+       <li><a href="/フォームのページ">店舗情報</a></li>
       </ul>
      </div>
 
