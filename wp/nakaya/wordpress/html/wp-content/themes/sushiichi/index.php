@@ -119,7 +119,6 @@
         </div>
       </div>
     </div>
-
     <footer>
      <?php get_footer(); ?>
     </footer>　　

@@ -433,7 +433,7 @@ footer #footer__fild .footer__bottom #footer__bar ul{
 }
 footer #footer__fild .footer__bottom #footer__bar ul li{
   color:#fff;
-  font-size:1vw;
+  font-size:2vw;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu M    incho", "MS PMin    cho", serif;
   margin-top:1vw;
 }
@@ -529,7 +529,7 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 }
 
 #main #about__menu{
-  height:80vh;
+  height:100vh;
   flex-direction:column;
   text-align:center;
   margin:8vw 0vw 5vw 0vw;
@@ -571,7 +571,7 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
   margin:20vw 0vw 0vw 65vw;
 }
 #main__menu{
-  height:80vh;
+  height:100%;
   margin-top:10vw;
 }
 #main__menu .main__menu__top .main__menu__image img{
@@ -580,7 +580,7 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 }
 
 #main__menu .main__menu__text{
-  margin-top:40vw;
+  margin-top:10vh;
   flex-direction:column;
 }
 
@@ -617,7 +617,7 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
   margin:15vw 0vw 0vw 60vw;
 }
 #susi__menu{
-  margin-top:105vw;
+  margin-top:10vh;
   height:100vw;
 }
 
@@ -733,7 +733,7 @@ footer #footer__fild .footer__bottom  #footer__bar ul .store__name{
   margin: 20vw 0vw 0vw 60vw;  
 }
 #susi__menu{
- margin-top:123vw;
+ margin-top:10vh;
 }
 footer{
   margin-top:30vw;
@@ -782,6 +782,6 @@ footer #footer__bar{
   margin-top:35vw;  
 }
 #susi__menu{
-  margin-top:95vw;      
+  margin-top:10vh;      
 }
 }

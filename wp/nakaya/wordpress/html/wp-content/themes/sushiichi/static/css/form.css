@@ -31,7 +31,7 @@ p{
 }
 #header__screen .header__bar{
   width:100%;
-  height:10vw;
+  height:8vh;
   display:flex;
   justify-content:space-between;
 } 
@@ -41,7 +41,7 @@ p{
 }
 
 #header__screen .header__bar .header__bar__left h1{
-  padding:2vw 0vw 0vw 3vw;
+  padding:1vh 0vw 0vw 3vw;
   font-size:3vw;
   color:#fff;
 }
@@ -121,8 +121,6 @@ p{
   height:40vw;
   padding:2vw 2vw 0vw 4vw;
  } 
-#main__access .main__access__info{
-}
 #main__access .main__access__info .main__access__left h3{
   font-size:2vw;
   font-weight:normal;
@@ -166,18 +164,126 @@ p{
 
 #access__map{
   width:100%;
-  height:50vw;
+  height:100%;
   margin:auto;
   margin-top:3vw;
   position:relative;
 }
 
 #access__map .access__map__image{
-  height:0;
+  height:50vh;
   overflow:hidden;
   padding-bottom: 56.25%;
   position:relative;
 }
+#access__map .contact__form{
+  width:100%;
+  height:70vh;
+  display:flex;
+  justify-content:space-between;
+}
+#access__map .contact__form .contact__title{
+  width:40%;
+  padding-bottom:10vh;
+  margin-left:3vw;
+}
+#access__map .contact__form .contact__title h2{
+  font-size:35px;
+  font-weight:bold;
+  margin-top:3vh;
+}
+#access__map .contact__form .contact__title h3{
+ font-size:30px;
+}
+#access__map .contact__form .contact__title .title__border{
+  border-bottom:2px solid #ccc;
+  width:40%;
+  margin-top:20vh;
+}
+#access__map .contact__form .contact__content{
+  width:60%;
+  margin-left:5vw;
+}
+#access__map .contact__form  .contact__content ul{
+  width:100%;
+  height:100%;
+}
+
+#access__map .contact__form .contact__content ul .form__name{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__name h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__name p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__contact{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__contact h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__contact p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__email{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__email h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__email p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__date{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__date h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__date p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+}
+#access__map .contact__form .contact__content ul .form__ntext{
+  height:40%;
+  margin-top:1vh;
+  margin-bottom:2vh;
+}
+#access__map .contact__form .contact__content ul .form__text h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__text p{
+  height:20vh;
+  font-size:16px;
+  width:80%;
+  border:1px solid #aaa;
+}
+
+#access__map .contact__form .contact__content .form__btn{
+  margin-top:4vh;
+  font-size:20px;
+  border:2px solid #ccc;
+  padding-left:4vw;
+  width:20%;
+}
+
+
 #access__map .access__map__image iframe{
   position:absolute;
   left:5vw;
@@ -188,7 +294,7 @@ p{
 
 #access__map .access__map__btn{
   position:absolute;
-  top:20vw;
+  top:90vh;
   left:70vw;
   padding:1.2vw 0vw 0vw 1.8vw;
   width:20vw;
@@ -250,10 +356,9 @@ footer #footer__fild .footer__bottom #footer__bar ul{
   display:flex;
   justify-content:space-around;
 }
-#footer__bar ul li{
+footer #footer__fild .footer__bottom #footer__bar ul li{
   color:#fff;
-  font-size:1vw;
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  font-size:2vw;
 }
 footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   font-weight:bold;
@@ -293,7 +398,7 @@ header{
   visibility:visible;
   color:#fff;
   width:5vw;
-  margin-top:3.5vw;
+  margin-top:3vh;
 }
 #header__screen .header__bar .hidden__menu  #menu__name div{
   border-top:3px solid #fff;
@@ -376,7 +481,7 @@ header{
   font-size:4vw;
 }
 #main__access{
-  height:55vh;
+  height:100vh;
 }
 
 #main__access .main__access__info{
@@ -423,6 +528,113 @@ th{
 td{
   font-size:4vw;
 }
+#access__map .contact__form{
+  width:100%;
+  height:70vh;
+  flex-direction:column;
+}
+#access__map .contact__form .contact__title{
+  width:40%;
+  padding-bottom:10vh;
+  margin:auto;
+}
+#access__map .contact__form .contact__title h2{
+  font-size:35px;
+  font-weight:bold;
+  margin-top:3vh;
+}
+#access__map .contact__form .contact__title h3{
+ font-size:35px;
+}
+#access__map .contact__form .contact__title .title__border{
+  border-bottom:2px solid #ccc;
+  width:100%;
+  margin-top:5vh;
+}
+#access__map .contact__form .contact__content{
+  width:60%;
+  margin-left:5vw;
+  margin:auto;
+}
+#access__map .contact__form  .contact__content ul{
+  width:100%;
+  height:100%;
+}
+
+#access__map .contact__form .contact__content ul .form__name{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__name h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__name p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__contact{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__contact h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__contact p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__email{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__email h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__email p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__date{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__date h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__date p{
+  height:5vh;
+  font-size:25px;
+  width:80%;
+}
+#access__map .contact__form .contact__content ul .form__ntext{
+  height:40%;
+  margin-top:1vh;
+  margin-bottom:2vh;
+}
+#access__map .contact__form .contact__content ul .form__text h3{
+  font-size:20px;
+}
+#access__map .contact__form .contact__content ul .form__text p{
+  height:20vh;
+  font-size:16px;
+  width:80%;
+  border:1px solid #aaa;
+}
+
+#access__map .contact__form .contact__content .form__btn{
+  margin-top:4vh;
+  margin-left:20vw;
+  font-size:20px;
+  border:2px solid #ccc;
+  padding-left:4vw;
+  width:20%;
+}
 
 #access__map .access__map__image{
   width:100%;
@@ -434,6 +646,7 @@ td{
   width:45vw;
   height:7vw;
   left:50vw;
+  top:130vh;
 }
 #access__map .access__map__btn p{
   font-size:3vw;
@@ -475,14 +688,15 @@ footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   margin-left:3vw;
 }
 footer #footer__fild .footer__bottom #footer__bar ul li{
-　font-size:3vw;
+　font-size:16px;
+  height:100%;
   margin-top:4.5vw;
 }
 
 
 }
     
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
 
 .hidden__menu{
   display:block;
@@ -498,6 +712,129 @@ footer #footer__fild .footer__bottom #footer__bar ul li{
   padding-bottom:1vw;
   margin-left:-3vw;
 }
+#main__access{
+  height:100vh;  
+}
+#access__map{
+  width:100%;
+  height:100%;
+}
+#access__map .contact__form{
+  width:100%;
+  height:100vh;
+  flex-direction:column;
+}
+#access__map .contact__form .contact__title{
+  width:40%;
+  padding-bottom:3vh;
+  margin-left:3vw;
+  margin:auto;
+}
+#access__map .contact__form .contact__title h2{
+  font-size:20px;
+  font-weight:bold;
+  margin-top:3vh;
+}
+#access__map .contact__form .contact__title h3{
+ font-size:20px;
+}
+#access__map .contact__form .contact__title .title__border{
+  border-bottom:2px solid #ccc;
+  width:100%;
+  margin-top:3vh;
+}
+#access__map .contact__form .contact__content{
+  width:60%;
+  margin-left:5vw;
+  margin-top:-10vh;
+  margin:auto;
+}
+#access__map .contact__form  .contact__content ul{
+  width:100%;
+  height:100%;
+}
+
+#access__map .contact__form .contact__content ul .form__name{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__name h3{
+  font-size:16px;
+}
+#access__map .contact__form .contact__content ul .form__name p{
+  height:5vh;
+  font-size:16px;
+  width:100%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__contact{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__contact h3{
+  font-size:16px;
+}
+#access__map .contact__form .contact__content ul .form__contact p{
+  height:5vh;
+  font-size:25px;
+  width:100%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__email{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__email h3{
+  font-size:16px;
+}
+#access__map .contact__form .contact__content ul .form__email p{
+  height:5vh;
+  font-size:20px;
+  width:100%;
+  border:1px solid #aaa;
+}
+#access__map .contact__form .contact__content ul .form__date{
+  height:20%;
+  margin-top:1vh;
+}
+#access__map .contact__form .contact__content ul .form__date h3{
+  font-size:18px;
+}
+#access__map .contact__form .contact__content ul .form__date p{
+  height:5vh;
+  font-size:20px;
+  width:100%;
+}
+#access__map .contact__form .contact__content ul .form__ntext{
+  height:40%;
+  margin-top:1vh;
+  margin-bottom:2vh;
+}
+#access__map .contact__form .contact__content ul .form__text h3{
+  font-size:16px;
+}
+#access__map .contact__form .contact__content ul .form__text p{
+  height:20vh;
+  font-size:16px;
+  width:100%;
+  border:1px solid #aaa;
+}
+
+#access__map .contact__form .contact__content .form__btn{
+  margin-top:4vh;
+  margin-left:20vw;
+  font-size:20px;
+  border:2px solid #ccc;
+  padding-left:4vw;
+  width:30%;
+}
+#access__map .access__map__btn {
+  top:150vh;
+}
+#access__map .access__map__btn p{
+  font-size:13px;
+}
+
 footer #footer__fild .footer__bottom{
   margin-top:-13vw;
   height:65vw;
@@ -546,12 +883,36 @@ footer #footer__fild .footer__bottom #footer__bar ul li {
   padding-bottom:1vw;
   margin-left:-3vw;
 }
+header #header__screen .header__bar .header__bar__left h1{
+  margin-top:1.2vh;
+}
+header #header__screen .header__bar{
+  height:6vh;
+}
+header #header__screen .header__bar .hidden__menu #menu__name{
+  margin-top:-1vh;
+}
+#access__map .contact__form .contact__content .form__btn{
+  margin-top:4vh;
+  margin-left:20vw;
+  font-size:20px;
+  border:2px solid #ccc;
+  padding-left:4vw;
+  width:40%;
+}
 
 #main__access #access__map{
   width:100%;
   height:60vw;
   margin-top:120vw;
 }
+#access__map .access__map__btn{
+  top:135vh;
+}
+#access__map .access__map__btn p{
+  font-size:10px;
+}
+
 footer{
   height:22vh;
 }

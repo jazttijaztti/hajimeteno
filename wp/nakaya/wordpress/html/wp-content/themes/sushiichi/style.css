@@ -65,7 +65,9 @@ h1 h2 h3 p{
   font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Osaka, Tahoma, Verdana, Arial, Verdana, sans-serif;
 }
 #wrapper{
-  overflow:hidden;  
+  overflow:hidden;
+  width:100%;
+  height:100%;
 }
 header{
   width:100%;
@@ -80,7 +82,7 @@ header{
 #header__content .header__top .header__top__left{
   width:50%;
   height:40vw;
-  background-image:url("image/susichi_back.jpg");
+  background-image:url("static/images/susichi_back.jpg");
   background-size:cover;
   background-position:center center;
 }
@@ -128,7 +130,7 @@ header{
   height:38vw;
   margin-left:40vw;
   margin-top:-3vw;
-  background-image:url("image/sushii_master.jpg");
+  background-image:url("static/images/sushii_master.jpg");
   background-size:cover;
   background-position:center center;
   z-index:1;
@@ -225,7 +227,7 @@ header{
 #menu__page .menu__images .menu__image__left{
   width:50%;
   height:30vw;
-  background-image:url("image/susichi3.jpg");
+  background-image:url("static/images/susichi3.jpg");
   background-size:cover;
   background-position:center center;
   opacity:0;
@@ -241,13 +243,13 @@ header{
 #menu__page .menu__images .menu__image__right{
   width:50%;
   height:30vw;
-  background-image:url("image/susichi_back.jpg");
+  background-image:url("static/images/susichi_back.jpg");
   background-size:cover;
   background-position:center center;
 }
 
 #menu__page .menu__images .menu__image__right .image__right__content{
-  background-image:url("image/susichi1.jpg");
+  background-image:url("static/images/susichi1.jpg");
   background-size:cover;
   background-position:center center;
   width:50%;
@@ -323,7 +325,7 @@ header{
 #contact__page .contact__images .contact__image__left{
   width:50%;
   height:30vw;
-  background-image:url("image/susichi_back.jpg");
+  background-image:url("static/images/susichi_back.jpg");
   background-size:cover;
   background-position:center center;
 }
@@ -331,7 +333,7 @@ header{
 #contact__page .contact__images .contact__image__content{
   width:50%;
   height:30vw;
-  background-image:url("image/susichi5.jpg");
+  background-image:url("static/images/susichi5.jpg");
   background-size:cover;
   background-position:center center;
   position:absolute;
@@ -341,7 +343,7 @@ header{
 }
 
 #contact__page .contact__images .contact__image__right{
-  background-image:url("image/susichi4.jpg");
+  background-image:url("static/images/susichi4.jpg");
   background-size:cover;
   background-position:center center;
   width:50%;
@@ -442,7 +444,7 @@ margin:0px 2vw 3vw 3vw;
 #creation__page .creation__image{
   width:60%;
   height:30vw;
-  background-image:url("image/susi10.jpg");
+  background-image:url("static/images/susi10.jpg");
   background-size:cover;
   background-position:center center;
   position:absolute;
@@ -454,7 +456,7 @@ margin:0px 2vw 3vw 3vw;
   width:50%;
   height:30vw;
   margin-left:50vw;
-  background-image:url("image/susichi_back.jpg");
+  background-image:url("static/images/susichi_back.jpg");
   background-size:cover;
   display:flex;
   flex-direction:column;
@@ -528,7 +530,7 @@ footer{
 #footer__content .footer__image{
   width:40vw;
   height:25vw;
-  background-image:url("image/susichi7.jpg");
+  background-image:url("static/images/susichi7.jpg");
   background-size:cover;
   background-position:center center;
   position:absolute;
@@ -560,6 +562,8 @@ footer{
 }
 
 @media only screen and (max-width:1050px) {
+
+    
 footer{
   height:40vh;
 }
@@ -699,7 +703,7 @@ header #header__content .header__top .menu__content #menu__content__list #close_
  
 .header__bottom .header__bottom__left p{
   letter-spacing:1px;
-  font-size:4vw;
+  font-size:18px;
 }
 
 
@@ -713,9 +717,8 @@ header #header__content .header__top .menu__content #menu__content__list #close_
   height:60vh;
 }
 #main #about__page{
- margin-top:10vw;
   width:100%;
-  height:50vh;
+  height:80vh;
   text-align:center;
   flex-direction:column;
   position:relative;
@@ -728,11 +731,11 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 }    
 
 #main #about__page .about__title h3{
-  font-size:3vw;
+  font-size:18px;
 }
 
 #main #about__page .about__title h2{
-  font-size:5vw;
+  font-size:20px;
 }
 #main #about__page .about__text{
   width:100%;
@@ -740,24 +743,24 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 }
 
 #main #about__page .about__text h3{
-  font-size:3.5vw;
+  font-size:18px;
   margin-top:8vw;
 }
 #main #about__page .about__text p{
   margin-top:5vw;
-  font-size:3vw;
+  font-size:16px;
 }    
 #main #about__page .about__text .about__btn{
-  width:22vw;
-  height:6vw;
-  font-size:2.5vw;
+  width:180px;
+  height:50px;
+  font-size:18px;
   margin-left:10vw;
   position:absolute;
-  top:55vw;
-  left:60vw;
+  top:60vh;
+  left:50vw;
 }
 #menu__page{
-  height:70vh;
+  height:80vh;
   text-align:center;
   position:relative;
 }
@@ -780,15 +783,15 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 
 #menu__page .menu__text{
   height:50vh;
-  margin-top:30vw;
+  margin-top:15vh;
   flex-direction:column;
 }
 
 #menu__page .menu__text .menu__text__left h3{
-  font-size:3vw; 
+  font-size:18px; 
 }
 #menu__page .menu__text .menu__text__left h2{
-  font-size:5vw;
+  font-size:20px;
 }
 #menu__page .menu__text .menu__text__left{
   height:10vw;
@@ -801,27 +804,27 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 }
 
 #menu__page .menu__text .menu__text__right h3{
-  font-size:4vw;
+  font-size:18px;
   margin-top:5vw;
 }
 #menu__page .menu__text .menu__text__right p{
   width:100%;
   letter-spacing:2px;
   margin-top:5vw;
-  font-size:3vw;
+  font-size:16px;
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
-  width:22vw;
-  height:6vw;
-  font-size:2.5vw;
+  width:180px;
+  height:50px;
+  font-size:18px;
   position:absolute;
-  top:105vw;
-  left:40vw;
+  top:85vh;
+  left:30vw;
 }
 
 #contact__page{
-  height:50vh;
+  height:40vh;
   margin-top:30vw;
   position:relative;
 }
@@ -832,7 +835,7 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 #contact__page .contact__images .contact__image__content{
   width:100%;
   height:35vh;
-  background-image:url("image/susi10.jpg");
+  background-image:url("static/images/susi10.jpg");
   top:0vw;
   left:0vw;
   z-index:0;
@@ -840,16 +843,16 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 
 #contact__page .contact__box .contact__text{
   text-align:center;
-  margin-top:30vw;
+  margin-top:10vh;
   margin-left:-4vw;
 }
 
 #contact__page .contact__box .contact__text h3{
-  font-size:3vw;
+  font-size:18px;
   margin-bottom:0vw;
 }
 #contact__page .contact__box .contact__text h2{
-  font-size:5vw;
+  font-size:20px;
 }
 
 #contact__page .contact__lists{
@@ -857,34 +860,34 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 }
 
 #contact__page .contact__lists .contact__content p{
-  font-size:4vw;
+  font-size:18px;
   line-height:1.2em;
 }
 #contact__page .contact__lists .contact__adress p{
-  font-size:2.5vw;
+  font-size:16px;
 }
 #contact__page .contact__phone .info__box{
-  width:30vw;
-  height:6vw;
+  width:200px;
+  height:50px;
   position:absolute;
-  font-size:2.5vw;
-  top:130vw;
-  left:10vw;
+  font-size:18px;
+  top:90vh;
+  left:5vw;
 }
 
 #contact__page .contact__phone .contact__number p{
   width:50vw;
   margin-left:5vw;
-  font-size:4vw;
+  font-size:18px;
 }
 #contact__page .contact__phone{
   margin-top:10vw;
 }
 #contact__page .contact__phone .contact__tel p{
-  font-size:2.5vw;
+  font-size:16px;
 }
 #creation__page{
-  width:100vw;
+  width:100%;
   margin-top:70vw;
   flex-direction:column;
 }
@@ -906,26 +909,26 @@ header #header__content .header__top .menu__content #menu__content__list #close_
 
 #creation__page .creation__text .creation__text__box h3{
   padding:5vw 0vw 5vw 0vw;
-  font-size:5vw;
+  font-size:20px;
 }
 
 #creation__page .creation__text .creation__text__box p{
   line-height:3em;
-  font-size:4vw;
+  font-size:18px;
 }
 #creation__page .creation__text .creation__btn{
-  width:16vw;
-  height:6vw;
-  font-size:2.5vw;
-  margin:10vw 0vw 0vw 75vw;
+  width:150px;
+  height:40px;
+  font-size:16px;
+  margin:5vw 0vw 0vw 65vw;
     }
 footer{
   margin-top:27vw;
   background-color:#000;
-  height:45vh;
+  height:50vh;
 }
 #footer__content{
-  height:23vh;
+  height:100%;
   background-color:#000;
 }
 .footer__kuuhaku{
@@ -951,11 +954,11 @@ footer{
   justify-content:space-around;
   align-items:center;
   background-color:#000;
-  height:45vh;
+  height:50vh;
 }
 
 .footer__bottom .footer__lists ul li{
-  font-size:3vw;
+  font-size:18px;
   margin-bottom:4vw;
   padding-top:0vw;
 }
@@ -964,7 +967,6 @@ footer{
   font-weight:bold;
 }
 }
-
 
 @media only screen and (max-width:500px){
 
@@ -987,27 +989,27 @@ footer{
   margin-left:8vw;
 }
 #main #about__page{
-  margin-top:0vw;
-  height:45vh;
+  margin-top:-10vh;
+  height:80vh;
 }
 #main #about__page .about__text h3{
   margin-top:3vw;  
 }
 #main #about__page .about__text .about__btn{
-  width:22vw;
-  height:6vw;
-  font-size:2.5vw;
+  width:150px;
+  height:40px;
+  font-size:16px;
   margin-left:10vw;
   position:absolute;
-  top:70vw;
-  left:60vw;
+  top:60vh;
+  left:45vw;
 }
 #menu__page{
-  height:75vh;
+  height:80vh;
 }
 #menu__page .menu__text{
   height:50vh;
-  margin-top:55vw;
+  margin-top:25vh;
   flex-direction:column;
 }
 #menu__page .menu__text .menu__text__left{
@@ -1017,29 +1019,45 @@ footer{
   margin-top:8vw;
 }
 #menu__page .menu__text .menu__text__right .about__btn{
-  width:22vw;
-  height:6vw;
-  font-size:2.5vw;
+  width:150px;
+  height:40px;
+  font-size:16px;
   position:absolute;
-  top:145vw;
-  left:40vw;
+  top:70vh;
+  left:25vw;
 }
+#contact__page{
+  height:100%;
+}
+#contact__page .contact__box{
+  height:40vh;
+}
+
 #contact__page .contact__box .contact__box__content{
-  margin-top:10vw;
+  margin-top:15vh;
+  height:40vh;
 }
 #contact__page .contact__phone .info__box{
-  width:30vw;
-  height:6vw;
+  width:150px;
+  height:40px;
   position:absolute;
-  font-size:2.5vw;
-  top:155vw;
-  left:10vw;
+  font-size:16px;
+  top:85vh;
+  left:5vw;
+}
+#creation__page{
+  height:50vh;
+}
+#creation__page .creation__text .creation__text__box{
+  height:50vh;
 }
 #creation__page .creation__text .creation__btn{
   width:35vw;
-  margin:8vw 0vw 0vw 60vw;
+  margin:5vw 0vw 0vw 57vw;
 }
-
+#footer{
+  margin-top:0vw;
+}
 #footer__content{
   height:23vh;
 }
@@ -1090,7 +1108,7 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
   padding-top:6vw;
 }
 #main #about__page{
-  height:55vh;
+  height:80vh;
   margin-bottom:10vw;
 }
 #about__page .about__title h3{
@@ -1100,21 +1118,23 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
   height:70vh;
 }
 #main #about__page .about__text .about__btn{
-  top:110vw;
+  top:70vh;
+  left:30vw;
 }
 #menu__page .menu__text .menu__text__left h3{
   margin-top:-10vw;
 }
 #menu__page .menu__text{
-  height:53vw;
-  margin-top:70vw;
+  height:50vh;
+  margin-top:20vh;
 }
 
 #menu__page .menu__text .menu__text__right .about__btn{
-  top:165vw;
+  top:70vh;
+  left:10vw;
 }
 #contact__page{
-  height:50vh;
+  height:70vh;
 }
 
 #contact__page .contact__box{
@@ -1137,17 +1157,18 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
   margin-top:6vw;
 }
 #contact__page .contact__phone .info__box{
- margin:20vw 0 2vw 50vw;
-
+  top:75vh;
+  left:-10vw;
 }
 #creation__page{
- margin-top:70vw;
+ height:100%;
+ margin-top:10vh;
  display:flex;
  flex-direction:column;
 }
 
 #creation__page .creation__text{
- height:27vh;
+ height:65vh;
 }
 
 #creation__page .creation__text .creation__btn{
@@ -1155,13 +1176,16 @@ header #header__content .header__top .header__top__left .menu__content #menu__co
 }
 
 footer{
-  margin-top:27vw;
+  margin-top:0vw;
 }
 footer #footer__content .footer__bottom{
   height:45vw;
   padding-top:3vw;
 }
 
+footer #footer__content .footer__bottom .footer__lists ul .store__name{
+  font-size:18px;
+}    
 footer #footer__content .footer__bottom .footer__bottom__text {
   left:12vw;
 }

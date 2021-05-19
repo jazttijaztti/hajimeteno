@@ -137,6 +137,19 @@
    </div>
 
    <div id="access__map">
+
+    <div class="contact__form">
+     <div class="contact__title">
+      <h3>INQUIRY</h3>
+      <h2>お問い合わせ</h2>
+      <p class="title__border"></p>
+     </div>
+
+     <div class="contact__content">
+      <?php echo do_shortcode('[contact-form-7 id="74" title="first"]'); ?>
+     </div>
+    </div>
+
     <div class="access__map__image">
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.746471467278!2d139.6800344152011!3d35.70785603611877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc904aa038dcd6ea!2z6a6o44GE44Gh!5e0!3m2!1sja!2sjp!4v1618327165085!5m2!1sja!2sjp" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>

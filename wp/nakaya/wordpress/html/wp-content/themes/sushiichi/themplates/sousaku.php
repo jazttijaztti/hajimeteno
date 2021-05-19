@@ -107,17 +107,17 @@ $(function(){
  <main>
   <div id="main__screen">
 
-   <div class="main__image"><img src="<?php echo get_template_directory_uri();?>/image/susi12.jpg"><img src="<?php echo get_template_directory_uri();?>/image/susi16.jpg"><img src="<?php echo get_template_directory_uri();?>/image/susi6.jpg"><img src="<?php echo get_template_directory_uri();?>/image/susichi1.jpg"><img src="<?php echo get_template_directory_uri();?>/image/susichi3.jpg"></div> 
+   <div class="main__image"><img src="<?php echo get_template_directory_uri();?>/static/images/susi12.jpg"><img src="<?php echo get_template_directory_uri();?>/static/images/susi16.jpg"><img src="<?php echo get_template_directory_uri();?>/static/images/susi6.jpg"><img src="<?php echo get_template_directory_uri();?>/static/images/susichi1.jpg"><img src="<?php echo get_template_directory_uri();?>/static/images/susichi3.jpg"></div> 
    <div class="main__content">
     <ul>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou2.jpg"></span><p class="name">やんごとなきうに</p><p>雲丹を3倍に盛り付けトリュフ塩かけて完成</p></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou3.jpg"></span><p class="name">手間鳥賊</p><p>包丁を50回入れてイカを柔らかくする</p></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sushiichi02.jpg"><p class="name">海庭</p><p>軍艦3種(干鵜巻と鉄火とネギトロの軍艦にいくらをまぶすオイスターリーフをのせて)</p></span></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou5.jpg"></span><p class="name">穴重</p><p>しゃりを四角くして穴子二つ重ねて小さな鰻重に一口サイズの穴子重</p></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou6.jpg"></span><p class="name">やんごとなきうに</p><p>雲丹を3倍に盛り付け<br>トリュフ塩かけて完成</p></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou7.jpg"></span><p class="name">手間鳥賊</p><p>包丁を50回入れてイカを柔らかくする</p></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou8.jpg"></span><p class="name">海庭</p><p>軍艦3種(干鵜巻きと鉄火とネギトロ軍艦にいくらをまぶしてオイスターリーフを乗せる)</p></li>
-     <li><span><img src="<?php echo get_template_directory_uri();?>/image/sou9.jpg"></span><p class="name">穴重</p><p>しゃりを四角くして穴子二つ重ねて小さな鰻重に一口サイズの穴子重</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou2.jpg"></span><p class="name">やんごとなきうに</p><p>雲丹を3倍に盛り付けトリュフ塩かけて完成</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou3.jpg"></span><p class="name">手間鳥賊</p><p>包丁を50回入れてイカを柔らかくする</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sushiichi02.jpg"><p class="name">海庭</p><p>軍艦3種(干鵜巻と鉄火とネギトロの軍艦にいくらをまぶすオイスターリーフをのせて)</p></span></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou5.jpg"></span><p class="name">穴重</p><p>しゃりを四角くして穴子二つ重ねて小さな鰻重に一口サイズの穴子重</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou6.jpg"></span><p class="name">やんごとなきうに</p><p>雲丹を3倍に盛り付け<br>トリュフ塩かけて完成</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou7.jpg"></span><p class="name">手間鳥賊</p><p>包丁を50回入れてイカを柔らかくする</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou8.jpg"></span><p class="name">海庭</p><p>軍艦3種(干鵜巻きと鉄火とネギトロ軍艦にいくらをまぶしてオイスターリーフを乗せる)</p></li>
+     <li><span><img src="<?php echo get_template_directory_uri();?>/static/images/sou9.jpg"></span><p class="name">穴重</p><p>しゃりを四角くして穴子二つ重ねて小さな鰻重に一口サイズの穴子重</p></li>
     </ul>
    </div>
   </div>
