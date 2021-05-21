@@ -1,5 +1,5 @@
 /*
-* Themes Name: 品書き
+* Themes Name: Sushiichi
 */
 body{
   width:100%;                     
@@ -14,11 +14,11 @@ body{
 }
 
 h2 h3{
-  font-size:2vw;
+  font-size:30px;
   font-weight:bold;
 }
 p{
-  font-size:1.5vw;
+  font-size:18px;
 }
 
 header{
@@ -26,7 +26,7 @@ header{
 }
 header #header__screen{
   width:100%;
-  height:80vw;
+  height:100vh;
 }
 header #header__screen #header__image{
   width:100%;
@@ -49,7 +49,7 @@ header #header__screen #header__image{
   width:30%;
 }
 .header__bar .header__bar__left h1{
-  font-size:3vw;
+  font-size:35px;
   padding:2vw 0vw 0vw 3vw;
   color:#fff;
 }
@@ -66,7 +66,7 @@ header #header__screen #header__image{
  }
 
 .header__bar .header__bar__right ul li{
-  font-size:1.2vw;
+  font-size:18px;
   color:#fff;
 }
 .header__bar .header__bar__right .hidden__menu{
@@ -76,15 +76,16 @@ header #header__screen #header__image{
 
 #header__screen .header__title{
   text-align:center;
-  margin-top:9vw;
+  margin-top:7.5vh;
 }
 #header__screen .header__title h1{
-  font-size:4vw;
+  font-size:40px;
   color:#e8e5e1;
 }
 
 #main{
   width:100%;
+  height:100%;
 }
 #main #about__menu{
   height:60vw;
@@ -99,25 +100,28 @@ header #header__screen #header__image{
 }
 #main #about__menu .about__menu__left h2{
   margin-top:10vw;
+  font-size:25px;
 }
 #main #about__menu .about__menu__left h3{
   margin-top:5vw;
-  font-size:2.5vw;
+  font-size:30px;
   font-weight:bold;
 }
 #main #about__menu .about__menu__left p{
   width:5vw;
   border-bottom:2px solid #bbb;
-  margin:10vw 0vw 0vw 22.5vw;
+  margin:10vw 0vw 0vw 21.5vw;
+  font-size:30px;
 }
 #main #about__menu .about__menu__right{
   width:50%;
   height:100%;
   margin-top:10vw;
+  margin-right:5vw;
 }
 #main #about__menu .about__menu__right h3{
   margin-top:7vw;
-  font-size:2vw;
+  font-size:25px;
   font-weight:bold;
 }
 
@@ -126,12 +130,12 @@ header #header__screen #header__image{
   margin-top:5vw;
 }
 #main #about__menu .about__menu__right .about__btn{
-  width:15vw;
-  height:5vw;
+  width:200px;
+  height:8vh;
   background-color:#000;
   color:#fff;
-  font-size:2vw;
-  margin:5vw 0vw 0vw 22vw;
+  font-size:25px;
+  margin:5vw 0vw 0vw 28.5vw;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -139,57 +143,60 @@ header #header__screen #header__image{
 
 #main__menu{
   width:100%;
-  height:100vw; 
+  height:100%; 
   display:flex;
   flex-direction:column;
 }
 #main__menu .main__menu__top{
   width:100%;
-  height:40vw;
 }
 
 #main__menu .main__menu__top .main__menu__image img{
   width:100%;
-  height:40vw;
+  height:80vh;
   padding-bottom:5vw;
 }
-.main__menu__text{
+#main #main__menu .main__menu__text{
   margin-top:5vw;
+  height:70vh;
   display:flex;
   justify-content:space-between;
 }
 
 .main__menu__text .main__menu__left{
   width:50%;
-  height:100%;
+  height:50vh;
   text-align:center;
 }
 
 .main__menu__text .main__menu__left h2{
   margin-top:5vw;
+  font-size:25px;
 }
 .main__menu__text .main__menu__left h3{
   margin-top:5vw;
   font-weight:bold;
-  font-size:2vw;
+  font-size:30px;
   margin-top:3vw;
 }
 .main__menu__text .main__menu__left p{
   width:5vw;
   border-bottom:2px solid #bbb;
-  margin:10vw 0vw 0vw 22.5vw;
+  margin:10vw 0vw 0vw 19.5vw;
+  font-size:30px;
 }
 
 .main__menu__text .main__menu__right{
   width:50%;
-  height:100%;
+  height:50vh;
   text-align:center;
+  margin-right:5vw;
 }
 
 .main__menu__text .main__menu__right h3{
-  margin-top:10vw;
+  margin-top:5vh;
   font-weight:bold;
-  font-size:2vw;
+  font-size:25px;
 }
 
 .main__menu__text .main__menu__right p{
@@ -197,31 +204,32 @@ header #header__screen #header__image{
   line-height:1.2em;
 }
 .main__menu__text .main__menu__right .about__btn{
-  width:15vw;
-  height:5vw;
+  width:200px;
+  height:8vh;
   background-color:#000;
   color:#fff;
-  font-size:2vw;
-  margin:5vw 0vw 0vw 22vw;
+  font-size:25px;
+  margin:5vw 0vw 0vw 25vw;
   display:flex;
   justify-content:center;
   align-items:center;
 }
 
-#susi__menu{
+#main #susi__menu{
   width:90%;
-  height:70vw;
+  height:100%;
   margin:auto;
   text-align:center;
 }
 #susi__menu h1{
-  font-size:3vw;
+  font-size:30px;
   font-weight:bold;
   margin-bottom:2vw;
+  margin-top:10vh;
 }
 #susi__menu .main__susi__menu{
   width:100%;
-  height:60vw;
+  height:120vh;
   background-image:url("../image/back.jpg");
 }
 
@@ -240,6 +248,7 @@ header #header__screen #header__image{
 
 #susi__menu .main__susi__menu ul li p{
   margin-top:2vw;
+  font-size:25px;
 }
 #susi__menu .main__susi__menu ul li img{
   width:20vw;
@@ -248,18 +257,19 @@ header #header__screen #header__image{
 
 #main__sousaku__menu{
   width:90%;
-  height:50vw;
+  height:85vh;
   margin:auto;
   text-align:center;
 }
 #main__sousaku__menu h1{
-  font-size:3vw;
+  font-size:30px;
   font-weight:bold;
   margin-bottom:2vw;
+  margin-top:5vh;
 }
 #main__sousaku__menu .sousaku__menu{
   width:100%;
-  height:40vw;
+  height:100%;
   background-image:url("../images/back.jpg");
 }
 
@@ -278,18 +288,19 @@ header #header__screen #header__image{
 
 .sousaku__menu ul li p{
   margin-top:2vw;
+  font-size:25px;
 }
 .sousaku__menu ul li img{
   width:20vw;
   height:20vw;
 }
 .sousaku__menu .sousaku__btn{
-  width:15vw;
-  height:5vw;
+  width:200px;
+  height:8vh;
   background-color:#000;
   color:#fff;
-  font-size:2vw;
-  margin:5vw 0vw 0vw 67vw;
+  font-size:25px;
+  margin:5vw 0vw 0vw 71vw;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -297,19 +308,19 @@ header #header__screen #header__image{
 
 .main__sopu__menu{
   width:90%;
-  height:30vw;
+  height:40vh;
   margin:auto;
   text-align:center;
 }
 .main__sopu__menu h1{
-  font-size:3vw;
+  font-size:30px;
   font-weight:bold;
-  margin-top:5vw;
+  margin-top:20vh;
   margin-bottom:2vw;
 }
 .main__sopu__menu .sopu__menu{
   width:100%;
-  height:30vw;
+  height:30vh;
   background-image:url("../image/back.jpg");
 }
 
@@ -328,6 +339,7 @@ header #header__screen #header__image{
 
 .sopu__menu ul li p{
   margin-top:2vw;
+  font-size:25px;
 }
 .sopu__menu ul li img{
   width:20vw;
@@ -336,20 +348,20 @@ header #header__screen #header__image{
 
 #main__alco__menu{
   width:90%;
-  height:30vw;
+  height:100%;
   margin:auto;
   margin-top:10vw;
   text-align:center;
 }
 #main__alco__menu h1{
-  font-size:3vw;
+  font-size:30px;
   padding-top:5vw;
   font-weight:bold;
   margin-bottom:2vw;
 }
 #main__alco__menu .alco__menu{
   width:100%;
-  height:30vw;
+  height:50vh;
   background-image:url("../image/back.jpg");
 }
 
@@ -368,6 +380,7 @@ header #header__screen #header__image{
 
 .alco__menu ul li p{
   margin-top:2vw;
+  font-size:25px;
 }
 .alco__menu ul li img{
   width:20vw;
@@ -376,7 +389,8 @@ header #header__screen #header__image{
 
 footer{
   width:100%;
-  height:35vw;
+  height:65vh;
+  background-color:#000;
 }
 footer #footer__fild{
   width:100%;
@@ -394,14 +408,14 @@ footer #footer__fild .footer__image{
   left:60vw;
 }
 footer #footer__fild .footer__top{
-  margin-top:15vw;
+  margin-top:10vh;
   width:100%;
-  height:5vw;
+  height:5vh;
   background-color:#6b4102;
 }
 footer #footer__fild .footer__bottom{
   width:100%;
-  height:60vw;
+  height:40vh;
   background-color:#000;
 }    
 footer #footer__fild .footer__bottom .footer__kuuhaku{
@@ -417,7 +431,7 @@ footer #footer__fild .footer__bottom .footer__text{
 }
 
 footer #footer__fild .footer__bottom .footer__text p{
-  font-size:2vw;
+  font-size:25px;
   color:#fff;
   padding-top:5vw;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu M    incho", "MS PMin    cho", serif;
@@ -433,17 +447,111 @@ footer #footer__fild .footer__bottom #footer__bar ul{
 }
 footer #footer__fild .footer__bottom #footer__bar ul li{
   color:#fff;
-  font-size:2vw;
+  font-size:20px;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu M    incho", "MS PMin    cho", serif;
   margin-top:1vw;
 }
 footer #footer__fild .footer__bottom #footer__bar ul .store__name{
   font-weight:bold;
-  font-size:2vw;
-  margin:0vw 3vw 0vw 0vw;
+  font-size:25px;
+  margin:1vh 3vw 0vw 0vw;
  }
 
-@media only screen and (max-width:960px){
+@media only screen and (max-width:1050px){
+header #header__screen{
+  width:100%;
+  height:60vh;
+}
+header #header__screen #header__image{
+  width:100%;
+  height:100%;
+  background-image:url("../images/susi10.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+
+header #header__screen #header__image .header__bar .header__bar__right ul li{
+  font-size:20px;
+}
+
+header #header__screen #header__image .header__bar .header__bar__right ul .top__name{
+  font-size:20px;
+}    
+#main #main__menu .main__menu__top{
+  height:40vh;
+  margin-bottom:10vh;
+}
+#main #about__menu{
+  height:50vh;
+}
+#main #about__menu .about__menu__right{
+  margin-right:5vw;
+}
+#main #about__menu .about__menu__right .about__btn{
+  height:6vh;
+  margin-top:8vh;
+}
+#main__menu .main__menu__top .main__menu__image img{
+  margin-top:15vw;
+  height:40vh;
+}
+
+#main #main__menu .main__menu__text{
+  height:50vh;
+}
+#main .main__menu__text .main__menu__right{
+  margin-right:5vw;
+}
+.main__menu__text .main__menu__right .about__btn{
+  width:200px;
+  height:6vh;
+  background-color:#000;
+  color:#fff;
+  font-size:25px;
+  margin:8vh 0vw 0vw 25vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#main #susi__menu{
+ height:100%;   
+}
+#main #susi__menu h1{
+  margin-top:20vh;
+}
+#main #susi__menu .main__susi__menu{
+  height:80vh;  
+}
+#main #main__sousaku__menu{
+  height:30vh;
+}
+#main .sousaku__menu .sousaku__btn{
+  width:200px;
+  height:5vh;
+  background-color:#000;
+  color:#fff;
+  font-size:20px;
+  margin:3vh 0vw 0vw 67vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#main .main__sopu__menu{
+  height:30vh;
+}
+#main #main__alco__menu .alco__menu{
+  height:30vh;
+}
+
+footer{
+  height:100%;
+}
+footer #footer__fild .footer__bottom{
+  height:25vh;        
+}
+}    
+@media only screen and (max-width:950px){
 html{
   font-size:2.5rem;
 }  
@@ -456,8 +564,11 @@ header{
   height:60vh;
 }
 header #header__screen{
-  height:60vh;
+  height:100%;
   position:relative;
+}    
+header #header__screen #header__image{
+  height:100%;
 }
 .header__bar{
   background-color:#000;
@@ -471,8 +582,8 @@ header #header__screen{
 }
 
 .header__title h1{
-  font-size:5vw;
- }
+  font-size:30px;
+}
 .hidden__menu{
   display:block;
   visibility:visible;
@@ -493,7 +604,7 @@ header #header__screen{
   position:absolute;
   top:0vw;
   left:0vw;
-  font-size:4vw;
+  font-size:25px;
   line-height:3em;
   display:flex;
   flex-direction:column;
@@ -537,14 +648,15 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 }
 
 #main #about__menu .about__menu__left{
-  width:100%; 
+  width:100%;
+  height:30vh;
 }
 
 #main #about__menu .about__menu__left h2{
-  font-size:4vw;
+  font-size:25px;
 }
 #main #about__menu .about__menu__left h3{
-  font-size:5vw;
+  font-size:30px;
   margin-top:3vw;
 }
 #main #about__menu .about__menu__left p{
@@ -557,18 +669,18 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 }
 
 #main #about__menu .about__menu__right p{
-  font-size:4vw;
+  font-size:18px;
   line-height:2em;
 }
 #main #about__menu .about__menu__right h3{
   margin-bottom:10vw;
-  font-size:3.5vw;
+  font-size:25px;
 }
 #main #about__menu .about__menu__right .about__btn{
-  width:20vw;
-  height:7vw;
-  font-size:2.5vw;
-  margin:20vw 0vw 0vw 65vw;
+  width:180px;
+  height:5vh;
+  font-size:20px;
+  margin:20vw 0vw 0vw 64vw;
 }
 #main__menu{
   height:100%;
@@ -576,23 +688,30 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 }
 #main__menu .main__menu__top .main__menu__image img{
   margin-top:15vw;
-  height:40vh;
+  height:50vh;
 }
 
 #main__menu .main__menu__text{
   margin-top:10vh;
+  height:50vh;
   flex-direction:column;
 }
 
+#main #main__menu .main__menu__text{
+  height:80vh;
+}
 #main__menu .main__menu__text .main__menu__left{
   width:100%;
+  height:50vh;
 }
 
 #main__menu .main__menu__text .main__menu__left h2{
-  font-size:4vw;
+  font-size:25px;
+  margin-top:15vh;
 }
 #main__menu .main__menu__text .main__menu__left h3{
-  font-size:4.5vw;
+  font-size:30px;
+  margin-top:3vh;
 }
 .main__menu__text .main__menu__left p{
   width:10vw;
@@ -602,23 +721,32 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 
 #main__menu .main__menu__text .main__menu__right{
   width:100%;
-  margin-top:5vw;
+  height:80vh;
+  margin-top:-5vw;
 }
 #main__menu .main__menu__text .main__menu__right h3{
- font-size:4vw;
+ font-size:30px;
 }
 #main__menu .main__menu__text .main__menu__right p{
   margin-top:10vw;
-  font-size:4vw;
+  font-size:18px;
 }
 #main #main__menu .main__menu__text .main__menu__right .about__btn{
-  width:25vw;
-  height:7vw;
-  margin:15vw 0vw 0vw 60vw;
+  width:200px;
+  height:5vh;
+  font-size:20px;
+  margin:10vw 0vw 0vw 60vw;
 }
 #susi__menu{
   margin-top:10vh;
-  height:100vw;
+  height:100%;
+}
+#main__menu .main__menu__top{
+  height:60vh;
+}
+#main #main__menu .susi__menu{
+  width:100%;
+  height:80vh;
 }
 
 #susi__menu h1{
@@ -632,18 +760,55 @@ header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
 #susi__menu .main__susi__menu ul li{
   margin:8vw 1vw 2vw 1vw;
 } 
+#main #main__sousaku__menu{
+  height:50vh;
+}
+#main #main__sousaku__menu .sousaku__menu{
+  height:100%;
+}
+#main #susi__menu .main__susi__menu  ul li p{
+  font-size:20px;
+}
+#main #main__sousaku__menu .sousaku__menu ul li p{
+  font-size:20px;
+}
+#main #main__sousaku__menu .sousaku__menu .sousaku__btn{
+  width:180px;
+  height:5vh;
+  background-color:#000;
+  color:#fff;
+  font-size:20px;
+  margin:5vw 0vw 0vw 60vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#main .main__sopu__menu .sopu__menu ul li p{
+  font-size:20px;
+}
+#main #main__alco__menu .alco__menu ul li p{
+  font-size:20px;
+}
 #main__sousaku__menu h1{
-  font-size:5vw;  
+  font-size:30px;
+  margin-top:10vh;
+}
+.main__sopu__menu{
+  height:40vh;
 }
 .main__sopu__menu h1{
   font-size:5vw;
+}
+#main__alco__menu {
+  height:40vh;
 }
 #main__alco__menu h1{
   font-size:5vw;
 }
 
 footer{
-  margin-top:30vw;
+  margin-top:10vh;
   background-color:#000;
 }
 .footer__bottom .footer__text {
@@ -654,7 +819,7 @@ footer{
   visibility:hidden;
 }
 footer{
-  height:35vh;
+  height:45vh;
 }
 .footer__bottom{
   margin-top:-8vw;
@@ -681,7 +846,92 @@ footer #footer__fild .footer__bottom  #footer__bar ul .store__name{
 
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:800px){
+#main #about__menu{
+  margin-bottom:0vw;
+  height:70vh;
+}
+#main #about__menu .about__menu__right{
+  margin-top:0vw;
+}
+    
+.about__menu__right p{
+  font-size:18px;
+  line-height:2em;
+}
+#main #about__menu .about__menu__left{
+  height:50%;
+}
+#main #about__menu .about__menu__right .about__btn{
+  width:150px;
+  height:5vh;
+  font-size:20px;
+  margin:5vh 0vw 0vw 70vw;
+}
+
+#main__menu{
+  margin-top:0vw;
+}
+#main__menu .main__menu__text .main__menu__right p {
+  font-size:18px;
+  line-height:2em;
+}
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:5vh;  
+}
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
+  width:150px;
+  font-size:20px;
+  margin: 5vh 0vw 0vw 70vw;  
+}
+#main__menu .main__menu__top{
+  width:100%;
+  height:40vh;
+}
+#main__menu .main__menu__text{
+  height:100%;
+  margin-bottom:10vh;
+}
+#main #susi__menu{
+ margin-top:10vh;
+ height:100%;
+}
+
+#main #susi__menu .main__susi__menu{
+  height:70vh;
+}
+#main #susi__menu .main__susi__menu  ul li p{
+  font-size:16px;
+}
+#main #main__sousaku__menu .sousaku__menu ul li p{
+  font-size:16px;
+}
+
+#main #main__sousaku__menu .sousaku__menu .sousaku__btn{
+  margin:3vh 0vh 0vh 65vw;
+  font-size:20px;
+  width:150px;
+}
+#main .main__sopu__menu .sopu__menu ul li p{
+  font-size:16px;
+}
+#main #main__alco__menu .alco__menu ul li p{
+  font-size:16px;
+}
+
+#main #main__sousaku__menu{
+  height:30vh;
+  margin-top:5vh;
+}
+#main .main__sopu__menu{
+  height:20vh;
+}
+#main #main__alco__menu .alco__menu{
+  height:20vh;
+}
+
+}    
+@media only screen and (max-width:500px){
 .hidden__menu{
   display:block;
   visibility:visible;
@@ -689,6 +939,9 @@ footer #footer__fild .footer__bottom  #footer__bar ul .store__name{
   font-size:3vw;
   width:20vw;
   margin-top:3vw;
+}
+header #header__screen .header__title h1{
+  font-size:30px;
 }
 .hidden__menu div{
   border-top:3px solid #fff;
@@ -707,50 +960,140 @@ footer #footer__fild .footer__bottom  #footer__bar ul .store__name{
 }
 #main #about__menu{
   margin-bottom:0vw;
+  height:80vh;
 }
 #main #about__menu .about__menu__right{
   margin-top:0vw;
 }
-    
+#main #about__menu .about__menu__left h2{
+  font-size:15px;
+}
+#main #about__menu .about__menu__left h3{
+  font-size:16px;
+}
+#main #about__menu .about__menu__right h3{
+  font-size:16px;
+}
+#main #about__menu .about__menu__right p{
+  font-size:13px;
+}
+   
 .about__menu__right p{
-  font-size:4vw;
+  font-size:16px;
   line-height:2em;
 }
 #main #about__menu .about__menu__left{
   height:50%;
 }
+#main #about__menu .about__menu__right .about__btn{
+  width:120px;
+  height:5vh;
+  font-size:16px;
+  margin:20vw 0vw 0vw 58vw;
+}
+
 #main__menu{
   margin-top:0vw;
 }
+
 #main__menu .main__menu__text .main__menu__right p {
   font-size:4vw;
   line-height:2em;
 }
 #main__menu .main__menu__text .main__menu__left{
-  margin-top:30vw;  
+  margin-top:5vh;
+  height:35vh;
 }
 #main #main__menu .main__menu__text .main__menu__right .about__btn{
-  margin: 20vw 0vw 0vw 60vw;  
+  width:120px;
+  font-size:16px;
+  margin: 20vw 0vw 0vw 58vw;  
 }
-#susi__menu{
+#main__menu .main__menu__top{
+  width:100%;
+  height:40vh;
+}
+#main__menu .main__menu__text{
+  height:100vh;
+  margin-bottom:10vh;
+}
+#main__menu .main__menu__text .main__menu__left h2{
+  font-size:15px;
+}
+#main__menu .main__menu__text .main__menu__left h3{
+  font-size:16px;
+}
+#main #main__menu .main__menu__text .main__menu__right{
+  width:100%;
+  height:50vh;
+}
+#main #main__menu .main__menu__text .main__menu__right h3{
+  font-size:16px;
+}
+
+#main #susi__menu{
  margin-top:10vh;
+ height:50vh;
 }
+#main #susi__menu .main__susi__menu  ul li p{
+  font-size:10px;
+}
+#main #main__sousaku__menu h1{
+  font-size:20px;
+}
+#main #main__sousaku__menu .sousaku__menu ul li p{
+  font-size:10px;
+}
+
+#main #main__sousaku__menu .sousaku__menu .sousaku__btn{
+  margin:8vh 0vh 0vh 52vw;
+  font-size:16px;
+  width:120px;
+}
+#main .main__sopu__menu .sopu__menu ul li p{
+  font-size:10px;
+}
+#main #main__alco__menu .alco__menu ul li p{
+  font-size:10px;
+}
+
+#main #main__sousaku__menu{
+  height:30vh;
+}
+#main .main__sopu__menu{
+  height:20vh;
+}
+#main #main__alco__menu{
+  height:25vh;
+}
+
 footer{
-  margin-top:30vw;
-  height:52vw;
+  margin-top:10vh;
+  height:30vh;
+}
+footer #footer__fild .footer__top{
+  height:4vh;
 }
 footer #footer__fild .footer__bottom{
   height:50vw;
 }
+footer #footer__fild .footer__image{
+  top:8vh;
+  left:58vw;
+}
 footer #footer__bar{
   background-color:#000;
+  height:6vh;
 }
-
-
 }
 
 @media only screen and (max-width:300px){
-
+p{
+  font-size:13px;
+}
+h2 h3{
+  font-size:20px;
+}
 .hidden__menu{
   display:block;
   visibility:visible;
@@ -759,6 +1102,10 @@ footer #footer__bar{
   width:20vw;
   margin-top:1.5vw;
 }
+header #header__screen .header__title h1{
+  font-size:25px;
+}
+
 .hidden__menu div{
   border-top:3px solid #fff;
   width:5vw;
@@ -767,7 +1114,7 @@ footer #footer__bar{
   margin-left:8vw;
 }
 #main #about__menu{
-  height:70vh;  
+  height:85vh;  
 }
 #main__menu .main__menu__top .main__menu__image img{
   margin-top:0vw;
@@ -775,13 +1122,92 @@ footer #footer__bar{
 #main #about__menu .about__menu__left{
   height:40%;
 }
+#main #about__menu .about__menu__left h2{
+  font-size:16px;
+}
+#main #about__menu .about__menu__left h3{
+  font-size:18px;
+}
+#main #about__menu .about__menu__right h3{
+  font-size:16px;
+}
+#main #about__menu .about__menu__right p{
+  font-size:13px;
+}
+#main #about__menu .about__menu__right .about__btn{
+  width:90px;
+  height:5vh;
+  font-size:13px;
+  margin:20vw 0vw 0vw 60vw;
+}
 #main__menu{
   margin-top:0vw;  
 }
-#main__menu .main__menu__text .main__menu__left{
-  margin-top:35vw;  
+#main #main__menu .menu__text{
+  height:50vh;
 }
-#susi__menu{
-  margin-top:10vh;      
+#main #main__menu .main__menu__text{
+  height:70vh;
+}
+#main__menu .main__menu__text .main__menu__left{
+  margin-top:-5vh;  
+}
+#main__menu .main__menu__text .main__menu__left h2{
+  font-size:16px;
+}
+#main__menu .main__menu__text .main__menu__left h3{
+  font-size:18px;
+}
+#main #main__menu .main__menu__text .main__menu__right{
+  width:100%;
+  height:50vh;
+}
+#main #main__menu .main__menu__text .main__menu__right h3{
+  font-size:18px;
+}
+#main #main__menu .main__menu__text .main__menu__right .about__btn{
+  width:90px;
+  font-size:13px;
+  margin: 20vw 0vw 0vw 60vw;  
+}
+
+#main #susi__menu{
+  margin-top:10vh;
+  height:40vh;
+}
+#susi__menu h1{
+  font-size:20px;
+}
+#main #main__sousaku__menu{
+  height:30vh;
+}
+#main #main__sousaku__menu h1{
+  font-size:20px;
+}
+#main .main__sopu__menu{
+  height:20vh;
+}
+#main #main__alco__menu{
+  height:20vh;
+}
+
+#main #main__sousaku__menu .sousaku__menu .sousaku__btn{
+  width:90px;
+  height:4vh;
+  background-color:#000;
+  color:#fff;
+  font-size:13px;
+  margin:8vh 0vh 0vh 58vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+footer{
+  height:30vh;
+}
+footer #footer__fild .footer__image{
+  top:8vh;
+  left:58vw;
 }
 }

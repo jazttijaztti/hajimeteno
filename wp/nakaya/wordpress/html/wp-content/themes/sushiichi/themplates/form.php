@@ -27,6 +27,15 @@
      $("#main").css("opacity","1");       
   });
 });
+
+$(function(){
+  $(".form__btn").on("click",function(){
+     location.href="/thankspageです。";
+      })
+
+
+    });
+
 </script>
 </head>
 

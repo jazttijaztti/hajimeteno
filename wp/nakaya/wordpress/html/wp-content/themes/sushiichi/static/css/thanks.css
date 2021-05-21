@@ -1,0 +1,247 @@
+/*
+* Themes Name: Sushiichi
+*/
+body{
+  width:100%;                     
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PM    incho", serif;
+ background-color:#F7F6F4;  
+}
+
+#wrapper{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+h2 h3{
+  font-size:2vw;
+  font-weight:bold;
+}
+p{
+  font-size:1.5vw;
+}
+
+header{
+  width:100%;
+}
+header #header__screen{
+  width:100%;
+  height:80vw;
+}
+header #header__screen #header__image{
+  width:100%;
+  height:100%;
+  background-image:url("../images/susi10.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+.header__bar{
+  width:100%;
+  height:10vw;
+  display:flex;
+  justify-content:space-between;
+}
+.hidden__menu{
+  display:none;
+  visibility:hidden;
+}
+.header__bar .header__bar__left{
+  width:30%;
+}
+.header__bar .header__bar__left h1{
+  font-size:3vw;
+  padding:2vw 0vw 0vw 3vw;
+  color:#fff;
+}
+.header__bar .header__bar__right{
+  width:70%;
+}
+.header__bar .header__bar__right ul{
+  display:flex;
+  justify-content:space-around;
+  padding-top:2vw;
+ }
+.header__bar .header__bar__right ul .top__name{
+  margin-left:-2vw;
+ }
+
+.header__bar .header__bar__right ul li{
+  font-size:1.2vw;
+  color:#fff;
+}
+.header__bar .header__bar__right .hidden__menu{
+  display:none;
+  visibility:hidden;
+}
+
+#header__screen .header__title{
+  text-align:center;
+  margin-top:9vw;
+}
+#header__screen .header__title h1{
+  font-size:30px;
+  color:#e8e5e1;
+}
+#header__screen .header__title p{
+  margin-top:3vh;
+  font-size:25px;
+  color:#fff;
+}
+footer{
+  width:100%;
+  height:35vw;
+}
+footer #footer__fild{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+footer #footer__fild .footer__image{
+  width:40vw;
+  height:23vw;
+  background-image:url("../images/susichi7.jpg");
+  background-size:cover;
+  background-position:center center;
+  position:absolute;
+  top:8vw;
+  left:60vw;
+}
+footer #footer__fild .footer__top{
+  width:100%;
+  height:5vw;
+  background-color:#6b4102;
+}
+footer #footer__fild .footer__bottom{
+  width:100%;
+  height:60vw;
+  background-color:#000;
+}    
+footer #footer__fild .footer__bottom .footer__kuuhaku{
+  width:100%;
+  height:14vw;
+}
+footer #footer__fild .footer__bottom .footer__text{
+  width:60vw;
+  height:20vw;
+  position:absolute;
+  top:10vw;
+  left:20vw;
+}
+
+footer #footer__fild .footer__bottom .footer__text p{
+  font-size:2vw;
+  color:#fff;
+  padding-top:5vw;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu M    incho", "MS PMin    cho", serif;
+}
+ 
+footer #footer__fild .footer__bottom #footer__bar {
+  width:60%;
+  margin-top:13vw;
+}
+footer #footer__fild .footer__bottom #footer__bar ul{
+  display:flex;                                  
+  justify-content:space-around;
+}
+footer #footer__fild .footer__bottom #footer__bar ul li{
+  color:#fff;
+  font-size:2vw;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu M    incho", "MS PMin    cho", serif;
+  margin-top:1vw;
+}
+footer #footer__fild .footer__bottom #footer__bar ul .store__name{
+  font-weight:bold;
+  font-size:2vw;
+  margin:0vw 3vw 0vw 0vw;
+ }
+@media only screen and (max-width: 960px){
+
+header{
+  height:60vh;
+}
+header #header__screen{
+  height:60vh;
+  position:relative;
+}
+.header__bar{
+  background-color:#000;
+}
+.header__bar__right ul{
+  opacity:0;
+  visibility:hidden;
+}
+.header__bar .header__bar__left h1{
+  font-size:5vw;
+}
+
+.header__title h1{
+  font-size:5vw;
+ }
+.hidden__menu{
+  display:block;
+  visibility:visible;
+  color:#fff;
+  width:5vw;
+  margin-top:3.5vw;
+}
+.hidden__menu div{
+  border-top:3px solid #fff;
+  width:5vw;
+  height:1vw;
+  padding-bottom:1vw;
+  margin-left:-3vw;
+}
+.hidden__menu  #menu__lists{
+  opacity:0;
+  visibility:hidden;
+  position:absolute;
+  top:0vw;
+  left:0vw;
+  font-size:4vw;
+  line-height:3em;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#000;
+  color:#fff;
+  width:100vw;
+  height:100%;
+}
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn {
+  color:#fff;
+  width:20vw;
+  position:absolute;
+  top:-2vw;
+  left:75vw;
+}
+
+header #header__screen .header__bar .hidden__menu  #menu__lists #close__btn p{
+  font-size:3.5vw;
+}    
+.hidden__menu #menu__lists.active{
+  opacity:1;
+  visibility:visible;
+  animation:listAnimation 0.5s
+}
+@keyframes listAnimation{
+  0%{
+      opacity:1;
+      transform:translateY(-50px);
+    }
+}
+header #header__screen{
+  height:80vh;
+}
+header #header__screen .header__title h1{
+  font-size:25px;
+}    
+header #header__screen p{
+  font-size:20px;
+}    
+footer{
+  margin-top:15vh;
+  height:25vh;
+}
+}
+}
