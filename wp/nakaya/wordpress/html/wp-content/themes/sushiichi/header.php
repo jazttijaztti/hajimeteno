@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
     <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 
-    <title>Sushiichi</title>
+<title>Sushiichi</title>
 
     <script>
       $(function(){
