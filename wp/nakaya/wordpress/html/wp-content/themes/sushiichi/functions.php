@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+
+
 //カスタム投稿タイプ
 add_action('init', 'custom_blog_init');
 function custom_blog_init() 
@@ -30,8 +35,8 @@ function custom_blog_init()
 function custom_blog_taxonomies() {
 	//タクソノミー1
 	$labels = array(
-		"name" => _x( "メインメニュー", "taxonomy general name" ),
-		"singular_name" => _x( "メインメニュー", "taxonomy singular name" ),
+		"name" => _x( "鮨いちのブログ", "taxonomy general name" ),
+		"singular_name" => _x( "鮨いちのブログ", "taxonomy singular name" ),
 	);
 	$args = array(
 		"labels" => $labels,
@@ -50,8 +55,8 @@ function custom_blog_taxonomies() {
 	register_taxonomy( "blog_cat", array( "blog" ), $args );
 	//タクソノミー1
 	$labels = array(
-		"name" => _x( "問い合わせ・予約", "taxonomy general name" ),
-		"singular_name" => _x( "問い合わせ・予約", "taxonomy singular name" ),
+		"name" => _x( "鮨いちのブログ2", "taxonomy general name" ),
+		"singular_name" => _x( "鮨いちのブログ2", "taxonomy singular name" ),
 	);
 	$args = array(
 		"labels" => $labels,
@@ -70,8 +75,8 @@ function custom_blog_taxonomies() {
 	register_taxonomy( "blog_cat2", array( "blog" ), $args );
 	//タクソノミー2
 	$labels = array(
-		"name" => _x( "メニュー一覧", "taxonomy general name" ),
-		"singular_name" => _x( "メニュー一覧", "taxonomy singular name" ),
+		"name" => _x( "鮨いちのブログ3", "taxonomy general name" ),
+		"singular_name" => _x( "鮨いちのブログ3", "taxonomy singular name" ),
 	);
 	$args = array(
 		"labels" => $labels,

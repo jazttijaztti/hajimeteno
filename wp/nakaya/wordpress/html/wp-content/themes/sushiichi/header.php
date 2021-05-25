@@ -8,6 +8,7 @@
     <meta charset ="utf-8">
     <link rel ="stylesheet" href="<?php echo get_template_directory_uri();?>/static/css/reset.css" type="text/css">
     <link rel ="stylesheet" href="<?php echo get_stylesheet_uri(style.css);?>" type="text/css">
+    <link rel ="stlyesheet" href= "<?= get_template_directory_uri();?>/static/css/single.css" type ="text/css">
     <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
     <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>                  
