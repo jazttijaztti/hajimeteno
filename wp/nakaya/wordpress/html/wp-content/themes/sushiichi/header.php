@@ -68,7 +68,7 @@
                 <h3 class="menu__icon"><div></div><div></div><div></div></h3>
                  <ul id="menu__content__list">
                   <li><a href="/鮨いちのトップページ">トップ</a></li>
-                  <li><a href="/創作のページ">創作</a></li>
+                  <li><a href="<?= site_url();?>">創作</a></li>
                   <li><a href="/品書きページ">お品書き</a></li>
                   <li><a href="/フォームのページ">アクセス</a></li>
                   <li><a href="/フォームのページ">お問い合わせ</a></li>
@@ -82,7 +82,7 @@
           <div class="header__top__right">
             <ul>
               <li class="top__name"><a href="/index.php?page_id=30">トップ</a></li>
-              <li><a href="/創作のページ">創作</a></li>
+              <li><a href="<?= site_url();?>">創作</a></li>
               <li><a href="/品書きページ">お品書き</a></li>
               <li><a href="/フォームのページ">アクセス</a></li>
               <li><a href="/フォームのページ">お問い合わせ</a></li>
@@ -102,4 +102,4 @@
 
         </div>
       </div>
-     </header>
+     </header>i

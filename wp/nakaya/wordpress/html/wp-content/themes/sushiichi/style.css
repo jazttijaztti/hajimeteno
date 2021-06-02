@@ -632,7 +632,7 @@ header #header__content{
 
 #header__content .header__top .header__top__left  h1{
   font-size:5vw;
-  padding:2vw;
+  padding:3vw;
 }
 .menu__icon{
   width:5vw;
@@ -657,7 +657,7 @@ header #header__content .menu__content #menu___content__list #colse__btn{
   visibility:visible;
   font-size:2vw;
   position:absolute;
-  top:8vw;
+  top:10vw;
   left:77vw;
 }
 
@@ -667,10 +667,10 @@ header #header__content .menu__content #menu___content__list #colse__btn{
   text-align:center;
   font-size:4vw;
   width:100vw;
-  height:68vh;
+  height:70vh;
   line-height:3em;
   position:absolute;
-  top:-6vw;
+  top:-7vw;
   left:-77vw;
   background-color:#000;
   color:#fff;
@@ -990,10 +990,24 @@ footer{
 }
 
 @media only screen and (max-width:500px){
-
+#header__content .header__top{
+  height:8vh;
+}
 #header__content .header__top .header__top__left  h1{
   padding:5vw 0vw 0vw 5vw
 }
+#header__content .header__top .header__top__left{
+  height:8vh;
+}
+.header__top__left .menu__content{
+  display:block;
+  visibility:visible;
+  font-size:2vw;
+  position:absolute;
+  top:5.5vw;
+  left:77vw;
+}
+
 .menu__icon{
   width:5vw;
   height:5vw;
