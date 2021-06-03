@@ -85,18 +85,27 @@ header #header__screen .image__content .image__right{
 }
 header #header__screen .header__screen__box{
   position:absolute;
-  top:20vh;
+  top:190px;
   left:40%;
+  background-color:#fff;
+  width:300px;
+  height:250px;
 }
-header #header__screen .header__screen__box .talent__name{
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:150px;
+  left:40%;
+  height:100px;
+  width:300px;
+}
+header #header__screen .talent__name__box .talent__name{
   font-size:60px;
   font-weight:bold;
   max-width:240px;
   border-bottom:1px solid #000;
-}
-
+}    
 header #header__screen .header__screen__box .site__name{
-  margin-top:3vh;
+  padding-top:80px;
   font-size:23px;
 }    
 header #header__screen .header__screen__box .site__name span{
@@ -127,11 +136,11 @@ header #header__screen .header__screen__btn p span{
 
 @media screen and (max-width:1060px){
 header #header__screen .header__screen__box{
-  position:absolute;
-  top:15vh;
-  left:40%;
+  top:230px;
 }
-
+header #header__screen .talent__name__box{
+  top:210px;
+}    
 header #header__screen .header__screen__btn{
   position:absolute;
   top:430px;
@@ -199,8 +208,13 @@ header .header__bar .header__menu__navi .navi__menu{
 }
 header #header__screen .header__screen__box{
   left:33%;
-  top:17vh;
+  top:220px;
 }
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:180px;
+  left:33%;
+}    
 header #header__screen .header__screen__btn{
   position:absolute;
   top:430px;
@@ -246,12 +260,26 @@ header #header__screen .image__content .image__right{
 }
 
 header #header__screen .header__screen__box{
-  top:40vh;
-  left:20%;
+  top:280px;
+  left:22%;
 }
 header #header__screen .header__screen__btn{
   display:none;
 }
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:250px;
+  left:28%;
+  height:100px;
+  width:300px;
+}
+header #header__screen .talent__name__box .talent__name{
+  font-size:60px;
+  font-weight:bold;
+  max-width:240px;
+  border-bottom:1px solid #000;
+}    
+
 header #header__screen .header__screen__box .talent__name{
   font-size:40px;
   color:#fff;
@@ -261,18 +289,16 @@ header #header__screen .header__screen__box .talent__name{
   border-bottom:1px solid #fff;
 }
 header #header__screen .header__screen__box .site__name{
-  color:#fff;
-  text-shadow:1px 1px 1px #000;
+  text-align:center;
   font-size:23px;
 }    
 header #header__screen .header__screen__box p{
- color:#fff;
-  text-shadow:1px 1px 1px #000;
+ text-align:center;
  font-size:16px;
 }
 
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:500px){
 
 header .header__bar .header__title h1{
   font-size:16px;
@@ -291,8 +317,35 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__bottom
 }
 
 header #header__screen .header__screen__box{
-  left:10%;
+  left:3vw;
+  width:92vw;
 }
+header #header__screen .header__screen__btn{
+  display:none;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:250px;
+  left:20vw;
+  height:100px;
+  width:300px;
+}
+header #header__screen .talent__name__box .talent__name{
+  font-size:60px;
+  font-weight:bold;
+  max-width:240px;
+  border-bottom:1px solid #000;
+}    
+
+header #header__screen .header__screen__box .talent__name{
+  font-size:40px;
+  color:#fff;
+  text-shadow:1px 1px 1px #000;
+  font-weight:bold;
+  max-width:160px;
+  border-bottom:1px solid #fff;
+}
+
 header #header__screen .header__screen__box .talent__name{
   font-size:28px;
   font-weight:bold;
@@ -307,5 +360,10 @@ header #header__screen .header__screen__box p{
  line-height:1.5em;
  font-size:15px;
 }
+}
+@media screen and (max-width:300px){
 
-}    
+header #header__screen .talent__name__box{
+  left:6vw;
+}
+}
