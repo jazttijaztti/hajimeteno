@@ -1,12 +1,13 @@
 body{
   width:100%;
   height:100%;
-  overflow:hidden;
   font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, メイリオ, Meiryo;
 }
 
 #wrapper{
+  overflow:hidden;
   width:100%;
+  height:100%;
 }
 
 header{
@@ -134,6 +135,217 @@ header #header__screen .header__screen__btn p span{
   font-size:20px;
 }
 
+main{
+  width:100%;
+  height:100%;
+} 
+main .topic__news{
+  display:flex;
+  justify-content:center;
+  margin-top:100px;
+  width:100%;
+  height:100%;
+}
+main .topic__news .topic__title{
+  width:40%;
+  height:600px;
+
+}
+main .topic__news .topic__title h2{
+  font-size:30px;
+  font-weight:bold;
+}
+main .topic__news .topic__title p{
+  margin-top:10px;
+  font-size:18px;
+}    
+main .topic__news .topic__info{
+  width:50%;
+  height:600px;
+  margin-left:-100px;
+}
+main .topic__news .topic__info .topic__info__lists{
+  display:flex;
+  flex-direction:column;
+}
+main .topic__news .topic__info .topic__info__lists li{
+  margin-bottom:50px;
+}
+
+main .topic__news .topic__info .topic__info__lists li .topic__day{
+  font-size:16px;
+  color:#aaa;
+  margin-right:100px;
+}    
+main .topic__news .topic__info .topic__info__lists li .topic__content{
+  font-size:16px;
+}    
+main .topic__news .topic__info .topic__info__lists .view__btn{
+  margin-left:400px;
+  margin-top:50px;
+}    
+main .topic__logo{
+  position:absolute;
+  top:850px;
+  left:15vw;
+  z-index:-100;
+}
+main .topic__logo .topic__back__logo{
+  font-size:150px;
+  font-weight:bold;
+  color:#eee;
+  letter-spacing:0.2em;
+}
+main .blog__contents{
+  width:100%;
+  height:100%;
+  margin-left:8vw;
+}
+main .blog__contents .blog__top__title h2{
+  font-size:30px;
+  font-weight:bold;
+}
+main .blog__contents .blog__top__title p{
+  font-size:18px;
+  margin-top:5px;
+}
+main .blog__contents .blog__lists{
+  margin-top:30px;
+  display:flex;
+  justify-content:flex-start;
+}
+main .blog__contents .blog__lists li{
+  width:25%;
+  height:500px;
+  border:2px solid #eee;
+  margin-right:80px;
+  overflow:hidden;
+  position:relative;
+}
+
+main .blog__contents .blog__lists li .blog__image img{
+  width:100%;
+  height:300px;
+}    
+main .blog__contents .blog__lists li .blog__title{
+  font-size:18px;
+  margin: 10px 0px; 
+  padding:0px 10px;
+}
+
+main .blog__contents .blog__lists li .blog__story{
+  font-size:16px;
+  color:#bbb;
+  padding:0px 10px;
+}
+main .blog__contents .blog__lists li .blog__day{
+  font-size:16px;
+  color:#bbb;
+  margin-top:50px;
+  padding:0px 10px;
+  position:absolute;
+  bottom:0;
+}
+main .blog__contents .blog__lists li .jumini__tag{
+  font-size:12px;
+  width:100px;
+  height:20px;
+  border-radius:10px;
+  background-color:#FF1493;
+  margin-left:200px;
+  color:#fff;
+  padding:2px 0px  0px 20px;
+  position:absolute;
+  bottom:0;
+  right:-10px;
+}
+main .blog__contents .blog__lists li .offshot__tag{
+  font-size:12px;
+  width:100px;
+  height:20px;
+  border-radius:10px;
+  background-color:#FF1493;
+  margin-left:200px;
+  color:#fff;
+  padding:2px 0px  0px 10px;
+  position:absolute;
+  bottom:0;
+  right:-10px;
+}
+main .blog__contents .blog__lists li .event__tag{
+  font-size:12px;
+  width:100px;
+  height:20px;
+  border-radius:10px;
+  background-color:#FF1493;
+  margin-left:200px;
+  color:#fff;
+  padding:2px 0px  0px 20px;
+  position:absolute;
+  bottom:0;
+  right:-10px;
+}
+
+main .blog__contents .view__btn{
+  margin:50px 0px 0px 65vw;
+}
+
+main .funclub__box{
+  margin-top:100px;
+  margin-left:8vw;
+  width:86vw;
+  height:300px;
+  background: linear-gradient(to right,#FF65A1 5%, #FDC59B );
+}
+main .funclub__box .funclub__sentence {
+  margin-bottom:20px;
+}    
+main .funclub__box .funclub__sentence h2{
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:50px;
+  color:#fff;
+  text-align:center;
+  padding:30px 0px 0px 5px;
+}
+
+main .funclub__box .funclub__sentence p{
+  font-size:16px;
+  color:#fff;
+  margin-top:10px;
+  text-align:center;
+}
+
+main .funclub__box .join__btn{
+  width:200px;
+  height:50px;
+  background-color:#fff;
+  border-radius:100px;
+  margin:auto;
+}
+main .funclub__box .join__btn p{
+  text-align:center;
+  padding-top:15px;
+  color:#FF65A1;
+} 
+footer{
+  margin-top:100px;
+  width:100%;
+  height:100%;
+}
+footer .footer__list{
+  width:100%;
+  height:50vh;
+  background-color:#000;
+}
+
+footer .footer__list h2{   
+  font-size:30px;
+  color:#fff;
+  text-align:center;
+  padding-top:150px;
+}
+   
 @media screen and (max-width:1060px){
 header #header__screen .header__screen__box{
   top:230px;
@@ -153,7 +365,10 @@ header #header__screen .header__screen__btn p{
   font-size:13px;
   color:#fff;
   margin:1.5vh 0vw 0vh 5vw;
-}    
+}
+footer .footer__list{ 
+  height:30vh;
+}
 
 }    
 @media screen and (max-width:800px){
@@ -225,8 +440,44 @@ header #header__screen .header__screen__btn{
 }
 header #header__screen .header__screen__btn p{
   margin:1.5vh 0vw 0vh 6vw;
-}    
 }
+
+main .topic__news{
+  flex-direction: column;
+  text-align:center;
+}
+main .topic__news .topic__title{
+  width:100%;
+  height:100px;
+}
+main .topic__news .topic__info{
+  width:100%;
+  margin-left:0px;
+}
+main .topic__logo{
+  top:1000px;
+  left:20vw;
+}
+main .topic__logo .topic__back__logo{
+  font-size:100px;
+}
+main .blog__contents .blog__top__title{
+  text-align:center;
+  margin-left:-8vw;
+}
+main .blog__contents .blog__lists{
+  flex-direction:column;
+}
+main .blog__contents .blog__lists li{
+  width:80%;
+  margin-bottom:20px;
+  height:700px;
+}
+main .blog__contents .blog__lists li .blog__image img{
+  height:500px;
+}
+}
+
 @media screen and (max-width:700px){
 header .header__bar{
   height:10vh;
@@ -296,7 +547,16 @@ header #header__screen .header__screen__box p{
  text-align:center;
  font-size:16px;
 }
-
+main .topic__logo{
+  top:1010px;
+  left:10vw;
+}
+footer .footer__list{
+  height:45vh;
+}
+footer .footer__list h2{
+  padding-top:130px;   
+}
 }
 @media screen and (max-width:500px){
 
@@ -360,10 +620,134 @@ header #header__screen .header__screen__box p{
  line-height:1.5em;
  font-size:15px;
 }
+main .topic__news .topic__info{
+  height:500px;
 }
-@media screen and (max-width:300px){
+main .topic__news .topic__info .topic__info__lists li .topic__day{
+  margin-right:10px;
+  font-size:15px;
+}
+
+main .topic__news .topic__info .topic__info__lists li .topic__content{
+  font-size:15px;
+}
+
+main .topic__news .topic__info .topic__info__lists .view__btn{
+  margin-left:250px;
+  font-size:15px;
+}
+main .topic__logo{
+  left:20vw;
+  top:1070px;
+}
+main .topic__logo .topic__back__logo{
+  font-size:50px;
+}    
+main .blog__contents .blog__lists li{
+  width:80%;
+  margin-bottom:20px;
+  height:450px;
+}
+main .blog__contents .blog__lists li .blog__image img{
+  height:250px;
+}
+main .blog__contents .view__btn{
+  margin:40px 0px 0px 58vw;
+}    
+main .blog__contents .view__btn h3{
+  font-size:15px;
+}
+main .funclub__box .funclub__sentence h2{
+  font-size:20px;
+}
+
+main .funclub__box .funclub__sentence p{
+  font-size:14px;    
+}
+
+main .funclub__box .join__btn{
+  height:40px;
+}    
+main .funclub__box .join__btn p{
+  font-size:15px;
+  padding-top:12px;
+}
+footer .footer__list{
+  height:40vh;
+}
+footer .footer__list h2{
+  font-size:25px;
+  padding-top:130px;
+}    
+
+}
+@media screen and (max-width:350px){
 
 header #header__screen .talent__name__box{
-  left:6vw;
+  left:15vw;
 }
+header #header__screen .talent__name__box .talent__name{
+  font-size:50px;
+  max-width:200px;
+}    
+main .topic__news .topic__info{
+  height:500px;
+}
+main .topic__news .topic__info .topic__info__lists li .topic__day{
+  margin-right:10px;
+  font-size:10px;
+}
+
+main .topic__news .topic__info .topic__info__lists li .topic__content{
+  font-size:10px;
+}
+
+main .topic__news .topic__info .topic__info__lists .view__btn{
+  margin-left:150px;
+  font-size:12px;
+}
+main .topic__logo{
+  left:10vw;
+  top:1070px;
+}
+main .topic__logo .topic__back__logo{
+  font-size:50px;
+}    
+main .blog__contents .blog__lists li{
+  width:80%;
+  margin-bottom:20px;
+  height:450px;
+}
+main .blog__contents .blog__lists li .blog__image img{
+  height:250px;
+}
+main .blog__contents .view__btn{
+  margin:40px 0px 0px 55vw;
+}    
+main .blog__contents .view__btn h3{
+  font-size:12px;
+}
+main .funclub__box .funclub__sentence h2{
+  font-size:16px;
+}
+
+main .funclub__box .funclub__sentence p{
+  font-size:10px;    
+}
+
+main .funclub__box .join__btn{
+  height:30px;
+}    
+main .funclub__box .join__btn p{
+  font-size:12px;
+  padding-top:8px;
+}
+footer .footer__list{
+  height:40vh;
+}
+footer .footer__list h2{
+  font-size:25px;
+  padding-top:100px;
+}    
+
 }
