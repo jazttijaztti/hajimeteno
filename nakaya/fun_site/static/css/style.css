@@ -46,18 +46,18 @@ header .header__bar .header__menu__navi{
   display:none;
   visibility:hidden;
 }
-main #main__screen{
+header #hedaer__screen{
   width:100%;
   height:100%;
   position:relative;
 }
-main #main__screen .image__content{
+header #header__screen .image__content{
   width:100%;
   height:100%;
   display:flex;
   justify-content:space-around;
 }
-main #main__screen .image__content .image__left{
+header #header__screen .image__content .image__left{
   width:25%;
   height:460px;
   background-image:url("../images/img1.jpg");
@@ -65,7 +65,7 @@ main #main__screen .image__content .image__left{
   background-size:cover;
   z-index:-1;
 }
-main #main__screen .image__content .image__center{
+header #header__screen .image__content .image__center{
   width:25%;
   height:460px;
   background-image:url("../images/img7.jpg");
@@ -74,7 +74,7 @@ main #main__screen .image__content .image__center{
   opacity:0.6;
   z-index:-1;
 }
-main #main__screen .image__content .image__right{
+header #header__screen .image__content .image__right{
   width:25%;
   height:460px;
   background-image:url("../images/img3.jpg");
@@ -83,64 +83,64 @@ main #main__screen .image__content .image__right{
   opacity:0.6;
   z-index:-1;
 }
-main #main__screen .main__screen__box{
+header #header__screen .header__screen__box{
   position:absolute;
   top:20vh;
   left:40%;
 }
-main #main__screen .main__screen__box .talent__name{
+header #header__screen .header__screen__box .talent__name{
   font-size:60px;
   font-weight:bold;
   max-width:240px;
   border-bottom:1px solid #000;
 }
 
-main #main__screen .main__screen__box .site__name{
+header #header__screen .header__screen__box .site__name{
   margin-top:3vh;
   font-size:23px;
 }    
-main #main__screen .main__screen__box .site__name span{
+header #header__screen .header__screen__box .site__name span{
   margin-left:3vw;
 }    
-main #main__screen .main__screen__box p{
+header #header__screen .header__screen__box p{
  margin-top:2vh;
  line-height:1.5em;
  font-size:16px;
 }
-main #main__screen .main__screen__btn{
+header #header__screen .header__screen__btn{
   position:absolute;
-  top:46vh;
+  top:430px;
   left:20%;
   width:400px;
   height:80px;
   background-color:#000;
 }
-main #main__screen .main__screen__btn p{
+header #header__screen .header__screen__btn p{
   font-size:13px;
   color:#fff;
   margin:3.5vh 0vw 0vh 8vw;
 }    
-main #main__screen .main__screen__btn p span{
+header #header__screen .header__screen__btn p span{
   margin-left:5vw;
   font-size:20px;
 }
 
 @media screen and (max-width:1060px){
-main #main__screen .main__screen__box{
+header #header__screen .header__screen__box{
   position:absolute;
-  top:10vh;
+  top:15vh;
   left:40%;
 }
 
-main #main__screen .main__screen__btn{
+header #header__screen .header__screen__btn{
   position:absolute;
-  top:35vh;
+  top:430px;
   left:20%;
   width:300px;
   height:60px;
   background-color:#000;
 }
-main #main__screen .main__screen__btn p{
+header #header__screen .header__screen__btn p{
   font-size:13px;
   color:#fff;
   margin:1.5vh 0vw 0vh 5vw;
@@ -197,19 +197,19 @@ header .header__bar .header__menu__navi .navi__menu{
   height:100vh;
   background-color:#fff;
 }
-main #main__screen .main__screen__box{
+header #header__screen .header__screen__box{
   left:33%;
-  top:10vh;
+  top:17vh;
 }
-main #main__screen .main__screen__btn{
+header #header__screen .header__screen__btn{
   position:absolute;
-  top:37vh;
+  top:430px;
   left:20%;
   width:300px;
   height:60px;
   background-color:#000;
 }
-main #main__screen .main__screen__btn p{
+header #header__screen .header__screen__btn p{
   margin:1.5vh 0vw 0vh 6vw;
 }    
 }
@@ -229,7 +229,7 @@ header .header__bar .header__hidden__content .humburger__menu{
 header .header__bar .header__hidden__content .humburger__menu .humburger__top{
   margin-top:2vh;
 }
-main #main__screen .image__content .image__left{
+header #header__screen .image__content .image__left{
   width:100%;
   height:500px;
   opacity:0.9;
@@ -238,21 +238,21 @@ main #main__screen .image__content .image__left{
   background-size:cover;
   z-index:-1;
 }
-main #main__screen .image__content .image__center{
+header #header__screen .image__content .image__center{
   display:none;
 }
-main #main__screen .image__content .image__right{
+header #header__screen .image__content .image__right{
   display:none;
 }
 
-main #main__screen .main__screen__box{
-  top:25vh;
+header #header__screen .header__screen__box{
+  top:40vh;
   left:20%;
 }
-main #main__screen .main__screen__btn{
+header #header__screen .header__screen__btn{
   display:none;
 }
-main #main__screen .main__screen__box .talent__name{
+header #header__screen .header__screen__box .talent__name{
   font-size:40px;
   color:#fff;
   text-shadow:1px 1px 1px #000;
@@ -260,12 +260,12 @@ main #main__screen .main__screen__box .talent__name{
   max-width:160px;
   border-bottom:1px solid #fff;
 }
-main #main__screen .main__screen__box .site__name{
+header #header__screen .header__screen__box .site__name{
   color:#fff;
   text-shadow:1px 1px 1px #000;
   font-size:23px;
 }    
-main #main__screen .main__screen__box p{
+header #header__screen .header__screen__box p{
  color:#fff;
   text-shadow:1px 1px 1px #000;
  font-size:16px;
@@ -290,19 +290,19 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__bottom
   border-top:2px solid #000;
 }
 
-main #main__screen .main__screen__box{
+header #header__screen .header__screen__box{
   left:10%;
 }
-main #main__screen .main__screen__box .talent__name{
+header #header__screen .header__screen__box .talent__name{
   font-size:28px;
   font-weight:bold;
   max-width:115px;
   margin-left:10vw;
 }
-main #main__screen .main__screen__box .site__name{
+header #header__screen .header__screen__box .site__name{
   font-size:18px;
 }      
-main #main__screen .main__screen__box p{
+header #header__screen .header__screen__box p{
  margin-top:2vh;
  line-height:1.5em;
  font-size:15px;
