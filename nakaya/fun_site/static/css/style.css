@@ -3,7 +3,16 @@ body{
   height:100%;
   font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, メイリオ, Meiryo;
 }
-
+div,img{
+  max-width:100%;
+  height:auto;
+}
+iframe{
+  max-width:100%;
+}
+table{
+  max-width:100%;
+}
 #wrapper{
   overflow:hidden;
   width:100%;
@@ -199,7 +208,7 @@ main .topic__logo .topic__back__logo{
 main .blog__contents{
   width:100%;
   height:100%;
-  margin-left:8vw;
+  padding-left:8vw;
 }
 main .blog__contents .blog__top__title h2{
   font-size:30px;
@@ -371,7 +380,7 @@ footer .footer__list{
 }
 
 }    
-@media screen and (max-width:800px){
+@media screen and (max-width:960px){
 header .header__content{
   display:none;
   visibility:hidden;
@@ -490,7 +499,7 @@ header .header__bar .header__hidden__content .humburger__menu{
   left:85%;
   margin-left:0vw;
 }
-
+    
 header .header__bar .header__hidden__content .humburger__menu .humburger__top{
   margin-top:2vh;
 }
@@ -522,7 +531,7 @@ header #header__screen .talent__name__box{
   top:250px;
   left:28%;
   height:100px;
-  width:300px;
+  width:250px;
 }
 header #header__screen .talent__name__box .talent__name{
   font-size:60px;
@@ -558,7 +567,7 @@ footer .footer__list h2{
   padding-top:130px;   
 }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
 
 header .header__bar .header__title h1{
   font-size:16px;
@@ -577,8 +586,8 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__bottom
 }
 
 header #header__screen .header__screen__box{
-  left:3vw;
-  width:92vw;
+  left:16vw;
+  width:260px;
 }
 header #header__screen .header__screen__btn{
   display:none;
@@ -586,35 +595,22 @@ header #header__screen .header__screen__btn{
 header #header__screen .talent__name__box{
   position:absolute;
   top:250px;
-  left:20vw;
+  left:27vw;
   height:100px;
-  width:300px;
-}
-header #header__screen .talent__name__box .talent__name{
-  font-size:60px;
-  font-weight:bold;
-  max-width:240px;
-  border-bottom:1px solid #000;
+  width:250px;
 }    
-
-header #header__screen .header__screen__box .talent__name{
-  font-size:40px;
-  color:#fff;
-  text-shadow:1px 1px 1px #000;
-  font-weight:bold;
-  max-width:160px;
-  border-bottom:1px solid #fff;
-}
 
 header #header__screen .header__screen__box .talent__name{
   font-size:28px;
   font-weight:bold;
   max-width:115px;
-  margin-left:10vw;
 }
 header #header__screen .header__screen__box .site__name{
   font-size:18px;
 }      
+header #header__screen .header__screen__box{
+  width:350px;
+}    
 header #header__screen .header__screen__box p{
  margin-top:2vh;
  line-height:1.5em;
@@ -622,6 +618,7 @@ header #header__screen .header__screen__box p{
 }
 main .topic__news .topic__info{
   height:500px;
+  max-width:100%;
 }
 main .topic__news .topic__info .topic__info__lists li .topic__day{
   margin-right:10px;
@@ -642,14 +639,19 @@ main .topic__logo{
 }
 main .topic__logo .topic__back__logo{
   font-size:50px;
-}    
+}
+main .blog__contents{
+  margin-left:0vw;
+  max-width:100%;
+}
 main .blog__contents .blog__lists li{
   width:80%;
+  margin:auto;
   margin-bottom:20px;
-  height:450px;
+  height:500px;
 }
 main .blog__contents .blog__lists li .blog__image img{
-  height:250px;
+  height:380px;
 }
 main .blog__contents .view__btn{
   margin:40px 0px 0px 58vw;
@@ -681,14 +683,77 @@ footer .footer__list h2{
 }    
 
 }
-@media screen and (max-width:350px){
 
+@media screen and (max-width:450px){
+header #header__screen .header__screen__box{
+  left:8vw;
+  top:300px;
+}
 header #header__screen .talent__name__box{
-  left:15vw;
+  position:absolute;
+  top:270px;
+  left:24vw;
+  height:100px;
+  width:250px;
+}    
+
+header #header__screen .header__screen__box .site__name{
+  font-size:18px;
+}      
+   
+header #header__screen .header__screen__box p{
+ margin-top:2vh;
+ line-height:1.5em;
+ font-size:15px;
+}
+}
+
+@media screen and (max-width:380px){
+header #header__screen .header__screen__box{
+  left:6vw;
+  top:300px;
+  width:320px;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:270px;
+  left:20vw;
+  height:100px;
+  width:250px;
+}    
+}
+@media screen and (max-width:330px){
+header #header__screen .header__screen__box{
+  left:6vw;
+  top:280px;
+  width:280px;
+  height:230px;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:250px;
+  left:14vw;
+  height:100px;
+  width:250px;
+}    
+ 
+}    
+@media screen and (max-width:300px){
+#wrapper{
+  overflow:hidden;
+  width:100%;
+}
+header #header__screen .header__screen__box{
+  width:250px;
+  left:5vw;
+}
+header #header__screen .talent__name__box{
+  left:20vw;
+  width:180px;
 }
 header #header__screen .talent__name__box .talent__name{
-  font-size:50px;
-  max-width:200px;
+  font-size:40px;
+  max-width:160px;
 }    
 main .topic__news .topic__info{
   height:500px;
