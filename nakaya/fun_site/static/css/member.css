@@ -1,0 +1,1120 @@
+body{
+  width:100%;
+  height:100%;
+  font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, メイリオ, Meiryo;
+}
+div,img{
+  max-width:100%;
+  height:auto;
+}
+iframe{
+  max-width:100%;
+}
+table{
+  max-width:100%;
+}
+#wrapper{
+  overflow:hidden;
+  width:100%;
+  height:100%;
+}
+
+header{
+  width:100%;
+  height:100%;
+}
+header .header__bar{
+ height:8vh;
+ display: flex;
+ justify-content:space-between;
+ align-items:center;
+}
+header .header__bar .header__title h1{
+  font-size:20px;
+  font-weight:bold;
+  margin-left:5vw;
+}
+header .header__bar .header__content{
+  width:60%;
+  height:100%;
+}
+
+header .header__bar .header__content .header__lists{
+  display:flex;
+  justify-content:space-around;
+  margin-top:3vh;
+}
+
+header .header__bar .header__content .header__lists li{
+  font-size:15px;
+}
+header .header__bar .header__hidden__content{
+  display:none;
+  visibility:hidden;  
+}
+header .header__bar .header__menu__navi{
+  display:none;
+  visibility:hidden;
+}
+header #hedaer__screen{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+header #header__screen .image__content{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+}
+header #header__screen .image__content .image__left{
+  width:25%;
+  height:460px;
+  background-image:url("../images/img1.jpg");
+  background-position:center center;
+  background-size:cover;
+  z-index:-1;
+}
+header #header__screen .image__content .image__center{
+  width:25%;
+  height:460px;
+  background-image:url("../images/img7.jpg");
+  background-position:center center;
+  background-size:cover;
+  opacity:0.6;
+  z-index:-1;
+}
+header #header__screen .image__content .image__right{
+  width:25%;
+  height:460px;
+  background-image:url("../images/img3.jpg");
+  background-position:center center;
+  background-size:cover;
+  opacity:0.6;
+  z-index:-1;
+}
+header #header__screen .header__screen__box{
+  position:absolute;
+  top:190px;
+  left:40%;
+  background-color:#fff;
+  width:300px;
+  height:250px;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:150px;
+  left:40%;
+  height:100px;
+  width:300px;
+}
+header #header__screen .talent__name__box .talent__name{
+  font-size:60px;
+  font-weight:bold;
+  max-width:240px;
+  border-bottom:1px solid #000;
+}    
+header #header__screen .header__screen__box .site__name{
+  padding-top:80px;
+  font-size:23px;
+}    
+header #header__screen .header__screen__box .site__name span{
+  margin-left:3vw;
+}    
+header #header__screen .header__screen__box p{
+ margin-top:2vh;
+ line-height:1.5em;
+ font-size:16px;
+}
+header #header__screen .header__screen__btn{
+  position:absolute;
+  top:430px;
+  left:20%;
+  width:400px;
+  height:80px;
+  background-color:#000;
+}
+header #header__screen .header__screen__btn p{
+  font-size:13px;
+  color:#fff;
+  margin:3.5vh 0vw 0vh 8vw;
+}    
+header #header__screen .header__screen__btn p span{
+  margin-left:5vw;
+  font-size:20px;
+}
+main{
+  width:100%;
+  height:100%;
+}
+main .member__registar__box{
+  width:100%;
+  height:100%;
+  margin-top:100px;
+}
+main .member__registar__box .member__top{
+  text-align:center;
+}    
+main .member__registar__box .member__top h2{
+  width:100%;
+  font-weight:bold;
+  font-size:35px;
+}
+main .member__registar__box .member__top p{
+  font-size:15px;
+  margin-top:5px;
+}    
+main .member__registar__box .member__plan__box{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+}
+main .member__registar__box .member__plan__box .member__plan__left{
+  margin-right:30px;
+  width:45%;
+  height:60vh;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content{
+  width:100%;
+  height:400px;
+  border-radius:10px;
+  border:1px solid #04B300;
+  background-color:#F1F1F1;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content{
+  text-align:center;
+  position:relative;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  width:300px;
+  height:60px;
+  background-color:#04B300;
+  color:#fff;
+  font-size:18px;
+  border-radius:10px;
+  padding:20px 50px; 
+  position:absolute;
+  top:-20px;
+  left:12vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__value{
+  padding-top:80px;
+  padding-bottom:20px;
+  margin:auto;
+  color:#04B300;
+  font-size:30px;
+  font-weight:bold;
+  border-bottom:1px solid #D6D6D6;
+  max-width:180px;
+}   
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  text-align:center;
+  font-size:16px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  position: relative;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius:10px;
+  background-color:#04B300;
+  position:absolute;
+  top:0;
+  left:10vw;
+}
+b::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 0.3vw;
+  width: 10px;
+  height: 5px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
+  width:200px;
+  height:45px;
+  margin:auto;
+  margin-top:85px;
+  background-color:#04B300;
+  border-radius:20px;
+  color:#fff;
+  font-size:16px;
+  padding:10px 50px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right{
+  margin-right:30px;
+  width:45%;
+  height:60vh;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content{
+  width:100%;
+  height:400px;
+  border-radius:10px;
+  border:1px solid #FF1493;
+  background-color:#F1F1F1;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content{
+  text-align:center;
+  position:relative;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  width:300px;
+  height:60px;
+  background-color:#FF1493;
+  color:#fff;
+  font-size:18px;
+  border-radius:10px;
+  padding:20px 50px; 
+  position:absolute;
+  top:-20px;
+  left:12vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
+  padding-top:80px;
+  padding-bottom:20px;
+  margin:auto;
+  color:#FF1493;
+  font-size:30px;
+  font-weight:bold;
+  border-bottom:1px solid #D6D6D6;
+  max-width:200px;
+}   
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
+  text-align:center;
+  font-size:16px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
+  position: relative;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius:10px;
+  background-color:#FF1493;
+  position:absolute;
+  top:0;
+  left:10vw;
+}
+b::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 0.3vw;
+  width: 10px;
+  height: 5px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
+  width:200px;
+  height:45px;
+  margin:auto;
+  margin-top:50px;
+  background-color:#FF1493;
+  border-radius:20px;
+  color:#fff;
+  font-size:16px;
+  padding:10px 50px;
+}
+
+footer{
+  margin-top:100px;
+  width:100%;
+  height:100%;
+}
+footer .footer__list{
+  width:100%;
+  height:50vh;
+  background-color:#000;
+}
+
+footer .footer__list h2{   
+  font-size:30px;
+  color:#fff;
+  text-align:center;
+  padding-top:150px;
+}
+   
+@media screen and (max-width:1060px){
+header #header__screen .header__screen__box{
+  top:230px;
+}
+header #header__screen .talent__name__box{
+  top:210px;
+}    
+header #header__screen .header__screen__btn{
+  position:absolute;
+  top:430px;
+  left:20%;
+  width:300px;
+  height:60px;
+  background-color:#000;
+}
+header #header__screen .header__screen__btn p{
+  font-size:13px;
+  color:#fff;
+  margin:1.5vh 0vw 0vh 5vw;
+}
+main .member__registar__box .member__plan__box .member__plan__left {
+  height:50vh;
+}    
+main .member__registar__box .member__plan__box .member__plan__right{
+  height:50vh;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  width:300px;
+  height:60px;
+  font-size:18px;
+  padding:20px 50px; 
+  top:-20px;
+  left:85px;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  width:300px;
+  height:60px;
+  font-size:18px;
+  padding:20px 50px; 
+  top:-20px;
+  left:85px;
+}    
+
+footer .footer__list{ 
+  height:40vh;
+}
+
+}    
+@media screen and (max-width:960px){
+header .header__content{
+  display:none;
+  visibility:hidden;
+}
+header .header__bar{
+  position:relative;        
+}
+header .header__bar .header__hidden__content{
+  display:block;
+  visibility:visible;
+}
+header .header__bar .header__hidden__content .humburger__menu{
+  width:100px;
+  height:5vh;
+  position:absolute;
+  top:1vh;
+  left:90%;
+  margin-left:1vw;
+}
+
+header .header__bar .header__hidden__content .humburger__menu .humburger__top{
+  width:40px;
+  border-top:4px solid #000;
+  margin-top:1vh;
+}
+header .header__bar .header__hidden__content .humburger__menu .humburger__middle{
+  width:40px;
+  border-top:4px solid #000;
+  margin-top:8px;
+}    
+header .header__bar .header__hidden__content .humburger__menu .humburger__bottom{
+  width:30px;
+  border-top:4px solid #000;
+  margin-top:8px;
+}
+header .header__bar .header__menu__navi.active{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:100;
+}
+header .header__bar .header__menu__navi .navi__menu{
+  position:fixed;
+  width:100%;
+  height:100vh;
+  background-color:#fff;
+}
+header #header__screen .header__screen__box{
+  left:33%;
+  top:220px;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:180px;
+  left:33%;
+}    
+header #header__screen .header__screen__btn{
+  position:absolute;
+  top:430px;
+  left:20%;
+  width:300px;
+  height:60px;
+  background-color:#000;
+}
+header #header__screen .header__screen__btn p{
+  margin:1.5vh 0vw 0vh 6vw;
+}
+main .member__registar__box .member__plan__box{
+  flex-direction:column;
+}
+main .member__registar__box .member__plan__box .member__plan__left {
+  height:60vh;
+}    
+main .member__registar__box .member__plan__box .member__plan__right{
+  height:60vh;
+}    
+
+main .member__registar__box .member__plan__box .member__plan__left{
+  width:80%;
+  height:100%;
+  margin-left:10%;
+  margin-bottom:50px;
+}        
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content{
+  width:100%;
+  height:400px;
+  border-radius:10px;
+  border:1px solid #04B300;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content{
+  text-align:center;
+  position:relative;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  font-size:23px;
+  padding:20px 40px;
+  left:20vw;
+}       
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  font-size:20px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  position: relative;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  border-radius:20px;
+  background-color:#04B300;
+  position:absolute;
+  top:0;
+  left:15vw;
+}
+b::after{
+  top: 5px;
+  left: 1.5vw;
+  width: 15px;
+  height: 8px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
+  width:200px;
+  height:45px;
+  margin:auto;
+  margin-top:85px;
+  border-radius:20px;
+  font-size:16px;
+  padding:13px 50px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right{
+  margin-left:10%;
+  width:80%;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content{
+  width:100%;
+  height:400px;
+  border-radius:10px;
+  border:1px solid #FF1493;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content{
+  text-align:center;
+  position:relative;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  width:300px;
+  height:60px;
+  font-size:20px;
+  padding:20px 50px; 
+  top:-20px;
+  left:20vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
+  padding-top:80px;
+  padding-bottom:20px;
+  margin:auto;
+  font-size:30px;
+  font-weight:bold;
+  border-bottom:1px solid #D6D6D6;
+  max-width:200px;
+}   
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
+  text-align:center;
+  font-size:20px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
+  position: relative;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  background-color:#FF1493;
+  position:absolute;
+  top:0;
+  left:15vw;
+}
+b::after{
+  top: 8px;
+  left: 1vw;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
+  width:200px;
+  height:45px;
+  margin:auto;
+  margin-top:50px;
+  border-radius:20px;
+  font-size:16px;
+  padding:13px 50px;
+}
+
+
+footer{
+  margin-top:0px;
+}
+footer .footer__list{
+  height:55vh;
+}
+}
+
+@media screen and (max-width:700px){
+header .header__bar{
+  height:10vh;
+}
+header .header__bar .header__hidden__content .humburger__menu{
+  width:100px;
+  height:5vh;
+  position:absolute;
+  top:1vh;
+  left:85%;
+  margin-left:0vw;
+}
+    
+header .header__bar .header__hidden__content .humburger__menu .humburger__top{
+  margin-top:2vh;
+}
+header #header__screen .image__content .image__left{
+  width:100%;
+  height:500px;
+  opacity:0.9;
+  background-image:url("../images/img1.jpg");
+  background-position:center center;
+  background-size:cover;
+  z-index:-1;
+}
+header #header__screen .image__content .image__center{
+  display:none;
+}
+header #header__screen .image__content .image__right{
+  display:none;
+}
+
+header #header__screen .header__screen__box{
+  top:280px;
+  left:22%;
+}
+header #header__screen .header__screen__btn{
+  display:none;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:250px;
+  left:28%;
+  height:100px;
+  width:250px;
+}
+header #header__screen .talent__name__box .talent__name{
+  font-size:60px;
+  font-weight:bold;
+  max-width:240px;
+  border-bottom:1px solid #000;
+}    
+
+header #header__screen .header__screen__box .talent__name{
+  font-size:40px;
+  color:#fff;
+  text-shadow:1px 1px 1px #000;
+  font-weight:bold;
+  max-width:160px;
+  border-bottom:1px solid #fff;
+}
+header #header__screen .header__screen__box .site__name{
+  text-align:center;
+  font-size:23px;
+}    
+header #header__screen .header__screen__box p{
+ text-align:center;
+ font-size:16px;
+}
+
+footer .footer__list{
+  height:45vh;
+}
+footer .footer__list h2{
+  padding-top:130px;   
+}
+}
+@media screen and (max-width:650px){
+
+header .header__bar .header__title h1{
+  font-size:16px;
+}
+header .header__bar .header__hidden__content .humburger__menu .humburger__top{
+  width:30px;
+  border-top:2px solid #000;
+}
+header .header__bar .header__hidden__content .humburger__menu .humburger__middle{
+  width:30px;
+  border-top:2px solid #000;
+}    
+header .header__bar .header__hidden__content .humburger__menu .humburger__bottom{
+  width:20px;
+  border-top:2px solid #000;
+}
+
+header #header__screen .header__screen__box{
+  left:16vw;
+  width:260px;
+}
+header #header__screen .header__screen__btn{
+  display:none;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:250px;
+  left:27vw;
+  height:100px;
+  width:250px;
+}    
+
+header #header__screen .header__screen__box .talent__name{
+  font-size:28px;
+  font-weight:bold;
+  max-width:115px;
+}
+header #header__screen .header__screen__box .site__name{
+  font-size:18px;
+}      
+header #header__screen .header__screen__box{
+  width:350px;
+}    
+header #header__screen .header__screen__box p{
+ margin-top:2vh;
+ line-height:1.5em;
+ font-size:15px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  width:300px;
+  height:60px;
+  font-size:18px;
+  border-radius:10px;
+  padding:20px 50px; 
+  top:-20px;
+  left:13vw;
+}
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  border-radius:20px;
+  top:0;
+  left:10vw;
+}
+b::after{
+  top: 8px;
+  left: 1vw;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  width:300px;
+  height:60px;
+  font-size:18px;
+  padding:20px 50px; 
+  top:-20px;
+  left:13vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  width:25px;
+  height:25px;
+  display:inline-block;
+  border-radius:20px;
+  top:0;
+  left:10vw;
+}
+b::after{
+  top: 8px;
+  left: 1vw;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+footer .footer__list{
+  height:40vh;
+}
+footer .footer__list h2{
+  font-size:25px;
+  padding-top:130px;
+}    
+
+}
+
+@media screen and (max-width:450px){
+header #header__screen .header__screen__box{
+  left:8vw;
+  top:300px;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:270px;
+  left:24vw;
+  height:100px;
+  width:250px;
+}    
+
+header #header__screen .header__screen__box .site__name{
+  font-size:18px;
+}      
+   
+header #header__screen .header__screen__box p{
+ margin-top:2vh;
+ line-height:1.5em;
+ font-size:15px;
+}   
+       
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content{
+  width:100%;
+  height:400px;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  font-size:18px;
+  width:200px;
+  height:50px;
+  padding:15px 20px;
+  left:15vw;
+}       
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__value{
+  font-size:25px;
+  max-width:180px;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  font-size:16px;
+  margin-top:20px;
+}
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius:20px;
+  top:0;
+  left:6vw;
+}
+b::after{
+  top: 5px;
+  left: 1.5vw;
+  width: 15px;
+  height: 8px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
+  width:180px;
+  height:45px;
+  margin:auto;
+  margin-top:85px;
+  color:#fff;
+  font-size:16px;
+  padding:13px 50px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right{
+  margin-left:10%;
+  width:80%;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content{
+  width:100%;
+  height:400px;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  width:200px;
+  height:50px;
+  font-size:18px;
+  border-radius:10px;
+  padding:13px 20px; 
+  top:-20px;
+  left:15vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
+  padding-top:80px;
+  padding-bottom:20px;
+  margin:auto;
+  font-size:25px;
+  font-weight:bold;
+  border-bottom:1px solid #D6D6D6;
+  max-width:180px;
+}   
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
+  text-align:center;
+  font-size:16px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius:20px;
+  top:0;
+  left:6vw;
+}
+b::after{
+  top: 8px;
+  left: 1vw;
+  width: 10px;
+  height: 5px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
+  width:180px;
+  height:45px;
+  margin-top:50px;
+  font-size:16px;
+  padding:13px 20px;
+}
+footer{
+  margin-top:100px;
+}
+}
+
+@media screen and (max-width:380px){
+header #header__screen .header__screen__box{
+  left:6vw;
+  top:300px;
+  width:320px;
+}
+header #header__screen .talent__name__box{
+  position:absolute;
+  top:270px;
+  left:20vw;
+  height:100px;
+  width:250px;
+}    
+}
+@media screen and (max-width:330px){
+header #header__screen .header__screen__box{
+  left:6vw;
+  top:280px;
+  width:280px;
+  height:230px;
+}
+header #header__screen .talent__name__box{
+  top:250px;
+  left:14vw;
+  height:100px;
+  width:250px;
+}
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  top:-3px;
+  left:1.5vw;
+}
+b::after{
+  top: 5px;
+  left: 3px;
+  width: 15px;
+  height: 8px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  left:1.5vw;
+}
+b::after{
+  top: 8px;
+  left: 1vw;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+}    
+@media screen and (max-width:300px){
+header #header__screen .header__screen__box{
+  width:250px;
+  left:5vw;
+}
+header #header__screen .talent__name__box{
+  left:20vw;
+  width:180px;
+}
+header #header__screen .talent__name__box .talent__name{
+  font-size:40px;
+  max-width:160px;
+}
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  width:180px;
+  height:40px;
+  background-color:#04B300;
+  color:#fff;
+  font-size:16px;
+  border-radius:10px;
+  padding:12px 10px; 
+  position:absolute;
+  top:-20px;
+  left:8vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  width:180px;
+  height:40px;
+  background-color:#FF1493;
+  color:#fff;
+  font-size:16px;
+  border-radius:10px;
+  padding:12px 10px; 
+  position:absolute;
+  top:-20px;
+  left:8vw;
+}    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  font-size:13px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
+  position: relative;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius:20px;
+  background-color:#04B300;
+  position:absolute;
+  top:-3px;
+  left:2.8vw;
+}
+b::after{
+  top: 5px;
+  left: 3px;
+  width: 15px;
+  height: 8px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
+  width:180px;
+  height:45px;
+  margin:auto;
+  margin-top:85px;
+  color:#fff;
+  font-size:16px;
+  padding:13px 50px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right{
+  margin-left:10%;
+  width:80%;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content{
+  width:100%;
+  height:400px;
+}    
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
+  padding-top:80px;
+  padding-bottom:20px;
+  margin:auto;
+  font-size:25px;
+  max-width:180px;
+}   
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
+  text-align:center;
+  font-size:13px;
+  margin-top:20px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  width:20px;
+  height:20px;
+  border-radius:10px;
+  top:0;
+  left:2.8vw;
+}
+b::after{
+  top: 8px;
+  left: 1vw;
+  width: 10px;
+  height: 5px;
+}
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
+  width:180px;
+  height:45px;
+  margin:auto;
+  margin-top:50px;
+  font-size:16px;
+  padding:13px 20px;
+}
+
+footer .footer__list{
+  height:40vh;
+}
+footer .footer__list h2{
+  font-size:25px;
+  padding-top:100px;
+}    
+}

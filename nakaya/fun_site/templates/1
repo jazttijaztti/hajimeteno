@@ -3,8 +3,8 @@
  <head>
   <meta charset = "utf-8">
   <meta name = "viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-  <link rel="stylesheet" href="static/css/reset.css" media="all">
-  <link rel="stylesheet" href="static/css/style.css" media="all">
+  <link rel="stylesheet" href="../static/css/reset.css" media="all">
+  <link rel="stylesheet" href="../static/css/blog.css" media="all">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
@@ -79,7 +79,7 @@
      <p>ブログ</p>
     </div>
 
-    <div class=blog__navi_tag>
+    <div class=blog__navi__tag>
      <p class="jumini__tag">JUMINI</p>
      <p class="offshot__tag">オフショット</p>
      <p class="event__tag">イベント</p>
@@ -99,73 +99,72 @@
       </li>
 
       <li>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <span><img src=""></span>
+       <p class="blog__title">撮影のオフショット</p>
+       <p class="blog__story">撮影のオフショットを公開します。</p>
+       <p class="blog__day">2021.07.17</p>
+       <p class="offshot__tag">オフショット</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">オンラインイベント</p>
+       <p class="blog__story">オンラインイベント開催しました。ありがとうございました。</p>
+       <p class="blog__day">2021.07.16</p>
+       <p class="event__tag">イベント</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">オフショット</p>
+       <p class="blog__story">オフショット一挙公開！</p>
+       <p class="blog__day">2021.07.15</p>
+       <p class="offshot__tag">オフショット</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">オンラインイベント</p>
+       <p class="blog__story">オンラインイベント盛り上がりました！</p>
+       <p class="blog__day">2021.07.14</p>
+       <p class="event__tag">イベント</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">インスタライブ</p>
+       <p class="blog__story">インスタライブしました！ありがとうございました。</p>
+       <p class="blog__day">2021.07.13</p>
+       <p class="insta__tag">instagram</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">ライブ</p>
+       <p class="blog__story">ライブ開催しました。ありがとうございました！</p>
+       <p class="blog__day">2021.07.12</p>
+       <p class="live__tag">ライブ</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">今日のお昼ご飯</p>
+       <p class="blog__story">今日のお昼はハンバーガーでした！</p>
+       <p class="blog__day">2021.07.11</p>
+       <p class="menu__tag">ごはん</p>
       </li>
 
       <li>
        <span><img src=""></span>
-       <p class="blog__title"></p>
-       <p class="blog__story"></p>
-       <p class="blog__day"></p>
-       <p class="jumini__tag"></p>
+       <p class="blog__title">雑誌撮影</p>
+       <p class="blog__story">雑誌の撮影でした！</p>
+       <p class="blog__day">2021.07.10</p>
+       <p class="poto__tag">撮影</p>
       </li>
-
      </ul>
     <div>
 
    </div>
-
   </main>
   
    <footer>
