@@ -1,7 +1,10 @@
 body{
   width:100%;
   height:100%;
-  font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, メイリオ, Meiryo;
+  font-family: "Gill Sans", sans-serif;
+}
+body.noscroll{
+  overflow:hidden;
 }
 div,img{
   max-width:100%;
@@ -24,7 +27,7 @@ header{
   height:100%;
 }
 header .header__bar{
- height:8vh;
+ height:10vh;
  display: flex;
  justify-content:space-between;
  align-items:center;
@@ -42,7 +45,7 @@ header .header__bar .header__content{
 header .header__bar .header__content .header__lists{
   display:flex;
   justify-content:space-around;
-  margin-top:3vh;
+  margin-top:4vh;
 }
 
 header .header__bar .header__content .header__lists li{
@@ -56,18 +59,18 @@ header .header__bar .header__menu__navi{
   display:none;
   visibility:hidden;
 }
-header #hedaer__screen{
+#first__view{
   width:100%;
   height:100%;
   position:relative;
 }
-header #header__screen .image__content{
+#first__view .image__content{
   width:100%;
   height:100%;
   display:flex;
   justify-content:space-around;
 }
-header #header__screen .image__content .image__left{
+#first__view .image__content .image__left{
   width:25%;
   height:460px;
   background-image:url("../images/img1.jpg");
@@ -75,7 +78,7 @@ header #header__screen .image__content .image__left{
   background-size:cover;
   z-index:-1;
 }
-header #header__screen .image__content .image__center{
+#first__view .image__content .image__center{
   width:25%;
   height:460px;
   background-image:url("../images/img7.jpg");
@@ -84,7 +87,7 @@ header #header__screen .image__content .image__center{
   opacity:0.6;
   z-index:-1;
 }
-header #header__screen .image__content .image__right{
+#first__view .image__content .image__right{
   width:25%;
   height:460px;
   background-image:url("../images/img3.jpg");
@@ -93,53 +96,54 @@ header #header__screen .image__content .image__right{
   opacity:0.6;
   z-index:-1;
 }
-header #header__screen .header__screen__box{
+#first__view .first__view__box{
   position:absolute;
-  top:190px;
+  top:150px;
   left:40%;
   background-color:#fff;
   width:300px;
   height:250px;
 }
-header #header__screen .talent__name__box{
+#first__view .talent__name__box{
   position:absolute;
-  top:150px;
+  top:100px;
   left:40%;
   height:100px;
   width:300px;
 }
-header #header__screen .talent__name__box .talent__name{
+#first__view .talent__name__box .talent__name{
   font-size:60px;
   font-weight:bold;
   max-width:240px;
   border-bottom:1px solid #000;
 }    
-header #header__screen .header__screen__box .site__name{
+#first__view .first__view__box .site__name{
   padding-top:80px;
-  font-size:23px;
+  font-size:26px;
 }    
-header #header__screen .header__screen__box .site__name span{
+#first__view .first__view__box .site__name span{
   margin-left:3vw;
 }    
-header #header__screen .header__screen__box p{
+#first__view .first__view__box p{
  margin-top:2vh;
  line-height:1.5em;
  font-size:16px;
 }
-header #header__screen .header__screen__btn{
+#first__view .first__view__btn{
   position:absolute;
-  top:430px;
+  font-family:Helvetica;
+  top:350px;
   left:20%;
   width:400px;
   height:80px;
   background-color:#000;
 }
-header #header__screen .header__screen__btn p{
+#first__view .first__view__btn p{
   font-size:13px;
   color:#fff;
   margin:3.5vh 0vw 0vh 8vw;
 }    
-header #header__screen .header__screen__btn p span{
+#first__view .first__view__btn p span{
   margin-left:5vw;
   font-size:20px;
 }
@@ -195,7 +199,8 @@ main .member__registar__box .member__plan__box .member__plan__left .left__conten
   padding:20px 50px; 
   position:absolute;
   top:-20px;
-  left:12vw;
+  left:28%;
+  right:28%;
 }    
 main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__value{
   padding-top:80px;
@@ -231,8 +236,8 @@ b::after{
   content: '';
   display: block;
   position: absolute;
-  top: 5px;
-  left: 0.3vw;
+  top: 3px;
+  left: 4px;
   width: 10px;
   height: 5px;
   border-left: 1px solid #fff;
@@ -278,7 +283,8 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
   padding:20px 50px; 
   position:absolute;
   top:-20px;
-  left:12vw;
+  left:28%;
+  right:28%;
 }    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
   padding-top:80px;
@@ -315,9 +321,7 @@ b::after{
   display: block;
   position: absolute;
   top: 5px;
-  left: 0.3vw;
-  width: 10px;
-  height: 5px;
+  left:4px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   transform: rotate(-45deg);
@@ -335,14 +339,14 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
   padding:10px 50px;
 }
 
-footer{
+ footer{
   margin-top:100px;
   width:100%;
   height:100%;
 }
 footer .footer__list{
   width:100%;
-  height:50vh;
+  height:400px;
   background-color:#000;
 }
 
@@ -354,21 +358,20 @@ footer .footer__list h2{
 }
    
 @media screen and (max-width:1060px){
-header #header__screen .header__screen__box{
-  top:230px;
+#first__view .first__view__box{
+  top:140px;
 }
-header #header__screen .talent__name__box{
-  top:210px;
+#first__view .talent__name__box{
+  top:110px;
 }    
-header #header__screen .header__screen__btn{
-  position:absolute;
-  top:430px;
+#first__view .first__view__btn{
+  top:360px;
   left:20%;
   width:300px;
   height:60px;
   background-color:#000;
 }
-header #header__screen .header__screen__btn p{
+#first__view .first__view__btn p{
   font-size:13px;
   color:#fff;
   margin:1.5vh 0vw 0vh 5vw;
@@ -384,21 +387,18 @@ main .member__registar__box .member__plan__box .member__plan__left .left__conten
   height:60px;
   font-size:18px;
   padding:20px 50px; 
-  top:-20px;
-  left:85px;
+  left:20%;
+  right:20%;
 }    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
   width:300px;
   height:60px;
   font-size:18px;
   padding:20px 50px; 
-  top:-20px;
-  left:85px;
-}    
+  left:20%;
+  right:20%;
 
-footer .footer__list{ 
-  height:40vh;
-}
+}    
 
 }    
 @media screen and (max-width:960px){
@@ -417,7 +417,7 @@ header .header__bar .header__hidden__content .humburger__menu{
   width:100px;
   height:5vh;
   position:absolute;
-  top:1vh;
+  top:2vh;
   left:90%;
   margin-left:1vw;
 }
@@ -427,50 +427,54 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__top{
   border-top:4px solid #000;
   margin-top:1vh;
 }
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__top{
+  transform: translateY(20px) rotate(-315deg);
+  transition-duration:0.5s;
+}    
 header .header__bar .header__hidden__content .humburger__menu .humburger__middle{
   width:40px;
   border-top:4px solid #000;
   margin-top:8px;
 }    
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__middle{
+  opacity:0;
+  transition-duration:0.5s;
+}        
 header .header__bar .header__hidden__content .humburger__menu .humburger__bottom{
   width:30px;
   border-top:4px solid #000;
   margin-top:8px;
 }
-header .header__bar .header__menu__navi.active{
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
+  transform: translateY(-5px) rotate(315deg);
+  transition-duration:0.5s;
+  width:40px;
+}
+header .header__bar .header__menu__navi{
+  display:none;
+  visibility:visible;
   position:absolute;
-  top:0;
+  position:fixed;
+  top:9vh;
   left:0;
   width:100%;
   height:100%;
-  z-index:100;
+  z-index:3;
 }
 header .header__bar .header__menu__navi .navi__menu{
   position:fixed;
   width:100%;
   height:100vh;
   background-color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
-header #header__screen .header__screen__box{
-  left:33%;
-  top:220px;
-}
-header #header__screen .talent__name__box{
-  position:absolute;
-  top:180px;
-  left:33%;
+header .header__bar .header__menu__navi .navi__menu li{
+  font-size:40px;
+  margin-bottom:50px;
 }    
-header #header__screen .header__screen__btn{
-  position:absolute;
-  top:430px;
-  left:20%;
-  width:300px;
-  height:60px;
-  background-color:#000;
-}
-header #header__screen .header__screen__btn p{
-  margin:1.5vh 0vw 0vh 6vw;
-}
 main .member__registar__box .member__plan__box{
   flex-direction:column;
 }
@@ -511,26 +515,10 @@ main .member__registar__box .member__plan__box .member__plan__left .left__conten
 main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
   position: relative;
 }
-
 main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
-  width:25px;
-  height:25px;
-  display:inline-block;
-  border-radius:20px;
-  background-color:#04B300;
-  position:absolute;
   top:0;
-  left:15vw;
+  left:20vw;
 }
-b::after{
-  top: 5px;
-  left: 1.5vw;
-  width: 15px;
-  height: 8px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
-
 main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
   width:200px;
   height:45px;
@@ -560,8 +548,6 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
   height:60px;
   font-size:20px;
   padding:20px 50px; 
-  top:-20px;
-  left:20vw;
 }    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
   padding-top:80px;
@@ -577,27 +563,13 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
   font-size:20px;
   margin-top:20px;
 }
+main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
+  top:0;
+  left:20vw;
+}
 
 main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list{
   position: relative;
-}
-
-main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
-  width:25px;
-  height:25px;
-  display:inline-block;
-  background-color:#FF1493;
-  position:absolute;
-  top:0;
-  left:15vw;
-}
-b::after{
-  top: 8px;
-  left: 1vw;
-  width: 10px;
-  height: 5px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
 }
 
 main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
@@ -611,12 +583,22 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
 }
 
 
-footer{
-  margin-top:0px;
+#first__view .first__view__box{
+  left:33%;
+  top:150px;
 }
-footer .footer__list{
-  height:55vh;
+#first__view .talent__name__box{
+  top:110px;
+  left:33%;
+}    
+#first__view .first__view__btn{
+  top:360px;
 }
+#first__view .first__view__box .first__view__btn p{
+  margin:1.5vh 0vw 0vh 6vw;
+}
+
+
 }
 
 @media screen and (max-width:700px){
@@ -635,7 +617,7 @@ header .header__bar .header__hidden__content .humburger__menu{
 header .header__bar .header__hidden__content .humburger__menu .humburger__top{
   margin-top:2vh;
 }
-header #header__screen .image__content .image__left{
+#first__view .image__content .image__left{
   width:100%;
   height:500px;
   opacity:0.9;
@@ -644,35 +626,13 @@ header #header__screen .image__content .image__left{
   background-size:cover;
   z-index:-1;
 }
-header #header__screen .image__content .image__center{
+#first__view .image__content .image__center{
   display:none;
 }
-header #header__screen .image__content .image__right{
+#first__view .image__content .image__right{
   display:none;
 }
-
-header #header__screen .header__screen__box{
-  top:280px;
-  left:22%;
-}
-header #header__screen .header__screen__btn{
-  display:none;
-}
-header #header__screen .talent__name__box{
-  position:absolute;
-  top:250px;
-  left:28%;
-  height:100px;
-  width:250px;
-}
-header #header__screen .talent__name__box .talent__name{
-  font-size:60px;
-  font-weight:bold;
-  max-width:240px;
-  border-bottom:1px solid #000;
-}    
-
-header #header__screen .header__screen__box .talent__name{
+#first__view .first__view__box .talent__name{
   font-size:40px;
   color:#fff;
   text-shadow:1px 1px 1px #000;
@@ -680,18 +640,50 @@ header #header__screen .header__screen__box .talent__name{
   max-width:160px;
   border-bottom:1px solid #fff;
 }
-header #header__screen .header__screen__box .site__name{
+#first__view .first__view__box .site__name{
   text-align:center;
-  font-size:23px;
+  font-size:25px;
 }    
-header #header__screen .header__screen__box p{
+#first__view .first__view__box p{
  text-align:center;
- font-size:16px;
+ font-size:18px;
+}
+#first__view .first__view__box{
+  left:16vw;
+  width:260px;
+}
+#first__view .first__view__btn{
+  display:none;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:170px;
+  left:27vw;
+  height:100px;
+  width:250px;
+}    
+
+#first__view .first__view__box .talent__name{
+  font-size:28px;
+  font-weight:bold;
+  max-width:115px;
+}
+#first__view .first__view__box .site__name{
+  font-size:25px;
+  padding-top:60px;
+}      
+#first__view .first__view__box{
+  width:350px;
+  height:220px;
+  top:220px;
+}    
+#first__view .first__view__box p{
+ text-align:center;
+ margin-top:20px;
+ line-height:1.5em;
+ font-size:18px;
 }
 
-footer .footer__list{
-  height:45vh;
-}
 footer .footer__list h2{
   padding-top:130px;   
 }
@@ -713,134 +705,101 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__bottom
   width:20px;
   border-top:2px solid #000;
 }
-
-header #header__screen .header__screen__box{
-  left:16vw;
-  width:260px;
-}
-header #header__screen .header__screen__btn{
-  display:none;
-}
-header #header__screen .talent__name__box{
-  position:absolute;
-  top:250px;
-  left:27vw;
-  height:100px;
-  width:250px;
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
+  transform: translateY(0px) rotate(315deg);
+  width:30px;
 }    
 
-header #header__screen .header__screen__box .talent__name{
-  font-size:28px;
-  font-weight:bold;
-  max-width:115px;
-}
-header #header__screen .header__screen__box .site__name{
-  font-size:18px;
-}      
-header #header__screen .header__screen__box{
-  width:350px;
+header .header__bar .header__menu__navi .navi__menu li{
+  font-size:30px;
+  margin-bottom:50px;
 }    
-header #header__screen .header__screen__box p{
- margin-top:2vh;
- line-height:1.5em;
- font-size:15px;
-}
 
 main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
   width:300px;
   height:60px;
   font-size:18px;
   border-radius:10px;
-  padding:20px 50px; 
-  top:-20px;
-  left:13vw;
+  padding:20px 50px;
+  left:16%;
+  right:16%;
 }
 main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
-  width:25px;
-  height:25px;
-  display:inline-block;
-  border-radius:20px;
   top:0;
   left:10vw;
 }
 b::after{
   top: 8px;
   left: 1vw;
-  width: 10px;
-  height: 5px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
 }
 
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
   width:300px;
   height:60px;
   font-size:18px;
-  padding:20px 50px; 
-  top:-20px;
-  left:13vw;
+  left:16%;
+  right:16%;
 }    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
-  width:25px;
-  height:25px;
-  display:inline-block;
-  border-radius:20px;
   top:0;
   left:10vw;
 }
 b::after{
   top: 8px;
   left: 1vw;
-  width: 10px;
-  height: 5px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
 }
 
-footer .footer__list{
-  height:40vh;
-}
 footer .footer__list h2{
   font-size:25px;
-  padding-top:130px;
 }    
 
 }
 
 @media screen and (max-width:450px){
-header #header__screen .header__screen__box{
-  left:8vw;
-  top:300px;
-}
-header #header__screen .talent__name__box{
-  position:absolute;
-  top:270px;
-  left:24vw;
-  height:100px;
-  width:250px;
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__top{
+  transform: translateY(10px) rotate(-315deg);
+}    
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
+  transform: translateY(-10px) rotate(315deg);
+  width:30px;
 }    
 
-header #header__screen .header__screen__box .site__name{
-  font-size:18px;
+#first__view .first__view__box{
+  left:14vw;  
+  top:220px;
+  width:300px;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:190px;
+  left:30vw;
+  height:100px;
+  max-width:160px;
+}    
+
+#first__view .talent__name__box .talent__name{
+  font-size:40px;
+}
+#first__view .first__view__box .site__name{
+  font-size:23px;
 }      
    
-header #header__screen .header__screen__box p{
+#first__view .first__view__box p{
  margin-top:2vh;
  line-height:1.5em;
- font-size:15px;
-}   
-       
-
+ font-size:16px;
+}
 main .member__registar__box .member__plan__box .member__plan__left .left__content{
   width:100%;
   height:400px;
 }    
 main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
-  font-size:18px;
+  font-size:16px;
   width:200px;
   height:50px;
-  padding:15px 20px;
-  left:15vw;
+  padding:18px 20px;
+  left:20%;
+  right:20%;
 }       
 main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__value{
   font-size:25px;
@@ -851,18 +810,12 @@ main .member__registar__box .member__plan__box .member__plan__left .left__conten
   margin-top:20px;
 }
 main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
-  width:20px;
-  height:20px;
-  display:inline-block;
-  border-radius:20px;
   top:0;
   left:6vw;
 }
 b::after{
   top: 5px;
   left: 1.5vw;
-  width: 15px;
-  height: 8px;
 }
 
 main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
@@ -886,11 +839,10 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
   width:200px;
   height:50px;
-  font-size:18px;
-  border-radius:10px;
-  padding:13px 20px; 
-  top:-20px;
-  left:15vw;
+  font-size:16px;
+  padding:18px 20px;
+  left:20%;
+  right:20%;
 }    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__value{
   padding-top:80px;
@@ -908,18 +860,12 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
 }
 
 main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
-  width:20px;
-  height:20px;
-  display:inline-block;
-  border-radius:20px;
   top:0;
   left:6vw;
 }
 b::after{
   top: 8px;
   left: 1vw;
-  width: 10px;
-  height: 5px;
 }
 
 main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
@@ -929,105 +875,112 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
   font-size:16px;
   padding:13px 20px;
 }
-footer{
-  margin-top:100px;
-}
+footer .footer__list{
+  height:350px;
+}   
 }
 
 @media screen and (max-width:380px){
-header #header__screen .header__screen__box{
-  left:6vw;
-  top:300px;
-  width:320px;
+#first__view .first__view__box{
+  left:8vw;
+  top:220px;
 }
-header #header__screen .talent__name__box{
-  position:absolute;
-  top:270px;
-  left:20vw;
+#first__view .talent__name__box{
+  top:195px;
+  left:28vw;
   height:100px;
-  width:250px;
 }    
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+  left:16%;
+  right:16%;
+}    
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  left:16%;
+  right:16%;
+
+}
 }
 @media screen and (max-width:330px){
-header #header__screen .header__screen__box{
+#first__view .first__view__box{
   left:6vw;
-  top:280px;
+  top:215px;
   width:280px;
-  height:230px;
+  height:200px;
 }
-header #header__screen .talent__name__box{
-  top:250px;
-  left:14vw;
+#first__view .talent__name__box{
+  top:190px;
+  left:23vw;
   height:100px;
   width:250px;
 }
-main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
-  width:20px;
-  height:20px;
-  display:inline-block;
+
+main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
+   left:12%;
+   right:12%;
+ }   
+ main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
   top:-3px;
   left:1.5vw;
 }
 b::after{
   top: 5px;
   left: 3px;
-  width: 15px;
-  height: 8px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
 }
+
+main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
+  left:12%;
+  right:12%;
+}    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
-  width:20px;
-  height:20px;
-  display:inline-block;
   left:1.5vw;
 }
 b::after{
   top: 8px;
   left: 1vw;
-  width: 10px;
-  height: 5px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
 }
 
 }    
 @media screen and (max-width:300px){
-header #header__screen .header__screen__box{
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__top{
+  width:20px;
+}    
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
+  width:20px;
+}    
+
+#first__view .first__view__box{
   width:250px;
   left:5vw;
 }
-header #header__screen .talent__name__box{
+#first__view .talent__name__box{
   left:20vw;
   width:180px;
 }
-header #header__screen .talent__name__box .talent__name{
+#first__view .first__view__box .talent__name{
   font-size:40px;
   max-width:160px;
+}    
+#first__view .first__view__box .site__name{
+  font-size:20px;
+}  
+#first__view .first__view__box p{
+  font-size:15px;
 }
 main .member__registar__box .member__plan__box .member__plan__left .left__content .plan__title{
   width:180px;
   height:40px;
-  background-color:#04B300;
-  color:#fff;
   font-size:16px;
-  border-radius:10px;
-  padding:12px 10px; 
-  position:absolute;
-  top:-20px;
-  left:8vw;
+  padding:12px 10px;
+  left:10%;
+  right:10%;
 }    
 main .member__registar__box .member__plan__box .member__plan__right .right__content .plan__title{
   width:180px;
   height:40px;
-  background-color:#FF1493;
-  color:#fff;
   font-size:16px;
-  border-radius:10px;
-  padding:12px 10px; 
-  position:absolute;
-  top:-20px;
-  left:8vw;
+  padding:12px 10px;
+  left:10%;
+  right:10%;
 }    
 main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list{
   font-size:13px;
@@ -1039,20 +992,12 @@ main .member__registar__box .member__plan__box .member__plan__left .left__conten
 }
 
 main .member__registar__box .member__plan__box .member__plan__left .left__content .check__list span{
-  width:20px;
-  height:20px;
-  display:inline-block;
-  border-radius:20px;
-  background-color:#04B300;
-  position:absolute;
   top:-3px;
   left:2.8vw;
 }
 b::after{
   top: 5px;
   left: 3px;
-  width: 15px;
-  height: 8px;
 }
 
 main .member__registar__box .member__plan__box .member__plan__left .left__content .submit__btn{
@@ -1086,21 +1031,6 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
   font-size:13px;
   margin-top:20px;
 }
-
-main .member__registar__box .member__plan__box .member__plan__right .right__content .check__list span{
-  width:20px;
-  height:20px;
-  border-radius:10px;
-  top:0;
-  left:2.8vw;
-}
-b::after{
-  top: 8px;
-  left: 1vw;
-  width: 10px;
-  height: 5px;
-}
-
 main .member__registar__box .member__plan__box .member__plan__right .right__content .submit__btn{
   width:180px;
   height:45px;
@@ -1111,10 +1041,10 @@ main .member__registar__box .member__plan__box .member__plan__right .right__cont
 }
 
 footer .footer__list{
-  height:40vh;
-}
+  height:300px;
+}    
 footer .footer__list h2{
   font-size:25px;
   padding-top:100px;
-}    
+} 
 }

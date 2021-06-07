@@ -161,7 +161,7 @@ main .topic__news{
 }
 main .topic__news .topic__title{
   width:45%;
-  height:500px;
+  height:600px;
 
 }
 main .topic__news .topic__title h2{
@@ -174,7 +174,7 @@ main .topic__news .topic__title p{
 }    
 main .topic__news .topic__info{
   width:50%;
-  height:550px;
+  height:600px;
   margin-right:-280px;
 }
 main .topic__news .topic__info .topic__info__lists{
@@ -306,7 +306,7 @@ main .blog__contents .view__btn{
 }
 
 main .funclub__box{
-  margin-top:100px;
+  margin-top:80px;
   margin-left:175px;
   width:77vw;
   height:300px;
@@ -380,80 +380,9 @@ footer .footer__list h2{
   color:#fff;
   margin:1.5vh 0vw 0vh 5vw;
 }
-main .topic__news .topic__title{
-  width:35%;
-  margin-left:-132px;
-}    
-main .topic__news .topic__info{
-  width:50%;
-  height:500px;
-  margin-right:-280px;
-}
-main .topic__news .topic__info .topic__info__lists{
-  display:flex;
-  flex-direction:column;
-}
-main .topic__news .topic__info .topic__info__lists li .topic__day{
-  font-size:16px;
-  color:#aaa;
-  margin-right:100px;
-}    
-main .topic__news .topic__info .topic__info__lists li .topic__content{
-  font-size:16px;
-}    
-main .topic__news .topic__info .topic__info__lists .view__btn{
-  margin-left:340px;
-  margin-top:20px;
-}    
-main .topic__logo{
-  position:absolute;
-  top:950px;
-  left:200px;
-  z-index:-100;
-}
-main .topic__logo .topic__back__logo{
-  font-size:160px;
-}
-main .blog__contents{
-  width:100%;
-  height:100%;
-  padding-left:150px;
-}
-main .blog__contents .blog__top__title p{
-  font-size:18px;
-  margin-top:5px;
-}
-main .blog__contents .blog__lists{
-  margin-top:30px;
-  display:flex;
-  justify-content:flex-start;
-}
-main .blog__contents .blog__lists li{
-  width:318px;
-  height:350px;
-  border:2px solid #eee;
-  border-radius:10px;
-  margin-right:80px;
-  overflow:hidden;
-  position:relative;
-}
-
-main .blog__contents .blog__lists li .blog__image img{
-  width:100%;
-  height:180px;
-  object-fit: cover;
-}    
-
 main .blog__contents .view__btn{
-  margin:50px 0px 0px 69vw;
+  margin:50px 0px 0px 75vw;
 }
-main .funclub__box{
-  margin-top:100px;
-  margin-left:155px;
-  width:77vw;
-  height:300px;
-}
-
 }    
 @media screen and (max-width:960px){
 header .header__content{
@@ -551,7 +480,6 @@ main .topic__news{
 }
 main .topic__news .topic__title{
   width:100%;
-  margin-left:0px;
   height:100px;
 }
 main .topic__news .topic__info{
@@ -565,21 +493,17 @@ main .topic__logo{
 main .topic__logo .topic__back__logo{
   font-size:100px;
 }
-main .blog__contents{
-  padding-left:0px;
-  margin:auto;
-}    
 main .blog__contents .blog__top__title{
   text-align:center;
+  margin-left:-8vw;
 }
 main .blog__contents .blog__lists{
   flex-direction:column;
 }
 main .blog__contents .blog__lists li{
-  width:60%;
-  height:500px;
-  margin:auto;
-  margin-bottom:50px;
+  width:90%;
+  margin-bottom:20px;
+  height:750px;
 }
 main .blog__contents .blog__lists li .blog__title{
   font-size:25px;
@@ -607,20 +531,10 @@ font-size:18px;
 
 }    
 main .blog__contents .blog__lists li .blog__image img{
-  height:300px;
+  height:500px;
 }
 main .blog__contents .view__btn{
   margin:50px 0px 0px 70vw;
-}
-main .blog__contents .view__btn{
-  font-size:20px;  
-  margin:30px 0px 0px 66vw;
-}
-main .funclub__box{
-  margin:auto;
-  margin-top:100px;
-  width:60vw;
-  height:300px;
 }
 
 }
@@ -772,7 +686,15 @@ main .blog__contents{
   padding-left:0vw;
   max-width:100%;
 }
-
+main .blog__contents .blog__lists li{
+  width:90%;
+  margin:auto;
+  margin-bottom:20px;
+  height:600px;
+}
+main .blog__contents .blog__lists li .blog__image img{
+  height:380px;
+}
 main .blog__contents .blog__lists li .blog__title{
   font-size:18px;
 }    
@@ -798,23 +720,26 @@ height:25px;
 font-size:15px;
 
 }    
-    
+
+main .blog__contents .view__btn{
+  margin:40px 0px 0px 78vw;
+}    
 main .blog__contents .view__btn h3{
   font-size:15px;
 }
 main .funclub__box .funclub__sentence h2{
-  font-size:16px;
+  font-size:20px;
 }
 
 main .funclub__box .funclub__sentence p{
-  font-size:13px;    
+  font-size:14px;    
 }
 
 main .funclub__box .join__btn{
   height:40px;
 }    
 main .funclub__box .join__btn p{
-  font-size:16px;
+  font-size:15px;
   padding-top:12px;
 }
 footer .footer__list h2{
@@ -858,13 +783,6 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
  line-height:1.5em;
  font-size:16px;
 }
-main .blog__contents .blog__lists li{
-  height:380px;
-  width:80%;
-}    
-main .blog__contents .blog__lists li  .blog__image img{
-  height:200px;
-}    
 main .blog__contents .blog__lists li .blog__title{
   font-size:18px;
 }    
@@ -891,9 +809,6 @@ font-size:13px;
 }    
 main .blog__contents .view__btn{
   margin:50px 0px 0px 68vw;
-}
-main .funclub__box{
-  width:80vw;
 }
 footer .footer__list{
   height:300px;
