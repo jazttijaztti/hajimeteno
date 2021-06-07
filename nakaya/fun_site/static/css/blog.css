@@ -99,7 +99,9 @@ header .header__bar .header__menu__navi{
 #first__view .first__view__box{
   position:absolute;
   top:150px;
-  left:40%;
+  left:0;
+  right:0;
+  margin:auto;
   background-color:#fff;
   width:300px;
   height:250px;
@@ -107,7 +109,9 @@ header .header__bar .header__menu__navi{
 #first__view .talent__name__box{
   position:absolute;
   top:100px;
-  left:40%;
+  left:0;
+  right:0;
+  margin:auto;
   height:100px;
   width:300px;
 }
@@ -137,11 +141,13 @@ header .header__bar .header__menu__navi{
   width:400px;
   height:80px;
   background-color:#000;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 #first__view .first__view__btn p{
   font-size:13px;
   color:#fff;
-  margin:3.5vh 0vw 0vh 8vw;
 }    
 #first__view .first__view__btn p span{
   margin-left:5vw;
@@ -390,13 +396,14 @@ footer .footer__list{
   width:100%;
   height:400px;
   background-color:#000;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 footer .footer__list h2{   
   font-size:30px;
   color:#fff;
-  text-align:center;
-  padding-top:150px;
 }
    
 @media screen and (max-width:1060px){
@@ -416,7 +423,6 @@ footer .footer__list h2{
 #first__view .first__view__btn p{
   font-size:13px;
   color:#fff;
-  margin:1.5vh 0vw 0vh 5vw;
 }
 main .blog__poto__box .blog__poto__index li {
     width: 380px;
@@ -501,31 +507,25 @@ header .header__bar .header__menu__navi .navi__menu li{
   margin-bottom:50px;
 }    
 #first__view .first__view__box{
-  left:33%;
   top:150px;
 }
 #first__view .talent__name__box{
   top:110px;
-  left:33%;
 }    
 #first__view .first__view__btn{
   top:360px;
 }
-#first__view .first__view__box .first__view__btn p{
-  margin:1.5vh 0vw 0vh 6vw;
-}
-
 main .blog__poto__box .blog__poto__index {
-    flex-direction: column;
+  flex-direction: column;
 }
 main .blog__poto__box .blog__poto__index li {
-    width: 60%;
-    height: 500px;
-    margin: auto;
-    margin-bottom:50px;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-bottom:50px;
 }
 main .blog__poto__box .blog__poto__index li img {
-    height: 300px;
+  height: 300px;
 }
 }
 
@@ -579,8 +579,8 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
   font-size:25px;
 }    
 #first__view .first__view__box p{
- text-align:center;
- font-size:18px;
+  text-align:center;
+  font-size:18px;
 }
 #first__view .first__view__box{
   left:16vw;
@@ -616,9 +616,6 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
  margin-top:20px;
  line-height:1.5em;
  font-size:18px;
-}
-footer .footer__list h2{
-  padding-top:130px;   
 }
 }
 
@@ -715,11 +712,11 @@ main .blog__navi__tag .member__tag {
 }
 
 main .blog__poto__box .blog__poto__index li {
-    width: 60%;
-    height: 400px;
+  width: 60%;
+  height: 400px;
 }
 main .blog__poto__box .blog__poto__index li img {
-    height: 250px;
+  height: 250px;
 }
 footer .footer__list h2{
   font-size:25px;
@@ -738,14 +735,11 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
 }    
 
 #first__view .first__view__box{
-  left:14vw;  
   top:220px;
   width:300px;
 }
 #first__view .talent__name__box{
-  position:absolute;
   top:190px;
-  left:30vw;
   height:100px;
   max-width:160px;
 }    
@@ -758,13 +752,13 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
 }      
    
 #first__view .first__view__box p{
- margin-top:2vh;
- line-height:1.5em;
- font-size:16px;
+  margin-top:2vh;
+  line-height:1.5em;
+  font-size:16px;
 }
 main .blog__poto__box .blog__poto__index li {
-    width: 80%;
-    height: 380px;
+  width: 80%;
+  height: 380px;
 }
 footer .footer__list{
   height:300px;
@@ -773,28 +767,22 @@ footer .footer__list{
 
 @media screen and (max-width:380px){
 #first__view .first__view__box{
-  left:8vw;
   top:220px;
 }
 #first__view .talent__name__box{
-  position:absolute;
   top:195px;
-  left:28vw;
   height:100px;
 }    
 }
 @media screen and (max-width:330px){
    
 #first__view .first__view__box{
-  left:6vw;
   top:215px;
   width:280px;
   height:200px;
 }
 #first__view .talent__name__box{
-  position:absolute;
   top:190px;
-  left:23vw;
   height:100px;
   width:250px;
 }     
@@ -814,10 +802,8 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
   
 #first__view .first__view__box{
   width:250px;
-  left:5vw;
 }
 #first__view .talent__name__box{
-  left:20vw;
   width:180px;
 }
 #first__view .first__view__box .talent__name{
@@ -840,6 +826,5 @@ main .blog__poto__box .blog__poto__index li .blog__image img{
 
 footer .footer__list h2{
   font-size:25px;
-  padding-top:100px;
 } 
 }
