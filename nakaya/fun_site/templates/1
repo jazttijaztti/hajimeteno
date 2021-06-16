@@ -109,7 +109,7 @@
       <div class="member__info">
        <h2>会員登録後お読み頂けます</h2>
        <p>すでに登録済みの方はログインしてください。</p>
-       <a href="member.html"><div class="registar__btn"><p>会員登録に進む</p></div></a>
+       <div class="registar__btn"><p>会員登録に進む</p></div>
       </div>
      </div> 
     </div>

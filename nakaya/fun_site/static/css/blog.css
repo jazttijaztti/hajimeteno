@@ -253,6 +253,7 @@ main .blog__poto__box .blog__poto__index {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-left:60px;
 }
 main .blog__poto__box .blog__poto__index li {
   width: 318px;
@@ -424,13 +425,18 @@ footer .footer__list h2{
   font-size:13px;
   color:#fff;
 }
+main .blog__poto__box .blog__poto__index {
+  margin-left:0px;   
+} 
 main .blog__poto__box .blog__poto__index li {
     width: 380px;
     height: 450px;
     margin-left: 40px;
     margin-right: 0px;
 }
-}    
+}
+    
+    
 @media screen and (max-width:960px){
 header .header__content{
   display:none;
