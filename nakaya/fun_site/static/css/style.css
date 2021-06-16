@@ -192,18 +192,26 @@ main .topic__news .topic__info .topic__info__lists li{
   margin-bottom:50px;
   overflow-wrap: break-word;
 }
-
-main .topic__news .topic__info .topic__info__lists li .topic__day{
-  font-size:16px;
+main .topic__news .topic__info .topic__info__lists .topic__text{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+}
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
+  width:150px;
+  height:30px;
+ font-size:16px;
   color:#aaa;
+  margin-left:-360px;
   margin-right:100px;
 }    
-main .topic__news .topic__info .topic__info__lists li .topic__content{
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__content{
+  width:250px;
+  height:auto;
   font-size:16px;
-  width:70%;
-  height:100%;
-  display:inline-block;
-}    
+  overflow-wrap:break-word;
+}   
 main .topic__news .topic__info .topic__info__lists .view__btn{
   margin-left:360px;
   margin-top:30px;
@@ -212,17 +220,17 @@ main .topic__news .topic__logo{
   width:800px;
   height:200px;
   position:absolute;
-  top:200px;
-  left:0;
+  top:280px;
+  left:-270px;
   right:0;
   margin:auto;
   z-index:-1;
 }
 main .topic__news .topic__logo .topic__back__logo{
-  font-size:200px;
+  font-size:210px;
   font-weight:bold;
   color:#eee;
-  letter-spacing:0.2em;
+  letter-spacing:0.3em;
 }
 main .blog__contents{
   width:100%;
@@ -420,25 +428,27 @@ main .topic__news .topic__info .topic__info__lists{
   display:flex;
   flex-direction:column;
 }
-main .topic__news .topic__info .topic__info__lists li .topic__day{
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
   font-size:16px;
   color:#aaa;
-  margin-right:100px;
+  margin-left:-150px;
 }    
 main .topic__news .topic__info .topic__info__lists li .topic__content{
   font-size:16px;
 }    
 main .topic__news .topic__info .topic__info__lists .view__btn{
-  margin-left:360px;
-  margin-top:20px;
+  margin-left:340px;
+  margin-top:0px;
 }    
 main .topic__news .topic__logo{
   width:100%;
   position:absolute;
-  top:200px;
+  top:300px;
+  left:150px;
 }
-main .topic__logo .topic__back__logo{
+main .topic__news .topic__logo .topic__back__logo{
   font-size:160px;
+  letter-spacing:2.7rem;
 }
 main .blog__contents{
   width:100%;
@@ -572,11 +582,18 @@ main .topic__news .topic__info{
   width:100%;
   margin-left:0px;
 }
+
 main .topic__news .topic__logo{  
-  top:350px;
+  top:430px;
+  left:10px;
 }
 main .topic__news .topic__logo .topic__back__logo{
-  font-size:130px;
+  font-size:120px;
+  letter-spacing:0.5rem;
+}
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
+  margin-right:80px;
+  margin-left:-50px;
 }
 main .blog__contents{
   padding-left:0px;
@@ -731,28 +748,31 @@ header .header__bar .header__menu__navi .navi__menu li{
 }    
 
 main .topic__news .topic__info{
-  height:500px;
+  height:100%;
   max-width:100%;
 }
-main .topic__news .topic__info .topic__info__lists li .topic__day{
-  margin-right:10px;
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
+  margin-right:50px;
+  margin-left:-40px;
   font-size:15px;
 }
 
-main .topic__news .topic__info .topic__info__lists li .topic__content{
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__content{
   font-size:15px;
 }
 
 main .topic__news .topic__info .topic__info__lists .view__btn{
-  margin-left:230px;
+  margin-left:320px;
   margin-top:-10px;
   font-size:15px;
 }
 main .topic__news .topic__logo{
-  top:350px;
+  top:430px;
+  left:0px;
 }
 main .topic__news .topic__logo .topic__back__logo{
   font-size:100px;
+  letter-spacing:0.5rem;
 }
 main .blog__contents{
   padding-left:0vw;
@@ -824,11 +844,23 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
  line-height:1.5em;
  font-size:16px;
 }
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
+  margin-left:0px;
+  margin-right:10px;
+  font-size:13px;
+  width:80px;
+}
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__content{
+  font-size:13px;
+  width:220px;
+}    
 main .topic__news .topic__logo{
-  top:380px;
+  top:440px;
+  left:10px;
 }
 main .topic__news .topic__logo .topic__back__logo{
-  font-size:60px;
+  font-size:80px;
+  letter-spacing:0.2rem;
 }
 main .topic__news .topic__info .topic__info__lists .view__btn{
   margin-left:200px;
@@ -899,7 +931,14 @@ footer .footer__list{
   position:absolute;
   top:195px;
   height:100px;
-}    
+} 
+main .topic__news .topic__logo{
+  top:440px;
+  left:10px;
+}
+main .topic__news .topic__logo .topic__back__logo{
+  font-size:75px;
+}  
 }
 @media screen and (max-width:330px){
    
@@ -944,26 +983,28 @@ footer .footer__list{
   font-size:15px;
 }
 main .topic__news .topic__info{
-  height:500px;
+  height:100%;
 }
-main .topic__news .topic__info .topic__info__lists li .topic__day{
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
   margin-right:10px;
   font-size:10px;
+  width:60px
 }
 
-main .topic__news .topic__info .topic__info__lists li .topic__content{
+main .topic__news .topic__info .topic__info__lists .topic__text .topic__content{
   font-size:10px;
+  width:160px;
 }
 
 main .topic__news .topic__info .topic__info__lists .view__btn{
   margin-left:150px;
-  font-size:15px;
+  font-size:13px;
 }
 main .topic__news .topic__logo{
-  top:370px;
+  top:440px;
 }    
 main .topic__news .topic__logo .topic__back__logo{
-  font-size:55px;
+  font-size:60px;
 }    
 main .blog__contents .blog__lists li{
   width:80%;
