@@ -1,0 +1,440 @@
+body{
+  width:100%;
+  height:100%;
+  font-family: "Gill Sans", sans-serif;
+}
+div,img{
+  max-width:100%;
+  height:auto;
+}
+iframe{
+  max-width:100%;
+}
+table{
+  max-width:100%;
+}
+#wrapper{
+  overflow:hidden;
+  width:100%;
+  height:100%;
+}
+
+header{
+  width:100%;
+  height:100%;
+}
+header .header__bar{
+ height:8vh;
+ display: flex;
+ justify-content:space-between;
+ align-items:center;
+}
+header .header__bar .header__title h1{
+  font-size:20px;
+  font-weight:bold;
+  margin-left:5vw;
+}
+header .header__bar .header__content{
+  width:60%;
+  height:100%;
+}
+
+header .header__bar .header__content .header__lists{
+  display:flex;
+  justify-content:space-around;
+  margin-top:3vh;
+}
+
+header .header__bar .header__content .header__lists li{
+  font-size:15px;
+}
+header .header__bar .header__hidden__content{
+  display:none;
+  visibility:hidden;  
+}
+header .header__bar .header__menu__navi{
+  display:none;
+  visibility:hidden;
+}
+#first__view{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+#first__view .image__content{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+}
+#first__view .image__content .image__left{
+  width:25%;
+  height:460px;
+  background-image:url("../images/img1.jpg");
+  background-position:center center;
+  background-size:cover;
+  z-index:-1;
+}
+#first__view .image__content .image__center{
+  width:25%;
+  height:460px;
+  background-image:url("../images/img7.jpg");
+  background-position:center center;
+  background-size:cover;
+  opacity:0.6;
+  z-index:-1;
+}
+#first__view .image__content .image__right{
+  width:25%;
+  height:460px;
+  background-image:url("../images/img3.jpg");
+  background-position:center center;
+  background-size:cover;
+  opacity:0.6;
+  z-index:-1;
+}
+#first__view .first__view__box{
+  position:absolute;
+  top:150px;
+  left:40%;
+  background-color:#fff;
+  width:300px;
+  height:250px;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:100px;
+  left:40%;
+  height:100px;
+  width:300px;
+}
+#first__view .talent__name__box .talent__name{
+  font-size:60px;
+  font-weight:bold;
+  max-width:240px;
+  border-bottom:1px solid #000;
+}    
+#first__view .first__view__box .site__name{
+  padding-top:80px;
+  font-size:26px;
+}    
+#first__view .first__view__box .site__name span{
+  margin-left:3vw;
+}    
+#first__view .first__view__box p{
+ margin-top:2vh;
+ line-height:1.5em;
+ font-size:16px;
+}
+#first__view .first__view__btn{
+  position:absolute;
+  font-family:Helvetica;
+  top:350px;
+  left:20%;
+  width:400px;
+  height:80px;
+  background-color:#000;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#first__view .first__view__btn p{
+  font-size:13px;
+  color:#fff;
+}    
+#first__view .first__view__btn p span{
+  margin-left:5vw;
+  font-size:20px;
+}
+
+ footer{
+  margin-top:100px;
+  width:100%;
+  height:100%;
+}
+footer .footer__list{
+  width:100%;
+  height:400px;
+  background-color:#000;
+}
+
+footer .footer__list h2{   
+  font-size:30px;
+  color:#fff;
+  text-align:center;
+  padding-top:150px;
+}
+   
+@media screen and (max-width:1060px){
+#first__view .first__view__box{
+  top:140px;
+}
+#first__view .talent__name__box{
+  top:110px;
+}    
+#first__view .first__view__btn{
+  top:360px;
+  left:20%;
+  width:300px;
+  height:60px;
+  background-color:#000;
+}
+#first__view .first__view__btn p{
+  font-size:13px;
+  color:#fff;
+}
+}    
+@media screen and (max-width:960px){
+header .header__content{
+  display:none;
+  visibility:hidden;
+}
+header .header__bar{
+  position:relative;        
+}
+header .header__bar .header__hidden__content{
+  display:block;
+  visibility:visible;
+}
+header .header__bar .header__hidden__content .humburger__menu{
+  width:100px;
+  height:5vh;
+  position:absolute;
+  top:1vh;
+  left:90%;
+  margin-left:1vw;
+}
+
+header .header__bar .header__hidden__content .humburger__menu .humburger__top{
+  width:40px;
+  border-top:4px solid #000;
+  margin-top:1vh;
+}
+header .header__bar .header__hidden__content .humburger__menu .humburger__middle{
+  width:40px;
+  border-top:4px solid #000;
+  margin-top:8px;
+}    
+header .header__bar .header__hidden__content .humburger__menu .humburger__bottom{
+  width:30px;
+  border-top:4px solid #000;
+  margin-top:8px;
+}
+header .header__bar .header__menu__navi.active{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:100;
+}
+header .header__bar .header__menu__navi .navi__menu{
+  position:fixed;
+  width:100%;
+  height:100vh;
+  background-color:#fff;
+}
+#first__view .first__view__box{
+  left:33%;
+  top:150px;
+}
+#first__view .talent__name__box{
+  top:110px;
+  left:33%;
+}    
+#first__view .first__view__btn{
+  top:360px;
+}
+}
+
+@media screen and (max-width:700px){
+header .header__bar{
+  height:10vh;
+}
+header .header__bar .header__hidden__content .humburger__menu{
+  width:100px;
+  height:5vh;
+  position:absolute;
+  top:1vh;
+  left:85%;
+  margin-left:0vw;
+}
+    
+header .header__bar .header__hidden__content .humburger__menu .humburger__top{
+  margin-top:2vh;
+}
+#first__view .image__content .image__left{
+  width:100%;
+  height:500px;
+  opacity:0.9;
+  background-image:url("../images/img1.jpg");
+  background-position:center center;
+  background-size:cover;
+  z-index:-1;
+}
+#first__view .image__content .image__center{
+  display:none;
+}
+#first__view .image__content .image__right{
+  display:none;
+}
+#first__view .first__view__box .talent__name{
+  font-size:40px;
+  color:#fff;
+  text-shadow:1px 1px 1px #000;
+  font-weight:bold;
+  max-width:160px;
+  border-bottom:1px solid #fff;
+}
+#first__view .first__view__box .site__name{
+  text-align:center;
+  font-size:25px;
+}    
+#first__view .first__view__box p{
+ text-align:center;
+ font-size:18px;
+}
+#first__view .first__view__box{
+  left:16vw;
+  width:260px;
+}
+#first__view .first__view__btn{
+  display:none;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:170px;
+  left:27vw;
+  height:100px;
+  width:250px;
+}    
+
+#first__view .first__view__box .talent__name{
+  font-size:28px;
+  font-weight:bold;
+  max-width:115px;
+}
+#first__view .first__view__box .site__name{
+  font-size:25px;
+  padding-top:60px;
+}      
+#first__view .first__view__box{
+  width:350px;
+  height:220px;
+  top:220px;
+}    
+#first__view .first__view__box p{
+ text-align:center;
+ margin-top:20px;
+ line-height:1.5em;
+ font-size:18px;
+}
+
+footer .footer__list h2{
+  padding-top:130px;   
+}
+}
+@media screen and (max-width:650px){
+
+header .header__bar .header__title h1{
+  font-size:16px;
+}
+header .header__bar .header__hidden__content .humburger__menu .humburger__top{
+  width:30px;
+  border-top:2px solid #000;
+}
+header .header__bar .header__hidden__content .humburger__menu .humburger__middle{
+  width:30px;
+  border-top:2px solid #000;
+}    
+header .header__bar .header__hidden__content .humburger__menu .humburger__bottom{
+  width:20px;
+  border-top:2px solid #000;
+}
+
+footer .footer__list h2{
+  font-size:25px;
+}    
+
+}
+
+@media screen and (max-width:450px){
+#first__view .first__view__box{
+  left:14vw;  
+  top:220px;
+  width:300px;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:190px;
+  left:30vw;
+  height:100px;
+  max-width:160px;
+}    
+
+#first__view .talent__name__box .talent__name{
+  font-size:40px;
+}
+#first__view .first__view__box .site__name{
+  font-size:23px;
+}      
+   
+#first__view .first__view__box p{
+ line-height:1.5em;
+ font-size:16px;
+}
+    
+}
+
+@media screen and (max-width:380px){
+#first__view .first__view__box{
+  left:8vw;
+  top:220px;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:195px;
+  left:28vw;
+  height:100px;
+}    
+}
+@media screen and (max-width:330px){
+#first__view .first__view__box{
+  left:6vw;
+  top:215px;
+  width:280px;
+  height:200px;
+}
+#first__view .talent__name__box{
+  position:absolute;
+  top:190px;
+  left:23vw;
+  height:100px;
+  width:250px;
+}    
+ 
+}    
+@media screen and (max-width:300px){
+#first__view .first__view__box{
+  width:250px;
+  left:5vw;
+}
+#first__view .talent__name__box{
+  left:20vw;
+  width:180px;
+}
+#first__view .first__view__box .talent__name{
+  font-size:40px;
+  max-width:160px;
+}    
+#first__view .first__view__box .site__name{
+  font-size:20px;
+}  
+#first__view .first__view__box p{
+  font-size:15px;
+}
+footer .footer__list h2{
+  font-size:25px;
+  padding-top:100px;
+} 
+}

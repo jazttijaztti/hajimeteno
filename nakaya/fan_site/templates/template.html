@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="../static/css/reset.css" media="all">
+  <link rel="stylesheet" href="../static/css/registar.css" media="all">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $(function(){
+    $(".humburger__menu").on("click",function(){
+      $(".humburger__menu").toggleClass("active");
+      $(".header__menu__navi").fadeToggle(100);
+      $("body").toggleClass("noscroll");
+        });
+   });
+
+
+</script>
+
+
+
+</head>
+
+
+<body>
+ <div id="wrapper">
+  <header>
+    <div class="header__bar">
+     <div class="header__title">
+      <h1><a href="../index.html">清水里香 FAN SITE</a></h1>
+     </div>
+
+     <div class="header__content">
+      <ul class="header__lists">
+       <li><a href="../index.html">TOP</a></li>
+       <li><a href="#">JIMINI</a></li>
+       <li><a href="#">SUPORT</a></li>
+       <li><a href="#">GOODS</a></li>
+       <li><a href="blog.html">BLOG</a></li>
+      </ul>
+     </div>
+     
+     <div class="header__hidden__content">
+      <div class="humburger__menu">
+       <div class="humburger__top"></div>
+       <div class="humburger__middle"></div>
+       <div class="humburger__bottom"></div>
+      </div>
+     </div>
+     <div class="header__menu__navi">
+       <ul class="navi__menu">
+        <li class="navi__item"><a href="../index.html">TOP</a></li>
+        <li class="navi__item"><a href="#">JIMINI</a></li>
+        <li class="navi__item"><a href="#">SUPORT</a></li>
+        <li class="navi__item"><a href="#">GOODS</a></li>
+        <li class="navi__item"><a href="blog.html">BLOG</a></li>
+       </ul>
+     </div>
+    </div>
+  </header>
+    <div id="first__view">
+     <div class="image__content">
+      <div class="image__left"></div>
+      <div class="image__center"></div>
+      <div class="image__right"></div>
+     </div>
+
+     <div class="first__view__box">
+      <h3 class="site__name">清水里香<span>FAN SITE<span></h3>
+      <p>清水里香のファンサイトです。<br>
+         清水里香のこれからを応援しよう。</p>
+     </div>
+     <div class="talent__name__box">
+      <h2 class="talent__name">清水里香</h2>
+     </div>
+
+     <div class="first__view__btn">
+       <p class="btn__name"><a href="#">READ BRAND STORY<span>→</span></a></p>
+     </div>
+    </div>
+
+    <main>
+    </main>
+  
+   <footer>
+   <div class="footer__list">
+    <h2>清水里香 FAN SITE</h2>
+   </div>
+  </footer>
+
+ </div>
+
+ </div>
+</body>
+</html>
+

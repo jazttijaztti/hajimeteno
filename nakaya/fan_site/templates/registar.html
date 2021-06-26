@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="../static/css/reset.css" media="all">
+  <link rel="stylesheet" href="../static/css/registar.css" media="all">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $(function(){
+    $(".humburger__menu").on("click",function(){
+      $(".humburger__menu").toggleClass("active");
+      $(".header__menu__navi").fadeToggle(100);
+      $("body").toggleClass("noscroll");
+        });
+   });
+
+
+</script>
+
+
+
+</head>
+
+
+<body>
+ <div id="wrapper">
+  <header>
+    <div class="header__bar">
+     <div class="header__title">
+      <h1><a href="../index.html">清水里香 FAN SITE</a></h1>
+     </div>
+
+     <div class="header__content">
+      <ul class="header__lists">
+       <li><a href="../index.html">TOP</a></li>
+       <li><a href="#">JIMINI</a></li>
+       <li><a href="#">SUPORT</a></li>
+       <li><a href="#">GOODS</a></li>
+       <li><a href="blog.html">BLOG</a></li>
+      </ul>
+     </div>
+     
+     <div class="header__hidden__content">
+      <div class="humburger__menu">
+       <div class="humburger__top"></div>
+       <div class="humburger__middle"></div>
+       <div class="humburger__bottom"></div>
+      </div>
+     </div>
+     <div class="header__menu__navi">
+       <ul class="navi__menu">
+        <li class="navi__item"><a href="../index.html">TOP</a></li>
+        <li class="navi__item"><a href="#">JIMINI</a></li>
+        <li class="navi__item"><a href="#">SUPORT</a></li>
+        <li class="navi__item"><a href="#">GOODS</a></li>
+        <li class="navi__item"><a href="blog.html">BLOG</a></li>
+       </ul>
+     </div>
+    </div>
+  </header>
+    <div id="first__view">
+     <div class="image__content">
+      <div class="image__left"></div>
+      <div class="image__center"></div>
+      <div class="image__right"></div>
+     </div>
+
+     <div class="first__view__box">
+      <h3 class="site__name">清水里香<span>FAN SITE<span></h3>
+      <p>清水里香のファンサイトです。<br>
+         清水里香のこれからを応援しよう。</p>
+     </div>
+     <div class="talent__name__box">
+      <h2 class="talent__name">清水里香</h2>
+     </div>
+
+     <div class="first__view__btn">
+       <p class="btn__name"><a href="#">READ BRAND STORY<span>→</span></a></p>
+     </div>
+    </div>
+
+    <main>
+     <div id="registar__content">
+      <div class="registar__card__info">
+        <form action="thanks.html" method="post">
+          <div class="card__campany">
+        　 <h3>カード会社<span class="must__logo"><p>必須</p></span></h3>
+        　  <select name=="company" size="1" >
+             <option value="select__card">選択してください</option>
+             <option value="visa">VISA</option>
+             <option value="jcb">JCB</option>
+             <option value="master">MSATER</option>
+            </select>
+           </div>
+           <div class="number__float">
+            <h3>カード番号<span class="must__logo"><p>必須</p></span></h3>
+            <div class="number__input">
+             <input type="text" name="card-number" class="first__number" ><em></em>
+             <input type="text" name="card-number" ><em></em>
+             <input type="text" name="card-number" ><em></em>
+             <input type="text" name="card-number" >
+            </div>
+           </div>
+
+           <div class="form__date">
+            <h3>有効期限<span class="must__logo"><p>必須</p></span></h3>
+            <select placeholder="選択">
+             <option value="select__mouth">選択</option>
+             <option value="date-mouth">1</option>
+             <option value="date-mouth">2</option>
+             <option value="date-mouth">3</option>
+             <option value="date-mouth">4</option>
+             <option value="date-mouth">5</option>
+             <option value="date-mouth">6</option>
+             <option value="date-mouth">7</option>
+             <option value="date-mouth">8</option>
+             <option value="date-mouth">9</option>
+             <option value="date-mouth">10</option>
+             <option value="date-mouth">11</option>
+             <option value="date-mouth">12</option>
+            </select><span><p>月</P></span>　
+            <select placeholder="選択">
+             <option value="select__year">選択</option>
+             <option value="date-year">22</option>  
+             <option value="date-year">23</option>  
+             <option value="date-year">24</option>  
+             <option value="date-year">25</option>  
+             <option value="date-year">26</option>  
+             <option value="date-year">27</option>  
+             <option value="date-year">28</option>  
+             <option value="date-year">29</option>  
+             <option value="date-year">30</option>  
+            </select><span><p>年</p></span>　
+           </div>
+          
+           <div class="card__security">
+            <div class="security__top">
+        　   <h3>名義人<span class="must__logo"><p>必須</p></span></h3>
+             <input type="text" placeholder="カードの表記のとおりにご入力ください">  
+            <div> 
+            <div class="security__bottom">
+        　   <h3>セキュリティコード<span class="must__logo"><p>必須</p></span></h3>
+        　   <input type="text" placeholder="カードの表記のとおりにご入力ください">
+            </div>
+           </div>
+          </div>
+          <div class="submit">
+           <input type="submit" value="この内容で決定する">
+          </div>
+        </form>
+     </div>
+    </main>
+  
+   <footer>
+   <div class="footer__list">
+    <h2>清水里香 FAN SITE</h2>
+   </div>
+  </footer>
+
+ </div>
+
+ </div>
+</body>
+</html>
+
