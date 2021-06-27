@@ -14,16 +14,40 @@
       $(".header__menu__navi").fadeToggle(100);
       $("body").toggleClass("noscroll");
         });
+    $(".slide__arrow__left").on("click",function(){                                                                                                                                                      
+    if($(this).hasClass('slide__first')==false && $(".image__left").hasClass('slide__show')==false){
+          $(this).addClass('slide__first');      
+          $(".image__left").css("background-image","url(../static/images/img7.jpg)");
+          $(".image__center").css("background-image","url(../static/images/img3.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img1.jpg)");
+        }else if($(this).hasClass('slide__first')){
+          $(this).removeClass('slide__first');
+          $(".image__left").css("background-image","url(../static/images/img3.jpg)").addClass('slide__show');
+          $(".image__center").css("background-image","url(../static/images/img1.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img7.jpg)");
+        }else if($(".image__left").hasClass('slide__show')){
+          $(".image__left").css("background-image","url(../static/images/img1.jpg)").removeClass('slide__show');;
+          $(".image__center").css("background-image","url(../static/images/img7.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img3.jpg)");
+        }
+       }); 
+        $(".slide__arrow__right").on("click",function(){
+        if($('.slide__arrow__left').hasClass('slide__first')){
+          $('.slide__arrow__left').removeClass('slide__first');      
+          $(".image__left").css("background-image","url(../static/images/img1.jpg)");
+          $(".image__center").css("background-image","url(../static/images/img7.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img3.jpg)");
+         }else if($(".image__left").hasClass('slide__show')){
+          $(".slide__arrow__left").addClass('slide__first');
+          $(".image__left").css("background-image","url(../static/images/img7.jpg)").removeClass('slide__show');
+          $(".image__center").css("background-image","url(../static/images/img3.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img1.jpg)");
+         }else{         
+       }
+      });
    });
-
-
 </script>
-
-
-
 </head>
-
-
 <body>
  <div id="wrapper">
   <header>
@@ -66,7 +90,14 @@
       <div class="image__center"></div>
       <div class="image__right"></div>
      </div>
-
+     <div class="slide__arrow">
+      <div class="slide__arrow__left">
+       <
+      </div>
+      <div class="slide__arrow__right">
+       >       
+      </div>
+     </div>
      <div class="first__view__box">
       <h3 class="site__name">清水里香<span>FAN SITE<span></h3>
       <p>清水里香のファンサイトです。<br>

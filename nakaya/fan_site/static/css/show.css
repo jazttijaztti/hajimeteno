@@ -33,23 +33,26 @@ header .header__bar{
  align-items:center;
 }
 header .header__bar .header__title h1{
-  font-size:20px;
-  font-weight:bold;
-  margin-left:5vw;
+  font-size:24px;
+  width:203px;
+  height:35px;
+  margin-left:35px;
 }
 header .header__bar .header__content{
-  width:60%;
-  height:100%;
+  width:500px;
+  height:13px;
+  margin-right:110px;
 }
 
 header .header__bar .header__content .header__lists{
   display:flex;
-  justify-content:space-around;
-  margin-top:4vh;
+  width:100%;
+  height:100%;
 }
 
 header .header__bar .header__content .header__lists li{
-  font-size:15px;
+  font-size:10px;
+  margin-right:110px;
 }
 header .header__bar .header__hidden__content{
   display:none;
@@ -64,6 +67,7 @@ main{
   height:100%;
 }
 main #main__view{
+  margin-top:90px;
   width:100%;
   height:100%;
   display:flex;
@@ -72,12 +76,13 @@ main #main__view{
 
 }
 main #main__view .select__view__content{
-  width:600px;
+  max-width:650px;
   height:100%;
 }
 main #main__view .select__view__content .view__tag{
   width:73px;
   height:23px;
+  margin-bottom:13px;
   background-color:#FF1493;
   color:#fff;
   border-radius:2px;
@@ -90,7 +95,7 @@ main #main__view .select__view__content .view__tag p{
 }
 main #main__view .select__view__content .view__title{
   font-size:20px;
-  margin:10px 0px;
+  margin:15px 0px;
 }    
 main #main__view .select__view__content .view__day{
   font-size:14px;
@@ -98,26 +103,26 @@ main #main__view .select__view__content .view__day{
   margin:10px 0px;
 }
 main #main__view .select__view__content .view__image{
-  width:600px;
-  height:700px;
-}    
-main #main__view .select__view__content .view__image img{
-  width:600px;
-  height:650px;
-  object-fit:cover;
-}    
+  width:650px;
+  height:400px;
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}        
 main #main__view .select__sns__tag{
-  width:100%;
+  max-width:650px;
   height:50px;
 }
 main #main__view .select__sns__tag .sns__tags{
+  width:100%;  
   display:flex;
   justify-content:flex-start;  
 }
 main #main__view .select__sns__tag .sns__tags li{
-  width:115px;
+  width:calc(100%/5);
   height:20px;
-  margin-top:-35px;
+  margin-top:10px;
   border-radius:2px;
   display:flex;
   justify-content:center;
@@ -156,8 +161,10 @@ main #main__view .select__sns__tag .sns__tags .i__line i{
  color:#06C755;
 }    
 main .brand__view__content{
-  width:100%;
+  max-width:650px;
   height:100%;
+  margin:auto;
+  margin-top:67px;
 }
 main .brand__view__content .brand__view__top{
   width:100%;
@@ -167,7 +174,7 @@ main .brand__view__content .brand__view__top{
   align-items:center;
 }
 main .brand__view__content .brand__view__top .brand__bar{
-  width:600px;
+  width:100%;
   height:100%;
 }    
 main .brand__view__content .brand__view__top .brand__bar .brand__tag{
@@ -182,19 +189,17 @@ main .brand__view__content .brand__view__top .brand__bar .brand__tag h3{
   padding:13px 0px 13px 10px;
 }    
 main .brand__view__content .brand__view__top .brand__bar p{
-  margin-top:10px;
+  margin:20px 0px;
   font-size:14px;
 }    
 main .brand__view__content .brand__view__top .brand__bar .brand__view__image{
-  width:100%;
-  height:650px;
+  max-width:650px;
+  height:400px;
   margin-top:20px;
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
 }    
-main .brand__view__content .brand__view__top .brand__bar .brand__view__image img{
-  width:600px;
-  height:650px;
-  object-fit:cover;
-}
 main .brand__view__bottom{
   width:100%;
   height:100%;
@@ -203,7 +208,7 @@ main .brand__view__bottom{
   align-items:center;
 }
 main .brand__view__bottom .brand__view__poto{
-  width:600px;
+  width:650px;
   height:100%;
 }
 main .brand__view__bottom .brand__view__poto .poto__text{
@@ -213,7 +218,7 @@ main .brand__view__bottom .brand__view__poto .poto__text{
 }    
 main .brand__view__bottom .brand__view__poto .poto__text h3{
   font-size:20px;
-  padding-bottom:5px;
+  padding-bottom:10px;
   border-bottom:3px dotted #FF1493;
 }
 
@@ -222,18 +227,17 @@ main .brand__view__bottom .brand__view__poto .poto__text p{
   margin-top:30px;
 }    
 main .brand__view__bottom .brand__view__poto .brand__view__image{
-  width:100%;
-  height:650px;
+  max-width:650px;
+  height:400px;
   margin-top:20px;
   margin-bottom:50px;
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
 }    
-main .brand__view__bottom .brand__view__poto .brand__view__image img{
-  width:600px;
-  height:650px;
-  object-fit:cover;
-}
 main .brand__view__bottom .brand__view__poto .member__info{
-  width:100%;
+  max-width:650px;
   height:120px;
   border-radius:2px;
   background-color:#eee;
@@ -361,7 +365,19 @@ header .header__bar .header__menu__navi .navi__menu{
 header .header__bar .header__menu__navi .navi__menu li{
   font-size:40px;
   margin-bottom:50px;
-}    
+}
+main #main__view{
+  margin-top:20px;
+}
+main #main__view .select__view__content{
+  width:500px;
+}
+main #main__view .select__view__content .view__image{
+  width:500px;
+}
+main .brand__view__content{
+  width:500px;
+}
 }
 
 @media screen and (max-width:700px){
@@ -381,9 +397,9 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__top{
   margin-top:2vh;
 }
 header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
-  transform: translateY(0px) rotate(315deg);
+  transform: translateY(-4px) rotate(315deg);
   transition-duration:0.5s;
-  width:30px;
+  width:40px;
 }    
 
 footer .footer__list h2{
@@ -405,30 +421,36 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__middle
   border-top:2px solid #000;
 }    
 header .header__bar .header__hidden__content .humburger__menu .humburger__bottom{
-  width:20px;
+  width:30px;
   border-top:2px solid #000;
 }
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
+  transform: translateY(0px) rotate(315deg);
+  transition-duration:0.5s;
+  width:30px;
+} 
 header .header__bar .header__menu__navi .navi__menu li{
   font-size:30px;
   margin-bottom:50px;
 }    
 main #main__view .select__view__content{
-  width:400px;        
-}
-main #main__view .select__view__content .view__title {
-  font-size:16px;
+  width:400px;
 }
 main #main__view .select__view__content .view__image{
-  width:100%;
-  height:500px;
+  width:400px;
+  height:300px;
 }    
 main #main__view .select__view__content .view__image img{
-  width:450px;
-  height:450px;
+  width:400px;
+  height:300px;
 }
-main .brand__view__content .brand__view__top .brand__bar{
-  width:450px;
+main .brand__view__content{
+  width:400px;
 }
+
+main #main__view .select__view__content .view__title {
+  font-size:16px;
+}    
 
 main .brand__view__content .brand__view__top .brand__bar .brand__tag {
   height:30px;
@@ -438,25 +460,15 @@ main .brand__view__content .brand__view__top .brand__bar .brand__tag h3 {
     padding: 8px 0px 8px 10px;
 }
 main .brand__view__content .brand__view__top .brand__bar .brand__view__image{
-  width:450px;
-  height:500px;
+  width:400px;
+  height:300px;
 }    
-main .brand__view__content .brand__view__top .brand__bar .brand__view__image img{
-  width:450px;
-  height:450px;
-}
-main .brand__view__bottom .brand__view__poto{
-  width:450px;
+main .brand__view__bottom .brand__view__poto .brand__view__image{
+  width:400px;
+  height:300px;
 }
 main .brand__view__bottom .brand__view__poto .poto__text h3{
   font-size:16px;
-}
-main .brand__view__bottom .brand__view__poto .brand__view__image{
-  height:500px;
-}
-main .brand__view__bottom .brand__view__poto .brand__view__image img{
-  width:500px;
-  height:450px;
 }
 main .brand__view__bottom .brand__view__poto .member__info h2{
   font-size:14px;
@@ -465,7 +477,7 @@ main .brand__view__bottom .brand__view__poto .member__info p{
   font-size:12px;
 }
 main .brand__view__bottom .brand__view__poto .member__info .registar__btn {
-    width: 400px;
+    width: 250px;
     height: 30px;
 }
 main .brand__view__bottom .brand__view__poto .member__info .registar__btn p{
@@ -482,69 +494,58 @@ footer .footer__list h2{
 header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
   transform: translateY(-10px) rotate(315deg);
   transition-duration:0.5s;
+  width:30px;
 }    
 header .header__bar .header__hidden__content .humburger__menu.active .humburger__top{
   transform: translateY(10px) rotate(-315deg);
   transition-duration:0.5s;
 }
 main #main__view .select__view__content{
-  width:350px;        
+  width:280px;        
 }
 main #main__view .select__view__content .view__title {
   font-size:16px;
 }
 main #main__view .select__view__content .view__image{
-  width:100%;
-  height:400px;
+  width:280px;
+  height:300px;
 }    
-main #main__view .select__view__content .view__image img{
-  width:350px;
-  height:350px;
-}
+main .brand__view__content{
+  width:280px;
+}    
 main .brand__view__content .brand__view__top .brand__bar{
-  width:350px;
+  width:280px;
 }
 
 main .brand__view__content .brand__view__top .brand__bar .brand__tag {
   height:30px;
 }    
-main .brand__view__content .brand__view__top .brand__bar .brand__tag h3 {
-    font-size: 13px;
-    padding: 8px 0px 8px 10px;
-}
 main .brand__view__content .brand__view__top .brand__bar .brand__view__image{
-  width:350px;
-  height:400px;
+  width:280px;
+  height:300px;
 }    
-main .brand__view__content .brand__view__top .brand__bar .brand__view__image img{
-  width:350px;
-  height:350px;
-}
 main .brand__view__bottom .brand__view__poto{
-  width:350px;
+  width:280px;
 }
 main .brand__view__bottom .brand__view__poto .poto__text h3{
   font-size:16px;
 }
 main .brand__view__bottom .brand__view__poto .brand__view__image{
-  height:400px;
-}
-main .brand__view__bottom .brand__view__poto .brand__view__image img{
-  width:400px;
-  height:350px;
+  width:280px;  
+  height:300px;
 }
 main .brand__view__bottom .brand__view__poto .member__info h2{
-  font-size:14px;
-}
-main .brand__view__bottom .brand__view__poto .member__info p{
   font-size:12px;
 }
+main .brand__view__bottom .brand__view__poto .member__info p{
+  font-size:10px;
+}
 main .brand__view__bottom .brand__view__poto .member__info .registar__btn {
-    width: 300px;
+    width: 200px;
     height: 30px;
 }
 main .brand__view__bottom .brand__view__poto .member__info .registar__btn p{
-  font-size:13px;
+  font-size:12px;
 }    
 footer .footer__list{
   height:300px;
@@ -552,67 +553,35 @@ footer .footer__list{
 }
 @media screen and (max-width:380px){
 main #main__view .select__view__content{
-  width:300px;        
+  width:250px;        
 }
 main #main__view .select__view__content .view__title {
   font-size:16px;
 }
-main #main__view .select__view__content .view__image{
-  width:100%;
-  height:350px;
-}    
-main #main__view .select__view__content .view__image img{
-  width:300px;
-  height:300px;
-}
 main .brand__view__content .brand__view__top .brand__bar{
-  width:300px;
+  width:250px;
 }
-
+main #main__view .select__view__content .view__image{
+  width:250px;
+  height:250px;
+}
 main .brand__view__content .brand__view__top .brand__bar .brand__tag {
   height:30px;
 }    
-main .brand__view__content .brand__view__top .brand__bar .brand__tag h3 {
-    font-size: 13px;
-    padding: 8px 0px 8px 10px;
-}
 main .brand__view__content .brand__view__top .brand__bar .brand__view__image{
-  width:300px;
-  height:300px;
+  width:250px;
+  height:250px;
 }    
-main .brand__view__content .brand__view__top .brand__bar .brand__view__image img{
-  width:300px;
-  height:300px;
-}
 main .brand__view__bottom .brand__view__poto{
-  width:300px;
+  width:250px;
 }
 main .brand__view__bottom .brand__view__poto .poto__text h3{
   font-size:16px;
 }
 main .brand__view__bottom .brand__view__poto .brand__view__image{
-  height:300px;
+  width:250px;  
+  height:250px;
 }
-main .brand__view__bottom .brand__view__poto .brand__view__image img{
-  width:300px;
-  height:300px;
-}
-main .brand__view__bottom .brand__view__poto .member__info h2{
-  font-size:14px;
-}
-main .brand__view__bottom .brand__view__poto .member__info p{
-  font-size:12px;
-}
-main .brand__view__bottom .brand__view__poto .member__info .registar__btn {
-    width: 250px;
-    height: 30px;
-}
-main .brand__view__bottom .brand__view__poto .member__info .registar__btn p{
-  font-size:13px;
-}    
-
-
-
 }
 @media screen and (max-width:300px){
 header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{

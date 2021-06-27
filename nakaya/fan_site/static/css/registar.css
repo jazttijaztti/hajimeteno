@@ -24,29 +24,32 @@ header{
   height:100%;
 }
 header .header__bar{
- height:8vh;
+ height:10vh;
  display: flex;
  justify-content:space-between;
  align-items:center;
 }
 header .header__bar .header__title h1{
-  font-size:20px;
-  font-weight:bold;
-  margin-left:5vw;
+  font-size:24px;
+  margin-left:35px;
+  width:203px;
+  height:35px;
 }
 header .header__bar .header__content{
-  width:60%;
-  height:100%;
+  width:500px;
+  height:13px;
+  margin-right:110px;
 }
 
 header .header__bar .header__content .header__lists{
   display:flex;
-  justify-content:space-around;
-  margin-top:3vh;
+  width:100%;
+  height:100%;
 }
 
 header .header__bar .header__content .header__lists li{
-  font-size:15px;
+  font-size:10px;
+  margin-right:110px;
 }
 header .header__bar .header__hidden__content{
   display:none;
@@ -62,51 +65,60 @@ header .header__bar .header__menu__navi{
   position:relative;
 }
 #first__view .image__content{
-  width:100%;
+  max-width:1500px;
   height:100%;
   display:flex;
-  justify-content:space-around;
 }
 #first__view .image__content .image__left{
-  width:25%;
-  height:460px;
+  width:30%;
+  height:520px;
+  margin-left:6%;
   background-image:url("../images/img1.jpg");
   background-position:center center;
+  background-repeat:no-repeat;
   background-size:cover;
   z-index:-1;
 }
 #first__view .image__content .image__center{
-  width:25%;
-  height:460px;
+  width:30%;
+  height:520px;
+  margin-left:20px;
   background-image:url("../images/img7.jpg");
   background-position:center center;
   background-size:cover;
+  background-repeat:no-repeat;
   opacity:0.6;
   z-index:-1;
 }
 #first__view .image__content .image__right{
-  width:25%;
-  height:460px;
+  width:35%;
+  height:520px;
+  margin-left:20px;
   background-image:url("../images/img3.jpg");
   background-position:center center;
   background-size:cover;
+  background-repeat:no-repeat;
   opacity:0.6;
   z-index:-1;
 }
 #first__view .first__view__box{
   position:absolute;
   top:150px;
-  left:40%;
+  margin:auto;
+  left:100px;
+  right:0;
   background-color:#fff;
-  width:300px;
+  width:480px;
   height:250px;
 }
 #first__view .talent__name__box{
   position:absolute;
-  top:100px;
-  left:40%;
+  top:120px;
+  margin:auto;
+  left:150px;
+  right:0;
   height:100px;
-  width:300px;
+  width:400px;
 }
 #first__view .talent__name__box .talent__name{
   font-size:60px;
@@ -116,15 +128,17 @@ header .header__bar .header__menu__navi{
 }    
 #first__view .first__view__box .site__name{
   padding-top:80px;
+  padding-left:70px;
   font-size:26px;
 }    
 #first__view .first__view__box .site__name span{
-  margin-left:3vw;
+  margin-left:20px;
 }    
 #first__view .first__view__box p{
  margin-top:2vh;
  line-height:1.5em;
- font-size:16px;
+ font-size:12px;
+ padding-left:70px;
 }
 #first__view .first__view__btn{
   position:absolute;
@@ -139,13 +153,41 @@ header .header__bar .header__menu__navi{
   align-items:center;
 }
 #first__view .first__view__btn p{
-  font-size:13px;
+  font-size:10px;
   color:#fff;
 }    
 #first__view .first__view__btn p span{
   margin-left:5vw;
-  font-size:20px;
+  font-size:10px;
 }
+ #first__view .slide__arrow{
+   position:absolute;
+   bottom:0px;
+   left:10px;
+   border-top:60px solid transparent;
+   border-right: 160px solid transparent;
+   border-bottom: 60px solid #fff;
+   border-left:160px solid #fff;
+   width:200px;
+   height:50px;
+   display:flex;
+ }
+ #first__view .slide__arrow .slide__arrow__left{
+   width:20px;
+   height:20px;
+   font-size:14px;
+   color:#bbb;
+   margin-left:-120px;
+   margin-right:50px;
+   margin-top:50px;
+ }
+ #first__view .slide__arrow .slide__arrow__right{
+   width:20px;
+   height:20px;
+   font-size:14px;
+   color:#bbb;
+   margin-top:50px;
+ }
 main{
   width:100%;
   height:100%;
@@ -439,7 +481,7 @@ header .header__bar .header__hidden__content .humburger__menu{
 header .header__bar .header__hidden__content .humburger__menu .humburger__top{
   width:40px;
   border-top:4px solid #000;
-  margin-top:2vh;
+  margin-top:8px;
 }
 header .header__bar .header__hidden__content .humburger__menu.active .humburger__top{
   transform: translateY(20px) rotate(-315deg);
@@ -469,7 +511,7 @@ header .header__bar .header__menu__navi{
   visibility:visible;
   position:absolute;
   position:fixed;
-  top:8vh;
+  top:9vh;
   left:0;
   width:100%;
   height:100%;
@@ -491,13 +533,11 @@ header .header__bar .header__menu__navi .navi__menu li{
 }    
    
 #first__view .first__view__box{
-  left:33%;
-  top:150px;
+  width:400px;
 }
 
 #first__view .talent__name__box{
   top:110px;
-  left:33%;
 }    
 #first__view .first__view__btn{
   top:360px;
@@ -552,6 +592,7 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
   background-position:center center;
   background-size:cover;
   z-index:-1;
+  margin-left:0px;
 }
 #first__view .image__content .image__center{
   display:none;
@@ -576,7 +617,6 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
  font-size:18px;
 }
 #first__view .first__view__box{
-  left:16vw;
   width:260px;
 }
 #first__view .first__view__btn{
@@ -584,8 +624,10 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
 }
 #first__view .talent__name__box{
   position:absolute;
-  top:170px;
-  left:27vw;
+  top:180px;
+  left:0;
+  right:0;
+  margin:auto;
   height:100px;
   width:250px;
 }    
@@ -598,17 +640,22 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
 #first__view .first__view__box .site__name{
   font-size:25px;
   padding-top:60px;
+  padding-left:0px;
 }      
 #first__view .first__view__box{
   width:350px;
   height:220px;
   top:220px;
+  left:0;
+  right:0;
+  margin:auto;
 }    
 #first__view .first__view__box p{
  text-align:center;
  margin-top:20px;
  line-height:1.5em;
  font-size:18px;
+ padding:0px;
 }
 main #registar__content .registar__card__info{
   width:400px;        
@@ -669,7 +716,17 @@ header .header__bar .header__hidden__content .humburger__menu .humburger__bottom
   width:20px;
   border-top:2px solid #000;
 }
-
+header .header__bar .header__hidden__content .humburger__menu.active .humburger__bottom{
+  transform: translateY(0px) rotate(315deg);
+  width:30px;
+}     
+header .header__bar .header__menu__navi .navi__menu li{
+  font-size:30px;
+   margin-bottom:50px;
+}    
+#first__view .slide__arrow{
+  display:none;  
+}
 footer .footer__list h2{
   font-size:25px;
 }    
@@ -687,14 +744,12 @@ header .header__bar .header__hidden__content .humburger__menu.active .humburger_
 }    
 
 #first__view .first__view__box{
-  left:14vw;  
   top:220px;
   width:300px;
 }
 #first__view .talent__name__box{
   position:absolute;
   top:190px;
-  left:30vw;
   height:100px;
   max-width:160px;
 }    

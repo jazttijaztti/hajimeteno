@@ -83,6 +83,7 @@ header .header__bar .header__menu__navi{
   background-image:url("../images/img1.jpg");
   background-position:center center;
   background-size:cover;
+  background-repeat:no-repeat;
   z-index:-1;
 }
 #first__view .image__content .image__center{
@@ -92,16 +93,18 @@ header .header__bar .header__menu__navi{
   background-image:url("../images/img7.jpg");
   background-position:center center;
   background-size:cover;
+  background-repeat:no-repeat;
   opacity:0.6;
   z-index:-1;
 }
 #first__view .image__content .image__right{
-  width:30%;
+  width:35%;
   height:520px;
   margin-left:40px;
   background-image:url("../images/img3.jpg");
   background-position:center center;
   background-size:cover;
+  background-repeat:no-repeat;
   opacity:0.6;
   z-index:-1;
 }
@@ -247,7 +250,7 @@ main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
 }    
 main .topic__news .topic__info .topic__info__lists .topic__text .topic__content{
   width:250px;
-  height:auto;
+  height:25px;
   font-size:12px;
   overflow-wrap:break-word;
   overflow:hidden;
@@ -475,21 +478,13 @@ main .topic__news .topic__info .topic__info__lists{
   flex-direction:column;
 }
 main .topic__news .topic__info .topic__info__lists .topic__text .topic__day{
-  font-size:16px;
   color:#aaa;
-}    
-main .topic__news .topic__info .topic__info__lists li .topic__content{
-  font-size:16px;
-}    
-main .topic__news .topic__info .topic__info__lists .view__btn{
- 
 }    
 main .topic__news .topic__logo{
   width:100%;
   top:220px;
 }
 main .blog__contents .blog__top__title p{
-  font-size:18px;
   margin-top:5px;
 }
 main .blog__contents .blog__lists{
