@@ -232,6 +232,10 @@ main .blog__navi__tag .jemini__tag {
   border:1px solid #FF1493;
   border-radius: 3px;
 }
+main .blog__navi__tag .jemini__tag:hover{
+  background-color:#FF1493;
+  color:#fff;
+}    
 main .blog__navi__tag .offshot__tag {
   width: 91px;
   height: 30px;
@@ -243,6 +247,10 @@ main .blog__navi__tag .offshot__tag {
   border:1px solid #FF1493;
   border-radius: 3px;
 }
+main .blog__navi__tag .offshot__tag:hover {
+  background-color:#FF1493;
+  color:#fff;
+}    
 main .blog__navi__tag .event__tag {
   width: 68px;
   height: 30px;
@@ -254,6 +262,10 @@ main .blog__navi__tag .event__tag {
   border:1px solid #FF1493;
   border-radius: 3px;
 }
+main .blog__navi__tag .event__tag:hover{
+  background-color:#FF1493;
+  color:#fff;
+}    
 main .blog__navi__tag .live__tag {
   width: 57px;
   height: 30px;
@@ -265,6 +277,10 @@ main .blog__navi__tag .live__tag {
   border:1px solid #FF1493;
   border-radius: 3px;
 }
+main .blog__navi__tag .live__tag:hover{
+  background-color:#FF1493;
+  color:#fff;
+}    
 main .blog__navi__tag .shooting__tag {
   width: 45px;
   height: 30px;
@@ -276,6 +292,11 @@ main .blog__navi__tag .shooting__tag {
   border:1px solid #FF1493;
   border-radius: 3px;
 }
+main .blog__navi__tag .shooting__tag:hover{
+  background-color:#FF1493;
+  color:#fff;
+
+}    
 main .blog__navi__tag .member__tag {
   width: 68px;
   height: 30px;
@@ -287,6 +308,10 @@ main .blog__navi__tag .member__tag {
   border:1px solid #FF1493;
   border-radius: 3px;
 }
+main .blog__navi__tag .member__tag:hover {
+  background-color:#FF1493;
+  color:#fff;
+}    
 main .blog__poto__box {
   width: 100%;
   height: 100%;

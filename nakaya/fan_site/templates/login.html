@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="../static/css/reset.css" media="all">
+  <link rel="stylesheet" href="../static/css/login.css" media="all">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $(function(){
+    $(".humburger__menu").on("click",function(){
+      $(".humburger__menu").toggleClass("active");
+      $(".header__menu__navi").fadeToggle(100);
+      $("body").toggleClass("noscroll");
+        });
+    $(".slide__arrow__left").on("click",function(){                                                                                                                                                      
+    if($(this).hasClass('slide__first')==false && $(".image__left").hasClass('slide__show')==false){
+          $(this).addClass('slide__first');      
+          $(".image__left").css("background-image","url(../static/images/img7.jpg)");
+          $(".image__center").css("background-image","url(../static/images/img3.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img1.jpg)");
+        }else if($(this).hasClass('slide__first')){
+          $(this).removeClass('slide__first');
+          $(".image__left").css("background-image","url(../static/images/img3.jpg)").addClass('slide__show');
+          $(".image__center").css("background-image","url(../static/images/img1.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img7.jpg)");
+        }else if($(".image__left").hasClass('slide__show')){
+          $(".image__left").css("background-image","url(../static/images/img1.jpg)").removeClass('slide__show');;
+          $(".image__center").css("background-image","url(../static/images/img7.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img3.jpg)");
+        }
+       }); 
+        $(".slide__arrow__right").on("click",function(){
+        if($('.slide__arrow__left').hasClass('slide__first')){
+          $('.slide__arrow__left').removeClass('slide__first');      
+          $(".image__left").css("background-image","url(../static/images/img1.jpg)");
+          $(".image__center").css("background-image","url(../static/images/img7.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img3.jpg)");
+         }else if($(".image__left").hasClass('slide__show')){
+          $(".slide__arrow__left").addClass('slide__first');
+          $(".image__left").css("background-image","url(../static/images/img7.jpg)").removeClass('slide__show');
+          $(".image__center").css("background-image","url(../static/images/img3.jpg)");
+          $(".image__right").css("background-image","url(../static/images/img1.jpg)");
+         }else{         
+       }
+      });
+   });
+</script>
+</head>
+<body>
+ <div id="wrapper">
+  <header>
+    <div class="header__bar">
+     <div class="header__title">
+      <h1><a href="../index.html">清水里香 FAN SITE</a></h1>
+     </div>
+
+     <div class="header__content">
+      <ul class="header__lists">
+       <li><a href="../index.html">TOP</a></li>
+       <li><a href="#">JEMINI</a></li>
+       <li><a href="#">SUPPORT</a></li>
+       <li><a href="#">GOODS</a></li>
+       <li><a href="blog.html">BLOG</a></li>
+      </ul>
+     </div>
+     
+     <div class="header__hidden__content">
+      <div class="humburger__menu">
+       <div class="humburger__top"></div>
+       <div class="humburger__middle"></div>
+       <div class="humburger__bottom"></div>
+      </div>
+     </div>
+     <div class="header__menu__navi">
+       <ul class="navi__menu">
+        <li class="navi__item"><a href="../index.html">TOP</a></li>
+        <li class="navi__item"><a href="#">JEMINI</a></li>
+        <li class="navi__item"><a href="#">SUPPORT</a></li>
+        <li class="navi__item"><a href="#">GOODS</a></li>
+        <li class="navi__item"><a href="blog.html">BLOG</a></li>
+       </ul>
+     </div>
+    </div>
+  </header>
+    <div id="first__view">
+     <div class="image__content">
+      <div class="image__left"></div>
+      <div class="image__center"></div>
+      <div class="image__right"></div>
+     </div>
+     <div class="slide__arrow">
+      <div class="slide__arrow__left">
+       <
+      </div>
+      <div class="slide__arrow__right">
+       >       
+      </div>
+     </div>
+     <div class="first__view__box">
+      <h3 class="site__name">清水里香<span>FAN SITE<span></h3>
+      <p>清水里香のファンサイトです。<br>
+         清水里香のこれからを応援しよう。</p>
+     </div>
+     <div class="talent__name__box">
+      <h2 class="talent__name">清水里香</h2>
+     </div>
+
+     <div class="first__view__btn">
+       <p class="btn__name"><a href="#">READ BRAND STORY<span>→</span></a></p>
+     </div>
+    </div>
+
+    <main>
+     <div id="login__content">
+      <div class="login__form">
+       <h2>こちらのブログはファンクラブ会員専用となっております</h2>
+       　<p>ログイン</p>
+        <form action="show.html" method="post">
+         <div class="login__info">
+          <div class="login__number">
+           <p class="member__number">会員番号：</p><input type="text" method="post">
+          </div> 
+          <div class="login__password">
+           <p class="member__password">パスワード：</p><input type="text" method="post">
+          </div>
+           <p class="password__note">全角英数字でご入力ください</p>
+         </div>
+         <div class="login__btn">
+          <input type="submit" value="ログイン">
+         </div>
+         <div class="new__user">
+          <h3>会員番号をお持ちでない方</h3>
+          <p class=border__left></p>
+          <p class="border__right"></p>
+          <a href="member.html"><div class="new__user__registar">
+           <p>新規会員登録はこちら</p>
+          </div></a>
+         </div>   
+       </form>
+      </div>
+     </div>
+    </main>
+  
+   <footer>
+   <div class="footer__list">
+    <h2>清水里香 FAN SITE</h2>
+   </div>
+  </footer>
+
+ </div>
+
+ </div>
+</body>
+</html>
+
